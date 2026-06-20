@@ -16,6 +16,10 @@ npm run dev
 npm run check
 ```
 
+## 项目复盘
+
+本项目的可复用开发经验、踩坑记录和下次同类项目前置规范见 [docs/project-retrospective.md](docs/project-retrospective.md)。
+
 `npm run update:data` 会从 `data/schedule.seed.json` 生成：
 
 - `public/schedule.json`
