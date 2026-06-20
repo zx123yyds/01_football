@@ -10,8 +10,8 @@
       "b": 1
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！荷兰 4-1 瑞典（59'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 荷兰 vs 瑞典（75'）",
     "moments": [
       {
         "type": "goal",
@@ -66,6 +66,15 @@
           "b": 1
         },
         "headline": "⚽  进球！荷兰 4-1 瑞典（59'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 75,
+        "score": {
+          "a": 4,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 荷兰 vs 瑞典（75'）"
       },
       {
         "type": "halftime",
@@ -515,31 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！墨西哥 vs 韩国"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "canada",
-      "qatar"
-    ],
-    "score": {
-      "a": 6,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！加拿大 6-0 卡塔尔",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 6,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！加拿大 6-0 卡塔尔"
       }
     ]
   }
