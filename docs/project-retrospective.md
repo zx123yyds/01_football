@@ -17,6 +17,53 @@
 - 校验脚本：`scripts/validate-static.mjs`、`scripts/verify-browser.mjs`
 - 自动更新：本地 dev server 定时刷新，GitHub Actions 定时刷新，前端定时重新读取 JSON
 
+### 技术栈与技术方案
+
+前端技术：
+
+- 原生 HTML/CSS/JavaScript，不引入前端框架，降低部署和构建复杂度。
+- CSS Grid/Flex 做响应式布局，赛程卡片在桌面和移动端都保持 `主队 / 比分 / 客队` 三列结构。
+- 前端通过 `fetch('/schedule.json?t=时间戳', { cache: 'no-store' })` 读取数据，避免静态托管缓存旧 JSON。
+- 国旗使用本地 SVG 图片资源 `public/flags/CODE.svg`，不依赖系统 emoji 字体，避免 Windows 显示异常。
+
+数据与生成方案：
+
+- Node.js ESM 脚本负责数据抓取、清洗、合并和静态产物生成。
+- `data/reference-schedule.json` 作为基础赛程缓存，保存 104 场比赛、队伍、国旗代码、场馆等低频数据。
+- CCTV 接口用于积分榜和射手榜，FIFA Watch 接口用于实时比分覆盖。
+- 实时比分采用覆盖层：基础比分来自缓存，实时源有数据时覆盖 `score` 和 `matchStatus`。
+- 多源队伍匹配使用稳定代码和 slug，必要时用 alias 修正，例如 `south-korea -> korea-republic`。
+- 外部源失败时保留上一次成功缓存，不让整轮生成失败。
+
+日历订阅方案：
+
+- 生成标准 ICS：总日历 `world-cup-2026.ics`、阶段日历 `calendars/stage-*.ics`、小组日历 `calendars/group-*.ics`。
+- 构建时把 ICS 文件复制到 `dist/`，静态托管即可订阅。
+
+本地开发方案：
+
+- `scripts/serve.mjs` 使用 Node 原生 HTTP server 提供本地预览。
+- 本地服务启动时会输出明确访问地址，并在启动刷新完成后再次提示。
+- 本地 dev server 支持定时刷新数据，但改代码后仍要重启服务，确保新 JS/CSS/静态资源生效。
+
+构建与部署方案：
+
+- `npm run refresh` 串联抓取、生成、校验和构建。
+- `scripts/build-static.mjs` 生成 `dist/`，复制 `index.html`、`src/`、`schedule.json`、ICS、`flags/`。
+- Vercel 使用 `npm run refresh` 作为 Build Command，`dist` 作为 Output Directory。
+
+自动更新方案：
+
+- GitHub Actions 使用 cron `10,20,30,40,50 * * * *` 高频更新。
+- cron-job.org 可作为备用触发器，通过 GitHub `workflow_dispatch` 调度。
+
+
+验证方案：
+
+- `scripts/validate-static.mjs` 做静态数据校验：比赛数量、字段完整性、ICS 事件数量。
+- `scripts/verify-browser.mjs` 用 Playwright 验证桌面和手机端：布局、搜索、筛选、比分、榜单、国旗图片、ICS 访问。
+- 验证国旗时不仅看 DOM 数量，还检查图片是否加载成功，避免 Windows 或静态资源路径问题。
+
 ### Codex 使用场景
 
 本项目使用 Codex 完成需求拆解、数据源接入、页面实现、视觉迭代、自动刷新、浏览器验证和问题修复。
