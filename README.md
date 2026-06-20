@@ -54,6 +54,13 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 https://你的域名/world-cup-2026.ics
 ```
 
+## 外部平台
+
+- GitHub 仓库：https://github.com/zx123yyds/01_football
+- 线上访问地址：https://01-football.vercel.app
+- Vercel 控制台：https://vercel.com
+- cron-job.org 控制台：https://console.cron-job.org/dashboard
+
 ## 部署
 
 本项目可以按静态站部署。构建后会生成 `dist/`，里面包含 `index.html`、`src/`、`schedule.json`、全部 ICS 文件。
