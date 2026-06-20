@@ -26,7 +26,9 @@ try {
     playedScores: [...document.querySelectorAll(".score-box--played")].length,
     standingsGroups: document.querySelectorAll(".standings-card").length,
     scorerRows: document.querySelectorAll(".scorer-row").length,
-    flags: document.querySelectorAll(".flag-badge:not(.flag-badge--empty)").length
+    flags: document.querySelectorAll(".flag-badge:not(.flag-badge--empty)").length,
+    flagImages: document.querySelectorAll(".flag-badge img").length,
+    brokenFlagImages: [...document.querySelectorAll(".flag-badge img")].filter((img) => !img.complete || img.naturalWidth === 0).length
   }));
 
   await desktop.fill("#searchInput", "阿根廷");
@@ -89,6 +91,7 @@ try {
   if (tableInfo.standingsGroups !== 12) failures.push("standings are not rendered");
   if (tableInfo.scorerRows < 5) failures.push("scorers are not rendered");
   if (tableInfo.flags < 100) failures.push("team flags are not rendered");
+  if (tableInfo.flagImages < 100 || tableInfo.brokenFlagImages > 0) failures.push("team flag images are not loaded");
   if (!desktopInfo.quickLabels.includes("今日") || !desktopInfo.quickLabels.includes("明日") || !desktopInfo.quickLabels.includes("下一场")) failures.push("quick filters missing");
   if (desktopInfo.overflow) failures.push("desktop horizontal overflow");
   if (searchInfo.cards < 1 || !searchInfo.text.includes("阿根廷")) failures.push("search filter failed");

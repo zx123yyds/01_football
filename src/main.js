@@ -72,9 +72,13 @@ const escapeHtml = (value) => String(value ?? "")
 const option = (value, label, selectedValue) =>
   `<option value="${escapeHtml(value)}"${value === selectedValue ? " selected" : ""}>${escapeHtml(label)}</option>`;
 
-const flagBadge = (flag, code = "") => flag
-  ? `<span class="flag-badge" title="${escapeHtml(code)}" aria-hidden="true">${escapeHtml(flag)}</span>`
-  : '<span class="flag-badge flag-badge--empty" aria-hidden="true"></span>';
+const flagBadge = (flag, code = "") => {
+  const safeCode = escapeHtml(code);
+  if (code) {
+    return `<span class="flag-badge" title="${safeCode}" aria-hidden="true"><img src="/flags/${safeCode}.svg" alt="" onerror="this.replaceWith(document.createTextNode('${escapeHtml(flag || code)}'))"></span>`;
+  }
+  return '<span class="flag-badge flag-badge--empty" aria-hidden="true"></span>';
+};
 
 const teamName = (name, flag, code, align = "start") => `
   <span class="team-name team-name--${align}">
@@ -143,7 +147,7 @@ function renderSummary() {
   $("#completedMatches").textContent = schedule.completedMatches ?? 0;
 
   $("#nextTeams").innerHTML = `
-    ${teamName(nextMatch.home, nextMatch.homeFlag, nextMatch.homeCode)}
+    ${teamName(nextMatch.home, nextMatch.homeFlag, nextMatch.homeCode, "end")}
     <span class="next-panel__vs">vs</span>
     ${teamName(nextMatch.away, nextMatch.awayFlag, nextMatch.awayCode)}
   `;

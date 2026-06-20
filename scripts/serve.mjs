@@ -7,6 +7,7 @@ import path from "node:path";
 const root = process.cwd();
 const port = Number(process.env.PORT || 5173);
 const host = "127.0.0.1";
+const localUrl = `http://${host}:${port}`;
 const refreshIntervalMs = Number(process.env.REFRESH_INTERVAL_MS || 5 * 60 * 1000);
 let refreshInFlight = false;
 
@@ -15,7 +16,8 @@ const types = {
   ".js": "text/javascript; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".json": "application/json; charset=utf-8",
-  ".ics": "text/calendar; charset=utf-8"
+  ".ics": "text/calendar; charset=utf-8",
+  ".svg": "image/svg+xml"
 };
 
 const safePath = (urlPath) => {
@@ -82,6 +84,9 @@ const runRefresh = (reason) => {
     const durationSeconds = Math.round((Date.now() - startedAt.getTime()) / 1000);
     if (code === 0) {
       console.log(`Data refresh completed in ${durationSeconds}s.`);
+      if (reason === "startup") {
+        console.log(`Local preview is ready: ${localUrl}`);
+      }
     } else {
       console.error(`Data refresh failed with exit code ${code}.`);
     }
@@ -89,8 +94,11 @@ const runRefresh = (reason) => {
 };
 
 server.listen(port, host, () => {
-  console.log(`Serving http://${host}:${port}`);
+  console.log("");
+  console.log("Local dev server started successfully.");
+  console.log(`Open: ${localUrl}`);
   console.log(`Auto-refreshing data every ${Math.round(refreshIntervalMs / 60000)} minutes.`);
+  console.log("");
   runRefresh("startup");
   setInterval(() => runRefresh("interval"), refreshIntervalMs).unref();
 });
