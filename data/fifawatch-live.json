@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "netherlands",
+      "sweden"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！荷兰 1-0 瑞典（5'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 5,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！荷兰 1-0 瑞典（5'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！荷兰 vs 瑞典"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "turkiye",
       "paraguay"
     ],
@@ -448,15 +479,6 @@
     "headline": "据 FIFA Watch：🏁 终场！加拿大 6-0 卡塔尔",
     "moments": [
       {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！加拿大 3-0 卡塔尔（45'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 51,
         "score": {
@@ -518,15 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！加拿大 6-0 卡塔尔"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！加拿大 3-0 卡塔尔"
       }
     ]
   }
