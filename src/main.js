@@ -203,6 +203,7 @@ function renderMatchCard(match) {
       <div class="match-card__meta">
         <span>#${escapeHtml(match.matchNumber)}</span>
         <span>${escapeHtml(match.stageName)}${match.group ? ` · ${escapeHtml(match.group)} 组` : ""}</span>
+        <span class="status status--${escapeHtml(match.matchStatus?.key || match.sourceStatus)}">${escapeHtml(statusLabel)}</span>
       </div>
       <div class="match-card__teams">
         ${teamName(match.home, match.homeFlag, match.homeCode, "end")}
@@ -213,7 +214,6 @@ function renderMatchCard(match) {
         <span>${escapeHtml(fullDateTime(match.dateTime))} 北京时间</span>
         <span>${escapeHtml(match.venue)} · ${escapeHtml(match.city)}</span>
       </div>
-      <span class="status status--${escapeHtml(match.matchStatus?.key || match.sourceStatus)}">${escapeHtml(statusLabel)}</span>
     </article>
   `;
 }

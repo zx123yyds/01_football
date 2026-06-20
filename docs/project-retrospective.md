@@ -33,6 +33,8 @@
 - 静态站要明确本地刷新和线上刷新是两套机制。
 - 比分、排名、国旗这类数据必须验证字段是否对齐，不要只看有没有显示。
 - 修改 UI 后要跑桌面和移动端截图验证，尤其检查横向溢出、文本挤压、表头缺失。
+- 涉及 Git 操作时，提交和推送必须单独确认。Codex 可以先完成代码修改和验证，但 `git commit`、`git push` 应等待用户明确同意。
+- 线上问题不要只看页面截图，要同时检查数据文件、部署产物、GitHub Actions run、Vercel deployment 四个环节。
 
 ### 可复用脚本结构
 
@@ -70,6 +72,58 @@ fetch(`/schedule.json?t=${Date.now()}`, { cache: "no-store" });
 5. GitHub Actions 高频定时刷新。
 6. 前端页面定时重新 fetch `schedule.json`。
 
+线上刷新要注意：前端轮询只能读取已经部署出去的静态文件。若 GitHub Actions 没跑、没有新 commit、Vercel 没重新部署，页面再怎么 `fetch` 也只能读到旧 `schedule.json`。
+
+### 部署经验
+
+本项目按静态站部署，推荐产物目录为 `dist/`。构建命令和发布目录：
+
+```text
+Build command: npm run refresh
+Output directory: dist
+```
+
+静态部署要避免依赖本地开发服务器的路径映射能力。本地 server 可以把 `/schedule.json` 映射到 `public/schedule.json`，但 Vercel/Netlify/Cloudflare Pages 只认构建产物里的真实文件路径。
+
+稳妥做法：
+
+- 构建脚本显式生成 `dist/index.html`。
+- 构建脚本显式复制 `dist/schedule.json`。
+- 构建脚本显式复制 `dist/world-cup-2026.ics`。
+- 构建脚本显式复制 `dist/calendars/*.ics`。
+- 如果线上路径不确定，可以给数据读取增加兜底路径，例如先读 `/schedule.json`，失败再读 `/public/schedule.json`。
+
+### GitHub Actions 经验
+
+- `cron: "*/10 * * * *"` 表示每小时 `00/10/20/30/40/50` 分附近触发。
+- 如果希望避开整点，只在 `10/20/30/40/50` 触发，可以写成：
+
+```yaml
+schedule:
+  - cron: "10,20,30,40,50 * * * *"
+```
+
+- GitHub Actions 使用 UTC，但分钟点不受时区影响，所以北京时间仍是每小时的 `10/20/30/40/50` 分附近。
+- GitHub Actions 不是秒级准点，可能延迟几分钟。
+- 新仓库的定时 workflow 不一定立刻出现 run。可以先用 `workflow_dispatch` 手动触发一次，验证链路是否通。
+- 自动刷新链路要检查三件事：Actions 是否有 run、run 是否成功、是否产生新 commit。
+
+常用检查命令：
+
+```bash
+gh run list --repo owner/repo --workflow "Update World Cup Schedule" --limit 5
+gh run watch <run-id> --repo owner/repo --exit-status
+gh api repos/owner/repo/commits --jq '.[0:5][] | [.sha[0:7], .commit.author.date, .commit.message] | @tsv'
+```
+
+### Vercel 经验
+
+- Vercel 默认域名是 `*.vercel.app`，国内网络可能不稳定，表现为打不开、TLS reset、手机流量打不开、必须开代理。
+- 这通常不是代码问题，而是域名/网络可达性问题。
+- 如果目标用户主要在国内，优先考虑自定义域名、Cloudflare Pages、国内 OSS/CDN 或国内服务器。
+- Vercel 项目后台地址不是公开访问地址。公开访问地址通常是 `https://项目名.vercel.app`。
+- Vercel 只有在 GitHub 出现新 commit 后才会自动重新部署；如果 Actions 没提交新数据，Vercel 不会变。
+
 ### 静态校验要点
 
 数据型项目至少校验：
@@ -88,6 +142,8 @@ Playwright 验证建议覆盖：
 - 桌面视口截图。
 - 移动端视口截图。
 - 是否横向溢出。
+- 移动端关键卡片是否仍是预期布局，例如赛程卡片必须保持三列比分行。
+- 移动端卡片高度是否异常，避免每张比赛卡过高导致长列表阅读困难。
 - 搜索是否生效。
 - 阶段、日期、小组筛选是否生效。
 - 下一场快捷筛选是否生效。
@@ -133,6 +189,44 @@ Playwright 验证建议覆盖：
 5. README 写清楚刷新频率和部署注意事项。
 ```
 
+#### 部署静态站
+
+```text
+请把当前项目整理成可部署到 Vercel/Netlify/Cloudflare Pages 的静态站。
+要求：
+1. 生成 dist/ 作为唯一发布目录。
+2. dist/ 内必须包含 index.html、src/、schedule.json、world-cup-2026.ics、calendars/*.ics。
+3. 不依赖本地 dev server 的路径映射。
+4. README 写清楚 Build Command 和 Output Directory。
+5. 构建后验证 dist/ 文件完整性。
+```
+
+#### 调试线上刷新
+
+```text
+请排查线上数据为什么没有定时刷新。
+检查顺序：
+1. 前端是否只是轮询旧 JSON。
+2. GitHub Actions 是否有 run。
+3. 最近一次 run 是否成功。
+4. run 是否产生新 commit。
+5. Vercel 是否因新 commit 重新部署。
+6. 线上 schedule.json 的 generatedAt 是否更新。
+不要只检查前端代码。
+```
+
+#### 移动端 UI 回归
+
+```text
+请修复移动端布局问题，并同时展示桌面和手机端效果。
+要求：
+1. 使用 Playwright 生成 desktop-verification.png 和 mobile-verification.png。
+2. 检查移动端是否横向溢出。
+3. 检查关键卡片是否保持预期结构。
+4. 对数据列表类页面，检查首个卡片高度是否异常。
+5. 不要只看桌面端截图。
+```
+
 ## 3. 高频踩坑避雷表
 
 | 问题现象 | 产生原因 | 修复手段 | 永久规避规则 |
@@ -148,6 +242,14 @@ Playwright 验证建议覆盖：
 | 数字列没有含义 | 积分榜只显示数据，没有表头 | 增加 `排 / 球队 / 赛 / 胜平负 / 净胜 / 分` 表头 | 所有表格型数据必须有列头，哪怕是卡片内表格 |
 | 右侧积分列看不懂 | 只有数字，没有视觉强调 | 把积分列做成胶囊样式，并在表头标“分” | 关键指标列必须视觉突出并有标题 |
 | 移动端可能挤压 | 国旗、队名、比分都在同一行 | 使用固定列宽、文本截断、响应式布局 | 加图标、国旗、队徽后必须跑移动端截图 |
+| 手机端赛程卡片布局混乱 | 移动端 CSS 把三列比分行改成单列，导致队名、比分、队名上下堆叠 | 在小屏仍保留 `主队 / 比分 / 客队` 三列，只缩小列宽、字号、国旗尺寸 | 移动端不是简单把 grid 改成一列；关键业务结构要保持可读 |
+| 电脑端看着正常，手机端很差 | 只看了桌面截图，没有把手机截图作为验收项 | Playwright 同时生成桌面和手机截图，并加入移动端布局断言 | 每次 UI 修改必须同时展示桌面和手机效果 |
+| 前端轮询了但线上时间不更新 | 前端只重新读取静态 JSON，但 GitHub Actions 没跑或 Vercel 没重新部署 | 检查 Actions run、最新 commit、远程 `schedule.json`、Vercel deployment | 自动刷新不是只有前端轮询，必须验证数据生成和部署链路 |
+| GitHub Actions 配了 cron 但没运行 | 新 workflow 可能没有立即产生 schedule run，或需要先手动触发验证 | 用 `gh workflow run` 手动触发一次，再 `gh run watch` 看结果 | 新增定时 workflow 后必须手动触发一次验证链路 |
+| 定时刷新分钟点不符合预期 | `*/10` 包含整点 `00`，且表达不够直观 | 改成 `10,20,30,40,50 * * * *` | 对产品有明确时间点要求时，用显式 cron 分钟列表 |
+| Vercel 默认域名手机打不开 | `*.vercel.app` 在国内网络下可能不稳定或被 reset | 换网络验证，必要时绑定自定义域名或换国内 CDN/静态托管 | 面向国内用户不要默认认为 Vercel 域名稳定可访问 |
+| Vercel 页面能打开但数据失败 | 静态发布目录里没有预期的 `/schedule.json`，或路径映射只在本地 server 生效 | 构建 `dist/` 时显式复制根路径数据文件，并给前端加兜底数据路径 | 静态托管只认构建产物真实路径，不认本地 server fallback |
+| 未经确认执行推送 | Codex 误把代码修改后的推送也当作任务的一部分 | 明确改为提交/推送前必须等待用户同意 | Git 操作分层：修改、验证、提交、推送四步必须分别确认 |
 | README 与实际不一致 | 功能改了但文档没同步 | 更新刷新说明、命令说明、部署说明 | 每次改运行机制必须同步 README |
 | 验证只靠肉眼 | 视觉修了但数据可能错 | 增加 `validate-static.mjs` 和 `verify-browser.mjs` | 数据项目必须有自动校验，不接受“看起来可以” |
 
@@ -176,10 +278,12 @@ Playwright 验证建议覆盖：
 - 必须提供 `npm run refresh`。
 - 必须提供 `npm run check`。
 - 必须提供 `npm run verify:browser`。
+- 必须提供可部署的 `dist/` 构建产物。
 - 本地 dev server 应支持自动刷新。
 - 前端 fetch JSON 应加防缓存参数。
 - 线上部署应有定时任务。
 - 定时任务要提交或发布生成后的 JSON 和 ICS。
+- 新增或修改 GitHub Actions 后，必须手动触发一次确认可运行。
 - README 必须写清楚刷新机制。
 
 ### 验证规范
@@ -198,12 +302,30 @@ Playwright 验证建议覆盖：
 - 桌面截图。
 - 移动端截图。
 - 横向溢出。
+- 移动端关键卡片高度。
+- 移动端关键业务结构，例如赛程卡三列比分行。
 - 搜索。
 - 筛选。
 - 下一场。
 - 日历下载。
 
 每次视觉修改后，都必须重新截图确认。
+
+### 部署规范
+
+- Vercel/Netlify/Cloudflare Pages 的发布目录统一用 `dist`。
+- 不要把本地 dev server 的路径行为当作线上行为。
+- 线上公开地址和平台后台地址要区分。
+- 面向国内访问时，提前评估 `vercel.app`、`github.io` 等默认域名的可达性。
+- 若要求稳定国内访问，优先准备自定义域名、CDN 或国内静态托管方案。
+
+### 协作与 Git 规范
+
+- Codex 可以执行代码修改和验证。
+- Codex 不应在未获得明确同意前执行 `git commit`。
+- Codex 不应在未获得明确同意前执行 `git push`。
+- 如果需要提交，应先汇报改动文件、验证结果和待提交范围。
+- 如果本地有数据刷新造成的大量数据文件变更，应单独说明，避免和 UI 修改混在一起。
 
 ### 给 Codex 的前置要求
 

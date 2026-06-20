@@ -47,7 +47,7 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 
 ## 自动更新
 
-`.github/workflows/update-schedule.yml` 配置为每 10 分钟运行一次，自动抓取最新赛程、比分、积分榜、射手榜并提交生成后的 JSON 和 ICS。前端页面每 2 分钟重新读取一次 `schedule.json`，用户不需要手动刷新页面。若部署到静态托管平台，日历订阅地址通常为：
+`.github/workflows/update-schedule.yml` 配置为每小时的 10、20、30、40、50 分运行一次，自动抓取最新赛程、比分、积分榜、射手榜并提交生成后的 JSON 和 ICS。前端页面每 2 分钟重新读取一次 `schedule.json`，用户不需要手动刷新页面。若部署到静态托管平台，日历订阅地址通常为：
 
 ```text
 https://你的域名/world-cup-2026.ics

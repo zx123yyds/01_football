@@ -34,7 +34,7 @@ try {
   const searchInfo = await desktop.evaluate(() => ({
     count: document.querySelector("#matchCount").textContent,
     cards: document.querySelectorAll(".match-card").length,
-    text: document.querySelector("#scheduleList").textContent.slice(0, 120)
+    text: document.querySelector("#scheduleList").textContent
   }));
 
   await desktop.click('[data-quick="next"]');
@@ -77,7 +77,9 @@ try {
     count: document.querySelector("#matchCount")?.textContent,
     overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
     heroHeight: Math.round(document.querySelector(".hero").getBoundingClientRect().height),
-    toolbarTop: Math.round(document.querySelector(".toolbar").getBoundingClientRect().top)
+    toolbarTop: Math.round(document.querySelector(".toolbar").getBoundingClientRect().top),
+    firstCardHeight: Math.round(document.querySelector(".match-card").getBoundingClientRect().height),
+    firstTeamsColumns: getComputedStyle(document.querySelector(".match-card__teams")).gridTemplateColumns.split(" ").length
   }));
   await mobile.screenshot({ path: path.join(root, "public", "mobile-verification.png"), fullPage: true });
 
@@ -94,6 +96,7 @@ try {
   if (finalInfo.cards !== 1) failures.push("final stage filter failed");
   if (icsInfo.status !== 200 || icsInfo.events !== 104 || !icsInfo.hasCalendar) failures.push("ICS endpoint failed");
   if (mobileInfo.cards !== 104 || mobileInfo.overflow) failures.push("mobile layout failed");
+  if (mobileInfo.firstCardHeight > 130 || mobileInfo.firstTeamsColumns !== 3) failures.push("mobile match cards are not compact horizontal rows");
 
   const result = { desktopInfo, tableInfo, searchInfo, nextInfo, finalInfo, icsInfo, mobileInfo };
   console.log(JSON.stringify(result, null, 2));
