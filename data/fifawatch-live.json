@@ -6,12 +6,12 @@
       "cote-divoire"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 1
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！德国 0-1 科特迪瓦",
+    "type": "goal",
+    "headline": "⚽  进球！德国 1-1 科特迪瓦（68'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,15 @@
           "b": 1
         },
         "headline": "⚽  进球！德国 0-1 科特迪瓦（30'）"
+      },
+      {
+        "type": "goal",
+        "minute": 68,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 1-1 科特迪瓦（68'）"
       },
       {
         "type": "halftime",
@@ -518,12 +527,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！美国 2-0 澳大利亚"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！美国 vs 澳大利亚"
       }
     ]
   }
