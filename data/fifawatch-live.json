@@ -6,12 +6,12 @@
       "sweden"
     ],
     "score": {
-      "a": 4,
+      "a": 5,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 荷兰 vs 瑞典（80'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典",
     "moments": [
       {
         "type": "goal",
@@ -84,6 +84,24 @@
           "b": 1
         },
         "headline": "🟨  黄牌 荷兰 vs 瑞典（80'）"
+      },
+      {
+        "type": "goal",
+        "minute": 89,
+        "score": {
+          "a": 5,
+          "b": 1
+        },
+        "headline": "⚽  进球！荷兰 5-1 瑞典（89'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 5,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典"
       },
       {
         "type": "halftime",
@@ -484,15 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 4,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 韩国（4'）"
-      },
-      {
         "type": "goal",
         "minute": 50,
         "score": {
@@ -518,15 +527,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！墨西哥 0-0 韩国"
       }
     ]
   }
