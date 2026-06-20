@@ -1,0 +1,105 @@
+matchNumber	stage	stageName	group	dateTime	home	away	city	venue	sourceStatus
+1	group	小组赛	A	2026-06-12T03:00:00+08:00	墨西哥	南非	墨西哥城	Mexico City Stadium	verified
+2	group	小组赛	A	2026-06-12T10:00:00+08:00	韩国	捷克	瓜达拉哈拉	Guadalajara Stadium	verified
+3	group	小组赛	B	2026-06-13T03:00:00+08:00	加拿大	波黑	多伦多	Toronto Stadium	verified
+4	group	小组赛	D	2026-06-13T09:00:00+08:00	美国	巴拉圭	洛杉矶	Los Angeles Stadium	verified
+8	group	小组赛	B	2026-06-14T03:00:00+08:00	卡塔尔	瑞士	旧金山湾区	San Francisco Bay Area Stadium	verified
+7	group	小组赛	C	2026-06-14T06:00:00+08:00	巴西	摩洛哥	纽约/新泽西	New York/New Jersey Stadium	verified
+5	group	小组赛	C	2026-06-14T09:00:00+08:00	海地	苏格兰	波士顿	Boston Stadium	verified
+6	group	小组赛	D	2026-06-14T12:00:00+08:00	澳大利亚	土耳其	温哥华	BC Place Vancouver	verified
+10	group	小组赛	E	2026-06-15T01:00:00+08:00	德国	库拉索	休斯敦	Houston Stadium	verified
+11	group	小组赛	F	2026-06-15T04:00:00+08:00	荷兰	日本	达拉斯	Dallas Stadium	verified
+9	group	小组赛	E	2026-06-15T07:00:00+08:00	科特迪瓦	厄瓜多尔	费城	Philadelphia Stadium	verified
+12	group	小组赛	F	2026-06-15T10:00:00+08:00	瑞典	突尼斯	蒙特雷	Monterrey Stadium	verified
+14	group	小组赛	H	2026-06-16T00:00:00+08:00	西班牙	佛得角	亚特兰大	Atlanta Stadium	verified
+16	group	小组赛	G	2026-06-16T03:00:00+08:00	比利时	埃及	西雅图	Seattle Stadium	verified
+13	group	小组赛	H	2026-06-16T06:00:00+08:00	沙特阿拉伯	乌拉圭	迈阿密	Miami Stadium	verified
+15	group	小组赛	G	2026-06-16T09:00:00+08:00	伊朗	新西兰	洛杉矶	Los Angeles Stadium	verified
+17	group	小组赛	I	2026-06-17T03:00:00+08:00	法国	塞内加尔	纽约/新泽西	New York/New Jersey Stadium	verified
+18	group	小组赛	I	2026-06-17T06:00:00+08:00	伊拉克	挪威	波士顿	Boston Stadium	verified
+19	group	小组赛	J	2026-06-17T09:00:00+08:00	阿根廷	阿尔及利亚	堪萨斯城	Kansas City Stadium	verified
+20	group	小组赛	J	2026-06-17T12:00:00+08:00	奥地利	约旦	旧金山湾区	San Francisco Bay Area Stadium	verified
+23	group	小组赛	K	2026-06-18T01:00:00+08:00	葡萄牙	刚果民主共和国	休斯敦	Houston Stadium	verified
+22	group	小组赛	L	2026-06-18T04:00:00+08:00	英格兰	克罗地亚	达拉斯	Dallas Stadium	verified
+21	group	小组赛	L	2026-06-18T07:00:00+08:00	加纳	巴拿马	多伦多	Toronto Stadium	verified
+24	group	小组赛	K	2026-06-18T10:00:00+08:00	乌兹别克斯坦	哥伦比亚	墨西哥城	Mexico City Stadium	verified
+25	group	小组赛	A	2026-06-19T00:00:00+08:00	捷克	南非	亚特兰大	Atlanta Stadium	verified
+26	group	小组赛	B	2026-06-19T03:00:00+08:00	瑞士	波黑	洛杉矶	Los Angeles Stadium	verified
+27	group	小组赛	B	2026-06-19T06:00:00+08:00	加拿大	卡塔尔	温哥华	BC Place Vancouver	verified
+28	group	小组赛	A	2026-06-19T09:00:00+08:00	墨西哥	韩国	瓜达拉哈拉	Guadalajara Stadium	verified
+32	group	小组赛	D	2026-06-20T03:00:00+08:00	美国	澳大利亚	西雅图	Seattle Stadium	verified
+30	group	小组赛	C	2026-06-20T06:00:00+08:00	苏格兰	摩洛哥	波士顿	Boston Stadium	verified
+29	group	小组赛	C	2026-06-20T08:30:00+08:00	巴西	海地	费城	Philadelphia Stadium	verified
+31	group	小组赛	D	2026-06-20T11:00:00+08:00	土耳其	巴拉圭	旧金山湾区	San Francisco Bay Area Stadium	verified
+35	group	小组赛	F	2026-06-21T01:00:00+08:00	荷兰	瑞典	休斯敦	Houston Stadium	verified
+33	group	小组赛	E	2026-06-21T04:00:00+08:00	德国	科特迪瓦	多伦多	Toronto Stadium	verified
+34	group	小组赛	E	2026-06-21T08:00:00+08:00	厄瓜多尔	库拉索	堪萨斯城	Kansas City Stadium	verified
+36	group	小组赛	F	2026-06-21T12:00:00+08:00	突尼斯	日本	蒙特雷	Monterrey Stadium	verified
+38	group	小组赛	H	2026-06-22T00:00:00+08:00	西班牙	沙特阿拉伯	亚特兰大	Atlanta Stadium	verified
+39	group	小组赛	G	2026-06-22T03:00:00+08:00	比利时	伊朗	洛杉矶	Los Angeles Stadium	verified
+37	group	小组赛	H	2026-06-22T06:00:00+08:00	乌拉圭	佛得角	迈阿密	Miami Stadium	verified
+40	group	小组赛	G	2026-06-22T09:00:00+08:00	新西兰	埃及	温哥华	BC Place Vancouver	verified
+43	group	小组赛	J	2026-06-23T01:00:00+08:00	阿根廷	奥地利	达拉斯	Dallas Stadium	verified
+42	group	小组赛	I	2026-06-23T05:00:00+08:00	法国	伊拉克	费城	Philadelphia Stadium	verified
+41	group	小组赛	I	2026-06-23T08:00:00+08:00	挪威	塞内加尔	纽约/新泽西	New York/New Jersey Stadium	verified
+44	group	小组赛	J	2026-06-23T11:00:00+08:00	约旦	阿尔及利亚	旧金山湾区	San Francisco Bay Area Stadium	verified
+47	group	小组赛	K	2026-06-24T01:00:00+08:00	葡萄牙	乌兹别克斯坦	休斯敦	Houston Stadium	verified
+45	group	小组赛	L	2026-06-24T04:00:00+08:00	英格兰	加纳	波士顿	Boston Stadium	verified
+46	group	小组赛	L	2026-06-24T07:00:00+08:00	巴拿马	克罗地亚	多伦多	Toronto Stadium	verified
+48	group	小组赛	K	2026-06-24T10:00:00+08:00	哥伦比亚	刚果民主共和国	瓜达拉哈拉	Guadalajara Stadium	verified
+52	group	小组赛	B	2026-06-25T03:00:00+08:00	波黑	卡塔尔	西雅图	Seattle Stadium	verified
+51	group	小组赛	B	2026-06-25T03:00:00+08:00	瑞士	加拿大	温哥华	BC Place Vancouver	verified
+50	group	小组赛	C	2026-06-25T06:00:00+08:00	摩洛哥	海地	亚特兰大	Atlanta Stadium	verified
+49	group	小组赛	C	2026-06-25T06:00:00+08:00	苏格兰	巴西	迈阿密	Miami Stadium	verified
+54	group	小组赛	A	2026-06-25T09:00:00+08:00	捷克	墨西哥	蒙特雷	Monterrey Stadium	verified
+53	group	小组赛	A	2026-06-25T09:00:00+08:00	南非	韩国	墨西哥城	Mexico City Stadium	verified
+55	group	小组赛	E	2026-06-26T04:00:00+08:00	库拉索	科特迪瓦	费城	Philadelphia Stadium	verified
+56	group	小组赛	E	2026-06-26T04:00:00+08:00	厄瓜多尔	德国	纽约/新泽西	New York/New Jersey Stadium	verified
+58	group	小组赛	F	2026-06-26T07:00:00+08:00	日本	瑞典	堪萨斯城	Kansas City Stadium	verified
+57	group	小组赛	F	2026-06-26T07:00:00+08:00	突尼斯	荷兰	达拉斯	Dallas Stadium	verified
+60	group	小组赛	D	2026-06-26T10:00:00+08:00	巴拉圭	澳大利亚	旧金山湾区	San Francisco Bay Area Stadium	verified
+59	group	小组赛	D	2026-06-26T10:00:00+08:00	土耳其	美国	洛杉矶	Los Angeles Stadium	verified
+62	group	小组赛	I	2026-06-27T03:00:00+08:00	塞内加尔	伊拉克	多伦多	Toronto Stadium	verified
+61	group	小组赛	I	2026-06-27T03:00:00+08:00	挪威	法国	波士顿	Boston Stadium	verified
+66	group	小组赛	H	2026-06-27T08:00:00+08:00	佛得角	沙特阿拉伯	瓜达拉哈拉	Guadalajara Stadium	verified
+65	group	小组赛	H	2026-06-27T08:00:00+08:00	乌拉圭	西班牙	休斯敦	Houston Stadium	verified
+64	group	小组赛	G	2026-06-27T11:00:00+08:00	埃及	伊朗	温哥华	BC Place Vancouver	verified
+63	group	小组赛	G	2026-06-27T11:00:00+08:00	新西兰	比利时	西雅图	Seattle Stadium	verified
+67	group	小组赛	L	2026-06-28T05:00:00+08:00	克罗地亚	加纳	纽约/新泽西	New York/New Jersey Stadium	verified
+68	group	小组赛	L	2026-06-28T05:00:00+08:00	巴拿马	英格兰	费城	Philadelphia Stadium	verified
+72	group	小组赛	K	2026-06-28T07:30:00+08:00	刚果民主共和国	乌兹别克斯坦	亚特兰大	Atlanta Stadium	verified
+71	group	小组赛	K	2026-06-28T07:30:00+08:00	哥伦比亚	葡萄牙	迈阿密	Miami Stadium	verified
+69	group	小组赛	J	2026-06-28T10:00:00+08:00	阿尔及利亚	奥地利	堪萨斯城	Kansas City Stadium	verified
+70	group	小组赛	J	2026-06-28T10:00:00+08:00	约旦	阿根廷	达拉斯	Dallas Stadium	verified
+73	round-32	1/16决赛		2026-06-29T03:00:00+08:00	A2	B2	洛杉矶	Los Angeles Stadium	pending-teams
+76	round-32	1/16决赛		2026-06-30T01:00:00+08:00	C1	F2	休斯敦	Houston Stadium	pending-teams
+74	round-32	1/16决赛		2026-06-30T04:30:00+08:00	E1	A3/B3/C3/D3/F3	波士顿	Boston Stadium	pending-teams
+75	round-32	1/16决赛		2026-06-30T09:00:00+08:00	F1	C2	蒙特雷	Monterrey Stadium	pending-teams
+78	round-32	1/16决赛		2026-07-01T01:00:00+08:00	E2	I2	达拉斯	Dallas Stadium	pending-teams
+77	round-32	1/16决赛		2026-07-01T05:00:00+08:00	I1	C3/D3/F3/G3/H3	纽约/新泽西	New York/New Jersey Stadium	pending-teams
+79	round-32	1/16决赛		2026-07-01T09:00:00+08:00	墨西哥	C3/E3/F3/H3/I3	墨西哥城	Mexico City Stadium	pending-teams
+80	round-32	1/16决赛		2026-07-02T00:00:00+08:00	L1	E3/H3/I3/J3/K3	亚特兰大	Atlanta Stadium	pending-teams
+82	round-32	1/16决赛		2026-07-02T04:00:00+08:00	G1	A3/E3/H3/I3/J3	西雅图	Seattle Stadium	pending-teams
+81	round-32	1/16决赛		2026-07-02T08:00:00+08:00	美国	B3/E3/F3/I3/J3	旧金山湾区	San Francisco Bay Area Stadium	pending-teams
+84	round-32	1/16决赛		2026-07-03T03:00:00+08:00	H1	J2	洛杉矶	Los Angeles Stadium	pending-teams
+83	round-32	1/16决赛		2026-07-03T07:00:00+08:00	K2	L2	多伦多	Toronto Stadium	pending-teams
+85	round-32	1/16决赛		2026-07-03T11:00:00+08:00	B1	E3/F3/G3/I3/J3	温哥华	BC Place Vancouver	pending-teams
+88	round-32	1/16决赛		2026-07-04T02:00:00+08:00	D2	G2	达拉斯	Dallas Stadium	pending-teams
+86	round-32	1/16决赛		2026-07-04T06:00:00+08:00	J1	H2	迈阿密	Miami Stadium	pending-teams
+87	round-32	1/16决赛		2026-07-04T09:30:00+08:00	K1	D3/E3/I3/J3/L3	堪萨斯城	Kansas City Stadium	pending-teams
+90	round-16	1/8决赛		2026-07-05T01:00:00+08:00	第1场1/16决赛胜者	第3场1/16决赛胜者	休斯敦	Houston Stadium	pending-teams
+89	round-16	1/8决赛		2026-07-05T05:00:00+08:00	第2场1/16决赛胜者	第5场1/16决赛胜者	费城	Philadelphia Stadium	pending-teams
+91	round-16	1/8决赛		2026-07-06T04:00:00+08:00	第4场1/16决赛胜者	第6场1/16决赛胜者	纽约/新泽西	New York/New Jersey Stadium	pending-teams
+92	round-16	1/8决赛		2026-07-06T08:00:00+08:00	第7场1/16决赛胜者	第8场1/16决赛胜者	墨西哥城	Mexico City Stadium	pending-teams
+93	round-16	1/8决赛		2026-07-07T03:00:00+08:00	第11场1/16决赛胜者	第12场1/16决赛胜者	达拉斯	Dallas Stadium	pending-teams
+94	round-16	1/8决赛		2026-07-07T08:00:00+08:00	第9场1/16决赛胜者	第10场1/16决赛胜者	西雅图	Seattle Stadium	pending-teams
+95	round-16	1/8决赛		2026-07-08T00:00:00+08:00	第14场1/16决赛胜者	第16场1/16决赛胜者	亚特兰大	Atlanta Stadium	pending-teams
+96	round-16	1/8决赛		2026-07-08T04:00:00+08:00	第13场1/16决赛胜者	第15场1/16决赛胜者	温哥华	BC Place Vancouver	pending-teams
+97	quarter-final	1/4决赛		2026-07-10T04:00:00+08:00	第1场1/8决赛胜者	第2场1/8决赛胜者	波士顿	Boston Stadium	pending-teams
+98	quarter-final	1/4决赛		2026-07-11T03:00:00+08:00	第5场1/8决赛胜者	第6场1/8决赛胜者	洛杉矶	Los Angeles Stadium	pending-teams
+99	quarter-final	1/4决赛		2026-07-12T05:00:00+08:00	第3场1/8决赛胜者	第4场1/8决赛胜者	迈阿密	Miami Stadium	pending-teams
+100	quarter-final	1/4决赛		2026-07-12T09:00:00+08:00	第7场1/8决赛胜者	第8场1/8决赛胜者	堪萨斯城	Kansas City Stadium	pending-teams
+101	semi-final	半决赛		2026-07-15T03:00:00+08:00	第1场1/4决赛胜者	第2场1/4决赛胜者	达拉斯	Dallas Stadium	pending-teams
+102	semi-final	半决赛		2026-07-16T03:00:00+08:00	第3场1/4决赛胜者	第4场1/4决赛胜者	亚特兰大	Atlanta Stadium	pending-teams
+103	third-place	季军赛		2026-07-19T05:00:00+08:00	第1场半决赛败者	第2场半决赛败者	迈阿密	Miami Stadium	pending-teams
+104	final	决赛		2026-07-20T03:00:00+08:00	第1场半决赛胜者	第2场半决赛胜者	纽约/新泽西	New York/New Jersey Stadium	pending-teams

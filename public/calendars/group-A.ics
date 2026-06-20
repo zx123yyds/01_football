@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//2026 World Cup Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 世界杯 A组
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:m001-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+SUMMARY:2026 世界杯 #1 墨西哥 vs 南非
+LOCATION:Mexico City Stadium，墨西哥城
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/12周五 03:00\\n场馆
+ ：Mexico City Stadium，墨西哥城，墨西哥\\n数据状态：verifi
+ ed
+END:VEVENT
+BEGIN:VEVENT
+UID:m002-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260612T020000Z
+DTEND:20260612T040000Z
+SUMMARY:2026 世界杯 #2 韩国 vs 捷克
+LOCATION:Guadalajara Stadium，瓜达拉哈拉
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/12周五 10:00\\n场馆
+ ：Guadalajara Stadium，瓜达拉哈拉，墨西哥\\n数据状态：ver
+ ified
+END:VEVENT
+BEGIN:VEVENT
+UID:m025-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260618T160000Z
+DTEND:20260618T180000Z
+SUMMARY:2026 世界杯 #25 捷克 vs 南非
+LOCATION:Atlanta Stadium，亚特兰大
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/19周五 00:00\\n场馆
+ ：Atlanta Stadium，亚特兰大，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m028-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260619T010000Z
+DTEND:20260619T030000Z
+SUMMARY:2026 世界杯 #28 墨西哥 vs 韩国
+LOCATION:Guadalajara Stadium，瓜达拉哈拉
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/19周五 09:00\\n场馆
+ ：Guadalajara Stadium，瓜达拉哈拉，墨西哥\\n数据状态：ver
+ ified
+END:VEVENT
+BEGIN:VEVENT
+UID:m054-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:2026 世界杯 #54 捷克 vs 墨西哥
+LOCATION:Monterrey Stadium，蒙特雷
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/25周四 09:00\\n场馆
+ ：Monterrey Stadium，蒙特雷，墨西哥\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m053-2026 世界杯 A组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:2026 世界杯 #53 南非 vs 韩国
+LOCATION:Mexico City Stadium，墨西哥城
+DESCRIPTION:小组赛 · A 组\\n北京时间：06/25周四 09:00\\n场馆
+ ：Mexico City Stadium，墨西哥城，墨西哥\\n数据状态：verifi
+ ed
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+{
+  "tournament": "2026 FIFA World Cup",
+  "timezone": "Asia/Shanghai",
+  "lastVerified": "2026-06-20T10:18:00+08:00",
+  "sources": [
+    {
+      "name": "FIFA 官方赛程",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule",
+      "notes": "优先数据源，用于核对比赛编号、日期、场馆和阶段。"
+    },
+    {
+      "name": "懂球帝完整赛程参考",
+      "url": "https://m.dongqiudi.com/article/5543600.html",
+      "notes": "中文赛程参考，用于核对北京时间展示。"
+    },
+    {
+      "name": "2026 FIFA 赛程参考站",
+      "url": "https://2026fifa.qiaomu.ai/",
+      "notes": "交互和订阅体验参考，不复制站点代码。"
+    },
+    {
+      "name": "央视世界杯积分榜",
+      "url": "https://worldcup.cctv.com/2026/standings/index.shtml",
+      "notes": "积分榜官方媒体入口，接口数据来自 cbs-u.sports.cctv.com。"
+    },
+    {
+      "name": "央视世界杯射手榜",
+      "url": "https://worldcup.cctv.com/2026/scorers/index.shtml",
+      "notes": "射手榜官方媒体入口，接口数据来自 cbs-u.sports.cctv.com。"
+    }
+  ],
+  "matchesFile": "data/matches.tsv"
+}

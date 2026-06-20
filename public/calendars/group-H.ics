@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//2026 World Cup Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 世界杯 H组
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:m014-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260615T160000Z
+DTEND:20260615T180000Z
+SUMMARY:2026 世界杯 #14 西班牙 vs 佛得角
+LOCATION:Atlanta Stadium，亚特兰大
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/16周二 00:00\\n场馆
+ ：Atlanta Stadium，亚特兰大，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m013-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260615T220000Z
+DTEND:20260616T000000Z
+SUMMARY:2026 世界杯 #13 沙特阿拉伯 vs 乌拉圭
+LOCATION:Miami Stadium，迈阿密
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/16周二 06:00\\n场馆
+ ：Miami Stadium，迈阿密，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m038-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260621T160000Z
+DTEND:20260621T180000Z
+SUMMARY:2026 世界杯 #38 西班牙 vs 沙特阿拉伯
+LOCATION:Atlanta Stadium，亚特兰大
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/22周一 00:00\\n场馆
+ ：Atlanta Stadium，亚特兰大，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m037-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260621T220000Z
+DTEND:20260622T000000Z
+SUMMARY:2026 世界杯 #37 乌拉圭 vs 佛得角
+LOCATION:Miami Stadium，迈阿密
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/22周一 06:00\\n场馆
+ ：Miami Stadium，迈阿密，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m066-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:2026 世界杯 #66 佛得角 vs 沙特阿拉伯
+LOCATION:Guadalajara Stadium，瓜达拉哈拉
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/27周六 08:00\\n场馆
+ ：Guadalajara Stadium，瓜达拉哈拉，墨西哥\\n数据状态：ver
+ ified
+END:VEVENT
+BEGIN:VEVENT
+UID:m065-2026 世界杯 H组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:2026 世界杯 #65 乌拉圭 vs 西班牙
+LOCATION:Houston Stadium，休斯敦
+DESCRIPTION:小组赛 · H 组\\n北京时间：06/27周六 08:00\\n场馆
+ ：Houston Stadium，休斯敦，美国\\n数据状态：verified
+END:VEVENT
+END:VCALENDAR

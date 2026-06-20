@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//2026 World Cup Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 世界杯 四分之一决赛
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:m097-2026 世界杯 四分之一决赛@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260709T200000Z
+DTEND:20260709T220000Z
+SUMMARY:2026 世界杯 #97 第1场1/8决赛胜者 vs 第2场1/8决赛胜
+ 者
+LOCATION:Boston Stadium，波士顿
+DESCRIPTION:1/4决赛\\n北京时间：07/10周五 04:00\\n场馆：Boston
+  Stadium，波士顿，美国\\n数据状态：pending-teams
+END:VEVENT
+BEGIN:VEVENT
+UID:m098-2026 世界杯 四分之一决赛@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260710T190000Z
+DTEND:20260710T210000Z
+SUMMARY:2026 世界杯 #98 第5场1/8决赛胜者 vs 第6场1/8决赛胜
+ 者
+LOCATION:Los Angeles Stadium，洛杉矶
+DESCRIPTION:1/4决赛\\n北京时间：07/11周六 03:00\\n场馆：Los An
+ geles Stadium，洛杉矶，美国\\n数据状态：pending-teams
+END:VEVENT
+BEGIN:VEVENT
+UID:m099-2026 世界杯 四分之一决赛@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260711T210000Z
+DTEND:20260711T230000Z
+SUMMARY:2026 世界杯 #99 第3场1/8决赛胜者 vs 第4场1/8决赛胜
+ 者
+LOCATION:Miami Stadium，迈阿密
+DESCRIPTION:1/4决赛\\n北京时间：07/12周日 05:00\\n场馆：Miami 
+ Stadium，迈阿密，美国\\n数据状态：pending-teams
+END:VEVENT
+BEGIN:VEVENT
+UID:m100-2026 世界杯 四分之一决赛@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260712T010000Z
+DTEND:20260712T030000Z
+SUMMARY:2026 世界杯 #100 第7场1/8决赛胜者 vs 第8场1/8决赛胜
+ 者
+LOCATION:Kansas City Stadium，堪萨斯城
+DESCRIPTION:1/4决赛\\n北京时间：07/12周日 09:00\\n场馆：Kansas
+  City Stadium，堪萨斯城，美国\\n数据状态：pending-teams
+END:VEVENT
+END:VCALENDAR

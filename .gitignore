@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+public/desktop-verification.png
+public/mobile-verification.png
+npm-debug.log*

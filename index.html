@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="2026 世界杯赛程信息、北京时间、筛选和日历订阅。" />
+    <title>2026 世界杯赛程</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">26</span>
+        世界杯赛程
+      </a>
+      <nav aria-label="页面导航">
+        <a href="#filters">筛选</a>
+        <a href="#schedule">赛程</a>
+        <a href="#sources">来源</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-field" aria-hidden="true">
+          <span class="field-line field-line--center"></span>
+          <span class="field-circle"></span>
+          <span class="field-box field-box--left"></span>
+          <span class="field-box field-box--right"></span>
+        </div>
+        <div class="hero__content">
+          <div class="eyebrow">
+            <span class="icon" aria-hidden="true">WC</span>
+            2026 FIFA World Cup
+          </div>
+          <h1>2026 世界杯赛程</h1>
+          <p>面向北京时间整理的世界杯日程视图，支持阶段、日期、球队和城市筛选，并可把赛程订阅到日历。</p>
+          <div class="hero__actions" aria-label="日历操作">
+            <a class="primary-action" href="/world-cup-2026.ics" download aria-label="下载 ICS 日历文件">
+              <span aria-hidden="true">↓</span>
+              下载 ICS
+            </a>
+            <button class="secondary-action" id="copyCalendar" type="button" aria-label="复制日历订阅地址">
+              <span aria-hidden="true">Cal</span>
+              复制订阅地址
+            </button>
+            <button class="secondary-action" id="downloadFiltered" type="button" aria-label="下载当前筛选赛程 ICS">
+              <span aria-hidden="true">ICS</span>
+              当前筛选日历
+            </button>
+          </div>
+        </div>
+
+        <div class="next-panel" aria-label="下一场比赛">
+          <span class="panel-label">下一场</span>
+          <strong id="nextTeams">正在载入</strong>
+          <span id="nextTime">北京时间</span>
+          <span id="nextVenue">场馆</span>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="数据摘要">
+        <div>
+          <span id="includedMatches">0</span>
+          <p>当前收录比赛</p>
+        </div>
+        <div>
+          <span id="totalMatches">104</span>
+          <p>赛事总场次</p>
+        </div>
+        <div>
+          <span id="generatedAt">-</span>
+          <p>数据生成时间</p>
+        </div>
+        <div>
+          <span id="completedMatches">0</span>
+          <p>已完赛</p>
+        </div>
+      </section>
+
+      <section class="toolbar" id="filters" aria-label="筛选赛程">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" placeholder="搜索球队、城市、场馆或场次" />
+        </label>
+
+        <label>
+          <span aria-hidden="true">筛</span>
+          <select id="stageSelect" aria-label="按阶段筛选"></select>
+        </label>
+
+        <label>
+          <span>组</span>
+          <select id="groupSelect" aria-label="按小组筛选"></select>
+        </label>
+
+        <label>
+          <span aria-hidden="true">日</span>
+          <select id="daySelect" aria-label="按日期筛选"></select>
+        </label>
+
+        <button class="icon-button" id="resetFilters" type="button" aria-label="重置筛选">↻</button>
+      </section>
+
+      <section class="quick-filters" aria-label="快捷查看">
+        <button class="quick-chip is-active" type="button" data-quick="all">全部</button>
+        <button class="quick-chip" type="button" data-quick="today">今日</button>
+        <button class="quick-chip" type="button" data-quick="tomorrow">明日</button>
+        <button class="quick-chip" type="button" data-quick="next">下一场</button>
+      </section>
+
+      <section class="schedule" id="schedule">
+        <div class="section-heading">
+          <h2>赛程列表</h2>
+          <span id="matchCount">0 场</span>
+        </div>
+        <div id="scheduleList"></div>
+      </section>
+
+      <section class="tables-grid" aria-label="积分榜和射手榜">
+        <article class="leaderboard standings-panel">
+          <div class="section-heading">
+            <div>
+              <h2>小组积分榜</h2>
+              <p>来自央视世界杯积分榜接口</p>
+            </div>
+            <a href="https://worldcup.cctv.com/2026/standings/index.shtml" target="_blank" rel="noreferrer">央视积分榜 ↗</a>
+          </div>
+          <div id="standingsList" class="standings-list"></div>
+        </article>
+
+        <article class="leaderboard scorers-panel">
+          <div class="section-heading">
+            <div>
+              <h2>射手榜</h2>
+              <p>来自央视世界杯射手榜接口</p>
+            </div>
+            <a href="https://worldcup.cctv.com/2026/scorers/index.shtml" target="_blank" rel="noreferrer">央视射手榜 ↗</a>
+          </div>
+          <div id="scorersList" class="scorers-list"></div>
+        </article>
+      </section>
+
+      <section class="sources" id="sources">
+        <div>
+          <h2>数据来源</h2>
+          <p>优先核对 FIFA 官方公开赛程；中文时间和展示信息参考公开中文资料。球队未确定的淘汰赛以“待定”展示。</p>
+        </div>
+        <div class="source-list" id="sourceList"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

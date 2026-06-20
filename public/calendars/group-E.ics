@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//2026 World Cup Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 世界杯 E组
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:m010-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260614T170000Z
+DTEND:20260614T190000Z
+SUMMARY:2026 世界杯 #10 德国 vs 库拉索
+LOCATION:Houston Stadium，休斯敦
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/15周一 01:00\\n场馆
+ ：Houston Stadium，休斯敦，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m009-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260614T230000Z
+DTEND:20260615T010000Z
+SUMMARY:2026 世界杯 #9 科特迪瓦 vs 厄瓜多尔
+LOCATION:Philadelphia Stadium，费城
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/15周一 07:00\\n场馆
+ ：Philadelphia Stadium，费城，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m033-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260620T200000Z
+DTEND:20260620T220000Z
+SUMMARY:2026 世界杯 #33 德国 vs 科特迪瓦
+LOCATION:Toronto Stadium，多伦多
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/21周日 04:00\\n场馆
+ ：Toronto Stadium，多伦多，加拿大\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m034-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260621T000000Z
+DTEND:20260621T020000Z
+SUMMARY:2026 世界杯 #34 厄瓜多尔 vs 库拉索
+LOCATION:Kansas City Stadium，堪萨斯城
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/21周日 08:00\\n场馆
+ ：Kansas City Stadium，堪萨斯城，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m055-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:2026 世界杯 #55 库拉索 vs 科特迪瓦
+LOCATION:Philadelphia Stadium，费城
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/26周五 04:00\\n场馆
+ ：Philadelphia Stadium，费城，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m056-2026 世界杯 E组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:2026 世界杯 #56 厄瓜多尔 vs 德国
+LOCATION:New York/New Jersey Stadium，纽约/新泽西
+DESCRIPTION:小组赛 · E 组\\n北京时间：06/26周五 04:00\\n场馆
+ ：New York/New Jersey Stadium，纽约/新泽西，美国\\n数据状态
+ ：verified
+END:VEVENT
+END:VCALENDAR

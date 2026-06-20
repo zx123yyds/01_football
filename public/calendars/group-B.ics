@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//2026 World Cup Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 世界杯 B组
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:m003-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260612T190000Z
+DTEND:20260612T210000Z
+SUMMARY:2026 世界杯 #3 加拿大 vs 波黑
+LOCATION:Toronto Stadium，多伦多
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/13周六 03:00\\n场馆
+ ：Toronto Stadium，多伦多，加拿大\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m008-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260613T190000Z
+DTEND:20260613T210000Z
+SUMMARY:2026 世界杯 #8 卡塔尔 vs 瑞士
+LOCATION:San Francisco Bay Area Stadium，旧金山湾区
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/14周日 03:00\\n场馆
+ ：San Francisco Bay Area Stadium，旧金山湾区，美国\\n数据状
+ 态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m026-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260618T190000Z
+DTEND:20260618T210000Z
+SUMMARY:2026 世界杯 #26 瑞士 vs 波黑
+LOCATION:Los Angeles Stadium，洛杉矶
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/19周五 03:00\\n场馆
+ ：Los Angeles Stadium，洛杉矶，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m027-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260618T220000Z
+DTEND:20260619T000000Z
+SUMMARY:2026 世界杯 #27 加拿大 vs 卡塔尔
+LOCATION:BC Place Vancouver，温哥华
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/19周五 06:00\\n场馆
+ ：BC Place Vancouver，温哥华，加拿大\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m052-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:2026 世界杯 #52 波黑 vs 卡塔尔
+LOCATION:Seattle Stadium，西雅图
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/25周四 03:00\\n场馆
+ ：Seattle Stadium，西雅图，美国\\n数据状态：verified
+END:VEVENT
+BEGIN:VEVENT
+UID:m051-2026 世界杯 B组@world-cup-2026.local
+DTSTAMP:20260620T061713Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:2026 世界杯 #51 瑞士 vs 加拿大
+LOCATION:BC Place Vancouver，温哥华
+DESCRIPTION:小组赛 · B 组\\n北京时间：06/25周四 03:00\\n场馆
+ ：BC Place Vancouver，温哥华，加拿大\\n数据状态：verified
+END:VEVENT
+END:VCALENDAR
