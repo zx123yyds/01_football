@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-06-20T14:07:02.363Z",
+  "sources": [
+    {
+      "name": "CCTV standings",
+      "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
+      "ok": true,
+      "mode": "live",
+      "message": "updated from remote source",
+      "cache": {
+        "exists": true,
+        "updatedAt": "2026-06-20T14:07:00.211Z"
+      },
+      "checkedAt": "2026-06-20T14:07:00.212Z"
+    },
+    {
+      "name": "CCTV scorers",
+      "url": "https://cbs-u.sports.cctv.com/statistics/football/player/scorers?leagueId=3400&season=2026",
+      "ok": true,
+      "mode": "live",
+      "message": "updated from remote source",
+      "cache": {
+        "exists": true,
+        "updatedAt": "2026-06-20T14:07:00.285Z"
+      },
+      "checkedAt": "2026-06-20T14:07:00.285Z"
+    },
+    {
+      "name": "FIFA Watch live scores",
+      "url": "https://fifawatch.com/api/match-live.json?lang=zh",
+      "ok": true,
+      "mode": "live",
+      "message": "updated from remote source",
+      "cache": {
+        "exists": true,
+        "updatedAt": "2026-06-20T14:07:02.363Z"
+      },
+      "checkedAt": "2026-06-20T14:07:02.363Z"
+    }
+  ]
+}

@@ -54,6 +54,10 @@ if (!Array.isArray(schedule.scorers) || schedule.scorers.length < 5) {
   fail("schedule.json does not include scorer table data.");
 }
 
+if (!schedule.sourceHealth || !Array.isArray(schedule.sourceHealth.sources) || schedule.sourceHealth.sources.length < 3) {
+  fail("schedule.json does not include source health metadata.");
+}
+
 if (!schedule.standings.some((group) => group.teams?.some((team) => team.flag)) || !schedule.scorers.some((player) => player.teamFlag)) {
   fail("standings or scorers are missing team flags.");
 }

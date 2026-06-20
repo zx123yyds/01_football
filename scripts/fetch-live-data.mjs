@@ -1,7 +1,8 @@
-import { access, writeFile } from "node:fs/promises";
+import { access, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
+const sourceStatusFile = path.join(root, "data", "source-status.json");
 
 const targets = [
   {
@@ -58,6 +59,23 @@ const writeJson = async (file, payload) => {
   await writeFile(file, `${JSON.stringify(payload, null, 2)}\n`);
 };
 
+const cacheInfo = async (file) => {
+  try {
+    const fileStat = await stat(file);
+    return {
+      exists: true,
+      updatedAt: fileStat.mtime.toISOString()
+    };
+  } catch {
+    return {
+      exists: false,
+      updatedAt: null
+    };
+  }
+};
+
+const sourceStatuses = [];
+
 for (const target of targets) {
   try {
     const payload = await fetchJson(target.url);
@@ -65,13 +83,45 @@ for (const target of targets) {
       throw new Error("unexpected payload shape");
     }
     await writeJson(target.file, payload);
+    sourceStatuses.push({
+      name: target.name,
+      url: target.url,
+      ok: true,
+      mode: "live",
+      message: "updated from remote source",
+      cache: await cacheInfo(target.file),
+      checkedAt: new Date().toISOString()
+    });
     console.log(`Updated ${target.name}`);
   } catch (error) {
     if (await fileExists(target.file)) {
+      sourceStatuses.push({
+        name: target.name,
+        url: target.url,
+        ok: false,
+        mode: "cached",
+        message: `${error.message}; kept cached file`,
+        cache: await cacheInfo(target.file),
+        checkedAt: new Date().toISOString()
+      });
       console.warn(`Skipped ${target.name}: ${error.message}; kept cached file`);
     } else {
       await writeJson(target.file, target.fallback);
+      sourceStatuses.push({
+        name: target.name,
+        url: target.url,
+        ok: false,
+        mode: "fallback",
+        message: `${error.message}; initialized empty fallback`,
+        cache: await cacheInfo(target.file),
+        checkedAt: new Date().toISOString()
+      });
       console.warn(`Initialized ${target.name} fallback: ${error.message}`);
     }
   }
 }
+
+await writeJson(sourceStatusFile, {
+  checkedAt: new Date().toISOString(),
+  sources: sourceStatuses
+});

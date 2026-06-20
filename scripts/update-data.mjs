@@ -8,6 +8,7 @@ const referenceScheduleFile = path.join(root, "data", "reference-schedule.json")
 const cctvRankingsFile = path.join(root, "data", "cctv-rankings.json");
 const cctvScorersFile = path.join(root, "data", "cctv-scorers.json");
 const fifaWatchLiveFile = path.join(root, "data", "fifawatch-live.json");
+const sourceStatusFile = path.join(root, "data", "source-status.json");
 const publicDir = path.join(root, "public");
 const scheduleFile = path.join(publicDir, "schedule.json");
 const icsFile = path.join(publicDir, "world-cup-2026.ics");
@@ -307,6 +308,7 @@ const main = async () => {
   const cctvRankings = await readOptionalJson(cctvRankingsFile, { results: [] });
   const cctvScorers = await readOptionalJson(cctvScorersFile, { results: [] });
   const fifaWatchLive = await readOptionalJson(fifaWatchLiveFile, []);
+  const sourceHealth = await readOptionalJson(sourceStatusFile, { checkedAt: null, sources: [] });
   const generatedAt = new Date();
   const teamMeta = buildTeamMetaMap(referenceSchedule);
   const matches = mergeScoreData(rawMatches.map(enrichMatch), referenceSchedule, fifaWatchLive)
@@ -320,6 +322,8 @@ const main = async () => {
     totalMatchesInTournament: 104,
     includedMatches: matches.length,
     dataCompleteness: "complete-104-match-schedule-with-some-venue-fields-pending",
+    dataMode: sourceHealth.sources?.some((source) => source.mode === "cached" || source.mode === "fallback") ? "cached-source-fallback" : "live-sources",
+    sourceHealth,
     liveScoreUpdates: normalizeLivePayload(fifaWatchLive).filter((item) => item?.score).length,
     stageOrder,
     stageLabels,

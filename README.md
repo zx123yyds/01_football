@@ -29,7 +29,7 @@ npm run check
 
 `npm run sync:reference` 会联网抓取央视积分榜、央视射手榜和 FIFA Watch 实时比分，并基于仓库中已缓存的 `data/reference-schedule.json` 同步更新 `data/matches.tsv`。赛程基础数据不在定时任务中请求 `2026fifa.qiaomu.ai`，避免外部源临时不可达导致整轮刷新失败；实时比分则通过 `data/fifawatch-live.json` 覆盖缓存比分。
 
-`npm run refresh` 会联网抓取积分榜、射手榜、实时比分，并重新生成 `public/schedule.json` 和全部 ICS。外部源失败时会保留上一次成功抓取的本地缓存，不让整轮刷新中断。`npm run dev` 启动后会先刷新一次数据，之后默认每 5 分钟自动刷新一次；可用环境变量调整：
+`npm run refresh` 会联网抓取积分榜、射手榜、实时比分，并重新生成 `public/schedule.json` 和全部 ICS。外部源失败或后续接口下线时，会继续使用仓库中最近一次成功抓取的缓存数据渲染页面，不让整轮刷新中断；本次数据源状态会写入 `data/source-status.json` 和 `public/schedule.json` 的 `sourceHealth` 字段。`npm run dev` 启动后会先刷新一次数据，之后默认每 5 分钟自动刷新一次；可用环境变量调整：
 
 ```bash
 REFRESH_INTERVAL_MS=60000 npm run dev
@@ -41,10 +41,10 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 
 参考来源：
 
-- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule
-- https://m.dongqiudi.com/article/5543600.html
-- https://worldcup.cctv.com/2026/
-- https://fifawatch.com/zh
+- FIFA 官方赛程：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule
+- 懂球帝中文赛程参考：https://m.dongqiudi.com/article/5543600.html
+- 央视世界杯专题、积分榜和射手榜：https://worldcup.cctv.com/2026/
+- FIFA Watch 实时比分参考：https://fifawatch.com/zh
 
 ## 自动更新
 
@@ -56,10 +56,14 @@ https://你的域名/world-cup-2026.ics
 
 ## 外部平台
 
-- GitHub 仓库：https://github.com/zx123yyds/01_football
-- 线上访问地址：https://01-football.vercel.app
+
 - Vercel 控制台：https://vercel.com
 - cron-job.org 控制台：https://console.cron-job.org/dashboard
+
+配置说明：
+
+- Vercel 部署配置：[docs/vercel-setup.md](docs/vercel-setup.md)
+- cron-job.org 定时触发配置：[docs/cron-job-setup.md](docs/cron-job-setup.md)
 
 ## 部署
 

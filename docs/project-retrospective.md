@@ -33,7 +33,7 @@
 - CCTV 接口用于积分榜和射手榜，FIFA Watch 接口用于实时比分覆盖。
 - 实时比分采用覆盖层：基础比分来自缓存，实时源有数据时覆盖 `score` 和 `matchStatus`。
 - 多源队伍匹配使用稳定代码和 slug，必要时用 alias 修正，例如 `south-korea -> korea-republic`。
-- 外部源失败时保留上一次成功缓存，不让整轮生成失败。
+- 外部源失败或赛事结束后接口下线时，保留上一次成功缓存继续生成页面，并在 `sourceHealth` 里记录当前使用的是实时数据还是缓存数据。
 
 日历订阅方案：
 
@@ -64,11 +64,6 @@
 - `scripts/verify-browser.mjs` 用 Playwright 验证桌面和手机端：布局、搜索、筛选、比分、榜单、国旗图片、ICS 访问。
 - 验证国旗时不仅看 DOM 数量，还检查图片是否加载成功，避免 Windows 或静态资源路径问题。
 
-### Codex 使用场景
-
-本项目使用 Codex 完成需求拆解、数据源接入、页面实现、视觉迭代、自动刷新、浏览器验证和问题修复。
-
-过程中多次根据截图反馈修正 UI、排版、数据错位、榜单可读性和自动更新机制。
 
 ## 2. 可复用高效经验
 
@@ -111,6 +106,13 @@
 ```js
 fetch(`/schedule.json?t=${Date.now()}`, { cache: "no-store" });
 ```
+
+### 运行命令经验
+
+- `npm install` 是按 `package.json` / `package-lock.json` 安装依赖，首次拉项目、换电脑或删除 `node_modules` 后必须先执行。
+- 日常本地预览一般用 `npm run dev`，但本项目 dev server 启动会先刷新数据，并可能改动 `public/schedule.json` 和 ICS。
+- 如果只是看页面或改文档，要注意自动刷新造成的生成文件变更；提交前用 `git status` 确认是否混入无关数据文件。
+- `npm run check` 会重新构建，也会更新 `generatedAt` / `DTSTAMP`；如果本次只改文档或 workflow，应恢复这些生成文件，避免提交噪音。
 
 ### 数据刷新链路
 
@@ -174,6 +176,7 @@ schedule:
 - 如果 GitHub 原生 schedule 长时间没有触发，可以用 cron-job.org 定时调用 GitHub `workflow_dispatch` 作为备用触发器。
 - cron-job.org 调用成功时 GitHub API 通常返回 `204 No Content`，这不是失败，而是 dispatch 成功。
 - 不要让用户在聊天里粘贴 GitHub token；应让用户在 cron-job.org 或 GitHub Secrets 界面自己配置。
+- GitHub Actions 插件版本和项目 Node 版本是两层：`actions/setup-node@v6` 是 action 工具版本，`node-version: 22` 才是项目运行 Node 版本。
 
 常用检查命令：
 
@@ -182,6 +185,14 @@ gh run list --repo owner/repo --workflow "Update World Cup Schedule" --limit 5
 gh run watch <run-id> --repo owner/repo --exit-status
 gh api repos/owner/repo/commits --jq '.[0:5][] | [.sha[0:7], .commit.author.date, .commit.message] | @tsv'
 ```
+
+### Git 与远程同步经验
+
+- 远端每 10 分钟可能由 GitHub Actions 自动提交数据，本地 `push` 前必须先 `git fetch origin main` 和 `git rebase origin/main`。
+- HTTPS 和 SSH 都可以连接 GitHub 远程仓库。HTTPS 使用 token/凭证登录，配置简单；SSH 使用本机私钥和 GitHub 公钥登录，配好后通常更适合频繁 `fetch` / `push`。
+- GitHub HTTPS 在国内网络下可能慢、断或出现 HTTP/2 错误；可以先用本地代理 alias `setproxy`，或配置 `git config --global http.version HTTP/1.1` 缓解。
+- SSH 需要先在本机生成公钥，并添加到 GitHub SSH Keys；`ssh -T git@github.com` 成功后再切 remote。SSH/HTTPS 只影响本机 git 操作，不影响 Vercel 或 GitHub Actions。
+- GitHub 网页查看每次提交改动：仓库页面点 `commits`，进入某个 commit 后看 Files changed；本地可用 `git show <commit>`。
 
 ### Vercel 经验
 
@@ -293,6 +304,7 @@ gh api repos/owner/repo/commits --jq '.[0:5][] | [.sha[0:7], .commit.author.date
 | 实时比分被基础缓存卡住 | 为避开 `2026fifa.qiaomu.ai` 超时，只使用缓存 `reference-schedule.json`，无法拿到最新赛况 | 增加 FIFA Watch `/api/match-live.json?lang=zh` 作为比分覆盖层，央视继续负责积分榜/射手榜 | 基础赛程和实时比分要分层：基础数据可缓存，比分状态必须有实时源 |
 | 实时比分有 6 场但只合并 5 场 | 不同数据源的队伍 slug 不一致，例如 FIFA Watch 用 `south-korea`，本地参考源用 `korea-republic` | 增加 slug alias 归一化，并用合并数量校验覆盖效果 | 多源合并不能只按显示名硬匹配，必须有别名表和匹配结果统计 |
 | 单个外部源超时拖垮整轮刷新 | 用 `curl && curl && build` 串联，任一源失败都会导致后续生成中断 | 改为 `scripts/fetch-live-data.mjs` 逐个抓取，失败时保留上一次缓存 | 定时任务抓多个源时必须容错，不能让非核心源失败导致整站数据不更新 |
+| 世界杯结束后接口下线 | 外部数据源可能关闭专题、改接口或返回空数据 | 保留 `data/*.json` 最近一次成功缓存，抓取失败时继续用缓存生成，并把源状态写入 `sourceHealth` | 数据站必须有离线兜底，不能把页面可用性绑定在赛事期间接口上 |
 | GitHub 原生 cron 不稳定 | 新仓库或低活跃仓库的 `schedule` 可能延迟或长时间不触发 | 使用 cron-job.org 调 GitHub `workflow_dispatch` 补一层外部触发 | 对高频数据站，不能只依赖单一调度器；至少保留手动触发和外部触发方案 |
 | 用户误贴 GitHub token | 配置第三方 cron 时不清楚 token 放哪里，直接发到聊天里 | 立即提醒撤销旧 token，后续只指导在平台界面配置，不在聊天里接收 token | 所有密钥配置都走平台 Secret/Header 输入框，不进入对话和仓库 |
 | Vercel 默认域名手机打不开 | `*.vercel.app` 在国内网络下可能不稳定或被 reset | 换网络验证，必要时绑定自定义域名或换国内 CDN/静态托管 | 面向国内用户不要默认认为 Vercel 域名稳定可访问 |
@@ -307,14 +319,13 @@ gh api repos/owner/repo/commits --jq '.[0:5][] | [.sha[0:7], .commit.author.date
 
 - 明确主数据源、备用数据源、展示字段来源。
 - 把基础赛程、实时比分、积分榜、射手榜拆成独立数据层，不要混成一个抓取入口。
-- 所有比赛、队伍、球员必须使用稳定 ID 或稳定名称匹配。
 - 多源队伍匹配必须准备别名表，例如 `south-korea -> korea-republic`。
-- 禁止用数组顺序当业务 ID。
 - 生成 JSON 时保留展示所需元数据：国旗、代码、状态、比分、来源。
 - 国家/地区标识应提供稳定图片资源，例如 `public/flags/CODE.svg`，不要只依赖系统 emoji 字体。
 - 所有外部数据必须能重新抓取，不手填核心数据。
 - 明确刷新频率，比赛日建议 5 到 10 分钟级别。
 - 外部实时源失败时保留上一份成功缓存，并在生成数据里标记 `scoreSource`。
+- 生成数据里要保留 `sourceHealth`，用于判断当前页面来自实时源还是最近一次缓存。
 - 每次接入新实时源后，统计“源返回条数”和“成功合并条数”，发现不一致要排查别名或顺序问题。
 
 ### 页面规范
@@ -356,5 +367,7 @@ gh api repos/owner/repo/commits --jq '.[0:5][] | [.sha[0:7], .commit.author.date
 - Codex 可以执行代码修改和验证。
 - Codex 不应在未获得明确同意前执行 `git commit`。
 - Codex 不应在未获得明确同意前执行 `git push`。
+- 本项目后续提交信息优先使用中文，方便在 GitHub 提交列表里直接理解改动内容。
+- 因远端自动数据提交频繁，提交前后都要确认本地和远端关系，例如 `ahead`、`behind`、`diverged`。
 - 如果需要提交，应先汇报改动文件、验证结果和待提交范围。
 - 如果本地有数据刷新造成的大量数据文件变更，应单独说明，避免和 UI 修改混在一起。
