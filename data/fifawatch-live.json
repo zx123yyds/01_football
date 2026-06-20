@@ -10,8 +10,8 @@
       "b": 1
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！德国 0-1 科特迪瓦（30'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！德国 0-1 科特迪瓦",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,15 @@
           "b": 1
         },
         "headline": "⚽  进球！德国 0-1 科特迪瓦（30'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！德国 0-1 科特迪瓦"
       },
       {
         "type": "kickoff",
@@ -515,31 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！美国 vs 澳大利亚"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "mexico",
-      "south-korea"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国"
       }
     ]
   }
