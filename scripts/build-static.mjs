@@ -12,7 +12,10 @@ await Promise.all([
   cp(path.join(root, "src"), path.join(distDir, "src"), { recursive: true }),
   cp(path.join(root, "public", "schedule.json"), path.join(distDir, "schedule.json")),
   cp(path.join(root, "public", "world-cup-2026.ics"), path.join(distDir, "world-cup-2026.ics")),
-  cp(path.join(root, "public", "calendars"), path.join(distDir, "calendars"), { recursive: true })
+  cp(path.join(root, "public", "calendars"), path.join(distDir, "calendars"), { recursive: true }),
+  cp(path.join(root, "public", "schedule.json"), path.join(distDir, "public", "schedule.json")),
+  cp(path.join(root, "public", "world-cup-2026.ics"), path.join(distDir, "public", "world-cup-2026.ics")),
+  cp(path.join(root, "public", "calendars"), path.join(distDir, "public", "calendars"), { recursive: true })
 ]);
 
 console.log(`Built static site in ${path.relative(root, distDir)}/`);

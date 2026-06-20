@@ -20,6 +20,7 @@ const state = {
 };
 
 const browserRefreshMs = 2 * 60 * 1000;
+const scheduleUrls = ["/schedule.json", "/public/schedule.json"];
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -337,8 +338,19 @@ function bindEvents() {
 }
 
 async function loadSchedule({ silent = false } = {}) {
-  const response = await fetch(`/schedule.json?t=${Date.now()}`, { cache: "no-store" });
-  const schedule = await response.json();
+  let schedule = null;
+  let lastError = null;
+  for (const url of scheduleUrls) {
+    try {
+      const response = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+      schedule = await response.json();
+      break;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  if (!schedule) throw lastError || new Error("Unable to load schedule data");
   const changed = schedule.generatedAt !== state.lastGeneratedAt;
   state.schedule = schedule;
   state.lastGeneratedAt = schedule.generatedAt;
