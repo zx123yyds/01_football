@@ -12,8 +12,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -21,7 +21,7 @@ jobs:
       - run: npm run refresh
       - run: npm run check
       - name: Commit generated schedule
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update world cup schedule data"
           file_pattern: "data/matches.tsv data/reference-worldcup-2026.ics data/reference-schedule.json data/cctv-rankings.json data/cctv-scorers.json data/fifawatch-live.json public/schedule.json public/world-cup-2026.ics public/calendars/*.ics"
