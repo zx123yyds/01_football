@@ -502,15 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国",
     "moments": [
       {
-        "type": "goal",
-        "minute": 50,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！墨西哥 1-0 韩国（50'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 58,
         "score": {
