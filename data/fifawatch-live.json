@@ -6,12 +6,12 @@
       "sweden"
     ],
     "score": {
-      "a": 2,
+      "a": 4,
       "b": 0
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！荷兰 2-0 瑞典",
+    "type": "goal",
+    "headline": "⚽  进球！荷兰 4-0 瑞典（54'）",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,33 @@
           "b": 0
         },
         "headline": "⚽  进球！荷兰 2-0 瑞典（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 47,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！荷兰 3-0 瑞典（47'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 53,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 荷兰 vs 瑞典（53'）"
+      },
+      {
+        "type": "goal",
+        "minute": 54,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "⚽  进球！荷兰 4-0 瑞典（54'）"
       },
       {
         "type": "halftime",
@@ -496,33 +523,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！加拿大 6-0 卡塔尔",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 62,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 加拿大 vs 卡塔尔（62'）"
-      },
-      {
-        "type": "goal",
-        "minute": 64,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "⚽  进球！加拿大 4-0 卡塔尔（64'）"
-      },
-      {
-        "type": "owngoal",
-        "minute": 75,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "⚽  乌龙球！加拿大 5-0 卡塔尔（75'）"
-      },
       {
         "type": "goal",
         "minute": 90,
