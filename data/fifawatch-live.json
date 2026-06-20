@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！德国 1-1 科特迪瓦（68'）",
+    "headline": "⚽  进球！德国 1-1 科特迪瓦（90'）",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,15 @@
           "b": 1
         },
         "headline": "⚽  进球！德国 1-1 科特迪瓦（68'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 1-1 科特迪瓦（90'）"
       },
       {
         "type": "halftime",
@@ -429,15 +438,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚",
     "moments": [
-      {
-        "type": "owngoal",
-        "minute": 11,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  乌龙球！美国 1-0 澳大利亚（11'）"
-      },
       {
         "type": "yellowcard",
         "minute": 16,
