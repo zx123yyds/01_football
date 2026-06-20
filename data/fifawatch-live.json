@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "germany",
+      "cote-divoire"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！德国 0-1 科特迪瓦（30'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 30,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 0-1 科特迪瓦（30'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！德国 vs 科特迪瓦"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "netherlands",
       "sweden"
     ],
@@ -501,15 +532,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 1-0 韩国",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 58,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 韩国（58'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
