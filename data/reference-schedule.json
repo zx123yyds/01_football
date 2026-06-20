@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-20T07:30:02.385Z",
+    "generated_at": "2026-06-20T07:45:02.503Z",
     "timezone": "Asia/Shanghai",
     "domain": "2026fifa.qiaomu.ai",
     "title": "2026 世界杯赛程",
@@ -29,7 +29,7 @@
     "update_summary": {
       "previous": {
         "match_count": 104,
-        "generated_at": "2026-06-20T07:15:02.581Z",
+        "generated_at": "2026-06-20T07:30:02.385Z",
         "first_match_status": "played",
         "completed": 32
       },
