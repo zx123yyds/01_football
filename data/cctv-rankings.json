@@ -1,1 +1,735 @@
-{"msg":"操作成功！","code":88888,"success":true,"results":[{"rankings":[{"ranking":[{"teamId":39210,"teamName":"墨西哥","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png","games":2,"points":6,"wins":2,"draws":0,"losses":0,"goalsFor":3,"goalsAgainst":0,"goalDifference":3,"promotionColor":"#FD8755"},{"teamId":39248,"teamName":"韩国","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114343886_200x200.png","games":2,"points":3,"wins":1,"draws":0,"losses":1,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39141,"teamName":"捷克","logoUrl":"https://cbs-img.sports.cctv.com/team/20240523/20240523071910512_200x200.png","games":2,"points":1,"wins":0,"draws":1,"losses":1,"goalsFor":2,"goalsAgainst":3,"goalDifference":-1,"promotionColor":"#FD8755"},{"teamId":39195,"teamName":"南非","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160706910_90x90.png","games":2,"points":1,"wins":0,"draws":1,"losses":1,"goalsFor":1,"goalsAgainst":3,"goalDifference":-2}],"group":"A组"},{"ranking":[{"teamId":39188,"teamName":"加拿大","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png","games":2,"points":4,"wins":1,"draws":1,"losses":0,"goalsFor":7,"goalsAgainst":1,"goalDifference":6,"promotionColor":"#FD8755"},{"teamId":39062,"teamName":"瑞士","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png","games":2,"points":4,"wins":1,"draws":1,"losses":0,"goalsFor":5,"goalsAgainst":2,"goalDifference":3,"promotionColor":"#FD8755"},{"teamId":39175,"teamName":"波黑","logoUrl":"https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png","games":2,"points":1,"wins":0,"draws":1,"losses":1,"goalsFor":2,"goalsAgainst":5,"goalDifference":-3,"promotionColor":"#FD8755"},{"teamId":39254,"teamName":"卡塔尔","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114449279_200x200.png","games":2,"points":1,"wins":0,"draws":1,"losses":1,"goalsFor":1,"goalsAgainst":7,"goalDifference":-6}],"group":"B组"},{"ranking":[{"teamId":39172,"teamName":"巴西","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png","games":2,"points":4,"wins":1,"draws":1,"losses":0,"goalsFor":4,"goalsAgainst":1,"goalDifference":3,"promotionColor":"#FD8755"},{"teamId":39204,"teamName":"摩洛哥","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png","games":2,"points":4,"wins":1,"draws":1,"losses":0,"goalsFor":2,"goalsAgainst":1,"goalDifference":1,"promotionColor":"#FD8755"},{"teamId":39056,"teamName":"苏格兰","logoUrl":"https://cbs-img.sports.cctv.com/team/20240523/20240523072230284_200x200.png","games":2,"points":3,"wins":1,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39257,"teamName":"海地","logoUrl":"https://cbs-img.sports.cctv.com/team/20260605/20260605105912955_250x250.png","games":2,"points":0,"wins":0,"draws":0,"losses":2,"goalsFor":0,"goalsAgainst":4,"goalDifference":-4}],"group":"C组"},{"ranking":[{"teamId":39190,"teamName":"美国","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png","games":2,"points":6,"wins":2,"draws":0,"losses":0,"goalsFor":6,"goalsAgainst":1,"goalDifference":5,"promotionColor":"#FD8755"},{"teamId":39260,"teamName":"澳大利亚","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114030200_200x200.png","games":2,"points":3,"wins":1,"draws":0,"losses":1,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39170,"teamName":"巴拉圭","logoUrl":"https://cbs-img.sports.cctv.com/team/20160831/20160831163301757_90x90.png","games":2,"points":3,"wins":1,"draws":0,"losses":1,"goalsFor":2,"goalsAgainst":4,"goalDifference":-2,"promotionColor":"#FD8755"},{"teamId":39156,"teamName":"土耳其","logoUrl":"https://cbs-img.sports.cctv.com/team/20240523/20240523071843803_200x200.png","games":2,"points":0,"wins":0,"draws":0,"losses":2,"goalsFor":0,"goalsAgainst":3,"goalDifference":-3}],"group":"D组"},{"ranking":[{"teamId":39064,"teamName":"德国","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":7,"goalsAgainst":1,"goalDifference":6,"promotionColor":"#FD8755"},{"teamId":39200,"teamName":"科特迪瓦","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":1,"goalsAgainst":0,"goalDifference":1,"promotionColor":"#FD8755"},{"teamId":39173,"teamName":"厄瓜多尔","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":0,"goalsAgainst":1,"goalDifference":-1},{"teamId":54566,"teamName":"库拉索","logoUrl":"https://cbs-img.sports.cctv.com/team/20170705/20170705144258812_100x100.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":7,"goalDifference":-6}],"group":"E组"},{"ranking":[{"teamId":39058,"teamName":"瑞典","logoUrl":"https://cbs-img.sports.cctv.com/team/20260605/20260605105802096_250x250.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":5,"goalsAgainst":1,"goalDifference":4,"promotionColor":"#FD8755"},{"teamId":39253,"teamName":"日本","logoUrl":"https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39060,"teamName":"荷兰","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39212,"teamName":"突尼斯","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114546196_200x200.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":5,"goalDifference":-4}],"group":"F组"},{"ranking":[{"teamId":40416,"teamName":"新西兰","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39176,"teamName":"伊朗","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114329881_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":2,"goalsAgainst":2,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39059,"teamName":"比利时","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39131,"teamName":"埃及","logoUrl":"https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0}],"group":"G组"},{"ranking":[{"teamId":39161,"teamName":"乌拉圭","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39241,"teamName":"沙特阿拉伯","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114503985_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39166,"teamName":"西班牙","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":0,"goalsAgainst":0,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39183,"teamName":"佛得角","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":0,"goalsAgainst":0,"goalDifference":0}],"group":"H组"},{"ranking":[{"teamId":39055,"teamName":"挪威","logoUrl":"https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":4,"goalsAgainst":1,"goalDifference":3,"promotionColor":"#FD8755"},{"teamId":39063,"teamName":"法国","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":3,"goalsAgainst":1,"goalDifference":2,"promotionColor":"#FD8755"},{"teamId":39206,"teamName":"塞内加尔","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":3,"goalDifference":-2},{"teamId":39225,"teamName":"伊拉克","logoUrl":"https://cbs-img.sports.cctv.com/team/20200106/20200106191908559_90x90.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":4,"goalDifference":-3}],"group":"I组"},{"ranking":[{"teamId":39160,"teamName":"阿根廷","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114024058_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":3,"goalsAgainst":0,"goalDifference":3,"promotionColor":"#FD8755"},{"teamId":39061,"teamName":"奥地利","logoUrl":"https://cbs-img.sports.cctv.com/team/20240523/20240523071935885_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":3,"goalsAgainst":1,"goalDifference":2,"promotionColor":"#FD8755"},{"teamId":39231,"teamName":"约旦","logoUrl":"https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":3,"goalDifference":-2},{"teamId":54962,"teamName":"阿尔及利亚","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":0,"goalsAgainst":3,"goalDifference":-3}],"group":"J组"},{"ranking":[{"teamId":39169,"teamName":"哥伦比亚","logoUrl":"https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":3,"goalsAgainst":1,"goalDifference":2,"promotionColor":"#FD8755"},{"teamId":39202,"teamName":"刚果（金）","logoUrl":"https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39159,"teamName":"葡萄牙","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png","games":1,"points":1,"wins":0,"draws":1,"losses":0,"goalsFor":1,"goalsAgainst":1,"goalDifference":0,"promotionColor":"#FD8755"},{"teamId":39226,"teamName":"乌兹别克斯坦","logoUrl":"https://cbs-img.sports.cctv.com/team/20260608/20260608120249934_250x250.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":1,"goalsAgainst":3,"goalDifference":-2}],"group":"K组"},{"ranking":[{"teamId":39138,"teamName":"英格兰","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":4,"goalsAgainst":2,"goalDifference":2,"promotionColor":"#FD8755"},{"teamId":39201,"teamName":"加纳","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114322467_200x200.png","games":1,"points":3,"wins":1,"draws":0,"losses":0,"goalsFor":1,"goalsAgainst":0,"goalDifference":1,"promotionColor":"#FD8755"},{"teamId":39191,"teamName":"巴拿马","logoUrl":"https://cbs-img.sports.cctv.com/team/20181017/20181017154123554_90x90.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":0,"goalsAgainst":1,"goalDifference":-1},{"teamId":39162,"teamName":"克罗地亚","logoUrl":"https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png","games":1,"points":0,"wins":0,"draws":0,"losses":1,"goalsFor":2,"goalsAgainst":4,"goalDifference":-2}],"group":"L组"}],"promotions":[{"promotionName":"附加赛","promotionColor":"#FD8755","promotionId":1}],"tournament":"积分榜"}]}
+{
+  "msg": "操作成功！",
+  "code": 88888,
+  "success": true,
+  "results": [
+    {
+      "rankings": [
+        {
+          "ranking": [
+            {
+              "teamId": 39210,
+              "teamName": "墨西哥",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
+              "games": 2,
+              "points": 6,
+              "wins": 2,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 0,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39248,
+              "teamName": "韩国",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114343886_200x200.png",
+              "games": 2,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39141,
+              "teamName": "捷克",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071910512_200x200.png",
+              "games": 2,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "goalDifference": -1,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39195,
+              "teamName": "南非",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160706910_90x90.png",
+              "games": 2,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "goalDifference": -2
+            }
+          ],
+          "group": "A组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39188,
+              "teamName": "加拿大",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
+              "games": 2,
+              "points": 4,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 7,
+              "goalsAgainst": 1,
+              "goalDifference": 6,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39062,
+              "teamName": "瑞士",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
+              "games": 2,
+              "points": 4,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 5,
+              "goalsAgainst": 2,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39175,
+              "teamName": "波黑",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png",
+              "games": 2,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 5,
+              "goalDifference": -3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39254,
+              "teamName": "卡塔尔",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114449279_200x200.png",
+              "games": 2,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 7,
+              "goalDifference": -6
+            }
+          ],
+          "group": "B组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39172,
+              "teamName": "巴西",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
+              "games": 2,
+              "points": 4,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39204,
+              "teamName": "摩洛哥",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
+              "games": 2,
+              "points": 4,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "goalDifference": 1,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39056,
+              "teamName": "苏格兰",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523072230284_200x200.png",
+              "games": 2,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39257,
+              "teamName": "海地",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20260605/20260605105912955_250x250.png",
+              "games": 2,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 2,
+              "goalsFor": 0,
+              "goalsAgainst": 4,
+              "goalDifference": -4
+            }
+          ],
+          "group": "C组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39190,
+              "teamName": "美国",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
+              "games": 2,
+              "points": 6,
+              "wins": 2,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 6,
+              "goalsAgainst": 1,
+              "goalDifference": 5,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39260,
+              "teamName": "澳大利亚",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114030200_200x200.png",
+              "games": 2,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39170,
+              "teamName": "巴拉圭",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831163301757_90x90.png",
+              "games": 2,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 4,
+              "goalDifference": -2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39156,
+              "teamName": "土耳其",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071843803_200x200.png",
+              "games": 2,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 2,
+              "goalsFor": 0,
+              "goalsAgainst": 3,
+              "goalDifference": -3
+            }
+          ],
+          "group": "D组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39064,
+              "teamName": "德国",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 7,
+              "goalsAgainst": 1,
+              "goalDifference": 6,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39200,
+              "teamName": "科特迪瓦",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "goalDifference": 1,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39173,
+              "teamName": "厄瓜多尔",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "goalDifference": -1
+            },
+            {
+              "teamId": 54566,
+              "teamName": "库拉索",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20170705/20170705144258812_100x100.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 7,
+              "goalDifference": -6
+            }
+          ],
+          "group": "E组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39058,
+              "teamName": "瑞典",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20260605/20260605105802096_250x250.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 5,
+              "goalsAgainst": 1,
+              "goalDifference": 4,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39253,
+              "teamName": "日本",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39060,
+              "teamName": "荷兰",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39212,
+              "teamName": "突尼斯",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114546196_200x200.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 5,
+              "goalDifference": -4
+            }
+          ],
+          "group": "F组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 40416,
+              "teamName": "新西兰",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39176,
+              "teamName": "伊朗",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114329881_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39059,
+              "teamName": "比利时",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39131,
+              "teamName": "埃及",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0
+            }
+          ],
+          "group": "G组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39161,
+              "teamName": "乌拉圭",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39241,
+              "teamName": "沙特阿拉伯",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114503985_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39166,
+              "teamName": "西班牙",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39183,
+              "teamName": "佛得角",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "goalDifference": 0
+            }
+          ],
+          "group": "H组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39055,
+              "teamName": "挪威",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39063,
+              "teamName": "法国",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "goalDifference": 2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39206,
+              "teamName": "塞内加尔",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "goalDifference": -2
+            },
+            {
+              "teamId": 39225,
+              "teamName": "伊拉克",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20200106/20200106191908559_90x90.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "goalDifference": -3
+            }
+          ],
+          "group": "I组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39160,
+              "teamName": "阿根廷",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114024058_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 0,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39061,
+              "teamName": "奥地利",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071935885_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "goalDifference": 2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39231,
+              "teamName": "约旦",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "goalDifference": -2
+            },
+            {
+              "teamId": 54962,
+              "teamName": "阿尔及利亚",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 0,
+              "goalsAgainst": 3,
+              "goalDifference": -3
+            }
+          ],
+          "group": "J组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39169,
+              "teamName": "哥伦比亚",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "goalDifference": 2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39202,
+              "teamName": "刚果（金）",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39159,
+              "teamName": "葡萄牙",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39226,
+              "teamName": "乌兹别克斯坦",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20260608/20260608120249934_250x250.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "goalDifference": -2
+            }
+          ],
+          "group": "K组"
+        },
+        {
+          "ranking": [
+            {
+              "teamId": 39138,
+              "teamName": "英格兰",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 4,
+              "goalsAgainst": 2,
+              "goalDifference": 2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39201,
+              "teamName": "加纳",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114322467_200x200.png",
+              "games": 1,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "goalDifference": 1,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39191,
+              "teamName": "巴拿马",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017154123554_90x90.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "goalDifference": -1
+            },
+            {
+              "teamId": 39162,
+              "teamName": "克罗地亚",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
+              "games": 1,
+              "points": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 4,
+              "goalDifference": -2
+            }
+          ],
+          "group": "L组"
+        }
+      ],
+      "promotions": [
+        {
+          "promotionName": "附加赛",
+          "promotionColor": "#FD8755",
+          "promotionId": 1
+        }
+      ],
+      "tournament": "积分榜"
+    }
+  ]
+}

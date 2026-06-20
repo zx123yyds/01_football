@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/update-data.mjs && node scripts/validate-static.mjs && node scripts/build-static.mjs",
-    "sync:reference": "curl -L https://2026fifa.qiaomu.ai/calendar/worldcup-2026.ics -o data/reference-worldcup-2026.ics && curl -L https://2026fifa.qiaomu.ai/data/schedule.json -o data/reference-schedule.json && curl -L 'https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026' -o data/cctv-rankings.json && curl -L 'https://cbs-u.sports.cctv.com/statistics/football/player/scorers?leagueId=3400&season=2026' -o data/cctv-scorers.json && node scripts/sync-reference-ics.mjs data/reference-worldcup-2026.ics data/matches.tsv",
+    "sync:reference": "node scripts/fetch-live-data.mjs && node scripts/sync-reference-ics.mjs data/reference-worldcup-2026.ics data/matches.tsv",
     "refresh": "npm run sync:reference && npm run build",
     "update:data": "node scripts/update-data.mjs",
     "verify:browser": "node scripts/verify-browser.mjs",

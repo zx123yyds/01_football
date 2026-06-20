@@ -27,9 +27,9 @@ npm run check
 - `public/calendars/stage-*.ics`
 - `public/calendars/group-*.ics`
 
-`npm run sync:reference` 会联网抓取参考站公开 ICS，并同步更新 `data/matches.tsv`。懂球帝移动页可能触发站点安全拦截，因此不做绕过；FIFA 官方页面和参考站公开 ICS 用作主要核对依据。
+`npm run sync:reference` 会联网抓取央视积分榜、央视射手榜和 FIFA Watch 实时比分，并基于仓库中已缓存的 `data/reference-schedule.json` 同步更新 `data/matches.tsv`。赛程基础数据不在定时任务中请求 `2026fifa.qiaomu.ai`，避免外部源临时不可达导致整轮刷新失败；实时比分则通过 `data/fifawatch-live.json` 覆盖缓存比分。
 
-`npm run refresh` 会联网抓取赛程、比分、积分榜、射手榜，并重新生成 `public/schedule.json` 和全部 ICS。`npm run dev` 启动后会先刷新一次数据，之后默认每 5 分钟自动刷新一次；可用环境变量调整：
+`npm run refresh` 会联网抓取积分榜、射手榜、实时比分，并重新生成 `public/schedule.json` 和全部 ICS。外部源失败时会保留上一次成功抓取的本地缓存，不让整轮刷新中断。`npm run dev` 启动后会先刷新一次数据，之后默认每 5 分钟自动刷新一次；可用环境变量调整：
 
 ```bash
 REFRESH_INTERVAL_MS=60000 npm run dev
@@ -43,11 +43,12 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 
 - https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule
 - https://m.dongqiudi.com/article/5543600.html
-- https://2026fifa.qiaomu.ai/
+- https://worldcup.cctv.com/2026/
+- https://fifawatch.com/zh
 
 ## 自动更新
 
-`.github/workflows/update-schedule.yml` 配置为每小时的 10、20、30、40、50 分运行一次，自动抓取最新赛程、比分、积分榜、射手榜并提交生成后的 JSON 和 ICS。前端页面每 2 分钟重新读取一次 `schedule.json`，用户不需要手动刷新页面。若部署到静态托管平台，日历订阅地址通常为：
+`.github/workflows/update-schedule.yml` 配置为每小时的 10、20、30、40、50 分运行一次，自动抓取最新比分、积分榜、射手榜并提交生成后的 JSON 和 ICS。前端页面每 2 分钟重新读取一次 `schedule.json`，用户不需要手动刷新页面。若部署到静态托管平台，日历订阅地址通常为：
 
 ```text
 https://你的域名/world-cup-2026.ics

@@ -24,4 +24,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update world cup schedule data"
-          file_pattern: "data/matches.tsv data/reference-worldcup-2026.ics data/reference-schedule.json data/cctv-rankings.json data/cctv-scorers.json public/schedule.json public/world-cup-2026.ics public/calendars/*.ics"
+          file_pattern: "data/matches.tsv data/reference-worldcup-2026.ics data/reference-schedule.json data/cctv-rankings.json data/cctv-scorers.json data/fifawatch-live.json public/schedule.json public/world-cup-2026.ics public/calendars/*.ics"
