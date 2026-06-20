@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 荷兰 vs 瑞典（75'）",
+    "headline": "🟨  黄牌 荷兰 vs 瑞典（80'）",
     "moments": [
       {
         "type": "goal",
@@ -75,6 +75,15 @@
           "b": 1
         },
         "headline": "🟨  黄牌 荷兰 vs 瑞典（75'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 80,
+        "score": {
+          "a": 4,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 荷兰 vs 瑞典（80'）"
       },
       {
         "type": "halftime",
@@ -518,12 +527,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！墨西哥 0-0 韩国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！墨西哥 vs 韩国"
       }
     ]
   }
