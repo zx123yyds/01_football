@@ -6,12 +6,12 @@
       "saudi-arabia"
     ],
     "score": {
-      "a": 5,
+      "a": 4,
       "b": 0
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！西班牙 5-0 沙特阿拉伯（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯",
     "moments": [
       {
         "type": "goal",
@@ -75,6 +75,15 @@
           "b": 0
         },
         "headline": "⚽  进球！西班牙 5-0 沙特阿拉伯（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯"
       },
       {
         "type": "halftime",
@@ -498,15 +507,6 @@
           "b": 0
         },
         "headline": "🟨  黄牌 巴西 vs 海地（45'）"
-      },
-      {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！巴西 3-0 海地（45'）"
       },
       {
         "type": "yellowcard",
