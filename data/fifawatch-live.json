@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "spain",
+      "saudi-arabia"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 10,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！西班牙 vs 沙特阿拉伯"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "tunisia",
       "japan"
     ],
@@ -499,15 +530,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 23,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 苏格兰 vs 摩洛哥（23'）"
-      },
       {
         "type": "yellowcard",
         "minute": 65,
