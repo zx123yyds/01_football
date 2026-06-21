@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（56'）",
+    "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（75'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -48,6 +48,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（56'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 75,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（75'）"
       },
       {
         "type": "halftime",
@@ -514,15 +523,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 89,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 美国 vs 澳大利亚（89'）"
-      },
       {
         "type": "yellowcard",
         "minute": 90,
