@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！比利时 0-0 伊朗",
+    "type": "redcard",
+    "headline": "🟥  红牌！比利时 vs 伊朗（66'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 比利时 vs 伊朗（33'）"
+      },
+      {
+        "type": "redcard",
+        "minute": 66,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟥  红牌！比利时 vs 伊朗（66'）"
       },
       {
         "type": "halftime",
@@ -481,15 +490,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 2,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！土耳其 0-1 巴拉圭（2'）"
-      },
       {
         "type": "yellowcard",
         "minute": 4,
