@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 0
+      "b": 1
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 乌拉圭 vs 佛得角（5'）",
+    "type": "goal",
+    "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -21,6 +21,24 @@
           "b": 0
         },
         "headline": "🟨  黄牌 乌拉圭 vs 佛得角（5'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 20,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（20'）"
+      },
+      {
+        "type": "goal",
+        "minute": 21,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）"
       },
       {
         "type": "kickoff",
@@ -531,15 +549,6 @@
     "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 71,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 土耳其 vs 巴拉圭（71'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -547,15 +556,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！土耳其 0-1 巴拉圭"
       }
     ]
   }
