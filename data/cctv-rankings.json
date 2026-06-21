@@ -106,8 +106,7 @@
               "losses": 1,
               "goalsFor": 2,
               "goalsAgainst": 5,
-              "goalDifference": -3,
-              "promotionColor": "#FD8755"
+              "goalDifference": -3
             },
             {
               "teamId": 39254,
@@ -279,23 +278,24 @@
               "teamId": 39173,
               "teamName": "厄瓜多尔",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
-              "games": 1,
-              "points": 0,
+              "games": 2,
+              "points": 1,
               "wins": 0,
-              "draws": 0,
+              "draws": 1,
               "losses": 1,
               "goalsFor": 0,
               "goalsAgainst": 1,
-              "goalDifference": -1
+              "goalDifference": -1,
+              "promotionColor": "#FD8755"
             },
             {
               "teamId": 54566,
               "teamName": "库拉索",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20170705/20170705144258812_100x100.png",
-              "games": 1,
-              "points": 0,
+              "games": 2,
+              "points": 1,
               "wins": 0,
-              "draws": 0,
+              "draws": 1,
               "losses": 1,
               "goalsFor": 1,
               "goalsAgainst": 7,
