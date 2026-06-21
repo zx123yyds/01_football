@@ -6,12 +6,12 @@
       "saudi-arabia"
     ],
     "score": {
-      "a": 1,
+      "a": 3,
       "b": 0
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）",
+    "headline": "⚽  进球！西班牙 3-0 沙特阿拉伯（24'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,24 @@
           "b": 0
         },
         "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）"
+      },
+      {
+        "type": "goal",
+        "minute": 21,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 2-0 沙特阿拉伯（21'）"
+      },
+      {
+        "type": "goal",
+        "minute": 24,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 3-0 沙特阿拉伯（24'）"
       },
       {
         "type": "kickoff",
@@ -531,15 +549,6 @@
     "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 65,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 苏格兰 vs 摩洛哥（65'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -547,15 +556,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！苏格兰 0-1 摩洛哥"
       }
     ]
   }
