@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯"
       },
       {
         "type": "kickoff",
@@ -534,12 +543,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！巴西 3-0 海地"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！巴西 vs 海地"
       }
     ]
   }
