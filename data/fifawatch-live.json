@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！西班牙 3-0 沙特阿拉伯（24'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,15 @@
           "b": 0
         },
         "headline": "⚽  进球！西班牙 3-0 沙特阿拉伯（24'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 30,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）"
       },
       {
         "type": "kickoff",
@@ -531,31 +540,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！巴西 vs 海地"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "scotland",
-      "morocco"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥"
       }
     ]
   }
