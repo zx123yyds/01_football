@@ -2,6 +2,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "ecuador",
+      "curacao"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（38'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 38,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（38'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 39,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（39'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！厄瓜多尔 vs 库拉索"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "germany",
       "cote-divoire"
     ],
@@ -448,15 +488,6 @@
     "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚",
     "moments": [
       {
-        "type": "goal",
-        "minute": 43,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！美国 2-0 澳大利亚（43'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 56,
         "score": {
@@ -509,15 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！美国 2-0 澳大利亚"
       }
     ]
   }
