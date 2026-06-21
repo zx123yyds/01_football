@@ -427,20 +427,6 @@
         {
           "ranking": [
             {
-              "teamId": 39161,
-              "teamName": "乌拉圭",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
-              "games": 1,
-              "points": 1,
-              "wins": 0,
-              "draws": 1,
-              "losses": 0,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "goalDifference": 0,
-              "promotionColor": "#FD8755"
-            },
-            {
               "teamId": 39241,
               "teamName": "沙特阿拉伯",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114503985_200x200.png",
@@ -455,9 +441,23 @@
               "promotionColor": "#FD8755"
             },
             {
-              "teamId": 39166,
-              "teamName": "西班牙",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+              "teamId": 39161,
+              "teamName": "乌拉圭",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
+              "games": 1,
+              "points": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39183,
+              "teamName": "佛得角",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
               "games": 1,
               "points": 1,
               "wins": 0,
@@ -469,9 +469,9 @@
               "promotionColor": "#FD8755"
             },
             {
-              "teamId": 39183,
-              "teamName": "佛得角",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
+              "teamId": 39166,
+              "teamName": "西班牙",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
               "games": 1,
               "points": 1,
               "wins": 0,
