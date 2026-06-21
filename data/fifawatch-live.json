@@ -6,12 +6,12 @@
       "cabo-verde"
     ],
     "score": {
-      "a": 1,
+      "a": 2,
       "b": 1
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）",
+    "headline": "⚽  进球！乌拉圭 2-1 佛得角（45'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -48,6 +48,15 @@
           "b": 1
         },
         "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）"
+      },
+      {
+        "type": "goal",
+        "minute": 45,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！乌拉圭 2-1 佛得角（45'）"
       },
       {
         "type": "kickoff",
@@ -534,12 +543,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！荷兰 2-0 瑞典"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！荷兰 vs 瑞典"
       }
     ]
   }
