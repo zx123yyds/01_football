@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "belgium",
+      "iran"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 比利时 vs 伊朗（3'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 3,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 比利时 vs 伊朗（3'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！比利时 vs 伊朗"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "spain",
       "saudi-arabia"
     ],
@@ -501,15 +532,6 @@
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 45,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 巴西 vs 海地（45'）"
-      },
-      {
-        "type": "yellowcard",
         "minute": 66,
         "score": {
           "a": 3,
@@ -534,15 +556,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！巴西 3-0 海地"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！巴西 3-0 海地"
       }
     ]
   }
