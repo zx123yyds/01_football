@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "uruguay",
+      "cabo-verde"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 乌拉圭 vs 佛得角（5'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 5,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（5'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！乌拉圭 vs 佛得角"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "belgium",
       "iran"
     ],
@@ -499,24 +530,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 4,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 土耳其 vs 巴拉圭（4'）"
-      },
-      {
-        "type": "redcard",
-        "minute": 45,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟥  红牌！土耳其 vs 巴拉圭（45'）"
-      },
       {
         "type": "yellowcard",
         "minute": 71,
