@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 0
+      "b": 1
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 比利时 vs 伊朗（3'）",
+    "type": "goal",
+    "headline": "⚽  进球！比利时 0-1 伊朗（25'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -21,6 +21,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 比利时 vs 伊朗（3'）"
+      },
+      {
+        "type": "goal",
+        "minute": 25,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！比利时 0-1 伊朗（25'）"
       },
       {
         "type": "kickoff",
@@ -530,15 +539,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！巴西 3-0 海地",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 66,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 巴西 vs 海地（66'）"
-      },
       {
         "type": "yellowcard",
         "minute": 72,
