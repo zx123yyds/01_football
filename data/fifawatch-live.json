@@ -6,12 +6,12 @@
       "saudi-arabia"
     ],
     "score": {
-      "a": 3,
+      "a": 4,
       "b": 0
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯",
+    "type": "owngoal",
+    "headline": "⚽  乌龙球！西班牙 4-0 沙特阿拉伯（49'）",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）"
+      },
+      {
+        "type": "owngoal",
+        "minute": 49,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "⚽  乌龙球！西班牙 4-0 沙特阿拉伯（49'）"
       },
       {
         "type": "halftime",
@@ -463,15 +472,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！巴西 3-0 海地",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 4,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 巴西 vs 海地（4'）"
-      },
       {
         "type": "goal",
         "minute": 23,
