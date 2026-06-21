@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 比利时 vs 伊朗（33'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！比利时 0-0 伊朗",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 比利时 vs 伊朗（33'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！比利时 0-0 伊朗"
       },
       {
         "type": "kickoff",
@@ -531,31 +540,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！土耳其 vs 巴拉圭"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "brazil",
-      "haiti"
-    ],
-    "score": {
-      "a": 3,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴西 3-0 海地",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴西 3-0 海地"
       }
     ]
   }
