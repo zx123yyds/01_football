@@ -9,9 +9,9 @@
       "a": 0,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（75'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！厄瓜多尔 0-0 库拉索",
     "moments": [
       {
         "type": "yellowcard",
@@ -57,6 +57,24 @@
           "b": 0
         },
         "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（75'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 库拉索（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！厄瓜多尔 0-0 库拉索"
       },
       {
         "type": "halftime",
@@ -506,40 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！苏格兰 vs 摩洛哥"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "usa",
-      "australia"
-    ],
-    "score": {
-      "a": 2,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 美国 vs 澳大利亚（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚"
       }
     ]
   }
