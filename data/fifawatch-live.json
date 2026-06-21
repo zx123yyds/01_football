@@ -448,15 +448,6 @@
     "headline": "据 FIFA Watch：🏁 终场！美国 2-0 澳大利亚",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 32,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 美国 vs 澳大利亚（32'）"
-      },
-      {
         "type": "goal",
         "minute": 43,
         "score": {
