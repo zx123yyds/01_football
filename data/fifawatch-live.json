@@ -6,12 +6,12 @@
       "cabo-verde"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 1
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）",
+    "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,15 @@
           "b": 1
         },
         "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）"
+      },
+      {
+        "type": "goal",
+        "minute": 44,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）"
       },
       {
         "type": "kickoff",
@@ -531,31 +540,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！荷兰 vs 瑞典"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "turkiye",
-      "paraguay"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！土耳其 0-1 巴拉圭"
       }
     ]
   }
