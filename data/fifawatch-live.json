@@ -2,6 +2,31 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "tunisia",
+      "japan"
+    ],
+    "score": {
+      "a": 0,
+      "b": 4
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！突尼斯 0-4 日本",
+    "moments": [
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 4
+        },
+        "headline": "据 FIFA Watch：🏁 终场！突尼斯 0-4 日本"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "ecuador",
       "curacao"
     ],
@@ -474,15 +499,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-1 摩洛哥",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 2,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！苏格兰 0-1 摩洛哥（2'）"
-      },
       {
         "type": "yellowcard",
         "minute": 23,
