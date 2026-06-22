@@ -2,6 +2,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "new-zealand",
+      "egypt"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！新西兰 1-0 埃及（15'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 15,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！新西兰 1-0 埃及（15'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 17,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 新西兰 vs 埃及（17'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！新西兰 vs 埃及"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "uruguay",
       "cabo-verde"
     ],
@@ -490,24 +530,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 59,
-        "score": {
-          "a": 4,
-          "b": 1
-        },
-        "headline": "⚽  进球！荷兰 4-1 瑞典（59'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 75,
-        "score": {
-          "a": 4,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 荷兰 vs 瑞典（75'）"
-      },
       {
         "type": "yellowcard",
         "minute": 80,
