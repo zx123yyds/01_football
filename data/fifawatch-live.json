@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 新西兰 vs 埃及（34'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！新西兰 1-0 埃及",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 新西兰 vs 埃及（34'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！新西兰 1-0 埃及"
       },
       {
         "type": "kickoff",
@@ -531,31 +540,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！德国 vs 科特迪瓦"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "netherlands",
-      "sweden"
-    ],
-    "score": {
-      "a": 5,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 5,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典"
       }
     ]
   }
