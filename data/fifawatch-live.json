@@ -10,8 +10,8 @@
       "b": 2
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！乌拉圭 2-2 佛得角（61'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 乌拉圭 vs 佛得角（90'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -75,6 +75,15 @@
           "b": 2
         },
         "headline": "⚽  进球！乌拉圭 2-2 佛得角（61'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（90'）"
       },
       {
         "type": "halftime",
@@ -472,15 +481,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 47,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！荷兰 3-0 瑞典（47'）"
-      },
       {
         "type": "yellowcard",
         "minute": 53,
