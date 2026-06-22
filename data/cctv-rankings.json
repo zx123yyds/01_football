@@ -367,6 +367,20 @@
         {
           "ranking": [
             {
+              "teamId": 39131,
+              "teamName": "埃及",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
+              "games": 2,
+              "points": 4,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "goalsFor": 4,
+              "goalsAgainst": 2,
+              "goalDifference": 2,
+              "promotionColor": "#FD8755"
+            },
+            {
               "teamId": 39176,
               "teamName": "伊朗",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114329881_200x200.png",
@@ -398,28 +412,14 @@
               "teamId": 40416,
               "teamName": "新西兰",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png",
-              "games": 1,
+              "games": 2,
               "points": 1,
               "wins": 0,
               "draws": 1,
-              "losses": 0,
-              "goalsFor": 2,
-              "goalsAgainst": 2,
-              "goalDifference": 0,
-              "promotionColor": "#FD8755"
-            },
-            {
-              "teamId": 39131,
-              "teamName": "埃及",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
-              "games": 1,
-              "points": 1,
-              "wins": 0,
-              "draws": 1,
-              "losses": 0,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "goalDifference": 0
+              "losses": 1,
+              "goalsFor": 3,
+              "goalsAgainst": 5,
+              "goalDifference": -2
             }
           ],
           "group": "G组"

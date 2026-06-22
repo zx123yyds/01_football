@@ -440,15 +440,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 68,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！德国 1-1 科特迪瓦（68'）"
-      },
-      {
-        "type": "goal",
         "minute": 90,
         "score": {
           "a": 1,
