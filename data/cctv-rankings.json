@@ -106,8 +106,7 @@
               "losses": 1,
               "goalsFor": 2,
               "goalsAgainst": 5,
-              "goalDifference": -3,
-              "promotionColor": "#FD8755"
+              "goalDifference": -3
             },
             {
               "teamId": 39254,
@@ -445,13 +444,27 @@
               "teamId": 39161,
               "teamName": "乌拉圭",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
-              "games": 1,
-              "points": 1,
+              "games": 2,
+              "points": 2,
               "wins": 0,
-              "draws": 1,
+              "draws": 2,
               "losses": 0,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
+              "goalsFor": 3,
+              "goalsAgainst": 3,
+              "goalDifference": 0,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39183,
+              "teamName": "佛得角",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
+              "games": 2,
+              "points": 2,
+              "wins": 0,
+              "draws": 2,
+              "losses": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 2,
               "goalDifference": 0,
               "promotionColor": "#FD8755"
             },
@@ -467,19 +480,6 @@
               "goalsFor": 1,
               "goalsAgainst": 5,
               "goalDifference": -4
-            },
-            {
-              "teamId": 39183,
-              "teamName": "佛得角",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
-              "games": 1,
-              "points": 1,
-              "wins": 0,
-              "draws": 1,
-              "losses": 0,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "goalDifference": 0
             }
           ],
           "group": "H组"
