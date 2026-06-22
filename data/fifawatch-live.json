@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 新西兰 vs 埃及（20'）",
+    "headline": "🟨  黄牌 新西兰 vs 埃及（34'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 新西兰 vs 埃及（20'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 34,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 新西兰 vs 埃及（34'）"
       },
       {
         "type": "kickoff",
@@ -539,15 +548,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！荷兰 5-1 瑞典",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 89,
-        "score": {
-          "a": 5,
-          "b": 1
-        },
-        "headline": "⚽  进球！荷兰 5-1 瑞典（89'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
