@@ -1,6 +1,6 @@
 [
   {
-    "matchId": null,
+    "matchId": "wc2026-040",
     "teamSlugs": [
       "new-zealand",
       "egypt"
@@ -10,79 +10,9 @@
       "b": 2
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！新西兰 1-2 埃及（67'）",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 15,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！新西兰 1-0 埃及（15'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 17,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（17'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 20,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（20'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 34,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（34'）"
-      },
-      {
-        "type": "goal",
-        "minute": 58,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！新西兰 1-1 埃及（58'）"
-      },
-      {
-        "type": "goal",
-        "minute": 67,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！新西兰 1-2 埃及（67'）"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！新西兰 1-0 埃及"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！新西兰 vs 埃及"
-      }
-    ]
+    "type": "live",
+    "headline": null,
+    "moments": []
   },
   {
     "matchId": null,
