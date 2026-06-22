@@ -492,15 +492,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 54,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "⚽  进球！荷兰 4-0 瑞典（54'）"
-      },
-      {
-        "type": "goal",
         "minute": 59,
         "score": {
           "a": 4,
