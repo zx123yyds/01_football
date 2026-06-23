@@ -2,6 +2,91 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "norway",
+      "senegal"
+    ],
+    "score": {
+      "a": 3,
+      "b": 2
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！挪威 3-2 塞内加尔",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 43,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！挪威 1-0 塞内加尔（43'）"
+      },
+      {
+        "type": "goal",
+        "minute": 48,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！挪威 2-0 塞内加尔（48'）"
+      },
+      {
+        "type": "goal",
+        "minute": 53,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！挪威 2-1 塞内加尔（53'）"
+      },
+      {
+        "type": "goal",
+        "minute": 58,
+        "score": {
+          "a": 3,
+          "b": 1
+        },
+        "headline": "⚽  进球！挪威 3-1 塞内加尔（58'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "⚽  进球！挪威 3-2 塞内加尔（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！挪威 3-2 塞内加尔"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！挪威 1-0 塞内加尔"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！挪威 vs 塞内加尔"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "france",
       "iraq"
     ],
@@ -72,37 +157,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！法国 vs 伊拉克"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "norway",
-      "senegal"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！挪威 1-0 塞内加尔（43'）",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 43,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！挪威 1-0 塞内加尔（43'）"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！挪威 vs 塞内加尔"
       }
     ]
   },
@@ -430,15 +484,6 @@
     "headline": "据 FIFA Watch：🏁 终场！比利时 0-0 伊朗",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 3,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 比利时 vs 伊朗（3'）"
-      },
-      {
         "type": "goal",
         "minute": 25,
         "score": {
@@ -482,64 +527,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！比利时 0-0 伊朗"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！比利时 vs 伊朗"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "spain",
-      "saudi-arabia"
-    ],
-    "score": {
-      "a": 4,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯",
-    "moments": [
-      {
-        "type": "owngoal",
-        "minute": 49,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "⚽  乌龙球！西班牙 4-0 沙特阿拉伯（49'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 60,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（60'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 5-0 沙特阿拉伯（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯"
       }
     ]
   }
