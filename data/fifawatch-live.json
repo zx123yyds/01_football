@@ -22,11 +22,11 @@
     ],
     "score": {
       "a": 1,
-      "b": 1
+      "b": 2
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！约旦 1-1 阿尔及利亚（69'）",
+    "headline": "⚽  进球！约旦 1-2 阿尔及利亚（82'）",
     "moments": [
       {
         "type": "goal",
@@ -63,6 +63,15 @@
           "b": 1
         },
         "headline": "⚽  进球！约旦 1-1 阿尔及利亚（69'）"
+      },
+      {
+        "type": "goal",
+        "minute": 82,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！约旦 1-2 阿尔及利亚（82'）"
       },
       {
         "type": "halftime",
@@ -359,15 +368,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！乌拉圭 2-2 佛得角",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 5,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（5'）"
-      },
       {
         "type": "yellowcard",
         "minute": 20,
