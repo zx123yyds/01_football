@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-23T22:00:55.984Z",
+  "generatedAt": "2026-06-23T22:37:54.107Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "cached-source-fallback",
   "sourceHealth": {
-    "checkedAt": "2026-06-23T22:00:55.130Z",
+    "checkedAt": "2026-06-23T22:37:53.323Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T22:00:54.515Z"
+          "updatedAt": "2026-06-23T22:37:52.829Z"
         },
-        "checkedAt": "2026-06-23T22:00:54.516Z"
+        "checkedAt": "2026-06-23T22:37:52.830Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T22:00:55.047Z"
+          "updatedAt": "2026-06-23T22:37:53.269Z"
         },
-        "checkedAt": "2026-06-23T22:00:55.047Z"
+        "checkedAt": "2026-06-23T22:37:53.270Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "HTTP 429; kept cached file",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T22:00:45.856Z"
+          "updatedAt": "2026-06-23T22:37:44.556Z"
         },
-        "checkedAt": "2026-06-23T22:00:55.130Z"
+        "checkedAt": "2026-06-23T22:37:53.323Z"
       }
     ]
   },
@@ -864,10 +864,10 @@
           "flag": "🇬🇧",
           "code": "ENG",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-          "games": 1,
-          "points": 3,
+          "games": 2,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 4,
           "goalsAgainst": 2,
@@ -880,10 +880,10 @@
           "flag": "🇬🇭",
           "code": "GHA",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114322467_200x200.png",
-          "games": 1,
-          "points": 3,
+          "games": 2,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 1,
           "goalsAgainst": 0,
