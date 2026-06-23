@@ -17,6 +17,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "jordan",
+      "algeria"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 约旦 vs 阿尔及利亚（44'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 36,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！约旦 1-0 阿尔及利亚（36'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 44,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 约旦 vs 阿尔及利亚（44'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！约旦 vs 阿尔及利亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "norway",
       "senegal"
     ],
@@ -405,24 +445,6 @@
     "headline": "据 FIFA Watch：🏁 终场！比利时 0-0 伊朗",
     "moments": [
       {
-        "type": "goal",
-        "minute": 25,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！比利时 0-1 伊朗（25'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 33,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 比利时 vs 伊朗（33'）"
-      },
-      {
         "type": "redcard",
         "minute": 66,
         "score": {
@@ -439,15 +461,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！比利时 0-0 伊朗"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！比利时 0-0 伊朗"
       }
     ]
   }
