@@ -285,8 +285,7 @@
               "losses": 1,
               "goalsFor": 0,
               "goalsAgainst": 1,
-              "goalDifference": -1,
-              "promotionColor": "#FD8755"
+              "goalDifference": -1
             },
             {
               "teamId": 54566,
@@ -574,29 +573,30 @@
               "promotionColor": "#FD8755"
             },
             {
-              "teamId": 39231,
-              "teamName": "约旦",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
-              "games": 1,
-              "points": 0,
-              "wins": 0,
-              "draws": 0,
-              "losses": 1,
-              "goalsFor": 1,
-              "goalsAgainst": 3,
-              "goalDifference": -2
-            },
-            {
               "teamId": 54962,
               "teamName": "阿尔及利亚",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png",
-              "games": 1,
+              "games": 2,
+              "points": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 1,
+              "goalsFor": 2,
+              "goalsAgainst": 4,
+              "goalDifference": -2,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39231,
+              "teamName": "约旦",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
+              "games": 2,
               "points": 0,
               "wins": 0,
               "draws": 0,
-              "losses": 1,
-              "goalsFor": 0,
-              "goalsAgainst": 3,
+              "losses": 2,
+              "goalsFor": 2,
+              "goalsAgainst": 5,
               "goalDifference": -3
             }
           ],
