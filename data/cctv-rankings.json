@@ -487,58 +487,58 @@
         {
           "ranking": [
             {
-              "teamId": 39055,
-              "teamName": "挪威",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-              "games": 1,
-              "points": 3,
-              "wins": 1,
-              "draws": 0,
-              "losses": 0,
-              "goalsFor": 4,
-              "goalsAgainst": 1,
-              "goalDifference": 3,
-              "promotionColor": "#FD8755"
-            },
-            {
               "teamId": 39063,
               "teamName": "法国",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-              "games": 1,
-              "points": 3,
-              "wins": 1,
+              "games": 2,
+              "points": 6,
+              "wins": 2,
               "draws": 0,
               "losses": 0,
-              "goalsFor": 3,
+              "goalsFor": 6,
               "goalsAgainst": 1,
-              "goalDifference": 2,
+              "goalDifference": 5,
+              "promotionColor": "#FD8755"
+            },
+            {
+              "teamId": 39055,
+              "teamName": "挪威",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+              "games": 2,
+              "points": 6,
+              "wins": 2,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 7,
+              "goalsAgainst": 3,
+              "goalDifference": 4,
               "promotionColor": "#FD8755"
             },
             {
               "teamId": 39206,
               "teamName": "塞内加尔",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png",
-              "games": 1,
+              "games": 2,
               "points": 0,
               "wins": 0,
               "draws": 0,
-              "losses": 1,
-              "goalsFor": 1,
-              "goalsAgainst": 3,
-              "goalDifference": -2
+              "losses": 2,
+              "goalsFor": 3,
+              "goalsAgainst": 6,
+              "goalDifference": -3
             },
             {
               "teamId": 39225,
               "teamName": "伊拉克",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20200106/20200106191908559_90x90.png",
-              "games": 1,
+              "games": 2,
               "points": 0,
               "wins": 0,
               "draws": 0,
-              "losses": 1,
+              "losses": 2,
               "goalsFor": 1,
-              "goalsAgainst": 4,
-              "goalDifference": -3
+              "goalsAgainst": 7,
+              "goalDifference": -6
             }
           ],
           "group": "I组"
