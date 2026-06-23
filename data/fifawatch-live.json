@@ -6,12 +6,12 @@
       "iraq"
     ],
     "score": {
-      "a": 2,
+      "a": 3,
       "b": 0
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！法国 2-0 伊拉克（54'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！法国 3-0 伊拉克",
     "moments": [
       {
         "type": "yellowcard",
@@ -41,6 +41,24 @@
         "headline": "⚽  进球！法国 2-0 伊拉克（54'）"
       },
       {
+        "type": "goal",
+        "minute": 66,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！法国 3-0 伊拉克（66'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！法国 3-0 伊拉克"
+      },
+      {
         "type": "halftime",
         "minute": null,
         "score": {
@@ -54,6 +72,37 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！法国 vs 伊拉克"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "norway",
+      "senegal"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！挪威 1-0 塞内加尔（43'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 43,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！挪威 1-0 塞内加尔（43'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！挪威 vs 塞内加尔"
       }
     ]
   },
@@ -457,24 +506,6 @@
     "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯",
     "moments": [
       {
-        "type": "goal",
-        "minute": 24,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 3-0 沙特阿拉伯（24'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 30,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 西班牙 vs 沙特阿拉伯（30'）"
-      },
-      {
         "type": "owngoal",
         "minute": 49,
         "score": {
@@ -509,15 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！西班牙 4-0 沙特阿拉伯"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯"
       }
     ]
   }
