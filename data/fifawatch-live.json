@@ -6,12 +6,12 @@
       "iraq"
     ],
     "score": {
-      "a": 0,
+      "a": 2,
       "b": 0
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！法国 0-0 伊拉克（14'）",
+    "headline": "⚽  进球！法国 2-0 伊拉克（54'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -30,6 +30,24 @@
           "b": 0
         },
         "headline": "⚽  进球！法国 0-0 伊拉克（14'）"
+      },
+      {
+        "type": "goal",
+        "minute": 54,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！法国 2-0 伊拉克（54'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！法国 1-0 伊拉克"
       },
       {
         "type": "kickoff",
@@ -440,24 +458,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 10,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）"
-      },
-      {
-        "type": "goal",
-        "minute": 21,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 2-0 沙特阿拉伯（21'）"
-      },
-      {
-        "type": "goal",
         "minute": 24,
         "score": {
           "a": 3,
@@ -518,12 +518,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！西班牙 vs 沙特阿拉伯"
       }
     ]
   }

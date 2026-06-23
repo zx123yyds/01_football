@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-23T00:00:48.739Z",
+  "generatedAt": "2026-06-23T00:20:04.094Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-23T00:00:48.158Z",
+    "checkedAt": "2026-06-23T00:20:03.379Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T00:00:47.377Z"
+          "updatedAt": "2026-06-23T00:20:02.606Z"
         },
-        "checkedAt": "2026-06-23T00:00:47.378Z"
+        "checkedAt": "2026-06-23T00:20:02.607Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T00:00:47.888Z"
+          "updatedAt": "2026-06-23T00:20:03.099Z"
         },
-        "checkedAt": "2026-06-23T00:00:47.889Z"
+        "checkedAt": "2026-06-23T00:20:03.100Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T00:00:48.157Z"
+          "updatedAt": "2026-06-23T00:20:03.378Z"
         },
-        "checkedAt": "2026-06-23T00:00:48.158Z"
+        "checkedAt": "2026-06-23T00:20:03.379Z"
       }
     ]
   },
@@ -941,19 +941,6 @@
     },
     {
       "rank": 2,
-      "playerId": 241256,
-      "playerName": "温达夫",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
-      "teamName": "德国",
-      "teamFlag": "🇩🇪",
-      "teamCode": "GER",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 2,
-      "goals": 3,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 3,
       "playerId": 420890,
       "playerName": "J·戴维",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
@@ -966,7 +953,33 @@
       "penaltyGoals": 0
     },
     {
+      "rank": 3,
+      "playerId": 241256,
+      "playerName": "温达夫",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
+      "teamName": "德国",
+      "teamFlag": "🇩🇪",
+      "teamCode": "GER",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
+      "games": 2,
+      "goals": 3,
+      "penaltyGoals": 0
+    },
+    {
       "rank": 4,
+      "playerId": 479371,
+      "playerName": "阿亚里",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614090145374_640x640.png",
+      "teamName": "瑞典",
+      "teamFlag": "🇸🇪",
+      "teamCode": "SWE",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260605/20260605105802096_250x250.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 5,
       "playerId": 520320,
       "playerName": "曼赞比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
@@ -974,19 +987,6 @@
       "teamFlag": "🇨🇭",
       "teamCode": "SUI",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 5,
-      "playerId": 238752,
-      "playerName": "拉林",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612140233327_640x640.png",
-      "teamName": "加拿大",
-      "teamFlag": "🇨🇦",
-      "teamCode": "CAN",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
@@ -1006,39 +1006,39 @@
     },
     {
       "rank": 7,
-      "playerId": 481347,
-      "playerName": "布罗比",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
-      "teamName": "荷兰",
-      "teamFlag": "🇳🇱",
-      "teamCode": "NED",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
+      "playerId": 483315,
+      "playerName": "赛巴里",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155744009_640x640.png",
+      "teamName": "摩洛哥",
+      "teamFlag": "🇲🇦",
+      "teamCode": "MAR",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
     },
     {
       "rank": 8,
-      "playerId": 464029,
-      "playerName": "巴洛贡",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182731482_554x554.png",
-      "teamName": "美国",
-      "teamFlag": "🇺🇸",
-      "teamCode": "USA",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
+      "playerId": 539959,
+      "playerName": "维尼修斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
+      "teamName": "巴西",
+      "teamFlag": "🇧🇷",
+      "teamCode": "BRA",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
     },
     {
       "rank": 9,
-      "playerId": 448112,
-      "playerName": "贾斯特",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
-      "teamName": "新西兰",
-      "teamFlag": "🇳🇿",
-      "teamCode": "NZL",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png",
+      "playerId": 417028,
+      "playerName": "M·阿劳霍",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615143133201_320x320.png",
+      "teamName": "乌拉圭",
+      "teamFlag": "🇺🇾",
+      "teamCode": "URU",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
@@ -1071,45 +1071,6 @@
     },
     {
       "rank": 12,
-      "playerId": 439711,
-      "playerName": "上田绮世",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172748246_320x320.png",
-      "teamName": "日本",
-      "teamFlag": "🇯🇵",
-      "teamCode": "JPN",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 13,
-      "playerId": 539959,
-      "playerName": "维尼修斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
-      "teamName": "巴西",
-      "teamFlag": "🇧🇷",
-      "teamCode": "BRA",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 14,
-      "playerId": 479371,
-      "playerName": "阿亚里",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614090145374_640x640.png",
-      "teamName": "瑞典",
-      "teamFlag": "🇸🇪",
-      "teamCode": "SWE",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260605/20260605105802096_250x250.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 15,
       "playerId": 438114,
       "playerName": "萨默维尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153744623_640x640.png",
@@ -1122,7 +1083,33 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 16,
+      "rank": 13,
+      "playerId": 238752,
+      "playerName": "拉林",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612140233327_640x640.png",
+      "teamName": "加拿大",
+      "teamFlag": "🇨🇦",
+      "teamCode": "CAN",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 14,
+      "playerId": 481347,
+      "playerName": "布罗比",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
+      "teamName": "荷兰",
+      "teamFlag": "🇳🇱",
+      "teamCode": "NED",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 15,
       "playerId": 245250,
       "playerName": "奥亚萨瓦尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
@@ -1135,7 +1122,33 @@
       "penaltyGoals": 0
     },
     {
+      "rank": 16,
+      "playerId": 464029,
+      "playerName": "巴洛贡",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182731482_554x554.png",
+      "teamName": "美国",
+      "teamFlag": "🇺🇸",
+      "teamCode": "USA",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
       "rank": 17,
+      "playerId": 448112,
+      "playerName": "贾斯特",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
+      "teamName": "新西兰",
+      "teamFlag": "🇳🇿",
+      "teamCode": "NZL",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 18,
       "playerId": 338587,
       "playerName": "姆巴佩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
@@ -1148,27 +1161,14 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 18,
-      "playerId": 483315,
-      "playerName": "赛巴里",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155744009_640x640.png",
-      "teamName": "摩洛哥",
-      "teamFlag": "🇲🇦",
-      "teamCode": "MAR",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
       "rank": 19,
-      "playerId": 417028,
-      "playerName": "M·阿劳霍",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615143133201_320x320.png",
-      "teamName": "乌拉圭",
-      "teamFlag": "🇺🇾",
-      "teamCode": "URU",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
+      "playerId": 439711,
+      "playerName": "上田绮世",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172748246_320x320.png",
+      "teamName": "日本",
+      "teamFlag": "🇯🇵",
+      "teamCode": "JPN",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
@@ -2446,24 +2446,6 @@
       "liveMoments": [
         {
           "type": "goal",
-          "minute": 10,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！西班牙 1-0 沙特阿拉伯（10'）"
-        },
-        {
-          "type": "goal",
-          "minute": 21,
-          "score": {
-            "a": 2,
-            "b": 0
-          },
-          "headline": "⚽  进球！西班牙 2-0 沙特阿拉伯（21'）"
-        },
-        {
-          "type": "goal",
           "minute": 24,
           "score": {
             "a": 3,
@@ -2524,12 +2506,6 @@
             "b": 0
           },
           "headline": "⏸️ 半场！西班牙 3-0 沙特阿拉伯"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！西班牙 vs 沙特阿拉伯"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -2956,7 +2932,7 @@
       "homeCode": "FRA",
       "awayCode": "IRQ",
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
@@ -2983,6 +2959,24 @@
             "b": 0
           },
           "headline": "⚽  进球！法国 0-0 伊拉克（14'）"
+        },
+        {
+          "type": "goal",
+          "minute": 54,
+          "score": {
+            "a": 2,
+            "b": 0
+          },
+          "headline": "⚽  进球！法国 2-0 伊拉克（54'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！法国 1-0 伊拉克"
         },
         {
           "type": "kickoff",
