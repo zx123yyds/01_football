@@ -49,7 +49,17 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
       "teamName": "加拿大",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 2,
+      "games": 3,
+      "goals": 3,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 520320,
+      "playerName": "曼赞比",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
+      "teamName": "瑞士",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
+      "games": 3,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -69,7 +79,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612140233327_640x640.png",
       "teamName": "加拿大",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -110,6 +120,16 @@
       "teamName": "荷兰",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
       "games": 2,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 367676,
+      "playerName": "巴尔加斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111909935_554x554.png",
+      "teamName": "瑞士",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
+      "games": 3,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -224,11 +244,11 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 520320,
-      "playerName": "曼赞比",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
-      "teamName": "瑞士",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
+      "playerId": 544612,
+      "playerName": "马哈米奇",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611094551389_640x640.png",
+      "teamName": "波黑",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png",
       "games": 2,
       "goals": 2,
       "penaltyKickGoals": 0
@@ -260,6 +280,16 @@
       "teamName": "克罗地亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
       "games": 1,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 217494,
+      "playerName": "海多斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150112254_320x320.png",
+      "teamName": "卡塔尔",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114449279_200x200.png",
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -534,16 +564,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 367676,
-      "playerName": "巴尔加斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111909935_554x554.png",
-      "teamName": "瑞士",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 434137,
       "playerName": "坎帕斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615165836611_320x320.png",
@@ -789,7 +809,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612133859767_640x640.png",
       "teamName": "加拿大",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 1,
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -874,6 +894,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 496827,
+      "playerName": "P·戴维",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611185218384_554x554.png",
+      "teamName": "加拿大",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
+      "games": 2,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 494984,
       "playerName": "布朗",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612160726184_640x640.png",
@@ -914,16 +944,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 544612,
-      "playerName": "马哈米奇",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611094551389_640x640.png",
-      "teamName": "波黑",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png",
-      "games": 1,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 525827,
       "playerName": "姆巴耶",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614135920942_640x640.png",
@@ -944,6 +964,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 531229,
+      "playerName": "阿拉伊贝戈维奇",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610152229178_640x640.png",
+      "teamName": "波黑",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png",
+      "games": 3,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 208452,
       "playerName": "阿瑙托维奇",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150018493_640x640.png",
@@ -959,7 +989,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613110713048_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 1
     },
@@ -969,17 +999,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613105712031_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 1
-    },
-    {
-      "playerId": 392236,
-      "playerName": "莫库纳",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610164447033_320x320.png",
-      "teamName": "南非",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160706910_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 1
     }
