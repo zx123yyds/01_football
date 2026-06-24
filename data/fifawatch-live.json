@@ -1,20 +1,5 @@
 [
   {
-    "matchId": "wc2026-047",
-    "teamSlugs": [
-      "portugal",
-      "uzbekistan"
-    ],
-    "score": {
-      "a": 5,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": null,
-    "moments": []
-  },
-  {
     "matchId": null,
     "teamSlugs": [
       "colombia",
@@ -212,6 +197,118 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！英格兰 vs 加纳"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "portugal",
+      "uzbekistan"
+    ],
+    "score": {
+      "a": 5,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 6,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 1-0 乌兹别克斯坦（6'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 14,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（14'）"
+      },
+      {
+        "type": "goal",
+        "minute": 17,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 2-0 乌兹别克斯坦（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 29,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 2-1 乌兹别克斯坦（29'）"
+      },
+      {
+        "type": "goal",
+        "minute": 39,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 3-0 乌兹别克斯坦（39'）"
+      },
+      {
+        "type": "owngoal",
+        "minute": 60,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "⚽  乌龙球！葡萄牙 4-0 乌兹别克斯坦（60'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 68,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（68'）"
+      },
+      {
+        "type": "goal",
+        "minute": 87,
+        "score": {
+          "a": 5,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 5-0 乌兹别克斯坦（87'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 5,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！葡萄牙 3-0 乌兹别克斯坦"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！葡萄牙 vs 乌兹别克斯坦"
       }
     ]
   },

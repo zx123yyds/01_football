@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-24T07:00:50.324Z",
+  "generatedAt": "2026-06-24T08:00:54.903Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-24T07:00:49.729Z",
+    "checkedAt": "2026-06-24T08:00:54.124Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T07:00:49.009Z"
+          "updatedAt": "2026-06-24T08:00:53.325Z"
         },
-        "checkedAt": "2026-06-24T07:00:49.010Z"
+        "checkedAt": "2026-06-24T08:00:53.326Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T07:00:49.562Z"
+          "updatedAt": "2026-06-24T08:00:53.976Z"
         },
-        "checkedAt": "2026-06-24T07:00:49.563Z"
+        "checkedAt": "2026-06-24T08:00:53.976Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T07:00:49.728Z"
+          "updatedAt": "2026-06-24T08:00:54.124Z"
         },
-        "checkedAt": "2026-06-24T07:00:49.729Z"
+        "checkedAt": "2026-06-24T08:00:54.124Z"
       }
     ]
   },
@@ -2901,7 +2901,104 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [],
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 6,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 1-0 乌兹别克斯坦（6'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 14,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（14'）"
+        },
+        {
+          "type": "goal",
+          "minute": 17,
+          "score": {
+            "a": 2,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 2-0 乌兹别克斯坦（17'）"
+        },
+        {
+          "type": "goal",
+          "minute": 29,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "⚽  进球！葡萄牙 2-1 乌兹别克斯坦（29'）"
+        },
+        {
+          "type": "goal",
+          "minute": 39,
+          "score": {
+            "a": 3,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 3-0 乌兹别克斯坦（39'）"
+        },
+        {
+          "type": "owngoal",
+          "minute": 60,
+          "score": {
+            "a": 4,
+            "b": 0
+          },
+          "headline": "⚽  乌龙球！葡萄牙 4-0 乌兹别克斯坦（60'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 68,
+          "score": {
+            "a": 4,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（68'）"
+        },
+        {
+          "type": "goal",
+          "minute": 87,
+          "score": {
+            "a": 5,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 5-0 乌兹别克斯坦（87'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 5,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 3,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！葡萄牙 3-0 乌兹别克斯坦"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！葡萄牙 vs 乌兹别克斯坦"
+        }
+      ],
       "scoreSource": "fifawatch-live"
     },
     {
