@@ -114,6 +114,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 434120,
+      "playerName": "穆尼奥斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164153976_640x640.png",
+      "teamName": "哥伦比亚",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 539959,
       "playerName": "维尼修斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
@@ -389,7 +399,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616113824442_640x640.png",
       "teamName": "刚果（金）",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-      "games": 1,
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -534,16 +544,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 434120,
-      "playerName": "穆尼奥斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164153976_640x640.png",
-      "teamName": "哥伦比亚",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-      "games": 1,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 434137,
       "playerName": "坎帕斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615165836611_320x320.png",
@@ -559,7 +559,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164734721_320x320.png",
       "teamName": "哥伦比亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-      "games": 1,
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },

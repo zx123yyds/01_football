@@ -24,9 +24,9 @@
       "a": 1,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)",
     "moments": [
       {
         "type": "yellowcard",
@@ -63,6 +63,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)"
       },
       {
         "type": "halftime",
@@ -390,15 +399,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！法国 3-0 伊拉克",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 6,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 法国 vs 伊拉克（6'）"
-      },
       {
         "type": "goal",
         "minute": 14,

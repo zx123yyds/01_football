@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-24T04:00:52.325Z",
+  "generatedAt": "2026-06-24T05:00:56.142Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-24T04:00:51.514Z",
+    "checkedAt": "2026-06-24T05:00:55.170Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T04:00:50.917Z"
+          "updatedAt": "2026-06-24T05:00:54.253Z"
         },
-        "checkedAt": "2026-06-24T04:00:50.917Z"
+        "checkedAt": "2026-06-24T05:00:54.254Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T04:00:51.321Z"
+          "updatedAt": "2026-06-24T05:00:55.062Z"
         },
-        "checkedAt": "2026-06-24T04:00:51.321Z"
+        "checkedAt": "2026-06-24T05:00:55.062Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T04:00:51.513Z"
+          "updatedAt": "2026-06-24T05:00:55.169Z"
         },
-        "checkedAt": "2026-06-24T04:00:51.513Z"
+        "checkedAt": "2026-06-24T05:00:55.170Z"
       }
     ]
   },
@@ -145,7 +145,7 @@
           "goalsFor": 2,
           "goalsAgainst": 3,
           "goalDifference": -1,
-          "promotionColor": ""
+          "promotionColor": "#FD8755"
         },
         {
           "rank": 4,
@@ -791,6 +791,22 @@
       "teams": [
         {
           "rank": 1,
+          "teamName": "哥伦比亚",
+          "flag": "🇨🇴",
+          "code": "COL",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
+          "games": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "promotionColor": "#FD8755"
+        },
+        {
+          "rank": 2,
           "teamName": "葡萄牙",
           "flag": "🇵🇹",
           "code": "POR",
@@ -806,36 +822,20 @@
           "promotionColor": "#FD8755"
         },
         {
-          "rank": 2,
-          "teamName": "哥伦比亚",
-          "flag": "🇨🇴",
-          "code": "COL",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-          "games": 1,
-          "points": 3,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "promotionColor": "#FD8755"
-        },
-        {
           "rank": 3,
           "teamName": "刚果（金）",
           "flag": "",
           "code": "",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-          "games": 1,
+          "games": 2,
           "points": 1,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
+          "losses": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "promotionColor": "#FD8755"
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "promotionColor": ""
         },
         {
           "rank": 4,
@@ -1071,6 +1071,19 @@
     },
     {
       "rank": 12,
+      "playerId": 434120,
+      "playerName": "穆尼奥斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164153976_640x640.png",
+      "teamName": "哥伦比亚",
+      "teamFlag": "🇨🇴",
+      "teamCode": "COL",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
+      "games": 2,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 13,
       "playerId": 539959,
       "playerName": "维尼修斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
@@ -1083,7 +1096,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 13,
+      "rank": 14,
       "playerId": 384473,
       "playerName": "库尼亚",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154818063_320x320.png",
@@ -1096,7 +1109,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "playerId": 438114,
       "playerName": "萨默维尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153744623_640x640.png",
@@ -1109,7 +1122,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "playerId": 448112,
       "playerName": "贾斯特",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
@@ -1122,7 +1135,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 16,
+      "rank": 17,
       "playerId": 481347,
       "playerName": "布罗比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
@@ -1135,7 +1148,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 17,
+      "rank": 18,
       "playerId": 417028,
       "playerName": "M·阿劳霍",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615143133201_320x320.png",
@@ -1148,7 +1161,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 18,
+      "rank": 19,
       "playerId": 464029,
       "playerName": "巴洛贡",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182731482_554x554.png",
@@ -1161,7 +1174,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 19,
+      "rank": 20,
       "playerId": 439711,
       "playerName": "上田绮世",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172748246_320x320.png",
@@ -1169,19 +1182,6 @@
       "teamFlag": "🇯🇵",
       "teamCode": "JPN",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 20,
-      "playerId": 483315,
-      "playerName": "赛巴里",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155744009_640x640.png",
-      "teamName": "摩洛哥",
-      "teamFlag": "🇲🇦",
-      "teamCode": "MAR",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
@@ -2615,15 +2615,6 @@
       },
       "liveMoments": [
         {
-          "type": "yellowcard",
-          "minute": 6,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 法国 vs 伊拉克（6'）"
-        },
-        {
           "type": "goal",
           "minute": 14,
           "score": {
@@ -3104,8 +3095,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -3143,6 +3134,15 @@
             "b": 0
           },
           "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)"
         },
         {
           "type": "halftime",

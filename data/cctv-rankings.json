@@ -46,7 +46,8 @@
               "losses": 1,
               "goalsFor": 2,
               "goalsAgainst": 3,
-              "goalDifference": -1
+              "goalDifference": -1,
+              "promotionColor": "#FD8755"
             },
             {
               "teamId": 39195,
@@ -604,6 +605,20 @@
         {
           "ranking": [
             {
+              "teamId": 39169,
+              "teamName": "哥伦比亚",
+              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
+              "games": 2,
+              "points": 6,
+              "wins": 2,
+              "draws": 0,
+              "losses": 0,
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "goalDifference": 3,
+              "promotionColor": "#FD8755"
+            },
+            {
               "teamId": 39159,
               "teamName": "葡萄牙",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
@@ -618,32 +633,17 @@
               "promotionColor": "#FD8755"
             },
             {
-              "teamId": 39169,
-              "teamName": "哥伦比亚",
-              "logoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-              "games": 1,
-              "points": 3,
-              "wins": 1,
-              "draws": 0,
-              "losses": 0,
-              "goalsFor": 3,
-              "goalsAgainst": 1,
-              "goalDifference": 2,
-              "promotionColor": "#FD8755"
-            },
-            {
               "teamId": 39202,
               "teamName": "刚果（金）",
               "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-              "games": 1,
+              "games": 2,
               "points": 1,
               "wins": 0,
               "draws": 1,
-              "losses": 0,
+              "losses": 1,
               "goalsFor": 1,
-              "goalsAgainst": 1,
-              "goalDifference": 0,
-              "promotionColor": "#FD8755"
+              "goalsAgainst": 2,
+              "goalDifference": -1
             },
             {
               "teamId": 39226,
