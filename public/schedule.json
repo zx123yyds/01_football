@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-24T03:00:53.261Z",
+  "generatedAt": "2026-06-24T04:00:52.325Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-24T03:00:52.411Z",
+    "checkedAt": "2026-06-24T04:00:51.514Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T03:00:51.585Z"
+          "updatedAt": "2026-06-24T04:00:50.917Z"
         },
-        "checkedAt": "2026-06-24T03:00:51.586Z"
+        "checkedAt": "2026-06-24T04:00:50.917Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T03:00:52.095Z"
+          "updatedAt": "2026-06-24T04:00:51.321Z"
         },
-        "checkedAt": "2026-06-24T03:00:52.096Z"
+        "checkedAt": "2026-06-24T04:00:51.321Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T03:00:52.410Z"
+          "updatedAt": "2026-06-24T04:00:51.513Z"
         },
-        "checkedAt": "2026-06-24T03:00:52.411Z"
+        "checkedAt": "2026-06-24T04:00:51.513Z"
       }
     ]
   },
@@ -2570,54 +2570,17 @@
       "homeCode": "ARG",
       "awayCode": "AUT",
       "score": {
-        "home": 2,
-        "away": 0,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 76,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 奥地利（76'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 2,
-            "b": 0
-          },
-          "headline": "⚽  进球！阿根廷 2-0 奥地利（90'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 奥地利（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 0
-          },
-          "headline": "据 FIFA Watch：🏁 终场！阿根廷 2-0 奥地利"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m042",
@@ -2704,12 +2667,6 @@
             "b": 0
           },
           "headline": "⏸️ 半场！法国 1-0 伊拉克"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！法国 vs 伊拉克"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3141,17 +3098,69 @@
       "homeCode": "COL",
       "awayCode": "COD",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 56,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（56'）"
+        },
+        {
+          "type": "goal",
+          "minute": 76,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！哥伦比亚 1-0 刚果(金)（76'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！哥伦比亚 0-0 刚果(金)"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！哥伦比亚 vs 刚果(金)"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m052",
