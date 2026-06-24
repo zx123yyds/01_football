@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-23T23:41:33.986Z",
+  "generatedAt": "2026-06-24T00:00:56.924Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-23T23:41:33.383Z",
+    "checkedAt": "2026-06-24T00:00:56.091Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T23:41:32.882Z"
+          "updatedAt": "2026-06-24T00:00:55.539Z"
         },
-        "checkedAt": "2026-06-23T23:41:32.884Z"
+        "checkedAt": "2026-06-24T00:00:55.539Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,25 +30,25 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T23:41:33.317Z"
+          "updatedAt": "2026-06-24T00:00:56.018Z"
         },
-        "checkedAt": "2026-06-23T23:41:33.318Z"
+        "checkedAt": "2026-06-24T00:00:56.018Z"
       },
       {
         "name": "FIFA Watch live scores",
         "url": "https://fifawatch.com/api/match-live.json?lang=zh",
-        "ok": false,
-        "mode": "cached",
-        "message": "HTTP 429; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-23T23:41:27.030Z"
+          "updatedAt": "2026-06-24T00:00:56.091Z"
         },
-        "checkedAt": "2026-06-23T23:41:33.383Z"
+        "checkedAt": "2026-06-24T00:00:56.091Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -2502,90 +2502,17 @@
       "homeCode": "URU",
       "awayCode": "CPV",
       "score": {
-        "home": 2,
-        "away": 2,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 21,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）"
-        },
-        {
-          "type": "goal",
-          "minute": 44,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）"
-        },
-        {
-          "type": "goal",
-          "minute": 45,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "⚽  进球！乌拉圭 2-1 佛得角（45'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 58,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 乌拉圭 vs 佛得角（58'）"
-        },
-        {
-          "type": "goal",
-          "minute": 61,
-          "score": {
-            "a": 2,
-            "b": 2
-          },
-          "headline": "⚽  进球！乌拉圭 2-2 佛得角（61'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 2,
-            "b": 2
-          },
-          "headline": "🟨  黄牌 乌拉圭 vs 佛得角（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 2
-          },
-          "headline": "据 FIFA Watch：🏁 终场！乌拉圭 2-2 佛得角"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "⏸️ 半场！乌拉圭 2-1 佛得角"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m040",
@@ -2620,69 +2547,6 @@
       },
       "liveMoments": [
         {
-          "type": "goal",
-          "minute": 15,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！新西兰 1-0 埃及（15'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 17,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 新西兰 vs 埃及（17'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 20,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 新西兰 vs 埃及（20'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 34,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 新西兰 vs 埃及（34'）"
-        },
-        {
-          "type": "goal",
-          "minute": 58,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "⚽  进球！新西兰 1-1 埃及（58'）"
-        },
-        {
-          "type": "goal",
-          "minute": 67,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "⚽  进球！新西兰 1-2 埃及（67'）"
-        },
-        {
-          "type": "goal",
-          "minute": 82,
-          "score": {
-            "a": 1,
-            "b": 3
-          },
-          "headline": "⚽  进球！新西兰 1-3 埃及（82'）"
-        },
-        {
           "type": "fulltime",
           "minute": null,
           "score": {
@@ -2690,21 +2554,6 @@
             "b": 3
           },
           "headline": "据 FIFA Watch：🏁 终场！新西兰 1-3 埃及"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！新西兰 1-0 埃及"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！新西兰 vs 埃及"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3147,17 +2996,114 @@
       "homeCode": "POR",
       "awayCode": "UZB",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 5,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "played",
+        "zh": "已结束"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 6,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 1-0 乌兹别克斯坦（6'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 14,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（14'）"
+        },
+        {
+          "type": "goal",
+          "minute": 17,
+          "score": {
+            "a": 2,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 2-0 乌兹别克斯坦（17'）"
+        },
+        {
+          "type": "goal",
+          "minute": 29,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "⚽  进球！葡萄牙 2-1 乌兹别克斯坦（29'）"
+        },
+        {
+          "type": "goal",
+          "minute": 39,
+          "score": {
+            "a": 3,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 3-0 乌兹别克斯坦（39'）"
+        },
+        {
+          "type": "owngoal",
+          "minute": 60,
+          "score": {
+            "a": 4,
+            "b": 0
+          },
+          "headline": "⚽  乌龙球！葡萄牙 4-0 乌兹别克斯坦（60'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 68,
+          "score": {
+            "a": 4,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（68'）"
+        },
+        {
+          "type": "goal",
+          "minute": 87,
+          "score": {
+            "a": 5,
+            "b": 0
+          },
+          "headline": "⚽  进球！葡萄牙 5-0 乌兹别克斯坦（87'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 5,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 3,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！葡萄牙 3-0 乌兹别克斯坦"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！葡萄牙 vs 乌兹别克斯坦"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m045",
@@ -3181,17 +3127,60 @@
       "homeCode": "ENG",
       "awayCode": "GHA",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "played",
+        "zh": "已结束"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 41,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 英格兰 vs 加纳（41'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 60,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 英格兰 vs 加纳（60'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！英格兰 0-0 加纳"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！英格兰 0-0 加纳"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！英格兰 vs 加纳"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m046",

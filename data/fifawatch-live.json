@@ -2,6 +2,176 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "england",
+      "ghana"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！英格兰 0-0 加纳",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 41,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 英格兰 vs 加纳（41'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 60,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 英格兰 vs 加纳（60'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！英格兰 0-0 加纳"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！英格兰 0-0 加纳"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！英格兰 vs 加纳"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "portugal",
+      "uzbekistan"
+    ],
+    "score": {
+      "a": 5,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 6,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 1-0 乌兹别克斯坦（6'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 14,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（14'）"
+      },
+      {
+        "type": "goal",
+        "minute": 17,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 2-0 乌兹别克斯坦（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 29,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 2-1 乌兹别克斯坦（29'）"
+      },
+      {
+        "type": "goal",
+        "minute": 39,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 3-0 乌兹别克斯坦（39'）"
+      },
+      {
+        "type": "owngoal",
+        "minute": 60,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "⚽  乌龙球！葡萄牙 4-0 乌兹别克斯坦（60'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 68,
+        "score": {
+          "a": 4,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 乌兹别克斯坦（68'）"
+      },
+      {
+        "type": "goal",
+        "minute": 87,
+        "score": {
+          "a": 5,
+          "b": 0
+        },
+        "headline": "⚽  进球！葡萄牙 5-0 乌兹别克斯坦（87'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 5,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 5-0 乌兹别克斯坦"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！葡萄牙 3-0 乌兹别克斯坦"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！葡萄牙 vs 乌兹别克斯坦"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "jordan",
       "algeria"
     ],
@@ -354,69 +524,6 @@
     "headline": "据 FIFA Watch：🏁 终场！新西兰 1-3 埃及",
     "moments": [
       {
-        "type": "goal",
-        "minute": 15,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！新西兰 1-0 埃及（15'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 17,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（17'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 20,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（20'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 34,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 新西兰 vs 埃及（34'）"
-      },
-      {
-        "type": "goal",
-        "minute": 58,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！新西兰 1-1 埃及（58'）"
-      },
-      {
-        "type": "goal",
-        "minute": 67,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！新西兰 1-2 埃及（67'）"
-      },
-      {
-        "type": "goal",
-        "minute": 82,
-        "score": {
-          "a": 1,
-          "b": 3
-        },
-        "headline": "⚽  进球！新西兰 1-3 埃及（82'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -424,109 +531,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！新西兰 1-3 埃及"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！新西兰 1-0 埃及"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！新西兰 vs 埃及"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "uruguay",
-      "cabo-verde"
-    ],
-    "score": {
-      "a": 2,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！乌拉圭 2-2 佛得角",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 21,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！乌拉圭 0-1 佛得角（21'）"
-      },
-      {
-        "type": "goal",
-        "minute": 44,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！乌拉圭 1-1 佛得角（44'）"
-      },
-      {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！乌拉圭 2-1 佛得角（45'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 58,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（58'）"
-      },
-      {
-        "type": "goal",
-        "minute": 61,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "⚽  进球！乌拉圭 2-2 佛得角（61'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 佛得角（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！乌拉圭 2-2 佛得角"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！乌拉圭 2-1 佛得角"
       }
     ]
   }
