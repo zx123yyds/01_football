@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-24T02:00:50.969Z",
+  "generatedAt": "2026-06-24T03:00:53.261Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-24T02:00:50.159Z",
+    "checkedAt": "2026-06-24T03:00:52.411Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T02:00:49.579Z"
+          "updatedAt": "2026-06-24T03:00:51.585Z"
         },
-        "checkedAt": "2026-06-24T02:00:49.580Z"
+        "checkedAt": "2026-06-24T03:00:51.586Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T02:00:49.879Z"
+          "updatedAt": "2026-06-24T03:00:52.095Z"
         },
-        "checkedAt": "2026-06-24T02:00:49.881Z"
+        "checkedAt": "2026-06-24T03:00:52.096Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-24T02:00:50.158Z"
+          "updatedAt": "2026-06-24T03:00:52.410Z"
         },
-        "checkedAt": "2026-06-24T02:00:50.159Z"
+        "checkedAt": "2026-06-24T03:00:52.411Z"
       }
     ]
   },
@@ -2580,15 +2580,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 76,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 奥地利（76'）"
-        },
         {
           "type": "yellowcard",
           "minute": 76,

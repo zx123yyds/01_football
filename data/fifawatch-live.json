@@ -409,15 +409,6 @@
         "headline": "🟨  黄牌 阿根廷 vs 奥地利（76'）"
       },
       {
-        "type": "yellowcard",
-        "minute": 76,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 阿根廷 vs 奥地利（76'）"
-      },
-      {
         "type": "goal",
         "minute": 90,
         "score": {
