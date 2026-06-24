@@ -244,6 +244,16 @@
       "penaltyKickGoals": 1
     },
     {
+      "playerId": 210809,
+      "playerName": "布迪米尔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140505977_640x640.png",
+      "teamName": "克罗地亚",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
+      "games": 1,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 223318,
       "playerName": "范戴克",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610152751833_640x640.png",
@@ -439,7 +449,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140307907_640x640.png",
       "teamName": "克罗地亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
-      "games": 1,
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -789,7 +799,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140209156_640x640.png",
       "teamName": "克罗地亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
-      "games": 1,
+      "games": 2,
       "goals": 1,
       "penaltyKickGoals": 0
     },
