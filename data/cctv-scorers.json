@@ -49,7 +49,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -100,6 +100,16 @@
       "teamName": "葡萄牙",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
       "games": 2,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 340758,
+      "playerName": "佩佩",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610164854348_640x640.png",
+      "teamName": "科特迪瓦",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
+      "games": 3,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -279,7 +289,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 2,
       "penaltyKickGoals": 1
     },
@@ -344,6 +354,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 230456,
+      "playerName": "萨内",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162904292_640x640.png",
+      "teamName": "德国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
+      "games": 3,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 230533,
       "playerName": "特雷泽盖",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613213120854_320x320.jpg",
@@ -359,7 +379,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610165042100_640x640.png",
       "teamName": "科特迪瓦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -649,7 +669,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162006989_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -670,6 +690,16 @@
       "teamName": "墨西哥",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
       "games": 2,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 422489,
+      "playerName": "普拉塔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614083312113_640x640.png",
+      "teamName": "厄瓜多尔",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -779,7 +809,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610163444911_640x640.png",
       "teamName": "科特迪瓦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -789,7 +819,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612161120931_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -864,6 +894,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 487804,
+      "playerName": "安古洛",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614081028374_640x640.png",
+      "teamName": "厄瓜多尔",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
+      "games": 3,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 492242,
       "playerName": "法伊祖拉耶夫",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260617/20260617094714057_320x320.png",
@@ -879,7 +919,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612164516264_640x640.png",
       "teamName": "库拉索",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20170705/20170705144258812_100x100.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -960,46 +1000,6 @@
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
       "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 488704,
-      "playerName": "亚马尔",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141409948_320x320.png",
-      "teamName": "西班牙",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 497108,
-      "playerName": "M·查韦斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610151944634_320x320.png",
-      "teamName": "墨西哥",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
-      "games": 1,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 559387,
-      "playerName": "济科",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613213342377_320x320.jpg",
-      "teamName": "埃及",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
-      "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 498057,
-      "playerName": "埃利奥",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615163835780_554x554.png",
-      "teamName": "佛得角",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
-      "games": 1,
       "goals": 1,
       "penaltyKickGoals": 0
     }
