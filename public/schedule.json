@@ -1,26 +1,26 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-25T01:00:47.737Z",
+  "generatedAt": "2026-06-25T02:01:02.784Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "live-sources",
+  "dataMode": "cached-source-fallback",
   "sourceHealth": {
-    "checkedAt": "2026-06-25T01:00:47.122Z",
+    "checkedAt": "2026-06-25T02:01:01.602Z",
     "sources": [
       {
         "name": "CCTV standings",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-        "ok": true,
-        "mode": "live",
-        "message": "updated from remote source",
+        "ok": false,
+        "mode": "cached",
+        "message": "fetch failed; kept cached file",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T01:00:46.506Z"
+          "updatedAt": "2026-06-25T02:00:40.607Z"
         },
-        "checkedAt": "2026-06-25T01:00:46.507Z"
+        "checkedAt": "2026-06-25T02:00:59.460Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T01:00:46.959Z"
+          "updatedAt": "2026-06-25T02:01:01.410Z"
         },
-        "checkedAt": "2026-06-25T01:00:46.960Z"
+        "checkedAt": "2026-06-25T02:01:01.411Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T01:00:47.121Z"
+          "updatedAt": "2026-06-25T02:01:01.601Z"
         },
-        "checkedAt": "2026-06-25T01:00:47.121Z"
+        "checkedAt": "2026-06-25T02:01:01.602Z"
       }
     ]
   },
@@ -2784,24 +2784,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 61,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 巴拿马 vs 克罗地亚（61'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 巴拿马 vs 克罗地亚（90'）"
-        },
         {
           "type": "fulltime",
           "minute": null,

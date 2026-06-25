@@ -502,24 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 61,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴拿马 vs 克罗地亚（61'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴拿马 vs 克罗地亚（90'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
