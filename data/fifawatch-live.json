@@ -9,9 +9,9 @@
       "a": 4,
       "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 摩洛哥 vs 海地（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地",
     "moments": [
       {
         "type": "goal",
@@ -95,6 +95,15 @@
         "headline": "🟨  黄牌 摩洛哥 vs 海地（90'）"
       },
       {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 4,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地"
+      },
+      {
         "type": "halftime",
         "minute": null,
         "score": {
@@ -121,9 +130,9 @@
       "a": 0,
       "b": 3
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 苏格兰 vs 巴西（89'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西",
     "moments": [
       {
         "type": "goal",
@@ -187,6 +196,15 @@
           "b": 3
         },
         "headline": "🟨  黄牌 苏格兰 vs 巴西（89'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西"
       },
       {
         "type": "halftime",
@@ -484,15 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚",
     "moments": [
       {
-        "type": "goal",
-        "minute": 54,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！巴拿马 0-1 克罗地亚（54'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 61,
         "score": {
@@ -518,15 +527,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！巴拿马 0-0 克罗地亚"
       }
     ]
   }
