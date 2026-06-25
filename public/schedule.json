@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-25T03:00:50.788Z",
+  "generatedAt": "2026-06-25T04:00:47.939Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-25T03:00:50.268Z",
+    "checkedAt": "2026-06-25T04:00:47.136Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T03:00:49.571Z"
+          "updatedAt": "2026-06-25T04:00:46.431Z"
         },
-        "checkedAt": "2026-06-25T03:00:49.572Z"
+        "checkedAt": "2026-06-25T04:00:46.431Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T03:00:50.095Z"
+          "updatedAt": "2026-06-25T04:00:46.988Z"
         },
-        "checkedAt": "2026-06-25T03:00:50.096Z"
+        "checkedAt": "2026-06-25T04:00:46.988Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T03:00:50.267Z"
+          "updatedAt": "2026-06-25T04:00:47.136Z"
         },
-        "checkedAt": "2026-06-25T03:00:50.268Z"
+        "checkedAt": "2026-06-25T04:00:47.136Z"
       }
     ]
   },
@@ -105,62 +105,62 @@
           "flag": "🇲🇽",
           "code": "MEX",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
-          "games": 2,
-          "points": 6,
-          "wins": 2,
+          "games": 3,
+          "points": 9,
+          "wins": 3,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 3,
+          "goalsFor": 6,
           "goalsAgainst": 0,
-          "goalDifference": 3,
+          "goalDifference": 6,
           "promotionColor": "#FD8755"
         },
         {
           "rank": 2,
-          "teamName": "韩国",
-          "flag": "🇰🇷",
-          "code": "KOR",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114343886_200x200.png",
-          "games": 2,
-          "points": 3,
+          "teamName": "南非",
+          "flag": "🇿🇦",
+          "code": "RSA",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160706910_90x90.png",
+          "games": 3,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "promotionColor": "#FD8755"
-        },
-        {
-          "rank": 3,
-          "teamName": "捷克",
-          "flag": "🇨🇿",
-          "code": "CZE",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071910512_200x200.png",
-          "games": 2,
-          "points": 1,
-          "wins": 0,
           "draws": 1,
           "losses": 1,
           "goalsFor": 2,
           "goalsAgainst": 3,
           "goalDifference": -1,
-          "promotionColor": ""
+          "promotionColor": "#FD8755"
+        },
+        {
+          "rank": 3,
+          "teamName": "韩国",
+          "flag": "🇰🇷",
+          "code": "KOR",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114343886_200x200.png",
+          "games": 3,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "promotionColor": "#FD8755"
         },
         {
           "rank": 4,
-          "teamName": "南非",
-          "flag": "🇿🇦",
-          "code": "RSA",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160706910_90x90.png",
-          "games": 2,
+          "teamName": "捷克",
+          "flag": "🇨🇿",
+          "code": "CZE",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071910512_200x200.png",
+          "games": 3,
           "points": 1,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4,
           "promotionColor": ""
         }
       ]
@@ -559,7 +559,7 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0,
-          "promotionColor": "#FD8755"
+          "promotionColor": ""
         },
         {
           "rank": 4,
@@ -1097,6 +1097,19 @@
     },
     {
       "rank": 14,
+      "playerId": 364750,
+      "playerName": "基尼奥内斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150653665_320x320.png",
+      "teamName": "墨西哥",
+      "teamFlag": "🇲🇽",
+      "teamCode": "MEX",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
+      "games": 3,
+      "goals": 2,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 15,
       "playerId": 354190,
       "playerName": "I·萨尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
@@ -1109,7 +1122,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "playerId": 414143,
       "playerName": "加克波",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153110894_640x640.png",
@@ -1122,7 +1135,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 16,
+      "rank": 17,
       "playerId": 367676,
       "playerName": "巴尔加斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111909935_554x554.png",
@@ -1135,7 +1148,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 17,
+      "rank": 18,
       "playerId": 434120,
       "playerName": "穆尼奥斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164153976_640x640.png",
@@ -1148,7 +1161,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 18,
+      "rank": 19,
       "playerId": 438114,
       "playerName": "萨默维尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153744623_640x640.png",
@@ -1161,7 +1174,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 19,
+      "rank": 20,
       "playerId": 448112,
       "playerName": "贾斯特",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
@@ -1169,19 +1182,6 @@
       "teamFlag": "🇳🇿",
       "teamCode": "NZL",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160250868_90x90.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 20,
-      "playerId": 481347,
-      "playerName": "布罗比",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
-      "teamName": "荷兰",
-      "teamFlag": "🇳🇱",
-      "teamCode": "NED",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
       "games": 2,
       "goals": 2,
       "penaltyGoals": 0
