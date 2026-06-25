@@ -1,26 +1,26 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-25T02:01:02.784Z",
+  "generatedAt": "2026-06-25T02:36:56.939Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-25T02:01:01.602Z",
+    "checkedAt": "2026-06-25T02:36:55.974Z",
     "sources": [
       {
         "name": "CCTV standings",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T02:00:40.607Z"
+          "updatedAt": "2026-06-25T02:36:55.417Z"
         },
-        "checkedAt": "2026-06-25T02:00:59.460Z"
+        "checkedAt": "2026-06-25T02:36:55.418Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T02:01:01.410Z"
+          "updatedAt": "2026-06-25T02:36:55.860Z"
         },
-        "checkedAt": "2026-06-25T02:01:01.411Z"
+        "checkedAt": "2026-06-25T02:36:55.861Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T02:01:01.601Z"
+          "updatedAt": "2026-06-25T02:36:55.973Z"
         },
-        "checkedAt": "2026-06-25T02:01:01.602Z"
+        "checkedAt": "2026-06-25T02:36:55.974Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -2774,27 +2774,17 @@
       "homeCode": "PAN",
       "awayCode": "CRO",
       "score": {
-        "home": 0,
-        "away": 1,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m048",
@@ -2829,42 +2819,6 @@
       },
       "liveMoments": [
         {
-          "type": "yellowcard",
-          "minute": 56,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（56'）"
-        },
-        {
-          "type": "goal",
-          "minute": 76,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！哥伦比亚 1-0 刚果(金)（76'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
-        },
-        {
           "type": "fulltime",
           "minute": null,
           "score": {
@@ -2872,21 +2826,6 @@
             "b": 0
           },
           "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！哥伦比亚 0-0 刚果(金)"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！哥伦比亚 vs 刚果(金)"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3322,17 +3261,60 @@
       "homeCode": "CZE",
       "awayCode": "MEX",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 55,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  进球！捷克 0-1 墨西哥（55'）"
+        },
+        {
+          "type": "goal",
+          "minute": 61,
+          "score": {
+            "a": 0,
+            "b": 2
+          },
+          "headline": "⚽  进球！捷克 0-2 墨西哥（61'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 64,
+          "score": {
+            "a": 0,
+            "b": 2
+          },
+          "headline": "🟨  黄牌 捷克 vs 墨西哥（64'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！捷克 0-0 墨西哥"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！捷克 vs 墨西哥"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m053",
@@ -3356,17 +3338,51 @@
       "homeCode": "RSA",
       "awayCode": "KOR",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 63,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！南非 1-0 韩国（63'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 73,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 南非 vs 韩国（73'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！南非 0-0 韩国"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！南非 vs 韩国"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m055",

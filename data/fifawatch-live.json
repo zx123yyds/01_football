@@ -2,6 +2,113 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "south-africa",
+      "south-korea"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 南非 vs 韩国（73'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 63,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！南非 1-0 韩国（63'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 73,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！南非 0-0 韩国"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！南非 vs 韩国"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "czechia",
+      "mexico"
+    ],
+    "score": {
+      "a": 0,
+      "b": 2
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！捷克 0-2 墨西哥（61'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 55,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！捷克 0-1 墨西哥（55'）"
+      },
+      {
+        "type": "goal",
+        "minute": 61,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！捷克 0-2 墨西哥（61'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 64,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 捷克 vs 墨西哥（64'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！捷克 0-0 墨西哥"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！捷克 vs 墨西哥"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "morocco",
       "haiti"
     ],
@@ -426,42 +533,6 @@
     "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 56,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（56'）"
-      },
-      {
-        "type": "goal",
-        "minute": 76,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！哥伦比亚 1-0 刚果(金)（76'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 刚果(金)（90'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -469,46 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！哥伦比亚 0-0 刚果(金)"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！哥伦比亚 vs 刚果(金)"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "panama",
-      "croatia"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-1 克罗地亚"
       }
     ]
   }
