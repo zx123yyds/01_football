@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "wc2026-054",
+    "teamSlugs": [
+      "south-africa",
+      "south-korea"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": null,
+    "moments": []
+  },
+  {
     "matchId": null,
     "teamSlugs": [
       "czechia",
@@ -72,73 +87,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！捷克 vs 墨西哥"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "south-africa",
-      "south-korea"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 63,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！南非 1-0 韩国（63'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 73,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 79,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 韩国（79'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！南非 0-0 韩国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！南非 vs 韩国"
       }
     ]
   },
