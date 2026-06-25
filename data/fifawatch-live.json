@@ -2,65 +2,16 @@
   {
     "matchId": null,
     "teamSlugs": [
-      "south-africa",
-      "south-korea"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 南非 vs 韩国（73'）",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 63,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！南非 1-0 韩国（63'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 73,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！南非 0-0 韩国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！南非 vs 韩国"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
       "czechia",
       "mexico"
     ],
     "score": {
       "a": 0,
-      "b": 2
+      "b": 3
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！捷克 0-2 墨西哥（61'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥",
     "moments": [
       {
         "type": "goal",
@@ -90,6 +41,24 @@
         "headline": "🟨  黄牌 捷克 vs 墨西哥（64'）"
       },
       {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！捷克 0-2 墨西哥（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥"
+      },
+      {
         "type": "halftime",
         "minute": null,
         "score": {
@@ -103,6 +72,73 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！捷克 vs 墨西哥"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "south-africa",
+      "south-korea"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 63,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！南非 1-0 韩国（63'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 73,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 79,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 韩国（79'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！南非 0-0 韩国"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！南非 vs 韩国"
       }
     ]
   },
@@ -345,15 +381,6 @@
     "headline": "据 FIFA Watch：🏁 终场！波黑 3-1 卡塔尔",
     "moments": [
       {
-        "type": "goal",
-        "minute": 29,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！波黑 1-0 卡塔尔（29'）"
-      },
-      {
         "type": "owngoal",
         "minute": 34,
         "score": {
@@ -415,12 +442,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！波黑 2-1 卡塔尔"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！波黑 vs 卡塔尔"
       }
     ]
   },
@@ -509,37 +530,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！瑞士 1-0 加拿大"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！瑞士 vs 加拿大"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "colombia",
-      "congo-dr"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 刚果(金)"
       }
     ]
   }
