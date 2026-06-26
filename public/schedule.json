@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-26T20:59:56.409Z",
+  "generatedAt": "2026-06-26T21:00:50.634Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-26T20:59:55.825Z",
+    "checkedAt": "2026-06-26T21:00:49.791Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T20:59:55.014Z"
+          "updatedAt": "2026-06-26T21:00:48.972Z"
         },
-        "checkedAt": "2026-06-26T20:59:55.015Z"
+        "checkedAt": "2026-06-26T21:00:48.972Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T20:59:55.538Z"
+          "updatedAt": "2026-06-26T21:00:49.519Z"
         },
-        "checkedAt": "2026-06-26T20:59:55.538Z"
+        "checkedAt": "2026-06-26T21:00:49.519Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T20:59:55.824Z"
+          "updatedAt": "2026-06-26T21:00:49.791Z"
         },
-        "checkedAt": "2026-06-26T20:59:55.824Z"
+        "checkedAt": "2026-06-26T21:00:49.791Z"
       }
     ]
   },
-  "liveScoreUpdates": 7,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
@@ -3229,15 +3229,6 @@
       },
       "liveMoments": [
         {
-          "type": "owngoal",
-          "minute": 3,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  乌龙球！突尼斯 0-1 荷兰（3'）"
-        },
-        {
           "type": "goal",
           "minute": 7,
           "score": {
@@ -3604,6 +3595,15 @@
           "headline": "⚽  进球！塞内加尔 5-0 伊拉克（82'）"
         },
         {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 5,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 塞内加尔 vs 伊拉克（90'）"
+        },
+        {
           "type": "halftime",
           "minute": null,
           "score": {
@@ -3644,13 +3644,13 @@
       "awayCode": "FRA",
       "score": {
         "home": 1,
-        "away": 3,
+        "away": 4,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -3706,6 +3706,15 @@
             "b": 3
           },
           "headline": "🟨  黄牌 挪威 vs 法国（74'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 4
+          },
+          "headline": "据 FIFA Watch：🏁 终场！挪威 1-4 法国"
         },
         {
           "type": "halftime",
