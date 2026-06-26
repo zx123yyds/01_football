@@ -1,18 +1,262 @@
 [
   {
-    "matchId": "wc2026-054",
+    "matchId": null,
     "teamSlugs": [
-      "south-africa",
-      "south-korea"
+      "japan",
+      "sweden"
     ],
     "score": {
-      "a": 1,
+      "a": 0,
       "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 日本 vs 瑞典（32'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 32,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 日本 vs 瑞典（32'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！日本 vs 瑞典"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "tunisia",
+      "netherlands"
+    ],
+    "score": {
+      "a": 0,
+      "b": 2
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！突尼斯 0-2 荷兰（7'）",
+    "moments": [
+      {
+        "type": "owngoal",
+        "minute": 3,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  乌龙球！突尼斯 0-1 荷兰（3'）"
+      },
+      {
+        "type": "goal",
+        "minute": 7,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！突尼斯 0-2 荷兰（7'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！突尼斯 vs 荷兰"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "curacao",
+      "cote-divoire"
+    ],
+    "score": {
+      "a": 0,
+      "b": 2
     },
     "status": "finished",
     "type": "fulltime",
-    "headline": null,
-    "moments": []
+    "headline": "据 FIFA Watch：🏁 终场！库拉索 0-2 科特迪瓦",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 7,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！库拉索 0-1 科特迪瓦（7'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 35,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 库拉索 vs 科特迪瓦（35'）"
+      },
+      {
+        "type": "goal",
+        "minute": 64,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！库拉索 0-2 科特迪瓦（64'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 75,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 库拉索 vs 科特迪瓦（75'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 84,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 库拉索 vs 科特迪瓦（84'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！库拉索 0-2 科特迪瓦"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！库拉索 0-1 科特迪瓦"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！库拉索 vs 科特迪瓦"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "ecuador",
+      "germany"
+    ],
+    "score": {
+      "a": 2,
+      "b": 1
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！厄瓜多尔 2-1 德国",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 2,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！厄瓜多尔 0-1 德国（2'）"
+      },
+      {
+        "type": "goal",
+        "minute": 9,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！厄瓜多尔 1-1 德国（9'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 43,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 德国（43'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 44,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 德国（44'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 50,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 德国（50'）"
+      },
+      {
+        "type": "goal",
+        "minute": 77,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！厄瓜多尔 2-1 德国（77'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 89,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 厄瓜多尔 vs 德国（89'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！厄瓜多尔 2-1 德国"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！厄瓜多尔 1-1 德国"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！厄瓜多尔 vs 德国"
+      }
+    ]
   },
   {
     "matchId": null,
@@ -93,6 +337,73 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "south-africa",
+      "south-korea"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 63,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！南非 1-0 韩国（63'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 73,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 79,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 韩国（79'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！南非 0-0 韩国"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！南非 vs 韩国"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "morocco",
       "haiti"
     ],
@@ -104,42 +415,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 10,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！摩洛哥 0-1 海地（10'）"
-      },
-      {
-        "type": "goal",
-        "minute": 39,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！摩洛哥 1-1 海地（39'）"
-      },
-      {
-        "type": "goal",
-        "minute": 43,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！摩洛哥 1-2 海地（43'）"
-      },
-      {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "⚽  进球！摩洛哥 2-2 海地（45'）"
-      },
       {
         "type": "goal",
         "minute": 78,
@@ -202,12 +477,6 @@
           "b": 2
         },
         "headline": "⏸️ 半场！摩洛哥 2-2 海地"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！摩洛哥 vs 海地"
       }
     ]
   },
@@ -225,24 +494,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 7,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！苏格兰 0-1 巴西（7'）"
-      },
-      {
-        "type": "goal",
-        "minute": 22,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！苏格兰 0-2 巴西（22'）"
-      },
       {
         "type": "goal",
         "minute": 45,
@@ -305,179 +556,6 @@
           "b": 2
         },
         "headline": "⏸️ 半场！苏格兰 0-2 巴西"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！苏格兰 vs 巴西"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "bosnia-herzegovina",
-      "qatar"
-    ],
-    "score": {
-      "a": 3,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！波黑 3-1 卡塔尔",
-    "moments": [
-      {
-        "type": "owngoal",
-        "minute": 34,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  乌龙球！波黑 2-0 卡塔尔（34'）"
-      },
-      {
-        "type": "goal",
-        "minute": 42,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！波黑 2-1 卡塔尔（42'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 78,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 波黑 vs 卡塔尔（78'）"
-      },
-      {
-        "type": "goal",
-        "minute": 80,
-        "score": {
-          "a": 3,
-          "b": 1
-        },
-        "headline": "⚽  进球！波黑 3-1 卡塔尔（80'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 82,
-        "score": {
-          "a": 3,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 波黑 vs 卡塔尔（82'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！波黑 3-1 卡塔尔"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！波黑 2-1 卡塔尔"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "switzerland",
-      "canada"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！瑞士 2-1 加拿大",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 32,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 瑞士 vs 加拿大（32'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 32,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 瑞士 vs 加拿大（32'）"
-      },
-      {
-        "type": "goal",
-        "minute": 46,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！瑞士 1-0 加拿大（46'）"
-      },
-      {
-        "type": "goal",
-        "minute": 57,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！瑞士 2-0 加拿大（57'）"
-      },
-      {
-        "type": "goal",
-        "minute": 76,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！瑞士 2-1 加拿大（76'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 87,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 瑞士 vs 加拿大（87'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！瑞士 2-1 加拿大"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！瑞士 1-0 加拿大"
       }
     ]
   }

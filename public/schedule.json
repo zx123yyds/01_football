@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-25T23:00:46.188Z",
+  "generatedAt": "2026-06-26T00:00:48.503Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-25T23:00:45.587Z",
+    "checkedAt": "2026-06-26T00:00:47.138Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T23:00:44.974Z"
+          "updatedAt": "2026-06-26T00:00:46.417Z"
         },
-        "checkedAt": "2026-06-25T23:00:44.974Z"
+        "checkedAt": "2026-06-26T00:00:46.418Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,25 +30,25 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T23:00:45.423Z"
+          "updatedAt": "2026-06-26T00:00:46.922Z"
         },
-        "checkedAt": "2026-06-25T23:00:45.423Z"
+        "checkedAt": "2026-06-26T00:00:46.923Z"
       },
       {
         "name": "FIFA Watch live scores",
         "url": "https://fifawatch.com/api/match-live.json?lang=zh",
-        "ok": false,
-        "mode": "cached",
-        "message": "HTTP 429; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-25T23:00:40.038Z"
+          "updatedAt": "2026-06-26T00:00:47.138Z"
         },
-        "checkedAt": "2026-06-25T23:00:45.587Z"
+        "checkedAt": "2026-06-26T00:00:47.138Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 8,
   "stageOrder": [
     "group",
     "round-32",
@@ -2876,90 +2876,17 @@
       "homeCode": "SUI",
       "awayCode": "CAN",
       "score": {
-        "home": 2,
-        "away": 1,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 32,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 加拿大（32'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 32,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 加拿大（32'）"
-        },
-        {
-          "type": "goal",
-          "minute": 46,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！瑞士 1-0 加拿大（46'）"
-        },
-        {
-          "type": "goal",
-          "minute": 57,
-          "score": {
-            "a": 2,
-            "b": 0
-          },
-          "headline": "⚽  进球！瑞士 2-0 加拿大（57'）"
-        },
-        {
-          "type": "goal",
-          "minute": 76,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "⚽  进球！瑞士 2-1 加拿大（76'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 87,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 瑞士 vs 加拿大（87'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！瑞士 2-1 加拿大"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！瑞士 1-0 加拿大"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m050",
@@ -2993,42 +2920,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 10,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！摩洛哥 0-1 海地（10'）"
-        },
-        {
-          "type": "goal",
-          "minute": 39,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "⚽  进球！摩洛哥 1-1 海地（39'）"
-        },
-        {
-          "type": "goal",
-          "minute": 43,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "⚽  进球！摩洛哥 1-2 海地（43'）"
-        },
-        {
-          "type": "goal",
-          "minute": 45,
-          "score": {
-            "a": 2,
-            "b": 2
-          },
-          "headline": "⚽  进球！摩洛哥 2-2 海地（45'）"
-        },
         {
           "type": "goal",
           "minute": 78,
@@ -3091,12 +2982,6 @@
             "b": 2
           },
           "headline": "⏸️ 半场！摩洛哥 2-2 海地"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！摩洛哥 vs 海地"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3133,24 +3018,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 7,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！苏格兰 0-1 巴西（7'）"
-        },
-        {
-          "type": "goal",
-          "minute": 22,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！苏格兰 0-2 巴西（22'）"
-        },
         {
           "type": "goal",
           "minute": 45,
@@ -3213,12 +3080,6 @@
             "b": 2
           },
           "headline": "⏸️ 半场！苏格兰 0-2 巴西"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！苏格兰 vs 巴西"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3349,7 +3210,59 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [],
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 63,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！南非 1-0 韩国（63'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 73,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 南非 vs 韩国（73'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 79,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 南非 vs 韩国（79'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！南非 0-0 韩国"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！南非 vs 韩国"
+        }
+      ],
       "scoreSource": "fifawatch-live"
     },
     {
@@ -3408,17 +3321,105 @@
       "homeCode": "ECU",
       "awayCode": "GER",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "played",
+        "zh": "已结束"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 2,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  进球！厄瓜多尔 0-1 德国（2'）"
+        },
+        {
+          "type": "goal",
+          "minute": 9,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！厄瓜多尔 1-1 德国（9'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 43,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 厄瓜多尔 vs 德国（43'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 44,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 厄瓜多尔 vs 德国（44'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 50,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 厄瓜多尔 vs 德国（50'）"
+        },
+        {
+          "type": "goal",
+          "minute": 77,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "⚽  进球！厄瓜多尔 2-1 德国（77'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 89,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 厄瓜多尔 vs 德国（89'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "据 FIFA Watch：🏁 终场！厄瓜多尔 2-1 德国"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⏸️ 半场！厄瓜多尔 1-1 德国"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！厄瓜多尔 vs 德国"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m058",
@@ -3442,17 +3443,33 @@
       "homeCode": "JPN",
       "awayCode": "SWE",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 32,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 日本 vs 瑞典（32'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！日本 vs 瑞典"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m057",
@@ -3476,17 +3493,42 @@
       "homeCode": "TUN",
       "awayCode": "NED",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "owngoal",
+          "minute": 3,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  乌龙球！突尼斯 0-1 荷兰（3'）"
+        },
+        {
+          "type": "goal",
+          "minute": 7,
+          "score": {
+            "a": 0,
+            "b": 2
+          },
+          "headline": "⚽  进球！突尼斯 0-2 荷兰（7'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！突尼斯 vs 荷兰"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m060",
