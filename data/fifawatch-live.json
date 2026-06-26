@@ -1,18 +1,88 @@
 [
   {
-    "matchId": "wc2026-059",
+    "matchId": null,
     "teamSlugs": [
       "turkiye",
       "usa"
     ],
     "score": {
-      "a": 1,
-      "b": 1
+      "a": 3,
+      "b": 2
     },
-    "status": "live",
-    "type": "live",
-    "headline": null,
-    "moments": []
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！土耳其 3-2 美国",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 3,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！土耳其 0-1 美国（3'）"
+      },
+      {
+        "type": "goal",
+        "minute": 10,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！土耳其 1-1 美国（10'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 19,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 土耳其 vs 美国（19'）"
+      },
+      {
+        "type": "goal",
+        "minute": 31,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！土耳其 2-1 美国（31'）"
+      },
+      {
+        "type": "goal",
+        "minute": 49,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "⚽  进球！土耳其 2-2 美国（49'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！土耳其 3-2 美国"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！土耳其 2-1 美国"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！土耳其 vs 美国"
+      }
+    ]
   },
   {
     "matchId": null,
