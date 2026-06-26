@@ -2,47 +2,16 @@
   {
     "matchId": null,
     "teamSlugs": [
-      "japan",
-      "sweden"
-    ],
-    "score": {
-      "a": 0,
-      "b": 0
-    },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 日本 vs 瑞典（32'）",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 32,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 日本 vs 瑞典（32'）"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！日本 vs 瑞典"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
       "tunisia",
       "netherlands"
     ],
     "score": {
-      "a": 0,
-      "b": 2
+      "a": 1,
+      "b": 3
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！突尼斯 0-2 荷兰（7'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！突尼斯 1-3 荷兰",
     "moments": [
       {
         "type": "owngoal",
@@ -63,10 +32,122 @@
         "headline": "⚽  进球！突尼斯 0-2 荷兰（7'）"
       },
       {
+        "type": "goal",
+        "minute": 54,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！突尼斯 1-2 荷兰（54'）"
+      },
+      {
+        "type": "goal",
+        "minute": 62,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "⚽  进球！突尼斯 1-3 荷兰（62'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！突尼斯 1-3 荷兰"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⏸️ 半场！突尼斯 0-2 荷兰"
+      },
+      {
         "type": "kickoff",
         "minute": null,
         "score": null,
         "headline": "🟢 开球！突尼斯 vs 荷兰"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "japan",
+      "sweden"
+    ],
+    "score": {
+      "a": 1,
+      "b": 1
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 日本 vs 瑞典（85'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 32,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 日本 vs 瑞典（32'）"
+      },
+      {
+        "type": "goal",
+        "minute": 56,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！日本 1-0 瑞典（56'）"
+      },
+      {
+        "type": "goal",
+        "minute": 62,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！日本 1-1 瑞典（62'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 77,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 日本 vs 瑞典（77'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 85,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 日本 vs 瑞典（85'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！日本 0-0 瑞典"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！日本 vs 瑞典"
       }
     ]
   },
@@ -417,33 +498,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 78,
-        "score": {
-          "a": 3,
-          "b": 2
-        },
-        "headline": "⚽  进球！摩洛哥 3-2 海地（78'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 79,
-        "score": {
-          "a": 3,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 摩洛哥 vs 海地（79'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 79,
-        "score": {
-          "a": 3,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 摩洛哥 vs 海地（79'）"
-      },
-      {
-        "type": "goal",
         "minute": 89,
         "score": {
           "a": 4,
@@ -468,15 +522,6 @@
           "b": 2
         },
         "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "⏸️ 半场！摩洛哥 2-2 海地"
       }
     ]
   },
@@ -495,42 +540,6 @@
     "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西",
     "moments": [
       {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！苏格兰 0-2 巴西（45'）"
-      },
-      {
-        "type": "goal",
-        "minute": 60,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "⚽  进球！苏格兰 0-3 巴西（60'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 62,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 苏格兰 vs 巴西（62'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 82,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 苏格兰 vs 巴西（82'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 89,
         "score": {
@@ -547,15 +556,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⏸️ 半场！苏格兰 0-2 巴西"
       }
     ]
   }
