@@ -17,6 +17,64 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "paraguay",
+      "australia"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-0 澳大利亚",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 46,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 巴拉圭 vs 澳大利亚（46'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 77,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 巴拉圭 vs 澳大利亚（77'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-0 澳大利亚"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！巴拉圭 0-0 澳大利亚"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！巴拉圭 vs 澳大利亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "japan",
       "sweden"
     ],
@@ -379,33 +437,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 55,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！捷克 0-1 墨西哥（55'）"
-      },
-      {
-        "type": "goal",
-        "minute": 61,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！捷克 0-2 墨西哥（61'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 64,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 捷克 vs 墨西哥（64'）"
-      },
-      {
-        "type": "goal",
         "minute": 90,
         "score": {
           "a": 0,
@@ -421,15 +452,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！捷克 0-0 墨西哥"
       }
     ]
   },
@@ -447,15 +469,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 63,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！南非 1-0 韩国（63'）"
-      },
       {
         "type": "yellowcard",
         "minute": 73,
@@ -482,15 +495,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！南非 0-0 韩国"
       }
     ]
   }
