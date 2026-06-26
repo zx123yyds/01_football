@@ -2,6 +2,68 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "norway",
+      "france"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！挪威 0-1 法国（7'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 7,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！挪威 0-1 法国（7'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！挪威 vs 法国"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "senegal",
+      "iraq"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！塞内加尔 1-0 伊拉克（4'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 4,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！塞内加尔 1-0 伊拉克（4'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！塞内加尔 vs 伊拉克"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "turkiye",
       "usa"
     ],
@@ -488,74 +550,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！厄瓜多尔 vs 德国"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "czechia",
-      "mexico"
-    ],
-    "score": {
-      "a": 0,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！捷克 0-2 墨西哥（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "south-africa",
-      "south-korea"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 79,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 韩国（79'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
       }
     ]
   }

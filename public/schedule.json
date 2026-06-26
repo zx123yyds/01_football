@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-26T19:00:47.537Z",
+  "generatedAt": "2026-06-26T19:11:15.160Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-26T19:00:46.933Z",
+    "checkedAt": "2026-06-26T19:11:14.584Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T19:00:46.306Z"
+          "updatedAt": "2026-06-26T19:11:13.754Z"
         },
-        "checkedAt": "2026-06-26T19:00:46.307Z"
+        "checkedAt": "2026-06-26T19:11:13.754Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T19:00:46.802Z"
+          "updatedAt": "2026-06-26T19:11:14.292Z"
         },
-        "checkedAt": "2026-06-26T19:00:46.803Z"
+        "checkedAt": "2026-06-26T19:11:14.292Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T19:00:46.933Z"
+          "updatedAt": "2026-06-26T19:11:14.584Z"
         },
-        "checkedAt": "2026-06-26T19:00:46.933Z"
+        "checkedAt": "2026-06-26T19:11:14.584Z"
       }
     ]
   },
@@ -2978,36 +2978,17 @@
       "homeCode": "CZE",
       "awayCode": "MEX",
       "score": {
-        "home": 0,
-        "away": 3,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！捷克 0-2 墨西哥（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 3
-          },
-          "headline": "据 FIFA Watch：🏁 终场！捷克 0-3 墨西哥"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m053",
@@ -3031,36 +3012,17 @@
       "homeCode": "RSA",
       "awayCode": "KOR",
       "score": {
-        "home": 1,
-        "away": 0,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 79,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 南非 vs 韩国（79'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "据 FIFA Watch：🏁 终场！南非 1-0 韩国"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m055",
@@ -3620,17 +3582,33 @@
       "homeCode": "SEN",
       "awayCode": "IRQ",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 4,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！塞内加尔 1-0 伊拉克（4'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！塞内加尔 vs 伊拉克"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m061",
@@ -3654,17 +3632,33 @@
       "homeCode": "NOR",
       "awayCode": "FRA",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 7,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  进球！挪威 0-1 法国（7'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！挪威 vs 法国"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m066",
