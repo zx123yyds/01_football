@@ -471,15 +471,6 @@
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 73,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 韩国（73'）"
-      },
-      {
-        "type": "yellowcard",
         "minute": 79,
         "score": {
           "a": 1,

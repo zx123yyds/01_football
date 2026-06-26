@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-26T04:00:43.917Z",
+  "generatedAt": "2026-06-26T05:00:48.110Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-26T04:00:43.382Z",
+    "checkedAt": "2026-06-26T05:00:47.212Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T04:00:42.669Z"
+          "updatedAt": "2026-06-26T05:00:46.514Z"
         },
-        "checkedAt": "2026-06-26T04:00:42.670Z"
+        "checkedAt": "2026-06-26T05:00:46.515Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T04:00:43.206Z"
+          "updatedAt": "2026-06-26T05:00:47.059Z"
         },
-        "checkedAt": "2026-06-26T04:00:43.207Z"
+        "checkedAt": "2026-06-26T05:00:47.060Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-26T04:00:43.381Z"
+          "updatedAt": "2026-06-26T05:00:47.211Z"
         },
-        "checkedAt": "2026-06-26T04:00:43.382Z"
+        "checkedAt": "2026-06-26T05:00:47.212Z"
       }
     ]
   },
@@ -312,14 +312,14 @@
           "flag": "🇺🇸",
           "code": "USA",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
-          "games": 2,
+          "games": 3,
           "points": 6,
           "wins": 2,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 1,
-          "goalDifference": 5,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "goalDifference": 4,
           "promotionColor": "#FD8755"
         },
         {
@@ -328,10 +328,10 @@
           "flag": "🇦🇺",
           "code": "AUS",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114030200_200x200.png",
-          "games": 2,
-          "points": 3,
+          "games": 3,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
           "goalsFor": 2,
           "goalsAgainst": 2,
@@ -344,10 +344,10 @@
           "flag": "🇵🇾",
           "code": "PAR",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831163301757_90x90.png",
-          "games": 2,
-          "points": 3,
+          "games": 3,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
           "goalsFor": 2,
           "goalsAgainst": 4,
@@ -360,14 +360,14 @@
           "flag": "🇹🇷",
           "code": "TUR",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071843803_200x200.png",
-          "games": 2,
-          "points": 0,
-          "wins": 0,
+          "games": 3,
+          "points": 3,
+          "wins": 1,
           "draws": 0,
           "losses": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 3,
-          "goalDifference": -3,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
           "promotionColor": ""
         }
       ]
@@ -3041,15 +3041,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 73,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 南非 vs 韩国（73'）"
-        },
         {
           "type": "yellowcard",
           "minute": 79,
