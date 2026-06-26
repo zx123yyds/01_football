@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "wc2026-059",
+    "teamSlugs": [
+      "turkiye",
+      "usa"
+    ],
+    "score": {
+      "a": 1,
+      "b": 1
+    },
+    "status": "live",
+    "type": "live",
+    "headline": null,
+    "moments": []
+  },
+  {
     "matchId": null,
     "teamSlugs": [
       "japan",
@@ -415,12 +430,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！捷克 0-0 墨西哥"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！捷克 vs 墨西哥"
       }
     ]
   },
@@ -482,80 +491,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！南非 0-0 韩国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！南非 vs 韩国"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "morocco",
-      "haiti"
-    ],
-    "score": {
-      "a": 4,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 89,
-        "score": {
-          "a": 4,
-          "b": 2
-        },
-        "headline": "⚽  进球！摩洛哥 4-2 海地（89'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 4,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 摩洛哥 vs 海地（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 4,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！摩洛哥 4-2 海地"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "scotland",
-      "brazil"
-    ],
-    "score": {
-      "a": 0,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "据 FIFA Watch：🏁 终场！苏格兰 0-3 巴西"
       }
     ]
   }
