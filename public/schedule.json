@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-27T01:47:50.964Z",
+  "generatedAt": "2026-06-27T02:00:49.952Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-27T01:47:50.382Z",
+    "checkedAt": "2026-06-27T02:00:49.362Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T01:47:49.765Z"
+          "updatedAt": "2026-06-27T02:00:48.639Z"
         },
-        "checkedAt": "2026-06-27T01:47:49.767Z"
+        "checkedAt": "2026-06-27T02:00:48.640Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T01:47:50.289Z"
+          "updatedAt": "2026-06-27T02:00:49.146Z"
         },
-        "checkedAt": "2026-06-27T01:47:50.290Z"
+        "checkedAt": "2026-06-27T02:00:49.147Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T01:47:50.380Z"
+          "updatedAt": "2026-06-27T02:00:49.361Z"
         },
-        "checkedAt": "2026-06-27T01:47:50.382Z"
+        "checkedAt": "2026-06-27T02:00:49.362Z"
       }
     ]
   },
-  "liveScoreUpdates": 8,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
@@ -3114,27 +3114,17 @@
       "homeCode": "JPN",
       "awayCode": "SWE",
       "score": {
-        "home": 1,
-        "away": 1,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！日本 1-1 瑞典"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m057",
@@ -3158,27 +3148,17 @@
       "homeCode": "TUN",
       "awayCode": "NED",
       "score": {
-        "home": 1,
-        "away": 3,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 3
-          },
-          "headline": "据 FIFA Watch：🏁 终场！突尼斯 1-3 荷兰"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m060",
@@ -3291,15 +3271,6 @@
       "liveMoments": [
         {
           "type": "goal",
-          "minute": 3,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！土耳其 0-1 美国（3'）"
-        },
-        {
-          "type": "goal",
           "minute": 10,
           "score": {
             "a": 1,
@@ -3351,12 +3322,6 @@
             "b": 1
           },
           "headline": "⏸️ 半场！土耳其 2-1 美国"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！土耳其 vs 美国"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3669,8 +3634,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -3699,6 +3664,24 @@
             "b": 0
           },
           "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（67'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（90'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯"
         },
         {
           "type": "halftime",
@@ -3785,6 +3768,24 @@
             "b": 1
           },
           "headline": "🟨  黄牌 乌拉圭 vs 西班牙（58'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 乌拉圭 vs 西班牙（90'）"
+        },
+        {
+          "type": "redcard",
+          "minute": 90,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟥  红牌！乌拉圭 vs 西班牙（90'）"
         },
         {
           "type": "halftime",

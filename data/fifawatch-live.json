@@ -9,9 +9,9 @@
       "a": 0,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（67'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,24 @@
           "b": 0
         },
         "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（67'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯"
       },
       {
         "type": "halftime",
@@ -69,7 +87,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 乌拉圭 vs 西班牙（58'）",
+    "headline": "🟨  黄牌 乌拉圭 vs 西班牙（90'）",
     "moments": [
       {
         "type": "goal",
@@ -106,6 +124,24 @@
           "b": 1
         },
         "headline": "🟨  黄牌 乌拉圭 vs 西班牙（58'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 乌拉圭 vs 西班牙（90'）"
+      },
+      {
+        "type": "redcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟥  红牌！乌拉圭 vs 西班牙（90'）"
       },
       {
         "type": "halftime",
@@ -382,15 +418,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 3,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！土耳其 0-1 美国（3'）"
-      },
-      {
-        "type": "goal",
         "minute": 10,
         "score": {
           "a": 1,
@@ -442,12 +469,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！土耳其 2-1 美国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！土耳其 vs 美国"
       }
     ]
   },
@@ -506,56 +527,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！巴拉圭 vs 澳大利亚"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "japan",
-      "sweden"
-    ],
-    "score": {
-      "a": 1,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！日本 1-1 瑞典",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！日本 1-1 瑞典"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "tunisia",
-      "netherlands"
-    ],
-    "score": {
-      "a": 1,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！突尼斯 1-3 荷兰",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 3
-        },
-        "headline": "据 FIFA Watch：🏁 终场！突尼斯 1-3 荷兰"
       }
     ]
   }
