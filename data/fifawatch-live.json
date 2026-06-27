@@ -6,12 +6,12 @@
       "ghana"
     ],
     "score": {
-      "a": 1,
-      "b": 0
+      "a": 2,
+      "b": 1
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！克罗地亚 1-0 加纳（31'）",
+    "headline": "⚽  进球！克罗地亚 2-1 加纳（83'）",
     "moments": [
       {
         "type": "goal",
@@ -23,10 +23,122 @@
         "headline": "⚽  进球！克罗地亚 1-0 加纳（31'）"
       },
       {
+        "type": "yellowcard",
+        "minute": 68,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 克罗地亚 vs 加纳（68'）"
+      },
+      {
+        "type": "goal",
+        "minute": 73,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！克罗地亚 1-1 加纳（73'）"
+      },
+      {
+        "type": "goal",
+        "minute": 83,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！克罗地亚 2-1 加纳（83'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！克罗地亚 1-0 加纳"
+      },
+      {
         "type": "kickoff",
         "minute": null,
         "score": null,
         "headline": "🟢 开球！克罗地亚 vs 加纳"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "panama",
+      "england"
+    ],
+    "score": {
+      "a": 0,
+      "b": 2
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 巴拿马 vs 英格兰（84'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 53,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 巴拿马 vs 英格兰（53'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 60,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 巴拿马 vs 英格兰（60'）"
+      },
+      {
+        "type": "goal",
+        "minute": 62,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！巴拿马 0-1 英格兰（62'）"
+      },
+      {
+        "type": "goal",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！巴拿马 0-2 英格兰（67'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 84,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 巴拿马 vs 英格兰（84'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！巴拿马 0-0 英格兰"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！巴拿马 vs 英格兰"
       }
     ]
   },
@@ -339,12 +451,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！乌拉圭 0-1 西班牙"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！乌拉圭 vs 西班牙"
       }
     ]
   },
@@ -421,119 +527,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！佛得角 vs 沙特阿拉伯"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "senegal",
-      "iraq"
-    ],
-    "score": {
-      "a": 5,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！塞内加尔 5-0 伊拉克",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 56,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！塞内加尔 3-0 伊拉克（56'）"
-      },
-      {
-        "type": "goal",
-        "minute": 71,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "⚽  进球！塞内加尔 4-0 伊拉克（71'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 75,
-        "score": {
-          "a": 4,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 塞内加尔 vs 伊拉克（75'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 81,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 塞内加尔 vs 伊拉克（81'）"
-      },
-      {
-        "type": "goal",
-        "minute": 82,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "⚽  进球！塞内加尔 5-0 伊拉克（82'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 塞内加尔 vs 伊拉克（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 5,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！塞内加尔 5-0 伊拉克"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "norway",
-      "france"
-    ],
-    "score": {
-      "a": 1,
-      "b": 4
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！挪威 1-4 法国",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 74,
-        "score": {
-          "a": 1,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 挪威 vs 法国（74'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 4
-        },
-        "headline": "据 FIFA Watch：🏁 终场！挪威 1-4 法国"
       }
     ]
   }
