@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "congo-dr",
+      "uzbekistan"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 10,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！刚果(金) vs 乌兹别克斯坦"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "croatia",
       "ghana"
     ],
@@ -9,9 +40,9 @@
       "a": 2,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 克罗地亚 vs 加纳（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳",
     "moments": [
       {
         "type": "goal",
@@ -57,6 +88,15 @@
           "b": 1
         },
         "headline": "🟨  黄牌 克罗地亚 vs 加纳（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
       },
       {
         "type": "halftime",
@@ -399,24 +439,6 @@
     "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙",
     "moments": [
       {
-        "type": "goal",
-        "minute": 42,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！乌拉圭 0-1 西班牙（42'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 46,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 西班牙（46'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 54,
         "score": {
@@ -460,15 +482,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！乌拉圭 0-1 西班牙"
       }
     ]
   },
@@ -486,15 +499,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 9,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（9'）"
-      },
       {
         "type": "yellowcard",
         "minute": 67,
