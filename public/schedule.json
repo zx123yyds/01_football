@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-27T02:00:49.952Z",
+  "generatedAt": "2026-06-27T03:00:50.448Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-27T02:00:49.362Z",
+    "checkedAt": "2026-06-27T03:00:49.826Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T02:00:48.639Z"
+          "updatedAt": "2026-06-27T03:00:49.002Z"
         },
-        "checkedAt": "2026-06-27T02:00:48.640Z"
+        "checkedAt": "2026-06-27T03:00:49.004Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T02:00:49.146Z"
+          "updatedAt": "2026-06-27T03:00:49.554Z"
         },
-        "checkedAt": "2026-06-27T02:00:49.147Z"
+        "checkedAt": "2026-06-27T03:00:49.555Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-27T02:00:49.361Z"
+          "updatedAt": "2026-06-27T03:00:49.826Z"
         },
-        "checkedAt": "2026-06-27T02:00:49.362Z"
+        "checkedAt": "2026-06-27T03:00:49.826Z"
       }
     ]
   },
@@ -588,46 +588,46 @@
           "flag": "🇪🇸",
           "code": "ESP",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-          "games": 2,
-          "points": 4,
-          "wins": 1,
+          "games": 3,
+          "points": 7,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "goalsFor": 4,
+          "goalsFor": 5,
           "goalsAgainst": 0,
-          "goalDifference": 4,
+          "goalDifference": 5,
           "promotionColor": "#FD8755"
         },
         {
           "rank": 2,
-          "teamName": "乌拉圭",
-          "flag": "🇺🇾",
-          "code": "URU",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
-          "games": 2,
-          "points": 2,
+          "teamName": "佛得角",
+          "flag": "🇨🇻",
+          "code": "CPV",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
+          "games": 3,
+          "points": 3,
           "wins": 0,
-          "draws": 2,
+          "draws": 3,
           "losses": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
           "promotionColor": "#FD8755"
         },
         {
           "rank": 3,
-          "teamName": "佛得角",
-          "flag": "🇨🇻",
-          "code": "CPV",
-          "logoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
-          "games": 2,
+          "teamName": "乌拉圭",
+          "flag": "🇺🇾",
+          "code": "URU",
+          "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114552578_200x200.png",
+          "games": 3,
           "points": 2,
           "wins": 0,
           "draws": 2,
-          "losses": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1,
           "promotionColor": ""
         },
         {
@@ -636,10 +636,10 @@
           "flag": "🇸🇦",
           "code": "KSA",
           "logoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114503985_200x200.png",
-          "games": 2,
-          "points": 1,
+          "games": 3,
+          "points": 2,
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 1,
           "goalsFor": 1,
           "goalsAgainst": 5,
@@ -1143,7 +1143,7 @@
       "teamFlag": "🇪🇸",
       "teamCode": "ESP",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 2,
       "penaltyGoals": 0
     },
@@ -3227,12 +3227,6 @@
             "b": 0
           },
           "headline": "⏸️ 半场！巴拉圭 0-0 澳大利亚"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！巴拉圭 vs 澳大利亚"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3729,8 +3723,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -3786,6 +3780,15 @@
             "b": 1
           },
           "headline": "🟥  红牌！乌拉圭 vs 西班牙（90'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙"
         },
         {
           "type": "halftime",
