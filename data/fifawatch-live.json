@@ -2,6 +2,73 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "south-africa",
+      "canada"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！南非 0-1 加拿大",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 54,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 加拿大（54'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 南非 vs 加拿大（67'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！南非 0-1 加拿大（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！南非 0-1 加拿大"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！南非 0-0 加拿大"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！南非 vs 加拿大"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "algeria",
       "austria"
     ],
@@ -372,15 +439,6 @@
     "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳",
     "moments": [
       {
-        "type": "goal",
-        "minute": 31,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！克罗地亚 1-0 加纳（31'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 68,
         "score": {
@@ -424,21 +482,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！克罗地亚 1-0 加纳"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！克罗地亚 vs 加纳"
       }
     ]
   },
@@ -456,15 +499,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 53,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 巴拿马 vs 英格兰（53'）"
-      },
       {
         "type": "yellowcard",
         "minute": 60,
@@ -509,15 +543,6 @@
           "b": 2
         },
         "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！巴拿马 0-0 英格兰"
       }
     ]
   }

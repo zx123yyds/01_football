@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T20:00:47.333Z",
+  "generatedAt": "2026-06-28T21:00:52.550Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T20:00:46.572Z",
+    "checkedAt": "2026-06-28T21:00:52.077Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T20:00:45.789Z"
+          "updatedAt": "2026-06-28T21:00:51.399Z"
         },
-        "checkedAt": "2026-06-28T20:00:45.790Z"
+        "checkedAt": "2026-06-28T21:00:51.400Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T20:00:46.320Z"
+          "updatedAt": "2026-06-28T21:00:51.845Z"
         },
-        "checkedAt": "2026-06-28T20:00:46.321Z"
+        "checkedAt": "2026-06-28T21:00:51.846Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T20:00:46.571Z"
+          "updatedAt": "2026-06-28T21:00:52.076Z"
         },
-        "checkedAt": "2026-06-28T20:00:46.572Z"
+        "checkedAt": "2026-06-28T21:00:52.077Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -3465,15 +3465,6 @@
       },
       "liveMoments": [
         {
-          "type": "goal",
-          "minute": 31,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！克罗地亚 1-0 加纳（31'）"
-        },
-        {
           "type": "yellowcard",
           "minute": 68,
           "score": {
@@ -3517,21 +3508,6 @@
             "b": 1
           },
           "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！克罗地亚 1-0 加纳"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！克罗地亚 vs 加纳"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3568,15 +3544,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 53,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 巴拿马 vs 英格兰（53'）"
-        },
         {
           "type": "yellowcard",
           "minute": 60,
@@ -3621,15 +3588,6 @@
             "b": 2
           },
           "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！巴拿马 0-0 英格兰"
         }
       ],
       "scoreSource": "fifawatch-live"
