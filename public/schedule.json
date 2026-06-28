@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T16:00:56.005Z",
+  "generatedAt": "2026-06-28T16:51:21.337Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T16:00:55.088Z",
+    "checkedAt": "2026-06-28T16:51:20.455Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T16:00:54.450Z"
+          "updatedAt": "2026-06-28T16:51:19.897Z"
         },
-        "checkedAt": "2026-06-28T16:00:54.451Z"
+        "checkedAt": "2026-06-28T16:51:19.899Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T16:00:54.955Z"
+          "updatedAt": "2026-06-28T16:51:20.378Z"
         },
-        "checkedAt": "2026-06-28T16:00:54.955Z"
+        "checkedAt": "2026-06-28T16:51:20.378Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T16:00:55.087Z"
+          "updatedAt": "2026-06-28T16:51:20.454Z"
         },
-        "checkedAt": "2026-06-28T16:00:55.088Z"
+        "checkedAt": "2026-06-28T16:51:20.455Z"
       }
     ]
   },
