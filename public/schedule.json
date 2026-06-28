@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T00:00:53.792Z",
+  "generatedAt": "2026-06-28T01:00:49.815Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T00:00:53.217Z",
+    "checkedAt": "2026-06-28T01:00:49.214Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T00:00:52.726Z"
+          "updatedAt": "2026-06-28T01:00:48.350Z"
         },
-        "checkedAt": "2026-06-28T00:00:52.727Z"
+        "checkedAt": "2026-06-28T01:00:48.352Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T00:00:53.150Z"
+          "updatedAt": "2026-06-28T01:00:49.145Z"
         },
-        "checkedAt": "2026-06-28T00:00:53.151Z"
+        "checkedAt": "2026-06-28T01:00:49.146Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T00:00:53.216Z"
+          "updatedAt": "2026-06-28T01:00:49.213Z"
         },
-        "checkedAt": "2026-06-28T00:00:53.217Z"
+        "checkedAt": "2026-06-28T01:00:49.214Z"
       }
     ]
   },
-  "liveScoreUpdates": 7,
+  "liveScoreUpdates": 8,
   "stageOrder": [
     "group",
     "round-32",
@@ -3329,24 +3329,6 @@
       },
       "liveMoments": [
         {
-          "type": "yellowcard",
-          "minute": 67,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（67'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（90'）"
-        },
-        {
           "type": "fulltime",
           "minute": null,
           "score": {
@@ -3390,42 +3372,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 54,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 乌拉圭 vs 西班牙（54'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 58,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 乌拉圭 vs 西班牙（58'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 乌拉圭 vs 西班牙（90'）"
-        },
-        {
-          "type": "redcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟥  红牌！乌拉圭 vs 西班牙（90'）"
-        },
         {
           "type": "fulltime",
           "minute": null,
@@ -3853,6 +3799,51 @@
           "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）"
         },
         {
+          "type": "yellowcard",
+          "minute": 43,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（43'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 45,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（45'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 48,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（48'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 62,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
+        },
+        {
           "type": "kickoff",
           "minute": null,
           "score": null,
@@ -3883,17 +3874,33 @@
       "homeCode": "COL",
       "awayCode": "POR",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！哥伦比亚 vs 葡萄牙"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m069",

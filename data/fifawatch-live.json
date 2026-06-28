@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）",
+    "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）",
     "moments": [
       {
         "type": "goal",
@@ -32,10 +32,86 @@
         "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）"
       },
       {
+        "type": "yellowcard",
+        "minute": 43,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（43'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 45,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（45'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 48,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（48'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 62,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
+      },
+      {
         "type": "kickoff",
         "minute": null,
         "score": null,
         "headline": "🟢 开球！刚果(金) vs 乌兹别克斯坦"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "colombia",
+      "portugal"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "halftime",
+    "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙",
+    "moments": [
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！哥伦比亚 vs 葡萄牙"
       }
     ]
   },
@@ -448,42 +524,6 @@
     "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 54,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 西班牙（54'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 58,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 西班牙（58'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 乌拉圭 vs 西班牙（90'）"
-      },
-      {
-        "type": "redcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟥  红牌！乌拉圭 vs 西班牙（90'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -508,24 +548,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 67,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（67'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 佛得角 vs 沙特阿拉伯（90'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
