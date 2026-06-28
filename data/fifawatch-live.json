@@ -6,12 +6,12 @@
       "uzbekistan"
     ],
     "score": {
-      "a": 0,
+      "a": 3,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦",
     "moments": [
       {
         "type": "goal",
@@ -68,6 +68,33 @@
         "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）"
       },
       {
+        "type": "goal",
+        "minute": 78,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！刚果(金) 2-1 乌兹别克斯坦（78'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 3,
+          "b": 1
+        },
+        "headline": "⚽  进球！刚果(金) 3-1 乌兹别克斯坦（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦"
+      },
+      {
         "type": "halftime",
         "minute": null,
         "score": {
@@ -94,10 +121,28 @@
       "a": 0,
       "b": 0
     },
-    "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙",
     "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 86,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 哥伦比亚 vs 葡萄牙（86'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙"
+      },
       {
         "type": "halftime",
         "minute": null,
@@ -301,15 +346,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 5,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！埃及 1-0 伊朗（5'）"
-      },
-      {
-        "type": "goal",
         "minute": 14,
         "score": {
           "a": 1,
@@ -397,12 +433,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！埃及 1-1 伊朗"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！埃及 vs 伊朗"
       }
     ]
   },
@@ -500,62 +530,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！新西兰 0-1 比利时"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！新西兰 vs 比利时"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "uruguay",
-      "spain"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！乌拉圭 0-1 西班牙"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "cabo-verde",
-      "saudi-arabia"
-    ],
-    "score": {
-      "a": 0,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯"
       }
     ]
   }
