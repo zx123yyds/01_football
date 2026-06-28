@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T19:00:51.321Z",
+  "generatedAt": "2026-06-28T19:50:24.331Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T19:00:50.468Z",
+    "checkedAt": "2026-06-28T19:50:23.553Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T19:00:49.698Z"
+          "updatedAt": "2026-06-28T19:50:22.576Z"
         },
-        "checkedAt": "2026-06-28T19:00:49.699Z"
+        "checkedAt": "2026-06-28T19:50:22.578Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T19:00:50.258Z"
+          "updatedAt": "2026-06-28T19:50:23.239Z"
         },
-        "checkedAt": "2026-06-28T19:00:50.259Z"
+        "checkedAt": "2026-06-28T19:50:23.240Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T19:00:50.468Z"
+          "updatedAt": "2026-06-28T19:50:23.552Z"
         },
-        "checkedAt": "2026-06-28T19:00:50.468Z"
+        "checkedAt": "2026-06-28T19:50:23.553Z"
       }
     ]
   },
@@ -3630,12 +3630,6 @@
             "b": 0
           },
           "headline": "⏸️ 半场！巴拿马 0-0 英格兰"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！巴拿马 vs 英格兰"
         }
       ],
       "scoreSource": "fifawatch-live"
