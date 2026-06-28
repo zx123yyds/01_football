@@ -10,8 +10,8 @@
       "b": 1
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,15 @@
           "b": 1
         },
         "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 21,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）"
       },
       {
         "type": "kickoff",
@@ -525,15 +534,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！佛得角 0-0 沙特阿拉伯"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！佛得角 0-0 沙特阿拉伯"
       }
     ]
   }
