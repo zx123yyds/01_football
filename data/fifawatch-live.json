@@ -2,6 +2,104 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "algeria",
+      "austria"
+    ],
+    "score": {
+      "a": 1,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 11,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 阿尔及利亚 vs 奥地利（11'）"
+      },
+      {
+        "type": "goal",
+        "minute": 28,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿尔及利亚 0-1 奥地利（28'）"
+      },
+      {
+        "type": "goal",
+        "minute": 45,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "jordan",
+      "argentina"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "var",
+    "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 17,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 约旦 vs 阿根廷（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 19,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
+      },
+      {
+        "type": "var",
+        "minute": 29,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！约旦 vs 阿根廷"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "congo-dr",
       "uzbekistan"
     ],
@@ -345,51 +443,6 @@
     "headline": "据 FIFA Watch：🏁 终场！埃及 1-1 伊朗",
     "moments": [
       {
-        "type": "goal",
-        "minute": 14,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！埃及 1-1 伊朗（14'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 19,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 埃及 vs 伊朗（19'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 20,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 埃及 vs 伊朗（20'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 42,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 埃及 vs 伊朗（42'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 43,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 埃及 vs 伊朗（43'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 79,
         "score": {
@@ -452,24 +505,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 28,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！新西兰 0-1 比利时（28'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 46,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 新西兰 vs 比利时（46'）"
-      },
-      {
-        "type": "goal",
         "minute": 50,
         "score": {
           "a": 0,
@@ -521,15 +556,6 @@
           "b": 5
         },
         "headline": "据 FIFA Watch：🏁 终场！新西兰 1-5 比利时"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！新西兰 0-1 比利时"
       }
     ]
   }

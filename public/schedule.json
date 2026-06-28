@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T02:00:53.493Z",
+  "generatedAt": "2026-06-28T03:00:53.485Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T02:00:52.600Z",
+    "checkedAt": "2026-06-28T03:00:52.722Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T02:00:51.888Z"
+          "updatedAt": "2026-06-28T03:00:52.205Z"
         },
-        "checkedAt": "2026-06-28T02:00:51.889Z"
+        "checkedAt": "2026-06-28T03:00:52.206Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T02:00:52.361Z"
+          "updatedAt": "2026-06-28T03:00:52.618Z"
         },
-        "checkedAt": "2026-06-28T02:00:52.362Z"
+        "checkedAt": "2026-06-28T03:00:52.619Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T02:00:52.599Z"
+          "updatedAt": "2026-06-28T03:00:52.721Z"
         },
-        "checkedAt": "2026-06-28T02:00:52.600Z"
+        "checkedAt": "2026-06-28T03:00:52.722Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 8,
   "stageOrder": [
     "group",
     "round-32",
@@ -3432,24 +3432,6 @@
       "liveMoments": [
         {
           "type": "goal",
-          "minute": 28,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！新西兰 0-1 比利时（28'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 46,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 新西兰 vs 比利时（46'）"
-        },
-        {
-          "type": "goal",
           "minute": 50,
           "score": {
             "a": 0,
@@ -3501,15 +3483,6 @@
             "b": 5
           },
           "headline": "据 FIFA Watch：🏁 终场！新西兰 1-5 比利时"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⏸️ 半场！新西兰 0-1 比利时"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3943,17 +3916,51 @@
       "homeCode": "ALG",
       "awayCode": "AUT",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 11,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 阿尔及利亚 vs 奥地利（11'）"
+        },
+        {
+          "type": "goal",
+          "minute": 28,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  进球！阿尔及利亚 0-1 奥地利（28'）"
+        },
+        {
+          "type": "goal",
+          "minute": 45,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m070",
@@ -3977,17 +3984,51 @@
       "homeCode": "JOR",
       "awayCode": "ARG",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 17,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 约旦 vs 阿根廷（17'）"
+        },
+        {
+          "type": "goal",
+          "minute": 19,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
+        },
+        {
+          "type": "var",
+          "minute": 29,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！约旦 vs 阿根廷"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m073",
