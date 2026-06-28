@@ -1,21 +1,6 @@
 [
   {
-    "matchId": "wc2026-069",
-    "teamSlugs": [
-      "algeria",
-      "austria"
-    ],
-    "score": {
-      "a": 2,
-      "b": 2
-    },
-    "status": "live",
-    "type": "live",
-    "headline": null,
-    "moments": []
-  },
-  {
-    "matchId": null,
+    "matchId": "wc2026-070",
     "teamSlugs": [
       "jordan",
       "argentina"
@@ -26,34 +11,49 @@
     },
     "status": "finished",
     "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷",
+    "headline": null,
+    "moments": []
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "algeria",
+      "austria"
+    ],
+    "score": {
+      "a": 3,
+      "b": 3
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利",
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 17,
+        "minute": 11,
         "score": {
           "a": 0,
           "b": 0
         },
-        "headline": "🟨  黄牌 约旦 vs 阿根廷（17'）"
+        "headline": "🟨  黄牌 阿尔及利亚 vs 奥地利（11'）"
       },
       {
         "type": "goal",
-        "minute": 19,
+        "minute": 28,
         "score": {
           "a": 0,
           "b": 1
         },
-        "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
+        "headline": "⚽  进球！阿尔及利亚 0-1 奥地利（28'）"
       },
       {
-        "type": "var",
-        "minute": 29,
+        "type": "goal",
+        "minute": 45,
         "score": {
-          "a": 0,
+          "a": 1,
           "b": 1
         },
-        "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
+        "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）"
       },
       {
         "type": "goal",
@@ -62,58 +62,49 @@
           "a": 1,
           "b": 2
         },
-        "headline": "⚽  进球！约旦 1-2 阿根廷（55'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 64,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 约旦 vs 阿根廷（64'）"
+        "headline": "⚽  进球！阿尔及利亚 1-2 奥地利（55'）"
       },
       {
         "type": "goal",
-        "minute": 80,
+        "minute": 60,
         "score": {
-          "a": 1,
-          "b": 3
+          "a": 2,
+          "b": 2
         },
-        "headline": "⚽  进球！约旦 1-3 阿根廷（80'）"
+        "headline": "⚽  进球！阿尔及利亚 2-2 奥地利（60'）"
       },
       {
-        "type": "yellowcard",
+        "type": "goal",
         "minute": 90,
         "score": {
-          "a": 1,
-          "b": 3
+          "a": 3,
+          "b": 2
         },
-        "headline": "🟨  黄牌 约旦 vs 阿根廷（90'）"
+        "headline": "⚽  进球！阿尔及利亚 3-2 奥地利（90'）"
       },
       {
         "type": "fulltime",
         "minute": null,
         "score": {
-          "a": 1,
+          "a": 3,
           "b": 3
         },
-        "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷"
+        "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利"
       },
       {
         "type": "halftime",
         "minute": null,
         "score": {
-          "a": 0,
-          "b": 2
+          "a": 1,
+          "b": 1
         },
-        "headline": "⏸️ 半场！约旦 0-2 阿根廷"
+        "headline": "⏸️ 半场！阿尔及利亚 1-1 奥地利"
       },
       {
         "type": "kickoff",
         "minute": null,
         "score": null,
-        "headline": "🟢 开球！约旦 vs 阿根廷"
+        "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
       }
     ]
   },
