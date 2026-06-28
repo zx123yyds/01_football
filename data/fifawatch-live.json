@@ -1,20 +1,5 @@
 [
   {
-    "matchId": "wc2026-070",
-    "teamSlugs": [
-      "jordan",
-      "argentina"
-    ],
-    "score": {
-      "a": 1,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": null,
-    "moments": []
-  },
-  {
     "matchId": null,
     "teamSlugs": [
       "algeria",
@@ -105,6 +90,109 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "jordan",
+      "argentina"
+    ],
+    "score": {
+      "a": 1,
+      "b": 3
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 17,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 约旦 vs 阿根廷（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 19,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
+      },
+      {
+        "type": "var",
+        "minute": 29,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
+      },
+      {
+        "type": "goal",
+        "minute": 55,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！约旦 1-2 阿根廷（55'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 64,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 约旦 vs 阿根廷（64'）"
+      },
+      {
+        "type": "goal",
+        "minute": 80,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "⚽  进球！约旦 1-3 阿根廷（80'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 约旦 vs 阿根廷（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⏸️ 半场！约旦 0-2 阿根廷"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！约旦 vs 阿根廷"
       }
     ]
   },
