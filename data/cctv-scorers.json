@@ -109,7 +109,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
       "teamName": "加拿大",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -764,6 +764,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 381966,
+      "playerName": "欧斯塔基奥",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135930807_640x640.png",
+      "teamName": "加拿大",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
+      "games": 4,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 411157,
       "playerName": "阿姆里",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615134937212_640x640.png",
@@ -989,16 +999,6 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182333234_554x554.png",
       "teamName": "美国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
-      "games": 3,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 454753,
-      "playerName": "门德斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615182501763_320x320.png",
-      "teamName": "葡萄牙",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
       "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0

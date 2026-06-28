@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-28T21:00:52.550Z",
+  "generatedAt": "2026-06-28T21:18:48.864Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-28T21:00:52.077Z",
+    "checkedAt": "2026-06-28T21:18:48.261Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T21:00:51.399Z"
+          "updatedAt": "2026-06-28T21:18:47.621Z"
         },
-        "checkedAt": "2026-06-28T21:00:51.400Z"
+        "checkedAt": "2026-06-28T21:18:47.623Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T21:00:51.845Z"
+          "updatedAt": "2026-06-28T21:18:48.061Z"
         },
-        "checkedAt": "2026-06-28T21:00:51.846Z"
+        "checkedAt": "2026-06-28T21:18:48.062Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-28T21:00:52.076Z"
+          "updatedAt": "2026-06-28T21:18:48.260Z"
         },
-        "checkedAt": "2026-06-28T21:00:52.077Z"
+        "checkedAt": "2026-06-28T21:18:48.261Z"
       }
     ]
   },
@@ -1065,7 +1065,7 @@
       "teamFlag": "🇨🇦",
       "teamCode": "CAN",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 0
     },
