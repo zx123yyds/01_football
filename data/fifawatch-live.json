@@ -6,12 +6,12 @@
       "japan"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 1
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 巴西 vs 日本（45'）",
+    "type": "goal",
+    "headline": "⚽  进球！巴西 1-1 日本（56'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -48,6 +48,33 @@
           "b": 1
         },
         "headline": "🟨  黄牌 巴西 vs 日本（45'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 48,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 巴西 vs 日本（48'）"
+      },
+      {
+        "type": "goal",
+        "minute": 56,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！巴西 1-1 日本（56'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！巴西 0-1 日本"
       },
       {
         "type": "kickoff",
@@ -497,15 +524,6 @@
     "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳",
     "moments": [
       {
-        "type": "goal",
-        "minute": 83,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！克罗地亚 2-1 加纳（83'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 90,
         "score": {
@@ -522,40 +540,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "panama",
-      "england"
-    ],
-    "score": {
-      "a": 0,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 84,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 巴拿马 vs 英格兰（84'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰"
       }
     ]
   }

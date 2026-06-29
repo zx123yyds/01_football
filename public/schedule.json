@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T18:00:53.841Z",
+  "generatedAt": "2026-06-29T18:26:54.285Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T18:00:53.243Z",
+    "checkedAt": "2026-06-29T18:26:53.672Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:00:52.361Z"
+          "updatedAt": "2026-06-29T18:26:53.103Z"
         },
-        "checkedAt": "2026-06-29T18:00:52.362Z"
+        "checkedAt": "2026-06-29T18:26:53.104Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:00:53.154Z"
+          "updatedAt": "2026-06-29T18:26:53.590Z"
         },
-        "checkedAt": "2026-06-29T18:00:53.154Z"
+        "checkedAt": "2026-06-29T18:26:53.591Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:00:53.243Z"
+          "updatedAt": "2026-06-29T18:26:53.671Z"
         },
-        "checkedAt": "2026-06-29T18:00:53.243Z"
+        "checkedAt": "2026-06-29T18:26:53.672Z"
       }
     ]
   },
-  "liveScoreUpdates": 8,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -3465,15 +3465,6 @@
       },
       "liveMoments": [
         {
-          "type": "goal",
-          "minute": 83,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "⚽  进球！克罗地亚 2-1 加纳（83'）"
-        },
-        {
           "type": "yellowcard",
           "minute": 90,
           "score": {
@@ -3516,36 +3507,17 @@
       "homeCode": "PAN",
       "awayCode": "ENG",
       "score": {
-        "home": 0,
-        "away": 2,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 84,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "🟨  黄牌 巴拿马 vs 英格兰（84'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "据 FIFA Watch：🏁 终场！巴拿马 0-2 英格兰"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m072",
