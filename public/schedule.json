@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T18:26:54.285Z",
+  "generatedAt": "2026-06-29T19:00:56.886Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T18:26:53.672Z",
+    "checkedAt": "2026-06-29T19:00:56.437Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:26:53.103Z"
+          "updatedAt": "2026-06-29T19:00:55.597Z"
         },
-        "checkedAt": "2026-06-29T18:26:53.104Z"
+        "checkedAt": "2026-06-29T19:00:55.598Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:26:53.590Z"
+          "updatedAt": "2026-06-29T19:00:56.130Z"
         },
-        "checkedAt": "2026-06-29T18:26:53.591Z"
+        "checkedAt": "2026-06-29T19:00:56.131Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T18:26:53.671Z"
+          "updatedAt": "2026-06-29T19:00:56.436Z"
         },
-        "checkedAt": "2026-06-29T18:26:53.672Z"
+        "checkedAt": "2026-06-29T19:00:56.437Z"
       }
     ]
   },
-  "liveScoreUpdates": 7,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
@@ -3454,36 +3454,17 @@
       "homeCode": "CRO",
       "awayCode": "GHA",
       "score": {
-        "home": 2,
-        "away": 1,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 克罗地亚 vs 加纳（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m068",

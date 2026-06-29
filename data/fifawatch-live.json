@@ -6,12 +6,12 @@
       "japan"
     ],
     "score": {
-      "a": 1,
+      "a": 2,
       "b": 1
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！巴西 1-1 日本（56'）",
+    "headline": "⚽  进球！巴西 2-1 日本（90'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -66,6 +66,24 @@
           "b": 1
         },
         "headline": "⚽  进球！巴西 1-1 日本（56'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 84,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 巴西 vs 日本（84'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！巴西 2-1 日本（90'）"
       },
       {
         "type": "halftime",
@@ -506,40 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！哥伦比亚 vs 葡萄牙"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "croatia",
-      "ghana"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 克罗地亚 vs 加纳（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！克罗地亚 2-1 加纳"
       }
     ]
   }
