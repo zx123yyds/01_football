@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T20:28:04.852Z",
+  "generatedAt": "2026-06-29T21:00:51.209Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T20:28:04.247Z",
+    "checkedAt": "2026-06-29T21:00:50.597Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T20:28:03.436Z"
+          "updatedAt": "2026-06-29T21:00:49.820Z"
         },
-        "checkedAt": "2026-06-29T20:28:03.438Z"
+        "checkedAt": "2026-06-29T21:00:49.822Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T20:28:03.979Z"
+          "updatedAt": "2026-06-29T21:00:50.409Z"
         },
-        "checkedAt": "2026-06-29T20:28:03.980Z"
+        "checkedAt": "2026-06-29T21:00:50.410Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T20:28:04.246Z"
+          "updatedAt": "2026-06-29T21:00:50.595Z"
         },
-        "checkedAt": "2026-06-29T20:28:04.247Z"
+        "checkedAt": "2026-06-29T21:00:50.596Z"
       }
     ]
   },
@@ -3683,12 +3683,6 @@
             "b": 0
           },
           "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！哥伦比亚 vs 葡萄牙"
         }
       ],
       "scoreSource": "fifawatch-live"
