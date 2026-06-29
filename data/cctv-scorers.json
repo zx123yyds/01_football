@@ -49,7 +49,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
       "teamName": "巴西",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 4,
       "penaltyKickGoals": 0
     },
@@ -79,7 +79,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154818063_320x320.png",
       "teamName": "巴西",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -219,7 +219,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172629772_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -319,7 +319,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172748246_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -420,6 +420,16 @@
       "teamName": "卡塔尔",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114449279_200x200.png",
       "games": 2,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 219990,
+      "playerName": "卡塞米罗",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154543604_640x640.png",
+      "teamName": "巴西",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -579,7 +589,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172556738_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -709,7 +719,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172439995_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -859,7 +869,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172527295_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -984,21 +994,11 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 450304,
-      "playerName": "毛里西奥",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610144022207_640x640.png",
-      "teamName": "巴拉圭",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831163301757_90x90.png",
-      "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 469934,
-      "playerName": "雷纳",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182333234_554x554.png",
-      "teamName": "美国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
+      "playerId": 452204,
+      "playerName": "马丁内利",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610160543022_320x320.png",
+      "teamName": "巴西",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
       "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0

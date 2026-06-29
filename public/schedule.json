@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T19:00:56.886Z",
+  "generatedAt": "2026-06-29T20:00:52.155Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T19:00:56.437Z",
+    "checkedAt": "2026-06-29T20:00:51.569Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T19:00:55.597Z"
+          "updatedAt": "2026-06-29T20:00:50.626Z"
         },
-        "checkedAt": "2026-06-29T19:00:55.598Z"
+        "checkedAt": "2026-06-29T20:00:50.627Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T19:00:56.130Z"
+          "updatedAt": "2026-06-29T20:00:51.345Z"
         },
-        "checkedAt": "2026-06-29T19:00:56.131Z"
+        "checkedAt": "2026-06-29T20:00:51.347Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T19:00:56.436Z"
+          "updatedAt": "2026-06-29T20:00:51.568Z"
         },
-        "checkedAt": "2026-06-29T19:00:56.437Z"
+        "checkedAt": "2026-06-29T20:00:51.569Z"
       }
     ]
   },
@@ -987,7 +987,7 @@
       "teamFlag": "🇧🇷",
       "teamCode": "BRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 4,
       "penaltyGoals": 0
     },
@@ -1026,7 +1026,7 @@
       "teamFlag": "🇧🇷",
       "teamCode": "BRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 0
     },
@@ -3621,12 +3621,6 @@
             "b": 1
           },
           "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！刚果(金) vs 乌兹别克斯坦"
         }
       ],
       "scoreSource": "fifawatch-live"

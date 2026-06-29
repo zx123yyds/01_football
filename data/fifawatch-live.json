@@ -9,9 +9,9 @@
       "a": 2,
       "b": 1
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！巴西 2-1 日本（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本",
     "moments": [
       {
         "type": "yellowcard",
@@ -84,6 +84,15 @@
           "b": 1
         },
         "headline": "⚽  进球！巴西 2-1 日本（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本"
       },
       {
         "type": "halftime",
@@ -469,12 +478,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！刚果(金) vs 乌兹别克斯坦"
       }
     ]
   },
