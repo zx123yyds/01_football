@@ -11,7 +11,7 @@
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 德国 vs 巴拉圭（65'）",
+    "headline": "🟨  黄牌 德国 vs 巴拉圭（106'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,33 @@
           "b": 1
         },
         "headline": "🟨  黄牌 德国 vs 巴拉圭（65'）"
+      },
+      {
+        "type": "goal",
+        "minute": 102,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 2-1 巴拉圭（102'）"
+      },
+      {
+        "type": "goal",
+        "minute": 104,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 2-1 巴拉圭（104'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 106,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 德国 vs 巴拉圭（106'）"
       },
       {
         "type": "halftime",
@@ -449,15 +476,6 @@
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 48,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（48'）"
-      },
-      {
-        "type": "yellowcard",
         "minute": 62,
         "score": {
           "a": 0,
@@ -491,15 +509,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
       }
     ]
   },
@@ -534,15 +543,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙"
       }
     ]
   }

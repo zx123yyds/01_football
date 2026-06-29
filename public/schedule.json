@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T22:00:55.074Z",
+  "generatedAt": "2026-06-29T23:00:51.641Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T22:00:54.212Z",
+    "checkedAt": "2026-06-29T23:00:51.180Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T22:00:53.449Z"
+          "updatedAt": "2026-06-29T23:00:50.425Z"
         },
-        "checkedAt": "2026-06-29T22:00:53.450Z"
+        "checkedAt": "2026-06-29T23:00:50.425Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T22:00:53.963Z"
+          "updatedAt": "2026-06-29T23:00:51.001Z"
         },
-        "checkedAt": "2026-06-29T22:00:53.963Z"
+        "checkedAt": "2026-06-29T23:00:51.001Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T22:00:54.211Z"
+          "updatedAt": "2026-06-29T23:00:51.180Z"
         },
-        "checkedAt": "2026-06-29T22:00:54.212Z"
+        "checkedAt": "2026-06-29T23:00:51.180Z"
       }
     ]
   },
@@ -3534,15 +3534,6 @@
       "liveMoments": [
         {
           "type": "yellowcard",
-          "minute": 48,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（48'）"
-        },
-        {
-          "type": "yellowcard",
           "minute": 62,
           "score": {
             "a": 0,
@@ -3576,15 +3567,6 @@
             "b": 1
           },
           "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⏸️ 半场！刚果(金) 0-1 乌兹别克斯坦"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3638,15 +3620,6 @@
             "b": 0
           },
           "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！哥伦比亚 0-0 葡萄牙"
         }
       ],
       "scoreSource": "fifawatch-live"
