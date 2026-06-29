@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T23:00:51.641Z",
+  "generatedAt": "2026-06-29T23:15:22.928Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T23:00:51.180Z",
+    "checkedAt": "2026-06-29T23:15:22.329Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:00:50.425Z"
+          "updatedAt": "2026-06-29T23:15:21.496Z"
         },
-        "checkedAt": "2026-06-29T23:00:50.425Z"
+        "checkedAt": "2026-06-29T23:15:21.497Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:00:51.001Z"
+          "updatedAt": "2026-06-29T23:15:22.044Z"
         },
-        "checkedAt": "2026-06-29T23:00:51.001Z"
+        "checkedAt": "2026-06-29T23:15:22.045Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:00:51.180Z"
+          "updatedAt": "2026-06-29T23:15:22.328Z"
         },
-        "checkedAt": "2026-06-29T23:00:51.180Z"
+        "checkedAt": "2026-06-29T23:15:22.329Z"
       }
     ]
   },
@@ -3532,24 +3532,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 62,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（62'）"
-        },
-        {
-          "type": "goal",
-          "minute": 78,
-          "score": {
-            "a": 2,
-            "b": 1
-          },
-          "headline": "⚽  进球！刚果(金) 2-1 乌兹别克斯坦（78'）"
-        },
         {
           "type": "goal",
           "minute": 90,
