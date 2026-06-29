@@ -10,8 +10,8 @@
       "b": 1
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！德国 1-1 巴拉圭（54'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 德国 vs 巴拉圭（65'）",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,15 @@
           "b": 1
         },
         "headline": "⚽  进球！德国 1-1 巴拉圭（54'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 65,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 德国 vs 巴拉圭（65'）"
       },
       {
         "type": "halftime",
@@ -438,15 +447,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 45,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（45'）"
-      },
       {
         "type": "yellowcard",
         "minute": 48,

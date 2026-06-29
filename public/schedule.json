@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T21:55:43.339Z",
+  "generatedAt": "2026-06-29T22:00:55.074Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T21:55:42.754Z",
+    "checkedAt": "2026-06-29T22:00:54.212Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:55:41.967Z"
+          "updatedAt": "2026-06-29T22:00:53.449Z"
         },
-        "checkedAt": "2026-06-29T21:55:41.968Z"
+        "checkedAt": "2026-06-29T22:00:53.450Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:55:42.524Z"
+          "updatedAt": "2026-06-29T22:00:53.963Z"
         },
-        "checkedAt": "2026-06-29T21:55:42.525Z"
+        "checkedAt": "2026-06-29T22:00:53.963Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:55:42.753Z"
+          "updatedAt": "2026-06-29T22:00:54.211Z"
         },
-        "checkedAt": "2026-06-29T21:55:42.754Z"
+        "checkedAt": "2026-06-29T22:00:54.212Z"
       }
     ]
   },
@@ -3532,15 +3532,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 45,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（45'）"
-        },
         {
           "type": "yellowcard",
           "minute": 48,
