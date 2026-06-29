@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T21:00:51.209Z",
+  "generatedAt": "2026-06-29T21:55:43.339Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T21:00:50.597Z",
+    "checkedAt": "2026-06-29T21:55:42.754Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:00:49.820Z"
+          "updatedAt": "2026-06-29T21:55:41.967Z"
         },
-        "checkedAt": "2026-06-29T21:00:49.822Z"
+        "checkedAt": "2026-06-29T21:55:41.968Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:00:50.409Z"
+          "updatedAt": "2026-06-29T21:55:42.524Z"
         },
-        "checkedAt": "2026-06-29T21:00:50.410Z"
+        "checkedAt": "2026-06-29T21:55:42.525Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T21:00:50.595Z"
+          "updatedAt": "2026-06-29T21:55:42.753Z"
         },
-        "checkedAt": "2026-06-29T21:00:50.596Z"
+        "checkedAt": "2026-06-29T21:55:42.754Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -3532,33 +3532,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 10,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 21,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 43,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（43'）"
-        },
         {
           "type": "yellowcard",
           "minute": 45,

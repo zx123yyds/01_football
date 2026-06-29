@@ -2,6 +2,55 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "germany",
+      "paraguay"
+    ],
+    "score": {
+      "a": 1,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！德国 1-1 巴拉圭（54'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 42,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 0-1 巴拉圭（42'）"
+      },
+      {
+        "type": "goal",
+        "minute": 54,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！德国 1-1 巴拉圭（54'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！德国 0-1 巴拉圭"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！德国 vs 巴拉圭"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "brazil",
       "japan"
     ],
@@ -389,33 +438,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 10,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！刚果(金) 0-1 乌兹别克斯坦（10'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 21,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（21'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 43,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 刚果(金) vs 乌兹别克斯坦（43'）"
-      },
       {
         "type": "yellowcard",
         "minute": 45,
