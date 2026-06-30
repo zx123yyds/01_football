@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T18:00:59.009Z",
+  "generatedAt": "2026-06-30T19:00:53.622Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T18:00:58.075Z",
+    "checkedAt": "2026-06-30T19:00:52.775Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T18:00:57.272Z"
+          "updatedAt": "2026-06-30T19:00:51.314Z"
         },
-        "checkedAt": "2026-06-30T18:00:57.273Z"
+        "checkedAt": "2026-06-30T19:00:51.316Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T18:00:57.795Z"
+          "updatedAt": "2026-06-30T19:00:51.606Z"
         },
-        "checkedAt": "2026-06-30T18:00:57.796Z"
+        "checkedAt": "2026-06-30T19:00:51.607Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T18:00:58.074Z"
+          "updatedAt": "2026-06-30T19:00:52.774Z"
         },
-        "checkedAt": "2026-06-30T18:00:58.075Z"
+        "checkedAt": "2026-06-30T19:00:52.774Z"
       }
     ]
   },
@@ -3602,24 +3602,6 @@
       "liveMoments": [
         {
           "type": "goal",
-          "minute": 28,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！阿尔及利亚 0-1 奥地利（28'）"
-        },
-        {
-          "type": "goal",
-          "minute": 45,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）"
-        },
-        {
-          "type": "goal",
           "minute": 55,
           "score": {
             "a": 1,
@@ -3653,15 +3635,6 @@
             "b": 3
           },
           "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 1
-          },
-          "headline": "⏸️ 半场！阿尔及利亚 1-1 奥地利"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3742,15 +3715,6 @@
             "b": 3
           },
           "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⏸️ 半场！约旦 0-2 阿根廷"
         }
       ],
       "scoreSource": "fifawatch-live"

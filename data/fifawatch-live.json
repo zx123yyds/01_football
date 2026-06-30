@@ -6,12 +6,12 @@
       "norway"
     ],
     "score": {
-      "a": 0,
-      "b": 1
+      "a": 1,
+      "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 科特迪瓦 vs 挪威（45'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,42 @@
           "b": 1
         },
         "headline": "🟨  黄牌 科特迪瓦 vs 挪威（45'）"
+      },
+      {
+        "type": "goal",
+        "minute": 74,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！科特迪瓦 1-1 挪威（74'）"
+      },
+      {
+        "type": "goal",
+        "minute": 86,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！科特迪瓦 1-2 挪威（86'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！科特迪瓦 0-1 挪威"
       },
       {
         "type": "kickoff",
@@ -413,24 +449,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 28,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！阿尔及利亚 0-1 奥地利（28'）"
-      },
-      {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！阿尔及利亚 1-1 奥地利（45'）"
-      },
-      {
-        "type": "goal",
         "minute": 55,
         "score": {
           "a": 1,
@@ -464,15 +482,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！阿尔及利亚 1-1 奥地利"
       }
     ]
   },
@@ -534,15 +543,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⏸️ 半场！约旦 0-2 阿根廷"
       }
     ]
   }
