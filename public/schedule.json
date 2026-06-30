@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T17:19:01.316Z",
+  "generatedAt": "2026-06-30T18:00:59.009Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T17:19:00.699Z",
+    "checkedAt": "2026-06-30T18:00:58.075Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T17:18:59.867Z"
+          "updatedAt": "2026-06-30T18:00:57.272Z"
         },
-        "checkedAt": "2026-06-30T17:18:59.869Z"
+        "checkedAt": "2026-06-30T18:00:57.273Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T17:19:00.425Z"
+          "updatedAt": "2026-06-30T18:00:57.795Z"
         },
-        "checkedAt": "2026-06-30T17:19:00.427Z"
+        "checkedAt": "2026-06-30T18:00:57.796Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T17:19:00.697Z"
+          "updatedAt": "2026-06-30T18:00:58.074Z"
         },
-        "checkedAt": "2026-06-30T17:19:00.699Z"
+        "checkedAt": "2026-06-30T18:00:58.075Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 7,
   "stageOrder": [
     "group",
     "round-32",
@@ -3698,24 +3698,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 19,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
-        },
-        {
-          "type": "var",
-          "minute": 29,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
-        },
         {
           "type": "goal",
           "minute": 55,

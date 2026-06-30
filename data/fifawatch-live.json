@@ -2,6 +2,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "cote-divoire",
+      "norway"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 科特迪瓦 vs 挪威（45'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 39,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！科特迪瓦 0-1 挪威（39'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 45,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 科特迪瓦 vs 挪威（45'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！科特迪瓦 vs 挪威"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "netherlands",
       "morocco"
     ],
@@ -450,24 +490,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 19,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！约旦 0-1 阿根廷（19'）"
-      },
-      {
-        "type": "var",
-        "minute": 29,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "📺 VAR 介入！约旦 vs 阿根廷（29'）"
-      },
       {
         "type": "goal",
         "minute": 55,
