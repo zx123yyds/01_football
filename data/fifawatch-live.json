@@ -9,9 +9,9 @@
       "a": 1,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 德国 vs 巴拉圭（117'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！德国 1-1 巴拉圭",
     "moments": [
       {
         "type": "goal",
@@ -84,6 +84,15 @@
           "b": 1
         },
         "headline": "🟨  黄牌 德国 vs 巴拉圭（117'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！德国 1-1 巴拉圭"
       },
       {
         "type": "halftime",
@@ -526,15 +535,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 86,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 葡萄牙（86'）"
-      },
       {
         "type": "fulltime",
         "minute": null,

@@ -59,7 +59,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -150,6 +150,16 @@
       "teamName": "刚果（金）",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
       "games": 3,
+      "goals": 3,
+      "penaltyKickGoals": 1
+    },
+    {
+      "playerId": 358023,
+      "playerName": "哈维茨",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
+      "teamName": "德国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 1
     },
@@ -374,16 +384,6 @@
       "penaltyKickGoals": 1
     },
     {
-      "playerId": 358023,
-      "playerName": "哈维茨",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
-      "teamName": "德国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 3,
-      "goals": 2,
-      "penaltyKickGoals": 1
-    },
-    {
       "playerId": 210809,
       "playerName": "布迪米尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140505977_640x640.png",
@@ -499,7 +499,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162904292_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -879,7 +879,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162006989_640x640.png",
       "teamName": "德国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },

@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-29T23:15:22.928Z",
+  "generatedAt": "2026-06-30T00:00:56.376Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-29T23:15:22.329Z",
+    "checkedAt": "2026-06-30T00:00:55.784Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:15:21.496Z"
+          "updatedAt": "2026-06-30T00:00:54.931Z"
         },
-        "checkedAt": "2026-06-29T23:15:21.497Z"
+        "checkedAt": "2026-06-30T00:00:54.932Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:15:22.044Z"
+          "updatedAt": "2026-06-30T00:00:55.484Z"
         },
-        "checkedAt": "2026-06-29T23:15:22.045Z"
+        "checkedAt": "2026-06-30T00:00:55.485Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-29T23:15:22.328Z"
+          "updatedAt": "2026-06-30T00:00:55.783Z"
         },
-        "checkedAt": "2026-06-29T23:15:22.329Z"
+        "checkedAt": "2026-06-30T00:00:55.784Z"
       }
     ]
   },
@@ -1000,7 +1000,7 @@
       "teamFlag": "🇩🇪",
       "teamCode": "GER",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 0
     },
@@ -1123,6 +1123,19 @@
     },
     {
       "rank": 16,
+      "playerId": 358023,
+      "playerName": "哈维茨",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
+      "teamName": "德国",
+      "teamFlag": "🇩🇪",
+      "teamCode": "GER",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
+      "games": 4,
+      "goals": 3,
+      "penaltyGoals": 1
+    },
+    {
+      "rank": 17,
       "playerId": 204347,
       "playerName": "C罗",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
@@ -1135,7 +1148,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 17,
+      "rank": 18,
       "playerId": 221155,
       "playerName": "特罗萨德",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112429815_320x320.png",
@@ -1148,7 +1161,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 18,
+      "rank": 19,
       "playerId": 224000,
       "playerName": "马赫雷兹",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155708253_320x320.png",
@@ -1161,7 +1174,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 19,
+      "rank": 20,
       "playerId": 340758,
       "playerName": "佩佩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610164854348_640x640.png",
@@ -1169,19 +1182,6 @@
       "teamFlag": "🇨🇮",
       "teamCode": "CIV",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
-      "games": 3,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 20,
-      "playerId": 238752,
-      "playerName": "拉林",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612140233327_640x640.png",
-      "teamName": "加拿大",
-      "teamFlag": "🇨🇦",
-      "teamCode": "CAN",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
       "games": 3,
       "goals": 2,
       "penaltyGoals": 0
@@ -3585,15 +3585,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 86,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 哥伦比亚 vs 葡萄牙（86'）"
-        },
         {
           "type": "fulltime",
           "minute": null,
