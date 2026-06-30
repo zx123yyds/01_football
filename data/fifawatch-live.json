@@ -6,11 +6,11 @@
       "morocco"
     ],
     "score": {
-      "a": 0,
-      "b": 0
+      "a": 1,
+      "b": 1
     },
-    "status": "live",
-    "type": "live",
+    "status": "finished",
+    "type": "fulltime",
     "headline": null,
     "moments": []
   },
