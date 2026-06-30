@@ -320,15 +320,6 @@
     "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 11,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 阿尔及利亚 vs 奥地利（11'）"
-      },
-      {
         "type": "goal",
         "minute": 28,
         "score": {
