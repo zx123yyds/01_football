@@ -451,15 +451,6 @@
     "headline": "据 FIFA Watch：🏁 终场！约旦 1-3 阿根廷",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 17,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 约旦 vs 阿根廷（17'）"
-      },
-      {
         "type": "goal",
         "minute": 19,
         "score": {
