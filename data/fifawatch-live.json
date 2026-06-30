@@ -1,5 +1,20 @@
 [
   {
+    "matchId": "wc2026-076",
+    "teamSlugs": [
+      "netherlands",
+      "morocco"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "live",
+    "headline": null,
+    "moments": []
+  },
+  {
     "matchId": null,
     "teamSlugs": [
       "germany",
@@ -501,15 +516,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 3,
-          "b": 1
-        },
-        "headline": "⚽  进球！刚果(金) 3-1 乌兹别克斯坦（90'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
