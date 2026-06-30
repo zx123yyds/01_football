@@ -1,6 +1,6 @@
 [
   {
-    "matchId": "wc2026-076",
+    "matchId": null,
     "teamSlugs": [
       "netherlands",
       "morocco"
@@ -11,8 +11,60 @@
     },
     "status": "finished",
     "type": "fulltime",
-    "headline": null,
-    "moments": []
+    "headline": "据 FIFA Watch：🏁 终场！荷兰 1-1 摩洛哥",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 47,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 荷兰 vs 摩洛哥（47'）"
+      },
+      {
+        "type": "goal",
+        "minute": 72,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！荷兰 1-0 摩洛哥（72'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！荷兰 1-1 摩洛哥（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！荷兰 1-1 摩洛哥"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！荷兰 0-0 摩洛哥"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！荷兰 vs 摩洛哥"
+      }
+    ]
   },
   {
     "matchId": null,
