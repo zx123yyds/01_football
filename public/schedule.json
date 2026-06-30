@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T21:00:57.816Z",
+  "generatedAt": "2026-06-30T21:09:46.334Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T21:00:57.242Z",
+    "checkedAt": "2026-06-30T21:09:45.748Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:00:56.478Z"
+          "updatedAt": "2026-06-30T21:09:45.111Z"
         },
-        "checkedAt": "2026-06-30T21:00:56.478Z"
+        "checkedAt": "2026-06-30T21:09:45.112Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:00:56.979Z"
+          "updatedAt": "2026-06-30T21:09:45.643Z"
         },
-        "checkedAt": "2026-06-30T21:00:56.979Z"
+        "checkedAt": "2026-06-30T21:09:45.644Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:00:57.241Z"
+          "updatedAt": "2026-06-30T21:09:45.747Z"
         },
-        "checkedAt": "2026-06-30T21:00:57.242Z"
+        "checkedAt": "2026-06-30T21:09:45.748Z"
       }
     ]
   },
@@ -3671,15 +3671,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 55,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "⚽  进球！约旦 1-2 阿根廷（55'）"
-        },
         {
           "type": "yellowcard",
           "minute": 64,
