@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T02:00:55.086Z",
+  "generatedAt": "2026-06-30T03:00:53.781Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T02:00:54.200Z",
+    "checkedAt": "2026-06-30T03:00:53.174Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T02:00:53.429Z"
+          "updatedAt": "2026-06-30T03:00:52.332Z"
         },
-        "checkedAt": "2026-06-30T02:00:53.430Z"
+        "checkedAt": "2026-06-30T03:00:52.334Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T02:00:53.988Z"
+          "updatedAt": "2026-06-30T03:00:52.896Z"
         },
-        "checkedAt": "2026-06-30T02:00:53.989Z"
+        "checkedAt": "2026-06-30T03:00:52.898Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T02:00:54.199Z"
+          "updatedAt": "2026-06-30T03:00:53.173Z"
         },
-        "checkedAt": "2026-06-30T02:00:54.200Z"
+        "checkedAt": "2026-06-30T03:00:53.174Z"
       }
     ]
   },
-  "liveScoreUpdates": 8,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
@@ -3522,27 +3522,17 @@
       "homeCode": "COD",
       "awayCode": "UZB",
       "score": {
-        "home": 3,
-        "away": 1,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 3,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m071",
@@ -3566,27 +3556,17 @@
       "homeCode": "COL",
       "awayCode": "POR",
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": null,
+        "away": null,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "played",
-        "zh": "已结束"
+        "key": "upcoming",
+        "zh": "未开始"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": ""
     },
     {
       "id": "m069",
@@ -3691,12 +3671,6 @@
             "b": 1
           },
           "headline": "⏸️ 半场！阿尔及利亚 1-1 奥地利"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -3813,12 +3787,6 @@
             "b": 2
           },
           "headline": "⏸️ 半场！约旦 0-2 阿根廷"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！约旦 vs 阿根廷"
         }
       ],
       "scoreSource": "fifawatch-live"

@@ -390,12 +390,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！阿尔及利亚 1-1 奥地利"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！阿尔及利亚 vs 奥地利"
       }
     ]
   },
@@ -493,62 +487,6 @@
           "b": 2
         },
         "headline": "⏸️ 半场！约旦 0-2 阿根廷"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！约旦 vs 阿根廷"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "congo-dr",
-      "uzbekistan"
-    ],
-    "score": {
-      "a": 3,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！刚果(金) 3-1 乌兹别克斯坦"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "colombia",
-      "portugal"
-    ],
-    "score": {
-      "a": 0,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 0-0 葡萄牙"
       }
     ]
   }
