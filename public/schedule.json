@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T21:09:46.334Z",
+  "generatedAt": "2026-06-30T22:00:56.309Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T21:09:45.748Z",
+    "checkedAt": "2026-06-30T22:00:55.724Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:09:45.111Z"
+          "updatedAt": "2026-06-30T22:00:54.965Z"
         },
-        "checkedAt": "2026-06-30T21:09:45.112Z"
+        "checkedAt": "2026-06-30T22:00:54.966Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:09:45.643Z"
+          "updatedAt": "2026-06-30T22:00:55.486Z"
         },
-        "checkedAt": "2026-06-30T21:09:45.644Z"
+        "checkedAt": "2026-06-30T22:00:55.487Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T21:09:45.747Z"
+          "updatedAt": "2026-06-30T22:00:55.723Z"
         },
-        "checkedAt": "2026-06-30T21:09:45.748Z"
+        "checkedAt": "2026-06-30T22:00:55.723Z"
       }
     ]
   },
-  "liveScoreUpdates": 7,
+  "liveScoreUpdates": 8,
   "stageOrder": [
     "group",
     "round-32",
@@ -3600,15 +3600,6 @@
         "zh": "已结束"
       },
       "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 55,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿尔及利亚 1-2 奥地利（55'）"
-        },
         {
           "type": "goal",
           "minute": 60,

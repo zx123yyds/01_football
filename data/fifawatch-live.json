@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "france",
+      "sweden"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！法国 1-0 瑞典（45'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 45,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！法国 1-0 瑞典（45'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！法国 vs 瑞典"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "cote-divoire",
       "norway"
     ],
@@ -447,15 +478,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！阿尔及利亚 3-3 奥地利",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 55,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！阿尔及利亚 1-2 奥地利（55'）"
-      },
       {
         "type": "goal",
         "minute": 60,
