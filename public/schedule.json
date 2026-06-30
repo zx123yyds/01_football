@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T04:00:53.850Z",
+  "generatedAt": "2026-06-30T05:00:56.503Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-06-30T04:00:53.268Z",
+    "checkedAt": "2026-06-30T05:00:55.926Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T04:00:52.591Z"
+          "updatedAt": "2026-06-30T05:00:54.900Z"
         },
-        "checkedAt": "2026-06-30T04:00:52.592Z"
+        "checkedAt": "2026-06-30T05:00:54.901Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T04:00:53.064Z"
+          "updatedAt": "2026-06-30T05:00:55.748Z"
         },
-        "checkedAt": "2026-06-30T04:00:53.065Z"
+        "checkedAt": "2026-06-30T05:00:55.749Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-06-30T04:00:53.267Z"
+          "updatedAt": "2026-06-30T05:00:55.926Z"
         },
-        "checkedAt": "2026-06-30T04:00:53.268Z"
+        "checkedAt": "2026-06-30T05:00:55.926Z"
       }
     ]
   },
@@ -1019,6 +1019,19 @@
     },
     {
       "rank": 8,
+      "playerId": 414143,
+      "playerName": "加克波",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153110894_640x640.png",
+      "teamName": "荷兰",
+      "teamFlag": "🇳🇱",
+      "teamCode": "NED",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
+      "games": 4,
+      "goals": 3,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 9,
       "playerId": 384473,
       "playerName": "库尼亚",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154818063_320x320.png",
@@ -1031,7 +1044,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "playerId": 448112,
       "playerName": "贾斯特",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
@@ -1044,7 +1057,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "playerId": 481347,
       "playerName": "布罗比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
@@ -1052,12 +1065,12 @@
       "teamFlag": "🇳🇱",
       "teamCode": "NED",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816115548793_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "playerId": 420890,
       "playerName": "J·戴维",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
@@ -1070,7 +1083,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "playerId": 483315,
       "playerName": "赛巴里",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155744009_640x640.png",
@@ -1078,12 +1091,12 @@
       "teamFlag": "🇲🇦",
       "teamCode": "MAR",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 0
     },
     {
-      "rank": 13,
+      "rank": 14,
       "playerId": 520320,
       "playerName": "曼赞比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
@@ -1096,7 +1109,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "playerId": 218777,
       "playerName": "凯恩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
@@ -1109,7 +1122,7 @@
       "penaltyGoals": 1
     },
     {
-      "rank": 15,
+      "rank": 16,
       "playerId": 243371,
       "playerName": "维萨",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616113824442_640x640.png",
@@ -1122,7 +1135,7 @@
       "penaltyGoals": 1
     },
     {
-      "rank": 16,
+      "rank": 17,
       "playerId": 358023,
       "playerName": "哈维茨",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
@@ -1135,7 +1148,7 @@
       "penaltyGoals": 1
     },
     {
-      "rank": 17,
+      "rank": 18,
       "playerId": 204347,
       "playerName": "C罗",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
@@ -1148,7 +1161,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 18,
+      "rank": 19,
       "playerId": 221155,
       "playerName": "特罗萨德",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112429815_320x320.png",
@@ -1161,7 +1174,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 19,
+      "rank": 20,
       "playerId": 224000,
       "playerName": "马赫雷兹",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155708253_320x320.png",
@@ -1169,19 +1182,6 @@
       "teamFlag": "🇩🇿",
       "teamCode": "ALG",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png",
-      "games": 3,
-      "goals": 2,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 20,
-      "playerId": 340758,
-      "playerName": "佩佩",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610164854348_640x640.png",
-      "teamName": "科特迪瓦",
-      "teamFlag": "🇨🇮",
-      "teamCode": "CIV",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
       "games": 3,
       "goals": 2,
       "penaltyGoals": 0
