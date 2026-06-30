@@ -14,6 +14,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 349922,
+      "playerName": "哈兰德",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
+      "teamName": "挪威",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+      "games": 3,
+      "goals": 5,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 234090,
       "playerName": "登贝莱",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
@@ -30,16 +40,6 @@
       "teamName": "法国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
       "games": 3,
-      "goals": 4,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 349922,
-      "playerName": "哈兰德",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
-      "teamName": "挪威",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 2,
       "goals": 4,
       "penaltyKickGoals": 0
     },
@@ -209,7 +209,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610164854348_640x640.png",
       "teamName": "科特迪瓦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -350,6 +350,16 @@
       "teamName": "英格兰",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
       "games": 3,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 465736,
+      "playerName": "迪亚洛",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610163444911_640x640.png",
+      "teamName": "科特迪瓦",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -529,7 +539,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610165042100_640x640.png",
       "teamName": "科特迪瓦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160542142_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -949,7 +959,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613192806065_640x640.png",
       "teamName": "挪威",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -987,16 +997,6 @@
       "playerId": 492220,
       "playerName": "尼扎尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615152005294_320x320.png",
-      "teamName": "约旦",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
-      "games": 3,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 440411,
-      "playerName": "乌勒万",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615151045364_320x320.png",
       "teamName": "约旦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
       "games": 3,
