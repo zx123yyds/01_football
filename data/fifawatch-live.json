@@ -6,12 +6,12 @@
       "senegal"
     ],
     "score": {
-      "a": 0,
-      "b": 1
+      "a": 2,
+      "b": 2
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！比利时 0-1 塞内加尔（25'）",
+    "headline": "⚽  进球！比利时 2-2 塞内加尔（89'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,60 @@
           "b": 1
         },
         "headline": "⚽  进球！比利时 0-1 塞内加尔（25'）"
+      },
+      {
+        "type": "goal",
+        "minute": 51,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！比利时 0-2 塞内加尔（51'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 64,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 比利时 vs 塞内加尔（64'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 比利时 vs 塞内加尔（67'）"
+      },
+      {
+        "type": "goal",
+        "minute": 86,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！比利时 0-2 塞内加尔（86'）"
+      },
+      {
+        "type": "goal",
+        "minute": 89,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "⚽  进球！比利时 2-2 塞内加尔（89'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！比利时 0-1 塞内加尔"
       },
       {
         "type": "kickoff",
@@ -435,33 +489,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 42,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！德国 0-1 巴拉圭（42'）"
-      },
-      {
-        "type": "goal",
-        "minute": 54,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！德国 1-1 巴拉圭（54'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 65,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 德国 vs 巴拉圭（65'）"
-      },
-      {
-        "type": "goal",
         "minute": 102,
         "score": {
           "a": 2,
@@ -513,46 +540,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！德国 1-1 巴拉圭"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！德国 0-1 巴拉圭"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！德国 vs 巴拉圭"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "brazil",
-      "japan"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本"
       }
     ]
   }
