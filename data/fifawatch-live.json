@@ -6,12 +6,12 @@
       "congo-dr"
     ],
     "score": {
-      "a": 0,
+      "a": 2,
       "b": 1
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！英格兰 0-1 刚果(金)",
+    "type": "goal",
+    "headline": "⚽  进球！英格兰 2-1 刚果(金)（86'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,24 @@
           "b": 1
         },
         "headline": "🟨  黄牌 英格兰 vs 刚果(金)（28'）"
+      },
+      {
+        "type": "goal",
+        "minute": 75,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！英格兰 1-1 刚果(金)（75'）"
+      },
+      {
+        "type": "goal",
+        "minute": 86,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！英格兰 2-1 刚果(金)（86'）"
       },
       {
         "type": "halftime",
@@ -488,15 +506,6 @@
     "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 48,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴西 vs 日本（48'）"
-      },
-      {
         "type": "goal",
         "minute": 56,
         "score": {
@@ -531,15 +540,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！巴西 0-1 日本"
       }
     ]
   }
