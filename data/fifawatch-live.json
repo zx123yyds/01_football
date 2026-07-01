@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "belgium",
+      "senegal"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！比利时 0-1 塞内加尔（25'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 25,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！比利时 0-1 塞内加尔（25'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！比利时 vs 塞内加尔"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "england",
       "congo-dr"
     ],
@@ -514,24 +545,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 84,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴西 vs 日本（84'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！巴西 2-1 日本（90'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
