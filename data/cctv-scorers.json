@@ -194,12 +194,22 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 216675,
+      "playerName": "卢卡库",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111849253_320x320.png",
+      "teamName": "比利时",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+      "games": 4,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 221155,
       "playerName": "特罗萨德",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112429815_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -424,6 +434,16 @@
       "penaltyKickGoals": 1
     },
     {
+      "playerId": 232224,
+      "playerName": "蒂莱曼斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615113105182_320x320.png",
+      "teamName": "比利时",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+      "games": 4,
+      "goals": 2,
+      "penaltyKickGoals": 1
+    },
+    {
       "playerId": 210809,
       "playerName": "布迪米尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140505977_640x640.png",
@@ -439,17 +459,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112643432_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 3,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 216675,
-      "playerName": "卢卡库",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111849253_320x320.png",
-      "teamName": "比利时",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -990,16 +1000,6 @@
       "teamName": "突尼斯",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114546196_200x200.png",
       "games": 2,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 431725,
-      "playerName": "拉希米",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610160241182_640x640.png",
-      "teamName": "摩洛哥",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
-      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     }

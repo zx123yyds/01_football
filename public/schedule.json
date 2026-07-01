@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-01T23:00:56.827Z",
+  "generatedAt": "2026-07-01T23:56:49.573Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-01T23:00:56.278Z",
+    "checkedAt": "2026-07-01T23:56:48.990Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T23:00:55.778Z"
+          "updatedAt": "2026-07-01T23:56:47.898Z"
         },
-        "checkedAt": "2026-07-01T23:00:55.780Z"
+        "checkedAt": "2026-07-01T23:56:47.899Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T23:00:55.977Z"
+          "updatedAt": "2026-07-01T23:56:48.742Z"
         },
-        "checkedAt": "2026-07-01T23:00:55.979Z"
+        "checkedAt": "2026-07-01T23:56:48.742Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T23:00:56.277Z"
+          "updatedAt": "2026-07-01T23:56:48.989Z"
         },
-        "checkedAt": "2026-07-01T23:00:56.278Z"
+        "checkedAt": "2026-07-01T23:56:48.989Z"
       }
     ]
   },
@@ -1175,14 +1175,14 @@
     },
     {
       "rank": 20,
-      "playerId": 221155,
-      "playerName": "特罗萨德",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112429815_320x320.png",
+      "playerId": 216675,
+      "playerName": "卢卡库",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111849253_320x320.png",
       "teamName": "比利时",
       "teamFlag": "🇧🇪",
       "teamCode": "BEL",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyGoals": 0
     }
