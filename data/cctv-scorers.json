@@ -34,6 +34,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 218777,
+      "playerName": "凯恩",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 4,
+      "goals": 5,
+      "penaltyKickGoals": 1
+    },
+    {
       "playerId": 234090,
       "playerName": "登贝莱",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
@@ -154,22 +164,12 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 218777,
-      "playerName": "凯恩",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
-      "teamName": "英格兰",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 3,
-      "goals": 3,
-      "penaltyKickGoals": 1
-    },
-    {
       "playerId": 243371,
       "playerName": "维萨",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616113824442_640x640.png",
       "teamName": "刚果（金）",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 1
     },
@@ -359,7 +359,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
       "teamName": "英格兰",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -649,7 +649,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120406215_640x640.png",
       "teamName": "英格兰",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },

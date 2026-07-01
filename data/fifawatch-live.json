@@ -9,9 +9,9 @@
       "a": 2,
       "b": 1
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！英格兰 2-1 刚果(金)（86'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)",
     "moments": [
       {
         "type": "goal",
@@ -57,6 +57,15 @@
           "b": 1
         },
         "headline": "⚽  进球！英格兰 2-1 刚果(金)（86'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)"
       },
       {
         "type": "halftime",
@@ -505,15 +514,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！巴西 2-1 日本",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 56,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！巴西 1-1 日本（56'）"
-      },
       {
         "type": "yellowcard",
         "minute": 84,

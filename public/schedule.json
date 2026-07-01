@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-01T18:00:59.956Z",
+  "generatedAt": "2026-07-01T19:00:57.915Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-01T18:00:59.359Z",
+    "checkedAt": "2026-07-01T19:00:57.323Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T18:00:58.545Z"
+          "updatedAt": "2026-07-01T19:00:56.501Z"
         },
-        "checkedAt": "2026-07-01T18:00:58.546Z"
+        "checkedAt": "2026-07-01T19:00:56.503Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T18:00:59.023Z"
+          "updatedAt": "2026-07-01T19:00:57.058Z"
         },
-        "checkedAt": "2026-07-01T18:00:59.024Z"
+        "checkedAt": "2026-07-01T19:00:57.059Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T18:00:59.358Z"
+          "updatedAt": "2026-07-01T19:00:57.322Z"
         },
-        "checkedAt": "2026-07-01T18:00:59.359Z"
+        "checkedAt": "2026-07-01T19:00:57.323Z"
       }
     ]
   },
@@ -967,6 +967,19 @@
     },
     {
       "rank": 4,
+      "playerId": 218777,
+      "playerName": "凯恩",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
+      "teamName": "英格兰",
+      "teamFlag": "🇬🇧",
+      "teamCode": "ENG",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 4,
+      "goals": 5,
+      "penaltyGoals": 1
+    },
+    {
+      "rank": 5,
       "playerId": 234090,
       "playerName": "登贝莱",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
@@ -979,7 +992,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 5,
+      "rank": 6,
       "playerId": 539959,
       "playerName": "维尼修斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
@@ -992,7 +1005,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "playerId": 241256,
       "playerName": "温达夫",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
@@ -1005,7 +1018,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "playerId": 364750,
       "playerName": "基尼奥内斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150653665_320x320.png",
@@ -1018,7 +1031,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "playerId": 354190,
       "playerName": "I·萨尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
@@ -1031,7 +1044,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "playerId": 414143,
       "playerName": "加克波",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153110894_640x640.png",
@@ -1044,7 +1057,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "playerId": 384473,
       "playerName": "库尼亚",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154818063_320x320.png",
@@ -1057,7 +1070,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "playerId": 448112,
       "playerName": "贾斯特",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615123828416_640x640.png",
@@ -1070,7 +1083,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "playerId": 481347,
       "playerName": "布罗比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153551279_640x640.png",
@@ -1083,7 +1096,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 13,
+      "rank": 14,
       "playerId": 420890,
       "playerName": "J·戴维",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
@@ -1096,7 +1109,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "playerId": 483315,
       "playerName": "赛巴里",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155744009_640x640.png",
@@ -1109,7 +1122,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "playerId": 520320,
       "playerName": "曼赞比",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
@@ -1122,19 +1135,6 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 16,
-      "playerId": 218777,
-      "playerName": "凯恩",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
-      "teamName": "英格兰",
-      "teamFlag": "🇬🇧",
-      "teamCode": "ENG",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 3,
-      "goals": 3,
-      "penaltyGoals": 1
-    },
-    {
       "rank": 17,
       "playerId": 243371,
       "playerName": "维萨",
@@ -1143,7 +1143,7 @@
       "teamFlag": "",
       "teamCode": "",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyGoals": 1
     },
