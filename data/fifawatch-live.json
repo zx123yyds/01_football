@@ -10,8 +10,8 @@
       "b": 2
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！比利时 2-2 塞内加尔（89'）",
+    "type": "var",
+    "headline": "📺 VAR 介入！比利时 vs 塞内加尔（120'）",
     "moments": [
       {
         "type": "goal",
@@ -66,6 +66,15 @@
           "b": 2
         },
         "headline": "⚽  进球！比利时 2-2 塞内加尔（89'）"
+      },
+      {
+        "type": "var",
+        "minute": 120,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "📺 VAR 介入！比利时 vs 塞内加尔（120'）"
       },
       {
         "type": "halftime",
@@ -495,15 +504,6 @@
           "b": 1
         },
         "headline": "⚽  进球！德国 2-1 巴拉圭（102'）"
-      },
-      {
-        "type": "goal",
-        "minute": 104,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！德国 2-1 巴拉圭（104'）"
       },
       {
         "type": "yellowcard",
