@@ -6,12 +6,12 @@
       "senegal"
     ],
     "score": {
-      "a": 2,
+      "a": 3,
       "b": 2
     },
-    "status": "live",
-    "type": "var",
-    "headline": "📺 VAR 介入！比利时 vs 塞内加尔（120'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔",
     "moments": [
       {
         "type": "goal",
@@ -75,6 +75,15 @@
           "b": 2
         },
         "headline": "📺 VAR 介入！比利时 vs 塞内加尔（120'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔"
       },
       {
         "type": "halftime",
@@ -496,15 +505,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！德国 1-1 巴拉圭",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 102,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！德国 2-1 巴拉圭（102'）"
-      },
       {
         "type": "yellowcard",
         "minute": 106,

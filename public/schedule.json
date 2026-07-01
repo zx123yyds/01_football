@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-01T22:39:21.267Z",
+  "generatedAt": "2026-07-01T23:00:56.827Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-01T22:39:20.377Z",
+    "checkedAt": "2026-07-01T23:00:56.278Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T22:39:19.716Z"
+          "updatedAt": "2026-07-01T23:00:55.778Z"
         },
-        "checkedAt": "2026-07-01T22:39:19.717Z"
+        "checkedAt": "2026-07-01T23:00:55.780Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T22:39:20.293Z"
+          "updatedAt": "2026-07-01T23:00:55.977Z"
         },
-        "checkedAt": "2026-07-01T22:39:20.293Z"
+        "checkedAt": "2026-07-01T23:00:55.979Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-01T22:39:20.377Z"
+          "updatedAt": "2026-07-01T23:00:56.277Z"
         },
-        "checkedAt": "2026-07-01T22:39:20.377Z"
+        "checkedAt": "2026-07-01T23:00:56.278Z"
       }
     ]
   },
@@ -993,6 +993,19 @@
     },
     {
       "rank": 6,
+      "playerId": 354190,
+      "playerName": "I·萨尔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
+      "teamName": "塞内加尔",
+      "teamFlag": "🇸🇳",
+      "teamCode": "SEN",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png",
+      "games": 4,
+      "goals": 4,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 7,
       "playerId": 539959,
       "playerName": "维尼修斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
@@ -1005,7 +1018,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "playerId": 241256,
       "playerName": "温达夫",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
@@ -1018,7 +1031,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "playerId": 364750,
       "playerName": "基尼奥内斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150653665_320x320.png",
@@ -1027,19 +1040,6 @@
       "teamCode": "MEX",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
       "games": 4,
-      "goals": 3,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 9,
-      "playerId": 354190,
-      "playerName": "I·萨尔",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
-      "teamName": "塞内加尔",
-      "teamFlag": "🇸🇳",
-      "teamCode": "SEN",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png",
-      "games": 3,
       "goals": 3,
       "penaltyGoals": 0
     },
