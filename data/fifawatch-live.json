@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（45'）",
+    "type": "redcard",
+    "headline": "🟥  红牌！墨西哥 vs 厄瓜多尔（90'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,33 @@
           "b": 0
         },
         "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（45'）"
+      },
+      {
+        "type": "redcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "🟥  红牌！墨西哥 vs 厄瓜多尔（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（90'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！墨西哥 2-0 厄瓜多尔"
       },
       {
         "type": "kickoff",
@@ -497,24 +524,6 @@
     "headline": "据 FIFA Watch：🏁 终场！南非 0-1 加拿大",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 54,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 加拿大（54'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 67,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 南非 vs 加拿大（67'）"
-      },
-      {
         "type": "goal",
         "minute": 90,
         "score": {
@@ -531,15 +540,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！南非 0-1 加拿大"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！南非 0-0 加拿大"
       }
     ]
   }
