@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！西班牙 1-0 奥地利（36'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！西班牙 1-0 奥地利",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,15 @@
           "b": 0
         },
         "headline": "⚽  进球！西班牙 1-0 奥地利（36'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！西班牙 1-0 奥地利"
       },
       {
         "type": "kickoff",
@@ -531,12 +540,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！科特迪瓦 0-1 挪威"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！科特迪瓦 vs 挪威"
       }
     ]
   }
