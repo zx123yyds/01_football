@@ -134,6 +134,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 464029,
+      "playerName": "巴洛贡",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182731482_554x554.png",
+      "teamName": "美国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
+      "games": 3,
+      "goals": 3,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 420890,
       "playerName": "J·戴维",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612135750739_640x640.png",
@@ -334,16 +344,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 464029,
-      "playerName": "巴洛贡",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611182731482_554x554.png",
-      "teamName": "美国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
-      "games": 2,
-      "goals": 2,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 439711,
       "playerName": "上田绮世",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172748246_320x320.png",
@@ -419,7 +419,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611094551389_640x640.png",
       "teamName": "波黑",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831165823893_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 2,
       "penaltyKickGoals": 0
     },

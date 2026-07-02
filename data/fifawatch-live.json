@@ -9,9 +9,9 @@
       "a": 2,
       "b": 0
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！美国 2-0 波黑（82'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！美国 2-0 波黑",
     "moments": [
       {
         "type": "goal",
@@ -57,6 +57,15 @@
           "b": 0
         },
         "headline": "⚽  进球！美国 2-0 波黑（82'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！美国 2-0 波黑"
       },
       {
         "type": "halftime",
@@ -514,15 +523,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！荷兰 1-1 摩洛哥",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 72,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！荷兰 1-0 摩洛哥（72'）"
-      },
       {
         "type": "goal",
         "minute": 90,
