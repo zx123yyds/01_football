@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "usa",
+      "bosnia-herzegovina"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！美国 1-0 波黑（45'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 45,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！美国 1-0 波黑（45'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！美国 vs 波黑"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "belgium",
       "senegal"
     ],
@@ -505,24 +536,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！德国 1-1 巴拉圭",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 106,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 德国 vs 巴拉圭（106'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 115,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 德国 vs 巴拉圭（115'）"
-      },
       {
         "type": "yellowcard",
         "minute": 117,
