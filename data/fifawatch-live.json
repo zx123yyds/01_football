@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "spain",
+      "austria"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！西班牙 1-0 奥地利（36'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 36,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 1-0 奥地利（36'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！西班牙 vs 奥地利"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "usa",
       "bosnia-herzegovina"
     ],
@@ -506,40 +537,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！科特迪瓦 vs 挪威"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "netherlands",
-      "morocco"
-    ],
-    "score": {
-      "a": 1,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！荷兰 1-1 摩洛哥",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！荷兰 1-1 摩洛哥（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！荷兰 1-1 摩洛哥"
       }
     ]
   }
