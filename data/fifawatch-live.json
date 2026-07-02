@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "portugal",
+      "croatia"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 17,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！葡萄牙 vs 克罗地亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "spain",
       "austria"
     ],
@@ -506,31 +537,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！法国 vs 瑞典"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "cote-divoire",
-      "norway"
-    ],
-    "score": {
-      "a": 1,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威"
       }
     ]
   }
