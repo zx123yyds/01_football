@@ -6,12 +6,12 @@
       "austria"
     ],
     "score": {
-      "a": 1,
+      "a": 3,
       "b": 0
     },
-    "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！西班牙 1-0 奥地利",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,42 @@
           "b": 0
         },
         "headline": "⚽  进球！西班牙 1-0 奥地利（36'）"
+      },
+      {
+        "type": "goal",
+        "minute": 66,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 2-0 奥地利（66'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 83,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 西班牙 vs 奥地利（83'）"
+      },
+      {
+        "type": "goal",
+        "minute": 89,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 3-0 奥地利（89'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利"
       },
       {
         "type": "halftime",
@@ -489,33 +525,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 39,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！科特迪瓦 0-1 挪威（39'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 45,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 科特迪瓦 vs 挪威（45'）"
-      },
-      {
-        "type": "goal",
-        "minute": 74,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！科特迪瓦 1-1 挪威（74'）"
-      },
-      {
-        "type": "goal",
         "minute": 86,
         "score": {
           "a": 1,
@@ -531,15 +540,6 @@
           "b": 2
         },
         "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！科特迪瓦 0-1 挪威"
       }
     ]
   }
