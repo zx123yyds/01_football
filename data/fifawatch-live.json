@@ -524,15 +524,6 @@
     "headline": "据 FIFA Watch：🏁 终场！科特迪瓦 1-2 挪威",
     "moments": [
       {
-        "type": "goal",
-        "minute": 86,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！科特迪瓦 1-2 挪威（86'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
