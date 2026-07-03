@@ -1,20 +1,5 @@
 [
   {
-    "matchId": "wc2026-084",
-    "teamSlugs": [
-      "portugal",
-      "croatia"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": null,
-    "moments": []
-  },
-  {
     "matchId": null,
     "teamSlugs": [
       "switzerland",
@@ -87,6 +72,100 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！瑞士 vs 阿尔及利亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "portugal",
+      "croatia"
+    ],
+    "score": {
+      "a": 2,
+      "b": 1
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 17,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 53,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 0-1 克罗地亚（53'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 59,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（59'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "⚽  进球！葡萄牙 2-2 克罗地亚（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 2-1 克罗地亚（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！葡萄牙 0-0 克罗地亚"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！葡萄牙 vs 克罗地亚"
       }
     ]
   },
