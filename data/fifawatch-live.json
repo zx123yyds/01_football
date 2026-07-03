@@ -17,6 +17,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "switzerland",
+      "algeria"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（36'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 11,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！瑞士 1-0 阿尔及利亚（11'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 36,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（36'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！瑞士 vs 阿尔及利亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "spain",
       "austria"
     ],
@@ -377,33 +417,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-0 厄瓜多尔",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 22,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！墨西哥 1-0 厄瓜多尔（22'）"
-      },
-      {
-        "type": "goal",
-        "minute": 31,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！墨西哥 2-0 厄瓜多尔（31'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 45,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（45'）"
-      },
       {
         "type": "yellowcard",
         "minute": 90,
