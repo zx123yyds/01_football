@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "argentina",
+      "cabo-verde"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 29,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！阿根廷 vs 佛得角"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "australia",
       "egypt"
     ],
@@ -506,40 +537,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！比利时 vs 塞内加尔"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "england",
-      "congo-dr"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)",
-    "moments": [
-      {
-        "type": "goal",
-        "minute": 86,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！英格兰 2-1 刚果(金)（86'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)"
       }
     ]
   }
