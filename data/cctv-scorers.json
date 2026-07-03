@@ -394,6 +394,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 502924,
+      "playerName": "阿舒尔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613213153950_320x320.jpg",
+      "teamName": "埃及",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
+      "games": 4,
+      "goals": 2,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 479371,
       "playerName": "阿亚里",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614090145374_640x640.png",
@@ -539,7 +549,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613213241753_320x320.jpg",
       "teamName": "埃及",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -569,7 +579,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613213120854_320x320.jpg",
       "teamName": "埃及",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017160631007_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -909,7 +919,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610185917364_320x320.png",
       "teamName": "澳大利亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114030200_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -990,16 +1000,6 @@
       "teamName": "墨西哥",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
       "games": 3,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 422489,
-      "playerName": "普拉塔",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614083312113_640x640.png",
-      "teamName": "厄瓜多尔",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
-      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     }
