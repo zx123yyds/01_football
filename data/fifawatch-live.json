@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "australia",
+      "egypt"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！澳大利亚 0-1 埃及（13'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 13,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！澳大利亚 0-1 埃及（13'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！澳大利亚 vs 埃及"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "switzerland",
       "algeria"
     ],
@@ -509,12 +540,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！英格兰 0-1 刚果(金)"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！英格兰 vs 刚果(金)"
       }
     ]
   }
