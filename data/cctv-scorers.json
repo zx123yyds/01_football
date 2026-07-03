@@ -184,6 +184,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 204347,
+      "playerName": "C罗",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
+      "teamName": "葡萄牙",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
+      "games": 4,
+      "goals": 3,
+      "penaltyKickGoals": 1
+    },
+    {
       "playerId": 243371,
       "playerName": "维萨",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616113824442_640x640.png",
@@ -202,16 +212,6 @@
       "games": 4,
       "goals": 3,
       "penaltyKickGoals": 1
-    },
-    {
-      "playerId": 204347,
-      "playerName": "C罗",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
-      "teamName": "葡萄牙",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
-      "games": 3,
-      "goals": 2,
-      "penaltyKickGoals": 0
     },
     {
       "playerId": 216675,
@@ -449,7 +449,17 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140505977_640x640.png",
       "teamName": "克罗地亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
-      "games": 2,
+      "games": 3,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 211123,
+      "playerName": "佩里希奇",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140457439_640x640.png",
+      "teamName": "克罗地亚",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -559,7 +569,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140411857_640x640.png",
       "teamName": "克罗地亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114231844_200x200.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -729,7 +739,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615181929712_320x320.png",
       "teamName": "葡萄牙",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -989,16 +999,6 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615151120803_320x320.png",
       "teamName": "约旦",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
-      "games": 3,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 426136,
-      "playerName": "彼得森",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613192806065_640x640.png",
-      "teamName": "挪威",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
       "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0

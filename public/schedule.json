@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-03T01:00:56.985Z",
+  "generatedAt": "2026-07-03T02:00:59.619Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-03T01:00:56.075Z",
+    "checkedAt": "2026-07-03T02:00:59.002Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-03T01:00:55.142Z"
+          "updatedAt": "2026-07-03T02:00:58.202Z"
         },
-        "checkedAt": "2026-07-03T01:00:55.143Z"
+        "checkedAt": "2026-07-03T02:00:58.204Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-03T01:00:55.796Z"
+          "updatedAt": "2026-07-03T02:00:58.753Z"
         },
-        "checkedAt": "2026-07-03T01:00:55.796Z"
+        "checkedAt": "2026-07-03T02:00:58.755Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-03T01:00:56.075Z"
+          "updatedAt": "2026-07-03T02:00:59.001Z"
         },
-        "checkedAt": "2026-07-03T01:00:56.075Z"
+        "checkedAt": "2026-07-03T02:00:59.002Z"
       }
     ]
   },
-  "liveScoreUpdates": 7,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
@@ -1162,6 +1162,19 @@
     },
     {
       "rank": 19,
+      "playerId": 204347,
+      "playerName": "C罗",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
+      "teamName": "葡萄牙",
+      "teamFlag": "🇵🇹",
+      "teamCode": "POR",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
+      "games": 4,
+      "goals": 3,
+      "penaltyGoals": 1
+    },
+    {
+      "rank": 20,
       "playerId": 243371,
       "playerName": "维萨",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616113824442_640x640.png",
@@ -1169,19 +1182,6 @@
       "teamFlag": "",
       "teamCode": "",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160128467_90x90.png",
-      "games": 4,
-      "goals": 3,
-      "penaltyGoals": 1
-    },
-    {
-      "rank": 20,
-      "playerId": 358023,
-      "playerName": "哈维茨",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162230462_640x640.png",
-      "teamName": "德国",
-      "teamFlag": "🇩🇪",
-      "teamCode": "GER",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
       "games": 4,
       "goals": 3,
       "penaltyGoals": 1

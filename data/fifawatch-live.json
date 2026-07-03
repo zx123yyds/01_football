@@ -1,6 +1,6 @@
 [
   {
-    "matchId": null,
+    "matchId": "wc2026-084",
     "teamSlugs": [
       "portugal",
       "croatia"
@@ -9,71 +9,10 @@
       "a": 2,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 17,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）"
-      },
-      {
-        "type": "goal",
-        "minute": 53,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！葡萄牙 0-1 克罗地亚（53'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 59,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（59'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！葡萄牙 2-1 克罗地亚（90'）"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！葡萄牙 0-0 克罗地亚"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！葡萄牙 vs 克罗地亚"
-      }
-    ]
+    "status": "finished",
+    "type": "fulltime",
+    "headline": null,
+    "moments": []
   },
   {
     "matchId": null,
@@ -509,37 +448,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！墨西哥 2-0 厄瓜多尔"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！墨西哥 vs 厄瓜多尔"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "france",
-      "sweden"
-    ],
-    "score": {
-      "a": 3,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！法国 3-0 瑞典",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！法国 3-0 瑞典"
       }
     ]
   }
