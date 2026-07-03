@@ -517,30 +517,5 @@
         "headline": "🟢 开球！英格兰 vs 刚果(金)"
       }
     ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "mexico",
-      "ecuador"
-    ],
-    "score": {
-      "a": 2,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-0 厄瓜多尔",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-0 厄瓜多尔"
-      }
-    ]
   }
 ]
