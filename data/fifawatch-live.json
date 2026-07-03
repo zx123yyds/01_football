@@ -6,12 +6,12 @@
       "egypt"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 1
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！澳大利亚 0-1 埃及（13'）",
+    "type": "owngoal",
+    "headline": "⚽  乌龙球！澳大利亚 1-1 埃及（55'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,24 @@
           "b": 1
         },
         "headline": "⚽  进球！澳大利亚 0-1 埃及（13'）"
+      },
+      {
+        "type": "owngoal",
+        "minute": 55,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  乌龙球！澳大利亚 1-1 埃及（55'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！澳大利亚 0-1 埃及"
       },
       {
         "type": "kickoff",
@@ -478,24 +496,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 7,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！英格兰 0-1 刚果(金)（7'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 19,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 英格兰 vs 刚果(金)（19'）"
-      },
       {
         "type": "yellowcard",
         "minute": 28,
