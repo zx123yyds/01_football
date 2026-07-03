@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！阿根廷 1-0 佛得角",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,15 @@
           "b": 0
         },
         "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！阿根廷 1-0 佛得角"
       },
       {
         "type": "kickoff",
@@ -531,12 +540,6 @@
           "b": 1
         },
         "headline": "⏸️ 半场！比利时 0-1 塞内加尔"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！比利时 vs 塞内加尔"
       }
     ]
   }
