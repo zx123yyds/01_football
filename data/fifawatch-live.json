@@ -9,9 +9,9 @@
       "a": 1,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 澳大利亚 vs 埃及（120'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,15 @@
           "b": 1
         },
         "headline": "🟨  黄牌 澳大利亚 vs 埃及（120'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及"
       },
       {
         "type": "halftime",
@@ -514,15 +523,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！英格兰 2-1 刚果(金)",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 75,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  进球！英格兰 1-1 刚果(金)（75'）"
-      },
       {
         "type": "goal",
         "minute": 86,
