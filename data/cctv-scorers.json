@@ -179,7 +179,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111049032_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -239,7 +239,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610155708253_320x320.png",
       "teamName": "阿尔及利亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -299,7 +299,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111909935_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 3,
+      "games": 4,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -439,6 +439,16 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615113105182_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+      "games": 4,
+      "goals": 2,
+      "penaltyKickGoals": 1
+    },
+    {
+      "playerId": 233488,
+      "playerName": "恩博洛",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613105712031_554x554.png",
+      "teamName": "瑞士",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
       "games": 4,
       "goals": 2,
       "penaltyKickGoals": 1
@@ -819,7 +829,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610153922129_320x320.png",
       "teamName": "阿尔及利亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160508877_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -990,16 +1000,6 @@
       "teamName": "厄瓜多尔",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114243661_200x200.png",
       "games": 4,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 415703,
-      "playerName": "塔马里",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615151120803_320x320.png",
-      "teamName": "约旦",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161107/20161107140431939_90x90.png",
-      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     }
