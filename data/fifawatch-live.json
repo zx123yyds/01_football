@@ -21,12 +21,12 @@
       "algeria"
     ],
     "score": {
-      "a": 1,
+      "a": 2,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（36'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！瑞士 2-0 阿尔及利亚",
     "moments": [
       {
         "type": "goal",
@@ -45,6 +45,42 @@
           "b": 0
         },
         "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（36'）"
+      },
+      {
+        "type": "goal",
+        "minute": 46,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！瑞士 1-0 阿尔及利亚（46'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 72,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（72'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！瑞士 2-0 阿尔及利亚"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！瑞士 1-0 阿尔及利亚"
       },
       {
         "type": "kickoff",
@@ -418,33 +454,6 @@
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-0 厄瓜多尔",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（90'）"
-      },
-      {
-        "type": "redcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟥  红牌！墨西哥 vs 厄瓜多尔（90'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 厄瓜多尔（90'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -452,15 +461,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-0 厄瓜多尔"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！墨西哥 2-0 厄瓜多尔"
       }
     ]
   }
