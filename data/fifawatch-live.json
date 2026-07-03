@@ -6,12 +6,12 @@
       "croatia"
     ],
     "score": {
-      "a": 0,
-      "b": 0
+      "a": 2,
+      "b": 1
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）",
+    "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -21,6 +21,51 @@
           "b": 0
         },
         "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）"
+      },
+      {
+        "type": "goal",
+        "minute": 53,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 0-1 克罗地亚（53'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 59,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（59'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！葡萄牙 2-1 克罗地亚（90'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！葡萄牙 0-0 克罗地亚"
       },
       {
         "type": "kickoff",
@@ -488,33 +533,6 @@
     "headline": "据 FIFA Watch：🏁 终场！法国 3-0 瑞典",
     "moments": [
       {
-        "type": "goal",
-        "minute": 45,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！法国 1-0 瑞典（45'）"
-      },
-      {
-        "type": "goal",
-        "minute": 53,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！法国 2-0 瑞典（53'）"
-      },
-      {
-        "type": "goal",
-        "minute": 74,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！法国 3-0 瑞典（74'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -522,21 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！法国 3-0 瑞典"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！法国 1-0 瑞典"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！法国 vs 瑞典"
       }
     ]
   }
