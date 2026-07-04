@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 1,
-      "b": 0
+      "b": 1
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！阿根廷 1-0 佛得角",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 阿根廷 vs 佛得角（68'）",
     "moments": [
       {
         "type": "goal",
@@ -21,6 +21,24 @@
           "b": 0
         },
         "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）"
+      },
+      {
+        "type": "goal",
+        "minute": 59,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿根廷 1-1 佛得角（59'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 68,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 阿根廷 vs 佛得角（68'）"
       },
       {
         "type": "halftime",
@@ -462,15 +480,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 25,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！比利时 0-1 塞内加尔（25'）"
-      },
-      {
-        "type": "goal",
         "minute": 51,
         "score": {
           "a": 0,
@@ -531,15 +540,6 @@
           "b": 2
         },
         "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！比利时 0-1 塞内加尔"
       }
     ]
   }
