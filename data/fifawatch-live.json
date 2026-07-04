@@ -2,6 +2,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "colombia",
+      "ghana"
+    ],
+    "score": {
+      "a": 1,
+      "b": 0
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！哥伦比亚 1-0 加纳（14'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 12,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 哥伦比亚 vs 加纳（12'）"
+      },
+      {
+        "type": "goal",
+        "minute": 14,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！哥伦比亚 1-0 加纳（14'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！哥伦比亚 vs 加纳"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "argentina",
       "cabo-verde"
     ],
@@ -500,46 +540,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！美国 1-0 波黑"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！美国 vs 波黑"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "belgium",
-      "senegal"
-    ],
-    "score": {
-      "a": 3,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔",
-    "moments": [
-      {
-        "type": "var",
-        "minute": 120,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "📺 VAR 介入！比利时 vs 塞内加尔（120'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔"
       }
     ]
   }
