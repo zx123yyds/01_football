@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 2
+      "b": 3
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！加拿大 0-2 摩洛哥（82'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥",
     "moments": [
       {
         "type": "yellowcard",
@@ -102,6 +102,24 @@
           "b": 2
         },
         "headline": "⚽  进球！加拿大 0-2 摩洛哥（82'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 3
+        },
+        "headline": "⚽  进球！加拿大 0-3 摩洛哥（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥"
       },
       {
         "type": "halftime",
@@ -484,15 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 59,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（59'）"
-      },
-      {
         "type": "goal",
         "minute": 90,
         "score": {
@@ -509,15 +518,6 @@
           "b": 1
         },
         "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "⚽  进球！葡萄牙 2-1 克罗地亚（90'）"
       },
       {
         "type": "fulltime",

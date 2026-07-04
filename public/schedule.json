@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-04T19:01:04.096Z",
+  "generatedAt": "2026-07-04T19:41:04.055Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-04T19:01:03.500Z",
+    "checkedAt": "2026-07-04T19:41:03.211Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T19:01:02.795Z"
+          "updatedAt": "2026-07-04T19:41:02.489Z"
         },
-        "checkedAt": "2026-07-04T19:01:02.795Z"
+        "checkedAt": "2026-07-04T19:41:02.490Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T19:01:03.348Z"
+          "updatedAt": "2026-07-04T19:41:03.007Z"
         },
-        "checkedAt": "2026-07-04T19:01:03.349Z"
+        "checkedAt": "2026-07-04T19:41:03.008Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T19:01:03.500Z"
+          "updatedAt": "2026-07-04T19:41:03.210Z"
         },
-        "checkedAt": "2026-07-04T19:01:03.500Z"
+        "checkedAt": "2026-07-04T19:41:03.211Z"
       }
     ]
   },
@@ -1130,7 +1130,7 @@
       "teamFlag": "🇨🇦",
       "teamCode": "CAN",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114217188_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyGoals": 0
     },
@@ -1143,7 +1143,7 @@
       "teamFlag": "🇲🇦",
       "teamCode": "MAR",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114406266_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyGoals": 0
     },
