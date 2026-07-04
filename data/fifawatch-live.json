@@ -6,12 +6,12 @@
       "cabo-verde"
     ],
     "score": {
-      "a": 1,
-      "b": 1
+      "a": 3,
+      "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 阿根廷 vs 佛得角（68'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 佛得角",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,51 @@
           "b": 1
         },
         "headline": "🟨  黄牌 阿根廷 vs 佛得角（68'）"
+      },
+      {
+        "type": "goal",
+        "minute": 92,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿根廷 2-1 佛得角（92'）"
+      },
+      {
+        "type": "goal",
+        "minute": 103,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 2-2 佛得角（103'）"
+      },
+      {
+        "type": "owngoal",
+        "minute": 111,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "⚽  乌龙球！阿根廷 3-2 佛得角（111'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 115,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 阿根廷 vs 佛得角（115'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 佛得角"
       },
       {
         "type": "halftime",
@@ -478,51 +523,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！比利时 3-2 塞内加尔",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 51,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！比利时 0-2 塞内加尔（51'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 64,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 比利时 vs 塞内加尔（64'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 67,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 比利时 vs 塞内加尔（67'）"
-      },
-      {
-        "type": "goal",
-        "minute": 86,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！比利时 0-2 塞内加尔（86'）"
-      },
-      {
-        "type": "goal",
-        "minute": 89,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "⚽  进球！比利时 2-2 塞内加尔（89'）"
-      },
       {
         "type": "var",
         "minute": 120,
