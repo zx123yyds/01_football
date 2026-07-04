@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！加拿大 0-0 摩洛哥",
     "moments": [
       {
         "type": "yellowcard",
@@ -66,6 +66,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！加拿大 0-0 摩洛哥"
       },
       {
         "type": "kickoff",
@@ -515,31 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！葡萄牙 vs 克罗地亚"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "spain",
-      "austria"
-    ],
-    "score": {
-      "a": 3,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利"
       }
     ]
   }
