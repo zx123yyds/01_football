@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 0
+      "b": 2
     },
     "status": "live",
-    "type": "halftime",
-    "headline": "⏸️ 半场！加拿大 0-0 摩洛哥",
+    "type": "goal",
+    "headline": "⚽  进球！加拿大 0-2 摩洛哥（82'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -66,6 +66,42 @@
           "b": 0
         },
         "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 49,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（49'）"
+      },
+      {
+        "type": "goal",
+        "minute": 50,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⚽  进球！加拿大 0-0 摩洛哥（50'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（67'）"
+      },
+      {
+        "type": "goal",
+        "minute": 82,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！加拿大 0-2 摩洛哥（82'）"
       },
       {
         "type": "halftime",
@@ -449,24 +485,6 @@
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 17,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（17'）"
-      },
-      {
-        "type": "goal",
-        "minute": 53,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！葡萄牙 0-1 克罗地亚（53'）"
-      },
-      {
-        "type": "yellowcard",
         "minute": 59,
         "score": {
           "a": 0,
@@ -509,21 +527,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！葡萄牙 0-0 克罗地亚"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！葡萄牙 vs 克罗地亚"
       }
     ]
   }
