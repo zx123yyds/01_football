@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "paraguay",
+      "france"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 巴拉圭 vs 法国（19'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 19,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 巴拉圭 vs 法国（19'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！巴拉圭 vs 法国"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "canada",
       "morocco"
     ],
@@ -501,24 +532,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 2
-        },
-        "headline": "⚽  进球！葡萄牙 2-2 克罗地亚（90'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 克罗地亚（90'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
