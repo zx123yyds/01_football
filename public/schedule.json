@@ -1,26 +1,26 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-04T05:01:15.841Z",
+  "generatedAt": "2026-07-04T06:01:03.147Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-04T05:01:15.074Z",
+    "checkedAt": "2026-07-04T06:01:02.547Z",
     "sources": [
       {
         "name": "CCTV standings",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T05:00:56.038Z"
+          "updatedAt": "2026-07-04T06:01:01.735Z"
         },
-        "checkedAt": "2026-07-04T05:01:12.462Z"
+        "checkedAt": "2026-07-04T06:01:01.736Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T05:01:14.725Z"
+          "updatedAt": "2026-07-04T06:01:02.312Z"
         },
-        "checkedAt": "2026-07-04T05:01:14.726Z"
+        "checkedAt": "2026-07-04T06:01:02.313Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T05:01:15.073Z"
+          "updatedAt": "2026-07-04T06:01:02.546Z"
         },
-        "checkedAt": "2026-07-04T05:01:15.074Z"
+        "checkedAt": "2026-07-04T06:01:02.547Z"
       }
     ]
   },
