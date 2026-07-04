@@ -1,20 +1,5 @@
 [
   {
-    "matchId": "wc2026-079",
-    "teamSlugs": [
-      "mexico",
-      "ecuador"
-    ],
-    "score": {
-      "a": 2,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": null,
-    "moments": []
-  },
-  {
     "matchId": null,
     "teamSlugs": [
       "colombia",
