@@ -9,9 +9,9 @@
       "a": 1,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 哥伦比亚 vs 加纳（66'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳",
     "moments": [
       {
         "type": "yellowcard",
@@ -48,6 +48,33 @@
           "b": 0
         },
         "headline": "🟨  黄牌 哥伦比亚 vs 加纳（66'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 76,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 哥伦比亚 vs 加纳（76'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 78,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 哥伦比亚 vs 加纳（78'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳"
       },
       {
         "type": "halftime",
@@ -505,33 +532,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！美国 2-0 波黑",
     "moments": [
-      {
-        "type": "redcard",
-        "minute": 64,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟥  红牌！美国 vs 波黑（64'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 80,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 美国 vs 波黑（80'）"
-      },
-      {
-        "type": "goal",
-        "minute": 82,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！美国 2-0 波黑（82'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
