@@ -10,8 +10,8 @@
       "b": 0
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 巴拉圭 vs 法国（19'）",
+    "type": "var",
+    "headline": "📺 VAR 介入！巴拉圭 vs 法国（67'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -21,6 +21,24 @@
           "b": 0
         },
         "headline": "🟨  黄牌 巴拉圭 vs 法国（19'）"
+      },
+      {
+        "type": "var",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "📺 VAR 介入！巴拉圭 vs 法国（67'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！巴拉圭 0-0 法国"
       },
       {
         "type": "kickoff",
@@ -509,37 +527,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！瑞士 1-0 阿尔及利亚"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！瑞士 vs 阿尔及利亚"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "portugal",
-      "croatia"
-    ],
-    "score": {
-      "a": 2,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 2-1 克罗地亚"
       }
     ]
   }
