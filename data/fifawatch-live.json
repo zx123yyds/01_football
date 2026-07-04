@@ -2,6 +2,82 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "canada",
+      "morocco"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 20,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（20'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 40,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（40'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 40,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（40'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 43,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（43'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 45,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 45,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（45'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！加拿大 vs 摩洛哥"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "colombia",
       "ghana"
     ],
@@ -457,42 +533,6 @@
     "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利",
     "moments": [
       {
-        "type": "goal",
-        "minute": 36,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 1-0 奥地利（36'）"
-      },
-      {
-        "type": "goal",
-        "minute": 66,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 2-0 奥地利（66'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 83,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 西班牙 vs 奥地利（83'）"
-      },
-      {
-        "type": "goal",
-        "minute": 89,
-        "score": {
-          "a": 3,
-          "b": 0
-        },
-        "headline": "⚽  进球！西班牙 3-0 奥地利（89'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
@@ -500,46 +540,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！西班牙 3-0 奥地利"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！西班牙 1-0 奥地利"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！西班牙 vs 奥地利"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "usa",
-      "bosnia-herzegovina"
-    ],
-    "score": {
-      "a": 2,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！美国 2-0 波黑",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！美国 2-0 波黑"
       }
     ]
   }
