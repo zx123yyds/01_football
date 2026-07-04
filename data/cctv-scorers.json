@@ -19,9 +19,9 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
       "teamName": "法国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 4,
-      "goals": 6,
-      "penaltyKickGoals": 0
+      "games": 5,
+      "goals": 7,
+      "penaltyKickGoals": 1
     },
     {
       "playerId": 349922,
@@ -49,7 +49,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
       "teamName": "法国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyKickGoals": 0
     },
@@ -399,7 +399,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614131343414_640x640.png",
       "teamName": "法国",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 2,
       "penaltyKickGoals": 0
     },

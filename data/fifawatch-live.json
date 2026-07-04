@@ -9,9 +9,9 @@
       "a": 0,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 巴拉圭 vs 法国（81'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-1 法国",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,24 @@
           "b": 1
         },
         "headline": "🟨  黄牌 巴拉圭 vs 法国（81'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 巴拉圭 vs 法国（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-1 法国"
       },
       {
         "type": "halftime",
@@ -483,24 +501,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！瑞士 2-0 阿尔及利亚",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 36,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 瑞士 vs 阿尔及利亚（36'）"
-      },
-      {
-        "type": "goal",
-        "minute": 46,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！瑞士 1-0 阿尔及利亚（46'）"
-      },
       {
         "type": "yellowcard",
         "minute": 72,

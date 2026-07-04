@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-04T23:01:06.241Z",
+  "generatedAt": "2026-07-04T23:46:41.870Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-04T23:01:05.450Z",
+    "checkedAt": "2026-07-04T23:46:41.258Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T23:01:04.747Z"
+          "updatedAt": "2026-07-04T23:46:40.432Z"
         },
-        "checkedAt": "2026-07-04T23:01:04.748Z"
+        "checkedAt": "2026-07-04T23:46:40.433Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T23:01:05.309Z"
+          "updatedAt": "2026-07-04T23:46:40.935Z"
         },
-        "checkedAt": "2026-07-04T23:01:05.309Z"
+        "checkedAt": "2026-07-04T23:46:40.935Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-04T23:01:05.449Z"
+          "updatedAt": "2026-07-04T23:46:41.258Z"
         },
-        "checkedAt": "2026-07-04T23:01:05.450Z"
+        "checkedAt": "2026-07-04T23:46:41.258Z"
       }
     ]
   },
@@ -948,9 +948,9 @@
       "teamFlag": "🇫🇷",
       "teamCode": "FRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 4,
-      "goals": 6,
-      "penaltyGoals": 0
+      "games": 5,
+      "goals": 7,
+      "penaltyGoals": 1
     },
     {
       "rank": 3,
@@ -987,7 +987,7 @@
       "teamFlag": "🇫🇷",
       "teamCode": "FRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyGoals": 0
     },
