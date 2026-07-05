@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 1
+      "b": 2
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！巴西 0-1 挪威（79'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 巴西 vs 挪威（90'）",
     "moments": [
       {
         "type": "var",
@@ -30,6 +30,24 @@
           "b": 1
         },
         "headline": "⚽  进球！巴西 0-1 挪威（79'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 巴西 vs 挪威（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！巴西 0-2 挪威（90'）"
       },
       {
         "type": "halftime",
@@ -475,15 +493,6 @@
     "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及",
     "moments": [
       {
-        "type": "goal",
-        "minute": 13,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！澳大利亚 0-1 埃及（13'）"
-      },
-      {
         "type": "owngoal",
         "minute": 55,
         "score": {
@@ -518,15 +527,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⏸️ 半场！澳大利亚 0-1 埃及"
       }
     ]
   }
