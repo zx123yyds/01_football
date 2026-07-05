@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-05T22:01:09.559Z",
+  "generatedAt": "2026-07-05T22:44:19.719Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-05T22:01:08.720Z",
+    "checkedAt": "2026-07-05T22:44:19.105Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-05T22:01:08.111Z"
+          "updatedAt": "2026-07-05T22:44:18.476Z"
         },
-        "checkedAt": "2026-07-05T22:01:08.113Z"
+        "checkedAt": "2026-07-05T22:44:18.477Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-05T22:01:08.557Z"
+          "updatedAt": "2026-07-05T22:44:18.965Z"
         },
-        "checkedAt": "2026-07-05T22:01:08.558Z"
+        "checkedAt": "2026-07-05T22:44:18.965Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-05T22:01:08.719Z"
+          "updatedAt": "2026-07-05T22:44:19.104Z"
         },
-        "checkedAt": "2026-07-05T22:01:08.720Z"
+        "checkedAt": "2026-07-05T22:44:19.105Z"
       }
     ]
   },
@@ -941,6 +941,19 @@
     },
     {
       "rank": 2,
+      "playerId": 349922,
+      "playerName": "哈兰德",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
+      "teamName": "挪威",
+      "teamFlag": "🇳🇴",
+      "teamCode": "NOR",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+      "games": 4,
+      "goals": 7,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 3,
       "playerId": 338587,
       "playerName": "姆巴佩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
@@ -951,19 +964,6 @@
       "games": 5,
       "goals": 7,
       "penaltyGoals": 1
-    },
-    {
-      "rank": 3,
-      "playerId": 349922,
-      "playerName": "哈兰德",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
-      "teamName": "挪威",
-      "teamFlag": "🇳🇴",
-      "teamCode": "NOR",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 3,
-      "goals": 5,
-      "penaltyGoals": 0
     },
     {
       "rank": 4,
@@ -1026,7 +1026,7 @@
       "teamFlag": "🇧🇷",
       "teamCode": "BRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyGoals": 0
     },
@@ -1078,7 +1078,7 @@
       "teamFlag": "🇧🇷",
       "teamCode": "BRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyGoals": 0
     },

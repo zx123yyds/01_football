@@ -14,6 +14,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 349922,
+      "playerName": "哈兰德",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
+      "teamName": "挪威",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+      "games": 4,
+      "goals": 7,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 338587,
       "playerName": "姆巴佩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
@@ -22,16 +32,6 @@
       "games": 5,
       "goals": 7,
       "penaltyKickGoals": 1
-    },
-    {
-      "playerId": 349922,
-      "playerName": "哈兰德",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
-      "teamName": "挪威",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 3,
-      "goals": 5,
-      "penaltyKickGoals": 0
     },
     {
       "playerId": 218777,
@@ -79,7 +79,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
       "teamName": "巴西",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyKickGoals": 0
     },
@@ -119,7 +119,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154818063_320x320.png",
       "teamName": "巴西",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyKickGoals": 0
     },
@@ -529,7 +529,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154543604_640x640.png",
       "teamName": "巴西",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -789,7 +789,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191547763_640x640.png",
       "teamName": "挪威",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 3,
+      "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0
     },

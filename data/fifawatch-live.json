@@ -6,12 +6,12 @@
       "norway"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 巴西 vs 挪威（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威",
     "moments": [
       {
         "type": "var",
@@ -48,6 +48,15 @@
           "b": 2
         },
         "headline": "⚽  进球！巴西 0-2 挪威（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威"
       },
       {
         "type": "halftime",
@@ -492,15 +501,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及",
     "moments": [
-      {
-        "type": "owngoal",
-        "minute": 55,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "⚽  乌龙球！澳大利亚 1-1 埃及（55'）"
-      },
       {
         "type": "yellowcard",
         "minute": 105,
