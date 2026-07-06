@@ -24,9 +24,9 @@
       "a": 2,
       "b": 3
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 墨西哥 vs 英格兰（72'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
     "moments": [
       {
         "type": "yellowcard",
@@ -117,6 +117,33 @@
           "b": 3
         },
         "headline": "🟨  黄牌 墨西哥 vs 英格兰（72'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰"
       },
       {
         "type": "halftime",
@@ -365,15 +392,6 @@
     "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 12,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 加纳（12'）"
-      },
-      {
         "type": "goal",
         "minute": 14,
         "score": {
@@ -435,37 +453,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！哥伦比亚 1-0 加纳"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！哥伦比亚 vs 加纳"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "argentina",
-      "cabo-verde"
-    ],
-    "score": {
-      "a": 3,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 佛得角",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 3,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 佛得角"
       }
     ]
   }
