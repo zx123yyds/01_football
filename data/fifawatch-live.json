@@ -453,15 +453,6 @@
     "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳",
     "moments": [
       {
-        "type": "goal",
-        "minute": 14,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！哥伦比亚 1-0 加纳（14'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 49,
         "score": {
