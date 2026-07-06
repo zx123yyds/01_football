@@ -1,20 +1,5 @@
 [
   {
-    "matchId": "wc2026-091",
-    "teamSlugs": [
-      "brazil",
-      "norway"
-    ],
-    "score": {
-      "a": 1,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": null,
-    "moments": []
-  },
-  {
     "matchId": null,
     "teamSlugs": [
       "mexico",
@@ -159,6 +144,82 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！墨西哥 vs 英格兰"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "brazil",
+      "norway"
+    ],
+    "score": {
+      "a": 1,
+      "b": 2
+    },
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威",
+    "moments": [
+      {
+        "type": "var",
+        "minute": 12,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "📺 VAR 介入！巴西 vs 挪威（12'）"
+      },
+      {
+        "type": "goal",
+        "minute": 79,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！巴西 0-1 挪威（79'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 巴西 vs 挪威（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！巴西 0-2 挪威（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！巴西 0-0 挪威"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！巴西 vs 挪威"
       }
     ]
   },
