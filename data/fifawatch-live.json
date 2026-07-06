@@ -1,6 +1,6 @@
 [
   {
-    "matchId": "wc2026-092",
+    "matchId": null,
     "teamSlugs": [
       "mexico",
       "england"
@@ -11,8 +11,141 @@
     },
     "status": "finished",
     "type": "fulltime",
-    "headline": null,
-    "moments": []
+    "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 1,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（1'）"
+      },
+      {
+        "type": "goal",
+        "minute": 36,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！墨西哥 0-1 英格兰（36'）"
+      },
+      {
+        "type": "goal",
+        "minute": 38,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！墨西哥 0-2 英格兰（38'）"
+      },
+      {
+        "type": "goal",
+        "minute": 42,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！墨西哥 1-2 英格兰（42'）"
+      },
+      {
+        "type": "var",
+        "minute": 53,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "📺 VAR 介入！墨西哥 vs 英格兰（53'）"
+      },
+      {
+        "type": "redcard",
+        "minute": 54,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "🟥  红牌！墨西哥 vs 英格兰（54'）"
+      },
+      {
+        "type": "var",
+        "minute": 67,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "📺 VAR 介入！墨西哥 vs 英格兰（67'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 68,
+        "score": {
+          "a": 1,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（68'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 71,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（71'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 72,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（72'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 3
+        },
+        "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⏸️ 半场！墨西哥 1-2 英格兰"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！墨西哥 vs 英格兰"
+      }
+    ]
   },
   {
     "matchId": null,
