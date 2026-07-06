@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "portugal",
+      "spain"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "halftime",
+    "headline": "⏸️ 半场！葡萄牙 0-0 西班牙",
+    "moments": [
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！葡萄牙 0-0 西班牙"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！葡萄牙 vs 西班牙"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "mexico",
       "england"
     ],
@@ -496,15 +527,6 @@
           "b": 0
         },
         "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！哥伦比亚 1-0 加纳"
       }
     ]
   }
