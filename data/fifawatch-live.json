@@ -1,6 +1,6 @@
 [
   {
-    "matchId": null,
+    "matchId": "wc2026-091",
     "teamSlugs": [
       "brazil",
       "norway"
@@ -11,67 +11,64 @@
     },
     "status": "finished",
     "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威",
+    "headline": null,
+    "moments": []
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "mexico",
+      "england"
+    ],
+    "score": {
+      "a": 1,
+      "b": 2
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！墨西哥 1-2 英格兰（42'）",
     "moments": [
       {
-        "type": "var",
-        "minute": 12,
+        "type": "yellowcard",
+        "minute": 1,
         "score": {
           "a": 0,
           "b": 0
         },
-        "headline": "📺 VAR 介入！巴西 vs 挪威（12'）"
+        "headline": "🟨  黄牌 墨西哥 vs 英格兰（1'）"
       },
       {
         "type": "goal",
-        "minute": 79,
+        "minute": 36,
         "score": {
           "a": 0,
           "b": 1
         },
-        "headline": "⚽  进球！巴西 0-1 挪威（79'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 巴西 vs 挪威（90'）"
+        "headline": "⚽  进球！墨西哥 0-1 英格兰（36'）"
       },
       {
         "type": "goal",
-        "minute": 90,
+        "minute": 38,
         "score": {
           "a": 0,
           "b": 2
         },
-        "headline": "⚽  进球！巴西 0-2 挪威（90'）"
+        "headline": "⚽  进球！墨西哥 0-2 英格兰（38'）"
       },
       {
-        "type": "fulltime",
-        "minute": null,
+        "type": "goal",
+        "minute": 42,
         "score": {
           "a": 1,
           "b": 2
         },
-        "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！巴西 0-0 挪威"
+        "headline": "⚽  进球！墨西哥 1-2 英格兰（42'）"
       },
       {
         "type": "kickoff",
         "minute": null,
         "score": null,
-        "headline": "🟢 开球！巴西 vs 挪威"
+        "headline": "🟢 开球！墨西哥 vs 英格兰"
       }
     ]
   },
@@ -400,15 +397,6 @@
     "moments": [
       {
         "type": "goal",
-        "minute": 29,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "⚽  进球！阿根廷 1-0 佛得角（29'）"
-      },
-      {
-        "type": "goal",
         "minute": 59,
         "score": {
           "a": 1,
@@ -478,55 +466,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！阿根廷 1-0 佛得角"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！阿根廷 vs 佛得角"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "australia",
-      "egypt"
-    ],
-    "score": {
-      "a": 1,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 105,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 澳大利亚 vs 埃及（105'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 120,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 澳大利亚 vs 埃及（120'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！澳大利亚 1-1 埃及"
       }
     ]
   }
