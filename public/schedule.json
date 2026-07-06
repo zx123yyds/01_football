@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-06T21:01:11.373Z",
+  "generatedAt": "2026-07-06T22:00:10.775Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-06T21:01:10.769Z",
+    "checkedAt": "2026-07-06T22:00:09.867Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-06T21:01:10.205Z"
+          "updatedAt": "2026-07-06T22:00:09.089Z"
         },
-        "checkedAt": "2026-07-06T21:01:10.206Z"
+        "checkedAt": "2026-07-06T22:00:09.090Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-06T21:01:10.677Z"
+          "updatedAt": "2026-07-06T22:00:09.635Z"
         },
-        "checkedAt": "2026-07-06T21:01:10.678Z"
+        "checkedAt": "2026-07-06T22:00:09.635Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-06T21:01:10.768Z"
+          "updatedAt": "2026-07-06T22:00:09.865Z"
         },
-        "checkedAt": "2026-07-06T21:01:10.769Z"
+        "checkedAt": "2026-07-06T22:00:09.867Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 5,
   "stageOrder": [
     "group",
     "round-32",
@@ -1000,7 +1000,7 @@
       "teamFlag": "🇪🇸",
       "teamCode": "ESP",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyGoals": 0
     },
@@ -1182,7 +1182,7 @@
       "teamFlag": "🇵🇹",
       "teamCode": "POR",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyGoals": 1
     }

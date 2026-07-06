@@ -59,7 +59,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
       "teamName": "西班牙",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 4,
       "penaltyKickGoals": 0
     },
@@ -199,7 +199,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615180958911_320x320.png",
       "teamName": "葡萄牙",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 3,
       "penaltyKickGoals": 1
     },
@@ -654,6 +654,16 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 237925,
+      "playerName": "梅里诺",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615140406103_640x640.png",
+      "teamName": "西班牙",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+      "games": 5,
+      "goals": 1,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 382487,
       "playerName": "萨迪莱克",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150930798_320x320.png",
@@ -779,7 +789,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615181929712_320x320.png",
       "teamName": "葡萄牙",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114442561_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 1,
       "penaltyKickGoals": 0
     },
@@ -989,16 +999,6 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610172527295_320x320.png",
       "teamName": "日本",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20260614/20260614164421437_250x250.png",
-      "games": 4,
-      "goals": 1,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 436677,
-      "playerName": "恩梅查",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162006989_640x640.png",
-      "teamName": "德国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114315682_200x200.png",
       "games": 4,
       "goals": 1,
       "penaltyKickGoals": 0

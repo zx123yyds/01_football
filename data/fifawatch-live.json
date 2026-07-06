@@ -9,9 +9,9 @@
       "a": 0,
       "b": 1
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 葡萄牙 vs 西班牙（90'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙",
     "moments": [
       {
         "type": "yellowcard",
@@ -32,6 +32,15 @@
         "headline": "🟨  黄牌 葡萄牙 vs 西班牙（90'）"
       },
       {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 葡萄牙 vs 西班牙（90'）"
+      },
+      {
         "type": "goal",
         "minute": 90,
         "score": {
@@ -39,6 +48,15 @@
           "b": 1
         },
         "headline": "⚽  进球！葡萄牙 0-1 西班牙（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙"
       },
       {
         "type": "halftime",
@@ -493,40 +511,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！加拿大 vs 摩洛哥"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "colombia",
-      "ghana"
-    ],
-    "score": {
-      "a": 1,
-      "b": 0
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 78,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 哥伦比亚 vs 加纳（78'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 0
-        },
-        "headline": "据 FIFA Watch：🏁 终场！哥伦比亚 1-0 加纳"
       }
     ]
   }
