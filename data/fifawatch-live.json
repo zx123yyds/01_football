@@ -2,6 +2,64 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "switzerland",
+      "colombia"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（60'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 51,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（51'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 59,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（59'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 60,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（60'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！瑞士 0-0 哥伦比亚"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！瑞士 vs 哥伦比亚"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "argentina",
       "egypt"
     ],
@@ -341,15 +399,6 @@
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
     "moments": [
       {
-        "type": "yellowcard",
-        "minute": 1,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 英格兰（1'）"
-      },
-      {
         "type": "goal",
         "minute": 36,
         "score": {
@@ -465,46 +514,6 @@
           "b": 2
         },
         "headline": "⏸️ 半场！墨西哥 1-2 英格兰"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！墨西哥 vs 英格兰"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "brazil",
-      "norway"
-    ],
-    "score": {
-      "a": 1,
-      "b": 2
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "🟨  黄牌 巴西 vs 挪威（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威"
       }
     ]
   }
