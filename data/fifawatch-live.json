@@ -10,8 +10,8 @@
       "b": 2
     },
     "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 美国 vs 比利时（35'）",
+    "type": "halftime",
+    "headline": "⏸️ 半场！美国 1-2 比利时",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,15 @@
           "b": 2
         },
         "headline": "🟨  黄牌 美国 vs 比利时（35'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⏸️ 半场！美国 1-2 比利时"
       },
       {
         "type": "kickoff",
@@ -447,15 +456,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 43,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（43'）"
-      },
       {
         "type": "yellowcard",
         "minute": 45,
