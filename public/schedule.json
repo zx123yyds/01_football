@@ -1,38 +1,38 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-07T00:01:30.140Z",
+  "generatedAt": "2026-07-07T01:01:09.085Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-07T00:01:29.414Z",
+    "checkedAt": "2026-07-07T01:01:08.487Z",
     "sources": [
       {
         "name": "CCTV standings",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-07T00:01:05.161Z"
+          "updatedAt": "2026-07-07T01:01:07.563Z"
         },
-        "checkedAt": "2026-07-07T00:01:18.639Z"
+        "checkedAt": "2026-07-07T01:01:07.564Z"
       },
       {
         "name": "CCTV scorers",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/player/scorers?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-07T00:01:05.161Z"
+          "updatedAt": "2026-07-07T01:01:08.284Z"
         },
-        "checkedAt": "2026-07-07T00:01:29.137Z"
+        "checkedAt": "2026-07-07T01:01:08.284Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,13 +42,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-07T00:01:29.412Z"
+          "updatedAt": "2026-07-07T01:01:08.486Z"
         },
-        "checkedAt": "2026-07-07T00:01:29.414Z"
+        "checkedAt": "2026-07-07T01:01:08.487Z"
       }
     ]
   },
-  "liveScoreUpdates": 5,
+  "liveScoreUpdates": 6,
   "stageOrder": [
     "group",
     "round-32",
