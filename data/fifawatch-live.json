@@ -6,12 +6,12 @@
       "egypt"
     ],
     "score": {
-      "a": 0,
-      "b": 1
+      "a": 3,
+      "b": 2
     },
     "status": "live",
-    "type": "var",
-    "headline": "📺 VAR 介入！阿根廷 vs 埃及（32'）",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,96 @@
           "b": 1
         },
         "headline": "📺 VAR 介入！阿根廷 vs 埃及（32'）"
+      },
+      {
+        "type": "goal",
+        "minute": 58,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿根廷 0-1 埃及（58'）"
+      },
+      {
+        "type": "goal",
+        "minute": 59,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 0-2 埃及（59'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 61,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 阿根廷 vs 埃及（61'）"
+      },
+      {
+        "type": "goal",
+        "minute": 67,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 0-2 埃及（67'）"
+      },
+      {
+        "type": "goal",
+        "minute": 79,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 1-2 埃及（79'）"
+      },
+      {
+        "type": "goal",
+        "minute": 83,
+        "score": {
+          "a": 2,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 2-2 埃及（83'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 3,
+          "b": 2
+        },
+        "headline": "⚽  进球！阿根廷 3-2 埃及（90'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！阿根廷 0-1 埃及"
       },
       {
         "type": "kickoff",
@@ -381,15 +471,6 @@
     "headline": "据 FIFA Watch：🏁 终场！巴西 1-2 挪威",
     "moments": [
       {
-        "type": "var",
-        "minute": 12,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "📺 VAR 介入！巴西 vs 挪威（12'）"
-      },
-      {
         "type": "goal",
         "minute": 79,
         "score": {
@@ -433,113 +514,6 @@
           "b": 0
         },
         "headline": "⏸️ 半场！巴西 0-0 挪威"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！巴西 vs 挪威"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "paraguay",
-      "france"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-1 法国",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 19,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 巴拉圭 vs 法国（19'）"
-      },
-      {
-        "type": "var",
-        "minute": 67,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "📺 VAR 介入！巴拉圭 vs 法国（67'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 81,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴拉圭 vs 法国（81'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 巴拉圭 vs 法国（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！巴拉圭 0-1 法国"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！巴拉圭 0-0 法国"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！巴拉圭 vs 法国"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "canada",
-      "morocco"
-    ],
-    "score": {
-      "a": 0,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥"
       }
     ]
   }
