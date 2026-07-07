@@ -9,9 +9,9 @@
       "a": 0,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（105'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！瑞士 0-0 哥伦比亚",
     "moments": [
       {
         "type": "yellowcard",
@@ -57,6 +57,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（105'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！瑞士 0-0 哥伦比亚"
       },
       {
         "type": "halftime",
@@ -416,15 +425,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
     "moments": [
-      {
-        "type": "goal",
-        "minute": 42,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⚽  进球！墨西哥 1-2 英格兰（42'）"
-      },
       {
         "type": "var",
         "minute": 53,
