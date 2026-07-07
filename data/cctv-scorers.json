@@ -309,7 +309,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613111909935_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -319,7 +319,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615164153976_640x640.png",
       "teamName": "哥伦比亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-      "games": 4,
+      "games": 5,
       "goals": 2,
       "penaltyKickGoals": 0
     },
@@ -509,7 +509,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613105712031_554x554.png",
       "teamName": "瑞士",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114539099_200x200.png",
-      "games": 4,
+      "games": 5,
       "goals": 2,
       "penaltyKickGoals": 1
     },
@@ -989,7 +989,7 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615165836611_320x320.png",
       "teamName": "哥伦比亚",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-      "games": 2,
+      "games": 3,
       "goals": 1,
       "penaltyKickGoals": 0
     },
