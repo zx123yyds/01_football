@@ -498,15 +498,6 @@
         "headline": "🟨  黄牌 巴西 vs 挪威（90'）"
       },
       {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！巴西 0-2 挪威（90'）"
-      },
-      {
         "type": "fulltime",
         "minute": null,
         "score": {
