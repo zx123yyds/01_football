@@ -2,6 +2,46 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "argentina",
+      "egypt"
+    ],
+    "score": {
+      "a": 0,
+      "b": 1
+    },
+    "status": "live",
+    "type": "var",
+    "headline": "📺 VAR 介入！阿根廷 vs 埃及（32'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 15,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！阿根廷 0-1 埃及（15'）"
+      },
+      {
+        "type": "var",
+        "minute": 32,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "📺 VAR 介入！阿根廷 vs 埃及（32'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！阿根廷 vs 埃及"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "usa",
       "belgium"
     ],
@@ -492,33 +532,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！加拿大 0-3 摩洛哥",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 67,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 加拿大 vs 摩洛哥（67'）"
-      },
-      {
-        "type": "goal",
-        "minute": 82,
-        "score": {
-          "a": 0,
-          "b": 2
-        },
-        "headline": "⚽  进球！加拿大 0-2 摩洛哥（82'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 3
-        },
-        "headline": "⚽  进球！加拿大 0-3 摩洛哥（90'）"
-      },
       {
         "type": "fulltime",
         "minute": null,
