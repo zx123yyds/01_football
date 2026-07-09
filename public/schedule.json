@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-09T20:25:04.614Z",
+  "generatedAt": "2026-07-09T22:01:11.050Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-09T20:25:03.991Z",
+    "checkedAt": "2026-07-09T22:01:10.211Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T20:25:03.153Z"
+          "updatedAt": "2026-07-09T22:01:09.337Z"
         },
-        "checkedAt": "2026-07-09T20:25:03.154Z"
+        "checkedAt": "2026-07-09T22:01:09.338Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T20:25:03.659Z"
+          "updatedAt": "2026-07-09T22:01:09.835Z"
         },
-        "checkedAt": "2026-07-09T20:25:03.660Z"
+        "checkedAt": "2026-07-09T22:01:09.836Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T20:25:03.931Z"
+          "updatedAt": "2026-07-09T22:01:10.140Z"
         },
-        "checkedAt": "2026-07-09T20:25:03.932Z"
+        "checkedAt": "2026-07-09T22:01:10.141Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T20:25:03.991Z"
+          "updatedAt": "2026-07-09T22:01:10.210Z"
         },
-        "checkedAt": "2026-07-09T20:25:03.991Z"
+        "checkedAt": "2026-07-09T22:01:10.211Z"
       }
     ]
   },
-  "liveScoreUpdates": 5,
+  "liveScoreUpdates": 6,
   "scheduleScoreUpdates": 96,
   "scheduleTeamUpdates": 100,
   "stageOrder": [
@@ -4329,42 +4329,6 @@
       },
       "liveMoments": [
         {
-          "type": "var",
-          "minute": 53,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "📺 VAR 介入！墨西哥 vs 英格兰（53'）"
-        },
-        {
-          "type": "redcard",
-          "minute": 54,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "🟥  红牌！墨西哥 vs 英格兰（54'）"
-        },
-        {
-          "type": "var",
-          "minute": 67,
-          "score": {
-            "a": 1,
-            "b": 3
-          },
-          "headline": "📺 VAR 介入！墨西哥 vs 英格兰（67'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 68,
-          "score": {
-            "a": 1,
-            "b": 3
-          },
-          "headline": "🟨  黄牌 墨西哥 vs 英格兰（68'）"
-        },
-        {
           "type": "yellowcard",
           "minute": 71,
           "score": {
@@ -4922,8 +4886,8 @@
       "homeCode": "FRA",
       "awayCode": "MAR",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4931,8 +4895,51 @@
         "key": "live",
         "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 60,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！法国 1-0 摩洛哥（60'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 63,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 法国 vs 摩洛哥（63'）"
+        },
+        {
+          "type": "goal",
+          "minute": 66,
+          "score": {
+            "a": 2,
+            "b": 0
+          },
+          "headline": "⚽  进球！法国 2-0 摩洛哥（66'）"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！法国 0-0 摩洛哥"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！法国 vs 摩洛哥"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m098",
