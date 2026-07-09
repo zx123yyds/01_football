@@ -9,9 +9,9 @@
       "a": 2,
       "b": 0
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！法国 2-0 摩洛哥（66'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！法国 2-0 摩洛哥",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,15 @@
           "b": 0
         },
         "headline": "⚽  进球！法国 2-0 摩洛哥（66'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 2,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！法国 2-0 摩洛哥"
       },
       {
         "type": "halftime",
@@ -483,15 +492,6 @@
     "type": "fulltime",
     "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
     "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 71,
-        "score": {
-          "a": 2,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 英格兰（71'）"
-      },
       {
         "type": "yellowcard",
         "minute": 72,
