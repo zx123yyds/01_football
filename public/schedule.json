@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-09T22:03:36.682Z",
+  "generatedAt": "2026-07-09T23:35:12.806Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-09T22:03:36.051Z",
+    "checkedAt": "2026-07-09T23:35:12.197Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T22:03:35.320Z"
+          "updatedAt": "2026-07-09T23:35:11.355Z"
         },
-        "checkedAt": "2026-07-09T22:03:35.321Z"
+        "checkedAt": "2026-07-09T23:35:11.357Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T22:03:35.835Z"
+          "updatedAt": "2026-07-09T23:35:11.915Z"
         },
-        "checkedAt": "2026-07-09T22:03:35.835Z"
+        "checkedAt": "2026-07-09T23:35:11.915Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T22:03:36.013Z"
+          "updatedAt": "2026-07-09T23:35:12.150Z"
         },
-        "checkedAt": "2026-07-09T22:03:36.013Z"
+        "checkedAt": "2026-07-09T23:35:12.150Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T22:03:36.051Z"
+          "updatedAt": "2026-07-09T23:35:12.196Z"
         },
-        "checkedAt": "2026-07-09T22:03:36.051Z"
+        "checkedAt": "2026-07-09T23:35:12.197Z"
       }
     ]
   },
@@ -955,6 +955,19 @@
     },
     {
       "rank": 2,
+      "playerId": 338587,
+      "playerName": "姆巴佩",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
+      "teamName": "法国",
+      "teamFlag": "🇫🇷",
+      "teamCode": "FRA",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+      "games": 6,
+      "goals": 8,
+      "penaltyGoals": 1
+    },
+    {
+      "rank": 3,
       "playerId": 349922,
       "playerName": "哈兰德",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
@@ -965,19 +978,6 @@
       "games": 4,
       "goals": 7,
       "penaltyGoals": 0
-    },
-    {
-      "rank": 3,
-      "playerId": 338587,
-      "playerName": "姆巴佩",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
-      "teamName": "法国",
-      "teamFlag": "🇫🇷",
-      "teamCode": "FRA",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 5,
-      "goals": 7,
-      "penaltyGoals": 1
     },
     {
       "rank": 4,
@@ -1001,8 +1001,8 @@
       "teamFlag": "🇫🇷",
       "teamCode": "FRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 5,
-      "goals": 4,
+      "games": 6,
+      "goals": 5,
       "penaltyGoals": 0
     },
     {
