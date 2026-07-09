@@ -505,15 +505,6 @@
           "b": 3
         },
         "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⏸️ 半场！墨西哥 1-2 英格兰"
       }
     ]
   }
