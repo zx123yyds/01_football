@@ -25,6 +25,14 @@ const targets = [
     file: path.join(root, "data", "fifawatch-live.json"),
     fallback: [],
     validate: (payload) => Array.isArray(payload) || Number.isFinite(payload?.score?.a)
+  },
+  {
+    name: "FIFA Watch schedule scores",
+    url: "https://fifawatch.com/zh/schedule/",
+    file: path.join(root, "data", "fifawatch-schedule.html"),
+    fallback: "",
+    type: "text",
+    validate: (payload) => typeof payload === "string" && payload.includes("data-match-row") && payload.includes("data-score-display")
   }
 ];
 
@@ -55,8 +63,30 @@ const fetchJson = async (url) => {
   }
 };
 
+const fetchText = async (url) => {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 60000);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        accept: "text/html,text/plain,*/*",
+        "user-agent": "01-football-schedule/0.1 (+https://01-football.vercel.app)"
+      },
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return await response.text();
+  } finally {
+    clearTimeout(timeout);
+  }
+};
+
 const writeJson = async (file, payload) => {
   await writeFile(file, `${JSON.stringify(payload, null, 2)}\n`);
+};
+
+const writeText = async (file, payload) => {
+  await writeFile(file, String(payload ?? ""));
 };
 
 const cacheInfo = async (file) => {
@@ -78,11 +108,15 @@ const sourceStatuses = [];
 
 for (const target of targets) {
   try {
-    const payload = await fetchJson(target.url);
+    const payload = target.type === "text" ? await fetchText(target.url) : await fetchJson(target.url);
     if (!target.validate(payload)) {
       throw new Error("unexpected payload shape");
     }
-    await writeJson(target.file, payload);
+    if (target.type === "text") {
+      await writeText(target.file, payload);
+    } else {
+      await writeJson(target.file, payload);
+    }
     sourceStatuses.push({
       name: target.name,
       url: target.url,
@@ -106,7 +140,11 @@ for (const target of targets) {
       });
       console.warn(`Skipped ${target.name}: ${error.message}; kept cached file`);
     } else {
-      await writeJson(target.file, target.fallback);
+      if (target.type === "text") {
+        await writeText(target.file, target.fallback);
+      } else {
+        await writeJson(target.file, target.fallback);
+      }
       sourceStatuses.push({
         name: target.name,
         url: target.url,

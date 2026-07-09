@@ -42,6 +42,23 @@ if (!schedule.matches.some((match) => match.matchStatus?.key === "played" && Num
   fail("schedule.json does not include verified score data.");
 }
 
+const staleUpcomingMatches = schedule.matches.filter((match) => {
+  const start = new Date(match.dateTime);
+  const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+  return Date.now() >= end.getTime() && match.matchStatus?.key === "upcoming";
+});
+if (staleUpcomingMatches.length) {
+  fail(`Past matches are still marked upcoming: ${staleUpcomingMatches.map((match) => `#${match.matchNumber}`).join(", ")}`);
+}
+
+const unresolvedPlayedTeams = schedule.matches.filter((match) =>
+  match.matchStatus?.key === "played" &&
+  (/[A-L]\d|胜者|败者/.test(`${match.home}${match.away}`) || !match.homeCode || !match.awayCode)
+);
+if (unresolvedPlayedTeams.length) {
+  fail(`Played matches still have unresolved teams: ${unresolvedPlayedTeams.map((match) => `#${match.matchNumber}`).join(", ")}`);
+}
+
 if (!schedule.matches.some((match) => match.homeFlag && match.awayFlag)) {
   fail("schedule.json does not include team flags for matches.");
 }

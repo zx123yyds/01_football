@@ -198,20 +198,24 @@ function renderMatches() {
 
 function renderMatchCard(match) {
   const statusLabel = match.matchStatus?.zh || (match.sourceStatus === "verified" ? "已核对" : "球队待定");
+  const statusKey = match.matchStatus?.key || match.sourceStatus;
   const hasScore = Number.isFinite(match.score?.home) && Number.isFinite(match.score?.away);
+  const isPlayed = statusKey === "played";
   const scoreText = hasScore
     ? `${match.score.home} - ${match.score.away}${Number.isFinite(match.score.homePenalty) && Number.isFinite(match.score.awayPenalty) ? ` (${match.score.homePenalty}-${match.score.awayPenalty})` : ""}`
+    : isPlayed
+      ? "待比分"
     : "VS";
   return `
-    <article class="match-card match-card--${hasScore ? "played" : "upcoming"}">
+    <article class="match-card match-card--${isPlayed || hasScore ? "played" : "upcoming"}">
       <div class="match-card__meta">
         <span>#${escapeHtml(match.matchNumber)}</span>
         <span>${escapeHtml(match.stageName)}${match.group ? ` · ${escapeHtml(match.group)} 组` : ""}</span>
-        <span class="status status--${escapeHtml(match.matchStatus?.key || match.sourceStatus)}">${escapeHtml(statusLabel)}</span>
+        <span class="status status--${escapeHtml(statusKey)}">${escapeHtml(statusLabel)}</span>
       </div>
       <div class="match-card__teams">
         ${teamName(match.home, match.homeFlag, match.homeCode, "end")}
-        <span class="score-box ${hasScore ? "score-box--played" : ""}">${escapeHtml(scoreText)}</span>
+        <span class="score-box ${isPlayed || hasScore ? "score-box--played" : ""}">${escapeHtml(scoreText)}</span>
         ${teamName(match.away, match.awayFlag, match.awayCode)}
       </div>
       <div class="match-card__details">

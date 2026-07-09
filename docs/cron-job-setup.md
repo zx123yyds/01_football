@@ -63,6 +63,8 @@ cron-job.org 测试运行返回：
 
 随后到 GitHub Actions 页面检查是否出现新的 `workflow_dispatch` run。
 
+注意：cron-job.org History 显示成功，只代表它成功调用了 GitHub API。它不能证明页面数据已经更新。页面是否更新，还取决于 GitHub Actions 是否跑完、是否提交了新的 `public/schedule.json` 和 ICS、Vercel 是否重新部署。
+
 ## 排查顺序
 
 1. cron-job.org History 是否显示成功。
@@ -72,6 +74,8 @@ cron-job.org 测试运行返回：
 5. run 是否产生新的数据 commit。
 6. Vercel 是否因为新 commit 自动部署。
 7. 线上 `/schedule.json` 的 `generatedAt` 是否更新。
+
+如果 cron-job.org 每 10 分钟都有成功记录，但页面仍停留在旧日期，优先检查第 3 到第 7 步，不要只盯着 cron-job.org。常见原因是 workflow 没有生成新 commit、远端数据文件未变化、Vercel 没有新部署，或者前端仍读到旧的静态 JSON。
 
 ## 安全注意事项
 

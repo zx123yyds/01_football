@@ -16,10 +16,6 @@ npm run dev
 npm run check
 ```
 
-## 项目复盘
-
-本项目的可复用开发经验、踩坑记录和下次同类项目前置规范见 [docs/project-retrospective.md](docs/project-retrospective.md)。
-
 `npm run update:data` 会从 `data/schedule.seed.json` 生成：
 
 - `public/schedule.json`
@@ -27,7 +23,7 @@ npm run check
 - `public/calendars/stage-*.ics`
 - `public/calendars/group-*.ics`
 
-`npm run sync:reference` 会联网抓取央视积分榜、央视射手榜和 FIFA Watch 实时比分，并基于仓库中已缓存的 `data/reference-schedule.json` 同步更新 `data/matches.tsv`。赛程基础数据不在定时任务中请求 `2026fifa.qiaomu.ai`，避免外部源临时不可达导致整轮刷新失败；实时比分则通过 `data/fifawatch-live.json` 覆盖缓存比分。
+`npm run sync:reference` 会联网抓取央视积分榜、央视射手榜、FIFA Watch 实时比分和 FIFA Watch 完整赛程页，并基于仓库中已缓存的 `data/reference-schedule.json` 同步更新 `data/matches.tsv`。赛程基础数据不在定时任务中请求 `2026fifa.qiaomu.ai`，避免外部源临时不可达导致整轮刷新失败；实时比分通过 `data/fifawatch-live.json` 覆盖当前比赛，历史比分和淘汰赛真实对阵通过 `data/fifawatch-schedule.html` 补齐。
 
 `npm run refresh` 会联网抓取积分榜、射手榜、实时比分，并重新生成 `public/schedule.json` 和全部 ICS。外部源失败或后续接口下线时，会继续使用仓库中最近一次成功抓取的缓存数据渲染页面，不让整轮刷新中断；本次数据源状态会写入 `data/source-status.json` 和 `public/schedule.json` 的 `sourceHealth` 字段。`npm run dev` 启动后会先刷新一次数据，之后默认每 5 分钟自动刷新一次；可用环境变量调整：
 
@@ -41,10 +37,10 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 
 参考来源：
 
-- FIFA 官方赛程：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule
-- 懂球帝中文赛程参考：https://m.dongqiudi.com/article/5543600.html
-- 央视世界杯专题、积分榜和射手榜：https://worldcup.cctv.com/2026/
-- FIFA Watch 实时比分参考：https://fifawatch.com/zh
+- FIFA 官方赛程，用于核对官方赛程、比赛编号、阶段和场馆：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule
+- 懂球帝中文赛程参考，用于核对中文赛程信息和北京时间展示：https://m.dongqiudi.com/article/5543600.html
+- 央视世界杯专题、积分榜和射手榜，用于补充积分榜、射手榜等赛事榜单：https://worldcup.cctv.com/2026/
+- FIFA Watch 中文站实时比分和完整赛程，用于补齐比分、比赛状态、淘汰赛真实对阵和队伍代码：https://fifawatch.com/zh
 
 ## 自动更新
 
@@ -53,6 +49,8 @@ REFRESH_INTERVAL_MS=60000 npm run dev
 ```text
 https://你的域名/world-cup-2026.ics
 ```
+
+注意：cron-job.org 或 GitHub Actions 显示触发成功，只代表刷新任务开始运行。页面数据是否真正更新，还要继续确认 Actions 是否成功生成新 commit、Vercel 是否完成新部署、线上 `/schedule.json` 的 `generatedAt` 是否变化。
 
 ## 外部平台
 

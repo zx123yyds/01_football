@@ -4,3 +4,4 @@ dist/
 public/desktop-verification.png
 public/mobile-verification.png
 npm-debug.log*
+docs/project-retrospective.md

@@ -8,6 +8,7 @@ const referenceScheduleFile = path.join(root, "data", "reference-schedule.json")
 const cctvRankingsFile = path.join(root, "data", "cctv-rankings.json");
 const cctvScorersFile = path.join(root, "data", "cctv-scorers.json");
 const fifaWatchLiveFile = path.join(root, "data", "fifawatch-live.json");
+const fifaWatchScheduleFile = path.join(root, "data", "fifawatch-schedule.html");
 const sourceStatusFile = path.join(root, "data", "source-status.json");
 const publicDir = path.join(root, "public");
 const scheduleFile = path.join(publicDir, "schedule.json");
@@ -199,6 +200,29 @@ const canonicalSlug = (value) => slugAliases[normalizeSlug(value)] || normalizeS
 
 const normalizeLivePayload = (payload) => Array.isArray(payload) ? payload : (payload?.score ? [payload] : []);
 
+const decodeHtml = (value) => String(value ?? "")
+  .replace(/&amp;/g, "&")
+  .replace(/&quot;/g, "\"")
+  .replace(/&#34;/g, "\"")
+  .replace(/&#39;/g, "'")
+  .replace(/&lt;/g, "<")
+  .replace(/&gt;/g, ">")
+  .replace(/&nbsp;/g, " ");
+
+const stripHtml = (value) => decodeHtml(String(value ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim());
+
+const normalizeTeamCode = (value) => String(value ?? "").trim().toUpperCase();
+
+const isKnownTeam = (team) => Boolean(team?.name && normalizeSlug(team.slug) !== "tbd" && normalizeTeamCode(team.code) !== "TBD");
+
+const readOptionalText = async (file, fallback) => {
+  try {
+    return await readFile(file, "utf8");
+  } catch {
+    return fallback;
+  }
+};
+
 const buildLiveScoreMap = (payload, teamMeta) => {
   const byPair = new Map();
   for (const item of normalizeLivePayload(payload)) {
@@ -212,46 +236,131 @@ const buildLiveScoreMap = (payload, teamMeta) => {
   return byPair;
 };
 
+const parseFifaWatchScheduleEntries = (html) => {
+  html = String(html ?? "").replace(/\\"/g, "\"");
+  const entries = [];
+  const blocks = html.match(/<div[^>]*data-match-row[\s\S]*?(?=<div[^>]*data-match-row|<\/section>|<\/main>|$)/g) || [];
+  for (const block of blocks) {
+    const idMatch = block.match(/data-match-id="wc2026-(\d+)"/);
+    const teamSlugs = [
+      block.match(/data-team-a-slug="([^"]+)"/)?.[1],
+      block.match(/data-team-b-slug="([^"]+)"/)?.[1]
+    ];
+    const teamCodes = [
+      normalizeTeamCode(block.match(/data-team-a-code="([^"]+)"/)?.[1]),
+      normalizeTeamCode(block.match(/data-team-b-code="([^"]+)"/)?.[1])
+    ];
+    const teamNames = [...block.matchAll(/<a href="\/zh\/team\/[^>]+>\s*([^<]+)\s*<\/a>/g)]
+      .map((match) => stripHtml(match[1]));
+    const scoreBlock = block.match(/data-score-display[^>]*>([\s\S]*?)<\/div>/);
+    const statusText = stripHtml(block.match(/data-match-status[^>]*>([\s\S]*?)<\/span>\s*<\/span>/)?.[1] || "");
+    if (!idMatch || !scoreBlock) continue;
+    const numbers = [...scoreBlock[1].matchAll(/>(\d+)</g)].map((match) => Number(match[1]));
+    const hasScore = numbers.length >= 2;
+    entries.push({
+      matchNumber: Number(idMatch[1]),
+      home: {
+        name: teamNames[0] || "",
+        slug: teamSlugs[0] || "",
+        code: teamCodes[0] || ""
+      },
+      away: {
+        name: teamNames[1] || "",
+        slug: teamSlugs[1] || "",
+        code: teamCodes[1] || ""
+      },
+      score: hasScore ? { a: numbers[0], b: numbers[1] } : null,
+      status: statusText.includes("LIVE") ? "live" : (statusText === "FT" ? "finished" : "scheduled")
+    });
+  }
+  return entries;
+};
+
+const buildScheduleEntryMap = (html) => {
+  const byNumber = new Map();
+  for (const item of parseFifaWatchScheduleEntries(html)) {
+    if (!Number.isFinite(item.matchNumber)) continue;
+    byNumber.set(item.matchNumber, item);
+  }
+  return byNumber;
+};
+
+const teamMetaFromScheduleEntry = (team, teamMeta) => {
+  if (!team) return {};
+  return teamMeta.get(team.slug) || teamMeta.get(canonicalSlug(team.slug)) || teamMeta.get(team.name) || teamMeta.get(team.code) || {};
+};
+
 const mapLiveStatus = (status) => {
   if (status === "live") return { key: "live", zh: "进行中" };
   if (status === "finished") return { key: "played", zh: "已结束" };
   return null;
 };
 
-const mergeScoreData = (matches, referenceSchedule, fifaWatchLive) => {
+const deriveMatchStatus = (match, referenceStatus, liveStatus) => {
+  if (liveStatus) return liveStatus;
+
+  const start = new Date(match.dateTime);
+  const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+  const now = new Date();
+  if (now >= end) return { key: "played", zh: "已结束" };
+  if (now >= start) return { key: "live", zh: "进行中" };
+  if (referenceStatus?.key && referenceStatus.key !== "upcoming") return referenceStatus;
+  return { key: "upcoming", zh: "未开始" };
+};
+
+const mergeScoreData = (matches, referenceSchedule, fifaWatchLive, fifaWatchScheduleHtml) => {
   const byNumber = new Map((referenceSchedule.matches || []).map((match) => [match.match_number, match]));
   const teamMeta = buildTeamMetaMap(referenceSchedule);
   const liveScores = buildLiveScoreMap(fifaWatchLive, teamMeta);
+  const scheduleEntries = buildScheduleEntryMap(fifaWatchScheduleHtml);
   return matches.map((match) => {
     const ref = byNumber.get(match.matchNumber);
     const score = ref?.score || {};
     const status = ref?.status || {};
-    const homeMeta = teamMeta.get(match.home) || ref?.home || {};
-    const awayMeta = teamMeta.get(match.away) || ref?.away || {};
+    const scheduleEntry = scheduleEntries.get(match.matchNumber);
+    const scheduleHomeMeta = teamMetaFromScheduleEntry(scheduleEntry?.home, teamMeta);
+    const scheduleAwayMeta = teamMetaFromScheduleEntry(scheduleEntry?.away, teamMeta);
+    const homeMeta = scheduleHomeMeta.zh || scheduleEntry?.home?.name ? scheduleHomeMeta : (teamMeta.get(match.home) || ref?.home || {});
+    const awayMeta = scheduleAwayMeta.zh || scheduleEntry?.away?.name ? scheduleAwayMeta : (teamMeta.get(match.away) || ref?.away || {});
     const liveScore = liveScores.get([
       canonicalSlug(homeMeta.slug || homeMeta.en || match.home),
       canonicalSlug(awayMeta.slug || awayMeta.en || match.away)
     ].join("|"));
     const liveStatus = mapLiveStatus(liveScore?.status);
+    const scheduleStatus = mapLiveStatus(scheduleEntry?.status);
+    const matchStatus = deriveMatchStatus(match, status, liveStatus);
+    const scoreHome = Number.isFinite(liveScore?.score?.a)
+      ? liveScore.score.a
+      : Number.isFinite(scheduleEntry?.score?.a)
+        ? scheduleEntry.score.a
+        : Number.isFinite(score.home)
+          ? score.home
+          : null;
+    const scoreAway = Number.isFinite(liveScore?.score?.b)
+      ? liveScore.score.b
+      : Number.isFinite(scheduleEntry?.score?.b)
+        ? scheduleEntry.score.b
+        : Number.isFinite(score.away)
+          ? score.away
+          : null;
     return {
       ...match,
+      home: isKnownTeam(scheduleEntry?.home) ? scheduleEntry.home.name : (homeMeta.zh || match.home),
+      away: isKnownTeam(scheduleEntry?.away) ? scheduleEntry.away.name : (awayMeta.zh || match.away),
       homeFlag: homeMeta.flag || "",
       awayFlag: awayMeta.flag || "",
-      homeCode: homeMeta.code || homeMeta.country || "",
-      awayCode: awayMeta.code || awayMeta.country || "",
+      homeCode: homeMeta.code || homeMeta.country || (isKnownTeam(scheduleEntry?.home) ? scheduleEntry.home.code : ""),
+      awayCode: awayMeta.code || awayMeta.country || (isKnownTeam(scheduleEntry?.away) ? scheduleEntry.away.code : ""),
       score: {
-        home: Number.isFinite(liveScore?.score?.a) ? liveScore.score.a : (Number.isFinite(score.home) ? score.home : null),
-        away: Number.isFinite(liveScore?.score?.b) ? liveScore.score.b : (Number.isFinite(score.away) ? score.away : null),
+        home: scoreHome,
+        away: scoreAway,
         homePenalty: Number.isFinite(score.home_penalty) ? score.home_penalty : null,
         awayPenalty: Number.isFinite(score.away_penalty) ? score.away_penalty : null
       },
-      matchStatus: {
-        key: liveStatus?.key || status.key || (new Date(match.dateTime) < new Date() ? "played" : "upcoming"),
-        zh: liveStatus?.zh || status.zh || (new Date(match.dateTime) < new Date() ? "已结束" : "未开始")
-      },
+      matchStatus: liveStatus || scheduleStatus || matchStatus,
       liveMoments: liveScore?.moments || [],
-      scoreSource: liveScore ? "fifawatch-live" : (Number.isFinite(score.home) && Number.isFinite(score.away) ? "reference-cache" : ""),
-      sourceStatus: liveScore || status.key === "played" ? "verified" : match.sourceStatus
+      scoreSource: liveScore ? "fifawatch-live" : (scheduleEntry?.score ? "fifawatch-schedule" : (Number.isFinite(score.home) && Number.isFinite(score.away) ? "reference-cache" : "")),
+      sourceStatus: liveScore || scheduleEntry?.home?.name || matchStatus.key === "played" ? "verified" : match.sourceStatus
     };
   });
 };
@@ -308,10 +417,11 @@ const main = async () => {
   const cctvRankings = await readOptionalJson(cctvRankingsFile, { results: [] });
   const cctvScorers = await readOptionalJson(cctvScorersFile, { results: [] });
   const fifaWatchLive = await readOptionalJson(fifaWatchLiveFile, []);
+  const fifaWatchScheduleHtml = await readOptionalText(fifaWatchScheduleFile, "");
   const sourceHealth = await readOptionalJson(sourceStatusFile, { checkedAt: null, sources: [] });
   const generatedAt = new Date();
   const teamMeta = buildTeamMetaMap(referenceSchedule);
-  const matches = mergeScoreData(rawMatches.map(enrichMatch), referenceSchedule, fifaWatchLive)
+  const matches = mergeScoreData(rawMatches.map(enrichMatch), referenceSchedule, fifaWatchLive, fifaWatchScheduleHtml)
     .sort((a, b) => new Date(a.dateTime) - new Date(b.dateTime));
 
   const schedule = {
@@ -325,6 +435,8 @@ const main = async () => {
     dataMode: sourceHealth.sources?.some((source) => source.mode === "cached" || source.mode === "fallback") ? "cached-source-fallback" : "live-sources",
     sourceHealth,
     liveScoreUpdates: normalizeLivePayload(fifaWatchLive).filter((item) => item?.score).length,
+    scheduleScoreUpdates: [...buildScheduleEntryMap(fifaWatchScheduleHtml).values()].filter((entry) => entry.score).length,
+    scheduleTeamUpdates: [...buildScheduleEntryMap(fifaWatchScheduleHtml).values()].filter((entry) => entry.home?.name && entry.away?.name).length,
     stageOrder,
     stageLabels,
     sources: seed.sources,
