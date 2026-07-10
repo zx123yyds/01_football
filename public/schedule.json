@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-10T18:00:30.623Z",
+  "generatedAt": "2026-07-10T19:49:42.587Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-10T18:00:30.019Z",
+    "checkedAt": "2026-07-10T19:49:41.550Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-10T18:00:29.176Z"
+          "updatedAt": "2026-07-10T19:49:40.672Z"
         },
-        "checkedAt": "2026-07-10T18:00:29.177Z"
+        "checkedAt": "2026-07-10T19:49:40.673Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-10T18:00:29.744Z"
+          "updatedAt": "2026-07-10T19:49:41.177Z"
         },
-        "checkedAt": "2026-07-10T18:00:29.745Z"
+        "checkedAt": "2026-07-10T19:49:41.178Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-10T18:00:29.969Z"
+          "updatedAt": "2026-07-10T19:49:41.451Z"
         },
-        "checkedAt": "2026-07-10T18:00:29.969Z"
+        "checkedAt": "2026-07-10T19:49:41.451Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-10T18:00:30.019Z"
+          "updatedAt": "2026-07-10T19:49:41.549Z"
         },
-        "checkedAt": "2026-07-10T18:00:30.019Z"
+        "checkedAt": "2026-07-10T19:49:41.550Z"
       }
     ]
   },
@@ -4327,45 +4327,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 72,
-          "score": {
-            "a": 2,
-            "b": 3
-          },
-          "headline": "🟨  黄牌 墨西哥 vs 英格兰（72'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 2,
-            "b": 3
-          },
-          "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 2,
-            "b": 3
-          },
-          "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 2,
-            "b": 3
-          },
-          "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m093",
@@ -4963,17 +4926,51 @@
       "homeCode": "ESP",
       "awayCode": "BEL",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 30,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⚽  进球！西班牙 0-0 比利时（30'）"
+        },
+        {
+          "type": "goal",
+          "minute": 41,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！西班牙 1-1 比利时（41'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 43,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 西班牙 vs 比利时（43'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！西班牙 vs 比利时"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m099",

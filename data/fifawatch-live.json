@@ -2,6 +2,55 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "spain",
+      "belgium"
+    ],
+    "score": {
+      "a": 1,
+      "b": 1
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 西班牙 vs 比利时（43'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 30,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 0-0 比利时（30'）"
+      },
+      {
+        "type": "goal",
+        "minute": 41,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！西班牙 1-1 比利时（41'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 43,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 西班牙 vs 比利时（43'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！西班牙 vs 比利时"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "france",
       "morocco"
     ],
@@ -475,58 +524,6 @@
         "minute": null,
         "score": null,
         "headline": "🟢 开球！葡萄牙 vs 西班牙"
-      }
-    ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "mexico",
-      "england"
-    ],
-    "score": {
-      "a": 2,
-      "b": 3
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰",
-    "moments": [
-      {
-        "type": "yellowcard",
-        "minute": 72,
-        "score": {
-          "a": 2,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 英格兰（72'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 2,
-          "b": 3
-        },
-        "headline": "🟨  黄牌 墨西哥 vs 英格兰（90'）"
-      },
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 2,
-          "b": 3
-        },
-        "headline": "据 FIFA Watch：🏁 终场！墨西哥 2-3 英格兰"
       }
     ]
   }
