@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-09T23:35:12.806Z",
+  "generatedAt": "2026-07-10T01:15:05.650Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-09T23:35:12.197Z",
+    "checkedAt": "2026-07-10T01:15:03.816Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T23:35:11.355Z"
+          "updatedAt": "2026-07-10T01:15:03.101Z"
         },
-        "checkedAt": "2026-07-09T23:35:11.357Z"
+        "checkedAt": "2026-07-10T01:15:03.102Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T23:35:11.915Z"
+          "updatedAt": "2026-07-10T01:15:03.546Z"
         },
-        "checkedAt": "2026-07-09T23:35:11.915Z"
+        "checkedAt": "2026-07-10T01:15:03.547Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T23:35:12.150Z"
+          "updatedAt": "2026-07-10T01:15:03.779Z"
         },
-        "checkedAt": "2026-07-09T23:35:12.150Z"
+        "checkedAt": "2026-07-10T01:15:03.780Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-09T23:35:12.196Z"
+          "updatedAt": "2026-07-10T01:15:03.815Z"
         },
-        "checkedAt": "2026-07-09T23:35:12.197Z"
+        "checkedAt": "2026-07-10T01:15:03.815Z"
       }
     ]
   },
