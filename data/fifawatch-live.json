@@ -6,12 +6,12 @@
       "belgium"
     ],
     "score": {
-      "a": 1,
+      "a": 2,
       "b": 1
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 西班牙 vs 比利时（43'）",
+    "headline": "🟨  黄牌 西班牙 vs 比利时（90'）",
     "moments": [
       {
         "type": "goal",
@@ -39,6 +39,51 @@
           "b": 1
         },
         "headline": "🟨  黄牌 西班牙 vs 比利时（43'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 85,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 西班牙 vs 比利时（85'）"
+      },
+      {
+        "type": "goal",
+        "minute": 88,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "⚽  进球！西班牙 2-1 比利时（88'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 西班牙 vs 比利时（90'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 2,
+          "b": 1
+        },
+        "headline": "🟨  黄牌 西班牙 vs 比利时（90'）"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！西班牙 1-1 比利时"
       },
       {
         "type": "kickoff",
@@ -467,39 +512,12 @@
     "moments": [
       {
         "type": "yellowcard",
-        "minute": 89,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 西班牙（89'）"
-      },
-      {
-        "type": "yellowcard",
         "minute": 90,
         "score": {
           "a": 0,
           "b": 1
         },
         "headline": "🟨  黄牌 葡萄牙 vs 西班牙（90'）"
-      },
-      {
-        "type": "yellowcard",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "🟨  黄牌 葡萄牙 vs 西班牙（90'）"
-      },
-      {
-        "type": "goal",
-        "minute": 90,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "⚽  进球！葡萄牙 0-1 西班牙（90'）"
       },
       {
         "type": "fulltime",
@@ -509,21 +527,6 @@
           "b": 1
         },
         "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 0
-        },
-        "headline": "⏸️ 半场！葡萄牙 0-0 西班牙"
-      },
-      {
-        "type": "kickoff",
-        "minute": null,
-        "score": null,
-        "headline": "🟢 开球！葡萄牙 vs 西班牙"
       }
     ]
   }
