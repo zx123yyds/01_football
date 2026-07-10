@@ -76,18 +76,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 245250,
-      "playerName": "奥亚萨瓦尔",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
-      "teamName": "西班牙",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 5,
-      "goals": 4,
-      "assists": 1,
-      "minutesPlayed": 391,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 459051,
       "playerName": "贝林厄姆",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
@@ -124,6 +112,18 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 245250,
+      "playerName": "奥亚萨瓦尔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
+      "teamName": "西班牙",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+      "games": 6,
+      "goals": 4,
+      "assists": 1,
+      "minutesPlayed": 470,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 241256,
       "playerName": "温达夫",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612162353381_640x640.png",
@@ -153,10 +153,22 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111849253_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+      "games": 6,
+      "goals": 3,
+      "assists": 1,
+      "minutesPlayed": 234,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 463342,
+      "playerName": "德凯特拉雷",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111814534_320x320.png",
+      "teamName": "比利时",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
       "games": 5,
       "goals": 3,
       "assists": 1,
-      "minutesPlayed": 203,
+      "minutesPlayed": 353,
       "penaltyKickGoals": 0
     },
     {
@@ -297,10 +309,10 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112429815_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 5,
+      "games": 6,
       "goals": 2,
       "assists": 3,
-      "minutesPlayed": 450,
+      "minutesPlayed": 510,
       "penaltyKickGoals": 0
     },
     {
@@ -373,18 +385,6 @@
       "goals": 2,
       "assists": 1,
       "minutesPlayed": 253,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 463342,
-      "playerName": "德凯特拉雷",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615111814534_320x320.png",
-      "teamName": "比利时",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 4,
-      "goals": 2,
-      "assists": 1,
-      "minutesPlayed": 263,
       "penaltyKickGoals": 0
     },
     {
@@ -481,6 +481,18 @@
       "goals": 2,
       "assists": 0,
       "minutesPlayed": 67,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 237925,
+      "playerName": "梅里诺",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615140406103_640x640.png",
+      "teamName": "西班牙",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+      "games": 6,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 141,
       "penaltyKickGoals": 0
     },
     {
@@ -657,10 +669,10 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615112934145_320x320.png",
       "teamName": "比利时",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 5,
+      "games": 6,
       "goals": 1,
       "assists": 2,
-      "minutesPlayed": 261,
+      "minutesPlayed": 321,
       "penaltyKickGoals": 0
     },
     {
@@ -832,18 +844,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 482344,
-      "playerName": "巴埃纳",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141057658_640x640.png",
-      "teamName": "西班牙",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 4,
-      "goals": 1,
-      "assists": 1,
-      "minutesPlayed": 272,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 494984,
       "playerName": "布朗",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260612/20260612160726184_640x640.png",
@@ -889,6 +889,18 @@
       "goals": 1,
       "assists": 1,
       "minutesPlayed": 323,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 482344,
+      "playerName": "巴埃纳",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141057658_640x640.png",
+      "teamName": "西班牙",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+      "games": 5,
+      "goals": 1,
+      "assists": 1,
+      "minutesPlayed": 327,
       "penaltyKickGoals": 0
     },
     {
@@ -1120,18 +1132,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 415077,
-      "playerName": "萨莱马克斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615113030631_554x554.png",
-      "teamName": "比利时",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
-      "games": 3,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 79,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 496177,
       "playerName": "亚辛",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154555319_640x640.png",
@@ -1141,6 +1141,18 @@
       "goals": 1,
       "assists": 0,
       "minutesPlayed": 80,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 415077,
+      "playerName": "萨莱马克斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615113030631_554x554.png",
+      "teamName": "比利时",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114035453_200x200.png",
+      "games": 4,
+      "goals": 1,
+      "assists": 0,
+      "minutesPlayed": 84,
       "penaltyKickGoals": 0
     },
     {
@@ -1189,18 +1201,6 @@
       "goals": 1,
       "assists": 0,
       "minutesPlayed": 101,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 498057,
-      "playerName": "埃利奥",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615163835780_554x554.png",
-      "teamName": "佛得角",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20161101/20161101160742677_90x90.png",
-      "games": 3,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 103,
       "penaltyKickGoals": 0
     }
   ]
