@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-11T20:34:50.122Z",
+  "generatedAt": "2026-07-11T21:31:51.870Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-11T20:34:49.202Z",
+    "checkedAt": "2026-07-11T21:31:51.080Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T20:34:48.421Z"
+          "updatedAt": "2026-07-11T21:31:50.329Z"
         },
-        "checkedAt": "2026-07-11T20:34:48.422Z"
+        "checkedAt": "2026-07-11T21:31:50.331Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T20:34:48.916Z"
+          "updatedAt": "2026-07-11T21:31:50.783Z"
         },
-        "checkedAt": "2026-07-11T20:34:48.917Z"
+        "checkedAt": "2026-07-11T21:31:50.784Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T20:34:49.157Z"
+          "updatedAt": "2026-07-11T21:31:51.020Z"
         },
-        "checkedAt": "2026-07-11T20:34:49.157Z"
+        "checkedAt": "2026-07-11T21:31:51.021Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T20:34:49.201Z"
+          "updatedAt": "2026-07-11T21:31:51.079Z"
         },
-        "checkedAt": "2026-07-11T20:34:49.201Z"
+        "checkedAt": "2026-07-11T21:31:51.080Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
+  "liveScoreUpdates": 5,
   "scheduleScoreUpdates": 97,
   "scheduleTeamUpdates": 100,
   "stageOrder": [
@@ -4361,18 +4361,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m094",
@@ -5003,8 +4993,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
       "liveMoments": [],
       "scoreSource": ""

@@ -504,30 +504,5 @@
         "headline": "🟢 开球！美国 vs 比利时"
       }
     ]
-  },
-  {
-    "matchId": null,
-    "teamSlugs": [
-      "portugal",
-      "spain"
-    ],
-    "score": {
-      "a": 0,
-      "b": 1
-    },
-    "status": "finished",
-    "type": "fulltime",
-    "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙",
-    "moments": [
-      {
-        "type": "fulltime",
-        "minute": null,
-        "score": {
-          "a": 0,
-          "b": 1
-        },
-        "headline": "据 FIFA Watch：🏁 终场！葡萄牙 0-1 西班牙"
-      }
-    ]
   }
 ]
