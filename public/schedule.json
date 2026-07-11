@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-11T21:31:51.870Z",
+  "generatedAt": "2026-07-11T22:01:10.693Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-11T21:31:51.080Z",
+    "checkedAt": "2026-07-11T22:01:10.056Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T21:31:50.329Z"
+          "updatedAt": "2026-07-11T22:01:09.496Z"
         },
-        "checkedAt": "2026-07-11T21:31:50.331Z"
+        "checkedAt": "2026-07-11T22:01:09.498Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T21:31:50.783Z"
+          "updatedAt": "2026-07-11T22:01:09.945Z"
         },
-        "checkedAt": "2026-07-11T21:31:50.784Z"
+        "checkedAt": "2026-07-11T22:01:09.946Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T21:31:51.020Z"
+          "updatedAt": "2026-07-11T22:01:10.015Z"
         },
-        "checkedAt": "2026-07-11T21:31:51.021Z"
+        "checkedAt": "2026-07-11T22:01:10.016Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T21:31:51.079Z"
+          "updatedAt": "2026-07-11T22:01:10.055Z"
         },
-        "checkedAt": "2026-07-11T21:31:51.080Z"
+        "checkedAt": "2026-07-11T22:01:10.055Z"
       }
     ]
   },
-  "liveScoreUpdates": 5,
+  "liveScoreUpdates": 6,
   "scheduleScoreUpdates": 97,
   "scheduleTeamUpdates": 100,
   "stageOrder": [
@@ -4398,15 +4398,6 @@
       "liveMoments": [
         {
           "type": "goal",
-          "minute": 9,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！美国 0-1 比利时（9'）"
-        },
-        {
-          "type": "goal",
           "minute": 31,
           "score": {
             "a": 1,
@@ -4476,12 +4467,6 @@
             "b": 2
           },
           "headline": "⏸️ 半场！美国 1-2 比利时"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！美国 vs 比利时"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -4987,8 +4972,8 @@
       "homeCode": "NOR",
       "awayCode": "ENG",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4996,8 +4981,33 @@
         "key": "live",
         "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 36,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！挪威 1-0 英格兰（36'）"
+        },
+        {
+          "type": "goal",
+          "minute": 45,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！挪威 1-1 英格兰（45'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！挪威 vs 英格兰"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m100",
