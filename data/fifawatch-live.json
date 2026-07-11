@@ -6,12 +6,12 @@
       "england"
     ],
     "score": {
-      "a": 2,
-      "b": 1
+      "a": 1,
+      "b": 2
     },
     "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！挪威 2-1 英格兰（57'）",
+    "type": "var",
+    "headline": "📺 VAR 介入！挪威 vs 英格兰（101'）",
     "moments": [
       {
         "type": "goal",
@@ -48,6 +48,24 @@
           "b": 1
         },
         "headline": "⚽  进球！挪威 2-1 英格兰（57'）"
+      },
+      {
+        "type": "goal",
+        "minute": 93,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！挪威 1-1 英格兰（93'）"
+      },
+      {
+        "type": "var",
+        "minute": 101,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "📺 VAR 介入！挪威 vs 英格兰（101'）"
       },
       {
         "type": "halftime",
@@ -484,15 +502,6 @@
     "headline": "据 FIFA Watch：🏁 终场！美国 1-4 比利时",
     "moments": [
       {
-        "type": "goal",
-        "minute": 57,
-        "score": {
-          "a": 1,
-          "b": 3
-        },
-        "headline": "⚽  进球！美国 1-3 比利时（57'）"
-      },
-      {
         "type": "yellowcard",
         "minute": 69,
         "score": {
@@ -518,15 +527,6 @@
           "b": 4
         },
         "headline": "据 FIFA Watch：🏁 终场！美国 1-4 比利时"
-      },
-      {
-        "type": "halftime",
-        "minute": null,
-        "score": {
-          "a": 1,
-          "b": 2
-        },
-        "headline": "⏸️ 半场！美国 1-2 比利时"
       }
     ]
   }
