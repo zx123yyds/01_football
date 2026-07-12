@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-12T04:01:09.052Z",
+  "generatedAt": "2026-07-12T04:43:45.037Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-12T04:01:08.582Z",
+    "checkedAt": "2026-07-12T04:43:44.433Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T04:01:07.764Z"
+          "updatedAt": "2026-07-12T04:43:43.640Z"
         },
-        "checkedAt": "2026-07-12T04:01:07.765Z"
+        "checkedAt": "2026-07-12T04:43:43.641Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T04:01:08.261Z"
+          "updatedAt": "2026-07-12T04:43:44.188Z"
         },
-        "checkedAt": "2026-07-12T04:01:08.262Z"
+        "checkedAt": "2026-07-12T04:43:44.189Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T04:01:08.534Z"
+          "updatedAt": "2026-07-12T04:43:44.396Z"
         },
-        "checkedAt": "2026-07-12T04:01:08.534Z"
+        "checkedAt": "2026-07-12T04:43:44.397Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T04:01:08.582Z"
+          "updatedAt": "2026-07-12T04:43:44.433Z"
         },
-        "checkedAt": "2026-07-12T04:01:08.582Z"
+        "checkedAt": "2026-07-12T04:43:44.433Z"
       }
     ]
   },
@@ -962,7 +962,7 @@
       "teamFlag": "🇦🇷",
       "teamCode": "ARG",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114024058_200x200.png",
-      "games": 5,
+      "games": 6,
       "goals": 8,
       "penaltyGoals": 0
     },
