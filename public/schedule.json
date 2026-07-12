@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-12T01:12:23.161Z",
+  "generatedAt": "2026-07-12T04:01:09.052Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-12T01:12:22.203Z",
+    "checkedAt": "2026-07-12T04:01:08.582Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T01:12:21.413Z"
+          "updatedAt": "2026-07-12T04:01:07.764Z"
         },
-        "checkedAt": "2026-07-12T01:12:21.414Z"
+        "checkedAt": "2026-07-12T04:01:07.765Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T01:12:21.935Z"
+          "updatedAt": "2026-07-12T04:01:08.261Z"
         },
-        "checkedAt": "2026-07-12T01:12:21.935Z"
+        "checkedAt": "2026-07-12T04:01:08.262Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T01:12:22.163Z"
+          "updatedAt": "2026-07-12T04:01:08.534Z"
         },
-        "checkedAt": "2026-07-12T01:12:22.163Z"
+        "checkedAt": "2026-07-12T04:01:08.534Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,15 +54,15 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T01:12:22.203Z"
+          "updatedAt": "2026-07-12T04:01:08.582Z"
         },
-        "checkedAt": "2026-07-12T01:12:22.203Z"
+        "checkedAt": "2026-07-12T04:01:08.582Z"
       }
     ]
   },
-  "liveScoreUpdates": 6,
-  "scheduleScoreUpdates": 97,
-  "scheduleTeamUpdates": 100,
+  "liveScoreUpdates": 4,
+  "scheduleScoreUpdates": 100,
+  "scheduleTeamUpdates": 101,
   "stageOrder": [
     "group",
     "round-32",
@@ -4429,135 +4429,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 15,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！阿根廷 0-1 埃及（15'）"
-        },
-        {
-          "type": "var",
-          "minute": 32,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "📺 VAR 介入！阿根廷 vs 埃及（32'）"
-        },
-        {
-          "type": "goal",
-          "minute": 58,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！阿根廷 0-1 埃及（58'）"
-        },
-        {
-          "type": "goal",
-          "minute": 59,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿根廷 0-2 埃及（59'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 61,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 埃及（61'）"
-        },
-        {
-          "type": "goal",
-          "minute": 67,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿根廷 0-2 埃及（67'）"
-        },
-        {
-          "type": "goal",
-          "minute": 79,
-          "score": {
-            "a": 1,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿根廷 1-2 埃及（79'）"
-        },
-        {
-          "type": "goal",
-          "minute": 83,
-          "score": {
-            "a": 2,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿根廷 2-2 埃及（83'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 3,
-            "b": 2
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 3,
-            "b": 2
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 3,
-            "b": 2
-          },
-          "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 3,
-            "b": 2
-          },
-          "headline": "⚽  进球！阿根廷 3-2 埃及（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 3,
-            "b": 2
-          },
-          "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 埃及"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⏸️ 半场！阿根廷 0-1 埃及"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m096",
@@ -4590,78 +4463,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 51,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（51'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 59,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（59'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 60,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（60'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 95,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（95'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 105,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（105'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "据 FIFA Watch：🏁 终场！瑞士 0-0 哥伦比亚"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！瑞士 0-0 哥伦比亚"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！瑞士 vs 哥伦比亚"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m097",
@@ -5016,7 +4819,7 @@
       "awayCode": "SUI",
       "score": {
         "home": 1,
-        "away": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -5024,23 +4827,7 @@
         "key": "live",
         "zh": "进行中"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 10,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！阿根廷 1-0 瑞士（10'）"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！阿根廷 vs 瑞士"
-        }
-      ],
+      "liveMoments": [],
       "scoreSource": "fifawatch-live"
     },
     {
@@ -5051,7 +4838,7 @@
       "group": "",
       "dateTime": "2026-07-15T03:00:00+08:00",
       "home": "法国",
-      "away": "第2场1/4决赛胜者",
+      "away": "西班牙",
       "venue": "Dallas Stadium",
       "city": "达拉斯",
       "country": "美国",
@@ -5061,9 +4848,9 @@
       "beijingTime": "03:00",
       "isoUtc": "2026-07-14T19:00:00.000Z",
       "homeFlag": "🇫🇷",
-      "awayFlag": "",
+      "awayFlag": "🇪🇸",
       "homeCode": "FRA",
-      "awayCode": "",
+      "awayCode": "ESP",
       "score": {
         "home": null,
         "away": null,
@@ -5084,19 +4871,19 @@
       "stageName": "半决赛",
       "group": "",
       "dateTime": "2026-07-16T03:00:00+08:00",
-      "home": "第3场1/4决赛胜者",
+      "home": "英格兰",
       "away": "第4场1/4决赛胜者",
       "venue": "Atlanta Stadium",
       "city": "亚特兰大",
       "country": "美国",
       "status": "scheduled",
-      "sourceStatus": "pending-teams",
+      "sourceStatus": "verified",
       "beijingDate": "07/16周四",
       "beijingTime": "03:00",
       "isoUtc": "2026-07-15T19:00:00.000Z",
-      "homeFlag": "",
+      "homeFlag": "🇬🇧",
       "awayFlag": "",
-      "homeCode": "",
+      "homeCode": "ENG",
       "awayCode": "",
       "score": {
         "home": null,
