@@ -33,10 +33,22 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613191929455_640x640.png",
       "teamName": "挪威",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 4,
+      "games": 5,
       "goals": 7,
       "assists": 0,
-      "minutesPlayed": 360,
+      "minutesPlayed": 465,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 459051,
+      "playerName": "贝林厄姆",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 6,
+      "goals": 6,
+      "assists": 1,
+      "minutesPlayed": 515,
       "penaltyKickGoals": 0
     },
     {
@@ -45,10 +57,10 @@
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
       "teamName": "英格兰",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 5,
+      "games": 6,
       "goals": 6,
       "assists": 1,
-      "minutesPlayed": 444,
+      "minutesPlayed": 564,
       "penaltyKickGoals": 2
     },
     {
@@ -73,18 +85,6 @@
       "goals": 4,
       "assists": 1,
       "minutesPlayed": 366,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 459051,
-      "playerName": "贝林厄姆",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
-      "teamName": "英格兰",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 5,
-      "goals": 4,
-      "assists": 1,
-      "minutesPlayed": 404,
       "penaltyKickGoals": 0
     },
     {
@@ -626,6 +626,18 @@
       "assists": 0,
       "minutesPlayed": 475,
       "penaltyKickGoals": 1
+    },
+    {
+      "playerId": 482385,
+      "playerName": "谢尔德鲁普",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260613/20260613193220152_640x640.png",
+      "teamName": "挪威",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
+      "games": 6,
+      "goals": 1,
+      "assists": 3,
+      "minutesPlayed": 254,
+      "penaltyKickGoals": 0
     },
     {
       "playerId": 274013,
@@ -1189,18 +1201,6 @@
       "goals": 1,
       "assists": 0,
       "minutesPlayed": 97,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 356468,
-      "playerName": "特拉斯蒂",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260611/20260611180751072_554x554.png",
-      "teamName": "美国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114559262_200x200.png",
-      "games": 2,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 101,
       "penaltyKickGoals": 0
     }
   ]

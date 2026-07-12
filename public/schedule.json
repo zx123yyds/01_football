@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-11T23:33:11.777Z",
+  "generatedAt": "2026-07-12T01:12:23.161Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-11T23:33:10.904Z",
+    "checkedAt": "2026-07-12T01:12:22.203Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T23:33:10.064Z"
+          "updatedAt": "2026-07-12T01:12:21.413Z"
         },
-        "checkedAt": "2026-07-11T23:33:10.065Z"
+        "checkedAt": "2026-07-12T01:12:21.414Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T23:33:10.616Z"
+          "updatedAt": "2026-07-12T01:12:21.935Z"
         },
-        "checkedAt": "2026-07-11T23:33:10.616Z"
+        "checkedAt": "2026-07-12T01:12:21.935Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T23:33:10.842Z"
+          "updatedAt": "2026-07-12T01:12:22.163Z"
         },
-        "checkedAt": "2026-07-11T23:33:10.842Z"
+        "checkedAt": "2026-07-12T01:12:22.163Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-11T23:33:10.904Z"
+          "updatedAt": "2026-07-12T01:12:22.203Z"
         },
-        "checkedAt": "2026-07-11T23:33:10.904Z"
+        "checkedAt": "2026-07-12T01:12:22.203Z"
       }
     ]
   },
@@ -975,12 +975,25 @@
       "teamFlag": "🇳🇴",
       "teamCode": "NOR",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20160831/20160831162657490_90x90.png",
-      "games": 4,
+      "games": 5,
       "goals": 7,
       "penaltyGoals": 0
     },
     {
       "rank": 4,
+      "playerId": 459051,
+      "playerName": "贝林厄姆",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
+      "teamName": "英格兰",
+      "teamFlag": "🇬🇧",
+      "teamCode": "ENG",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 6,
+      "goals": 6,
+      "penaltyGoals": 0
+    },
+    {
+      "rank": 5,
       "playerId": 218777,
       "playerName": "凯恩",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120445689_640x640.png",
@@ -988,12 +1001,12 @@
       "teamFlag": "🇬🇧",
       "teamCode": "ENG",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 5,
+      "games": 6,
       "goals": 6,
       "penaltyGoals": 2
     },
     {
-      "rank": 5,
+      "rank": 6,
       "playerId": 234090,
       "playerName": "登贝莱",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
@@ -1006,7 +1019,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "playerId": 354190,
       "playerName": "I·萨尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
@@ -1015,19 +1028,6 @@
       "teamCode": "SEN",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114514160_200x200.png",
       "games": 4,
-      "goals": 4,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 7,
-      "playerId": 459051,
-      "playerName": "贝林厄姆",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
-      "teamName": "英格兰",
-      "teamFlag": "🇬🇧",
-      "teamCode": "ENG",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 5,
       "goals": 4,
       "penaltyGoals": 0
     },
@@ -4395,36 +4395,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "yellowcard",
-          "minute": 69,
-          "score": {
-            "a": 1,
-            "b": 3
-          },
-          "headline": "🟨  黄牌 美国 vs 比利时（69'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 1,
-            "b": 4
-          },
-          "headline": "⚽  进球！美国 1-4 比利时（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 1,
-            "b": 4
-          },
-          "headline": "据 FIFA Watch：🏁 终场！美国 1-4 比利时"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m095",
@@ -4583,12 +4555,6 @@
             "b": 1
           },
           "headline": "⏸️ 半场！阿根廷 0-1 埃及"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！阿根廷 vs 埃及"
         }
       ],
       "scoreSource": "fifawatch-live"
@@ -4933,8 +4899,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -4992,6 +4958,24 @@
           "headline": "📺 VAR 介入！挪威 vs 英格兰（101'）"
         },
         {
+          "type": "yellowcard",
+          "minute": 117,
+          "score": {
+            "a": 1,
+            "b": 2
+          },
+          "headline": "🟨  黄牌 挪威 vs 英格兰（117'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 2
+          },
+          "headline": "据 FIFA Watch：🏁 终场！挪威 1-2 英格兰"
+        },
+        {
           "type": "halftime",
           "minute": null,
           "score": {
@@ -5031,17 +5015,33 @@
       "homeCode": "ARG",
       "awayCode": "SUI",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 10,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！阿根廷 1-0 瑞士（10'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！阿根廷 vs 瑞士"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m101",
