@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-12T07:20:20.620Z",
+  "generatedAt": "2026-07-12T09:28:16.515Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-12T07:20:20.125Z",
+    "checkedAt": "2026-07-12T09:28:15.622Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T07:20:19.456Z"
+          "updatedAt": "2026-07-12T09:28:14.798Z"
         },
-        "checkedAt": "2026-07-12T07:20:19.457Z"
+        "checkedAt": "2026-07-12T09:28:14.799Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T07:20:19.922Z"
+          "updatedAt": "2026-07-12T09:28:15.341Z"
         },
-        "checkedAt": "2026-07-12T07:20:19.923Z"
+        "checkedAt": "2026-07-12T09:28:15.342Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T07:20:20.057Z"
+          "updatedAt": "2026-07-12T09:28:15.576Z"
         },
-        "checkedAt": "2026-07-12T07:20:20.058Z"
+        "checkedAt": "2026-07-12T09:28:15.577Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-12T07:20:20.124Z"
+          "updatedAt": "2026-07-12T09:28:15.621Z"
         },
-        "checkedAt": "2026-07-12T07:20:20.125Z"
+        "checkedAt": "2026-07-12T09:28:15.622Z"
       }
     ]
   },
-  "liveScoreUpdates": 4,
+  "liveScoreUpdates": 6,
   "scheduleScoreUpdates": 100,
   "scheduleTeamUpdates": 101,
   "stageOrder": [
@@ -4429,8 +4429,27 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [],
-      "scoreSource": "fifawatch-schedule"
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 3,
+            "b": 2
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 埃及（90'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 3,
+            "b": 2
+          },
+          "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-2 埃及"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m096",
@@ -4463,8 +4482,78 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [],
-      "scoreSource": "fifawatch-schedule"
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 51,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（51'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 59,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（59'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 60,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（60'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 95,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（95'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 105,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 瑞士 vs 哥伦比亚（105'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！瑞士 0-0 哥伦比亚"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！瑞士 0-0 哥伦比亚"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！瑞士 vs 哥伦比亚"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m097",
@@ -4818,16 +4907,140 @@
       "homeCode": "ARG",
       "awayCode": "SUI",
       "score": {
-        "home": 1,
+        "home": 3,
         "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
-      "liveMoments": [],
+      "liveMoments": [
+        {
+          "type": "goal",
+          "minute": 10,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！阿根廷 1-0 瑞士（10'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 44,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 瑞士（44'）"
+        },
+        {
+          "type": "goal",
+          "minute": 67,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！阿根廷 1-1 瑞士（67'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 69,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 瑞士（69'）"
+        },
+        {
+          "type": "var",
+          "minute": 71,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "📺 VAR 介入！阿根廷 vs 瑞士（71'）"
+        },
+        {
+          "type": "redcard",
+          "minute": 72,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟥  红牌！阿根廷 vs 瑞士（72'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 97,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 瑞士（97'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 98,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 瑞士（98'）"
+        },
+        {
+          "type": "goal",
+          "minute": 112,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "⚽  进球！阿根廷 2-1 瑞士（112'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 114,
+          "score": {
+            "a": 2,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 阿根廷 vs 瑞士（114'）"
+        },
+        {
+          "type": "goal",
+          "minute": 120,
+          "score": {
+            "a": 3,
+            "b": 1
+          },
+          "headline": "⚽  进球！阿根廷 3-1 瑞士（120'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 3,
+            "b": 1
+          },
+          "headline": "据 FIFA Watch：🏁 终场！阿根廷 3-1 瑞士"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！阿根廷 1-0 瑞士"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！阿根廷 vs 瑞士"
+        }
+      ],
       "scoreSource": "fifawatch-live"
     },
     {
