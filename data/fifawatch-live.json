@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 1
+      "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 法国 vs 西班牙（31'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！法国 0-2 西班牙",
     "moments": [
       {
         "type": "yellowcard",
@@ -30,6 +30,51 @@
           "b": 1
         },
         "headline": "🟨  黄牌 法国 vs 西班牙（31'）"
+      },
+      {
+        "type": "goal",
+        "minute": 58,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！法国 0-2 西班牙（58'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 86,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 法国 vs 西班牙（86'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！法国 0-2 西班牙"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！法国 0-1 西班牙"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⏸️ 半场！法国 0-1 西班牙"
       },
       {
         "type": "kickoff",
