@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-14T21:13:39.056Z",
+  "generatedAt": "2026-07-14T22:01:15.005Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-14T21:13:38.449Z",
+    "checkedAt": "2026-07-14T22:01:14.395Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T21:13:37.552Z"
+          "updatedAt": "2026-07-14T22:01:13.625Z"
         },
-        "checkedAt": "2026-07-14T21:13:37.553Z"
+        "checkedAt": "2026-07-14T22:01:13.626Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T21:13:38.131Z"
+          "updatedAt": "2026-07-14T22:01:14.114Z"
         },
-        "checkedAt": "2026-07-14T21:13:38.132Z"
+        "checkedAt": "2026-07-14T22:01:14.115Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T21:13:38.386Z"
+          "updatedAt": "2026-07-14T22:01:14.355Z"
         },
-        "checkedAt": "2026-07-14T21:13:38.387Z"
+        "checkedAt": "2026-07-14T22:01:14.355Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T21:13:38.448Z"
+          "updatedAt": "2026-07-14T22:01:14.394Z"
         },
-        "checkedAt": "2026-07-14T21:13:38.449Z"
+        "checkedAt": "2026-07-14T22:01:14.395Z"
       }
     ]
   },
@@ -949,7 +949,7 @@
       "teamFlag": "🇫🇷",
       "teamCode": "FRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 6,
+      "games": 7,
       "goals": 8,
       "penaltyGoals": 1
     },
@@ -1014,12 +1014,25 @@
       "teamFlag": "🇫🇷",
       "teamCode": "FRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 6,
+      "games": 7,
       "goals": 5,
       "penaltyGoals": 0
     },
     {
       "rank": 7,
+      "playerId": 245250,
+      "playerName": "奥亚萨瓦尔",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
+      "teamName": "西班牙",
+      "teamFlag": "🇪🇸",
+      "teamCode": "ESP",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
+      "games": 7,
+      "goals": 5,
+      "penaltyGoals": 1
+    },
+    {
+      "rank": 8,
       "playerId": 354190,
       "playerName": "I·萨尔",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614141210310_640x640.png",
@@ -1032,7 +1045,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "playerId": 364750,
       "playerName": "基尼奥内斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150653665_320x320.png",
@@ -1045,7 +1058,7 @@
       "penaltyGoals": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "playerId": 539959,
       "playerName": "维尼修斯",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610154723394_320x320.png",
@@ -1054,19 +1067,6 @@
       "teamCode": "BRA",
       "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114040922_200x200.png",
       "games": 5,
-      "goals": 4,
-      "penaltyGoals": 0
-    },
-    {
-      "rank": 10,
-      "playerId": 245250,
-      "playerName": "奥亚萨瓦尔",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615141530255_320x320.png",
-      "teamName": "西班牙",
-      "teamFlag": "🇪🇸",
-      "teamCode": "ESP",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114259583_200x200.png",
-      "games": 6,
       "goals": 4,
       "penaltyGoals": 0
     },
