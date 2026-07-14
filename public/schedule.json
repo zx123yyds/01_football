@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-14T18:46:12.369Z",
+  "generatedAt": "2026-07-14T20:00:58.217Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-14T18:46:11.365Z",
+    "checkedAt": "2026-07-14T20:00:57.606Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T18:46:10.683Z"
+          "updatedAt": "2026-07-14T20:00:56.586Z"
         },
-        "checkedAt": "2026-07-14T18:46:10.684Z"
+        "checkedAt": "2026-07-14T20:00:56.587Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T18:46:11.161Z"
+          "updatedAt": "2026-07-14T20:00:57.129Z"
         },
-        "checkedAt": "2026-07-14T18:46:11.162Z"
+        "checkedAt": "2026-07-14T20:00:57.130Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T18:46:11.306Z"
+          "updatedAt": "2026-07-14T20:00:57.508Z"
         },
-        "checkedAt": "2026-07-14T18:46:11.307Z"
+        "checkedAt": "2026-07-14T20:00:57.509Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-14T18:46:11.365Z"
+          "updatedAt": "2026-07-14T20:00:57.605Z"
         },
-        "checkedAt": "2026-07-14T18:46:11.365Z"
+        "checkedAt": "2026-07-14T20:00:57.606Z"
       }
     ]
   },
-  "liveScoreUpdates": 0,
+  "liveScoreUpdates": 1,
   "scheduleScoreUpdates": 100,
   "scheduleTeamUpdates": 102,
   "stageOrder": [
@@ -4624,17 +4624,42 @@
       "homeCode": "FRA",
       "awayCode": "ESP",
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "upcoming",
-        "zh": "未开始"
+        "key": "live",
+        "zh": "进行中"
       },
-      "liveMoments": [],
-      "scoreSource": ""
+      "liveMoments": [
+        {
+          "type": "yellowcard",
+          "minute": 9,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 法国 vs 西班牙（9'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 31,
+          "score": {
+            "a": 0,
+            "b": 1
+          },
+          "headline": "🟨  黄牌 法国 vs 西班牙（31'）"
+        },
+        {
+          "type": "kickoff",
+          "minute": null,
+          "score": null,
+          "headline": "🟢 开球！法国 vs 西班牙"
+        }
+      ],
+      "scoreSource": "fifawatch-live"
     },
     {
       "id": "m102",
