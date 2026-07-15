@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-15T00:54:02.331Z",
+  "generatedAt": "2026-07-15T04:01:14.850Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-15T00:54:01.733Z",
+    "checkedAt": "2026-07-15T04:01:13.999Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T00:54:01.053Z"
+          "updatedAt": "2026-07-15T04:01:13.145Z"
         },
-        "checkedAt": "2026-07-15T00:54:01.054Z"
+        "checkedAt": "2026-07-15T04:01:13.147Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T00:54:01.615Z"
+          "updatedAt": "2026-07-15T04:01:13.702Z"
         },
-        "checkedAt": "2026-07-15T00:54:01.615Z"
+        "checkedAt": "2026-07-15T04:01:13.703Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T00:54:01.696Z"
+          "updatedAt": "2026-07-15T04:01:13.946Z"
         },
-        "checkedAt": "2026-07-15T00:54:01.696Z"
+        "checkedAt": "2026-07-15T04:01:13.947Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,14 +54,14 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T00:54:01.732Z"
+          "updatedAt": "2026-07-15T04:01:13.998Z"
         },
-        "checkedAt": "2026-07-15T00:54:01.733Z"
+        "checkedAt": "2026-07-15T04:01:13.999Z"
       }
     ]
   },
   "liveScoreUpdates": 1,
-  "scheduleScoreUpdates": 100,
+  "scheduleScoreUpdates": 101,
   "scheduleTeamUpdates": 102,
   "stageOrder": [
     "group",
@@ -4747,19 +4747,19 @@
       "stageName": "季军赛",
       "group": "",
       "dateTime": "2026-07-19T05:00:00+08:00",
-      "home": "第1场半决赛败者",
+      "home": "法国",
       "away": "第2场半决赛败者",
       "venue": "Miami Stadium",
       "city": "迈阿密",
       "country": "美国",
       "status": "scheduled",
-      "sourceStatus": "pending-teams",
+      "sourceStatus": "verified",
       "beijingDate": "07/19周日",
       "beijingTime": "05:00",
       "isoUtc": "2026-07-18T21:00:00.000Z",
-      "homeFlag": "",
+      "homeFlag": "🇫🇷",
       "awayFlag": "",
-      "homeCode": "",
+      "homeCode": "FRA",
       "awayCode": "",
       "score": {
         "home": null,
@@ -4781,19 +4781,19 @@
       "stageName": "决赛",
       "group": "",
       "dateTime": "2026-07-20T03:00:00+08:00",
-      "home": "第1场半决赛胜者",
+      "home": "西班牙",
       "away": "第2场半决赛胜者",
       "venue": "New York/New Jersey Stadium",
       "city": "纽约/新泽西",
       "country": "美国",
       "status": "scheduled",
-      "sourceStatus": "pending-teams",
+      "sourceStatus": "verified",
       "beijingDate": "07/20周一",
       "beijingTime": "03:00",
       "isoUtc": "2026-07-19T19:00:00.000Z",
-      "homeFlag": "",
+      "homeFlag": "🇪🇸",
       "awayFlag": "",
-      "homeCode": "",
+      "homeCode": "ESP",
       "awayCode": "",
       "score": {
         "home": null,

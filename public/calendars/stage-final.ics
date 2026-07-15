@@ -7,14 +7,12 @@ X-WR-CALNAME:2026 世界杯 决赛
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:m104-2026 世界杯 决赛@world-cup-2026.local
-DTSTAMP:20260715T005402Z
+DTSTAMP:20260715T040114Z
 DTSTART:20260719T190000Z
 DTEND:20260719T210000Z
-SUMMARY:2026 世界杯 #104 第1场半决赛胜者 vs 第2场半决赛胜
- 者
+SUMMARY:2026 世界杯 #104 西班牙 vs 第2场半决赛胜者
 LOCATION:New York/New Jersey Stadium，纽约/新泽西
 DESCRIPTION:决赛\\n北京时间：07/20周一 03:00\\n场馆：New York/
- New Jersey Stadium，纽约/新泽西，美国\\n数据状态：pending-t
- eams
+ New Jersey Stadium，纽约/新泽西，美国\\n数据状态：verified
 END:VEVENT
 END:VCALENDAR
