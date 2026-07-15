@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-15T17:38:11.250Z",
+  "checkedAt": "2026-07-15T18:45:56.292Z",
   "sources": [
     {
       "name": "CCTV standings",
@@ -9,9 +9,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-15T17:38:10.521Z"
+        "updatedAt": "2026-07-15T18:45:55.456Z"
       },
-      "checkedAt": "2026-07-15T17:38:10.521Z"
+      "checkedAt": "2026-07-15T18:45:55.457Z"
     },
     {
       "name": "CCTV scorers",
@@ -21,9 +21,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-15T17:38:10.990Z"
+        "updatedAt": "2026-07-15T18:45:56.001Z"
       },
-      "checkedAt": "2026-07-15T17:38:10.991Z"
+      "checkedAt": "2026-07-15T18:45:56.002Z"
     },
     {
       "name": "FIFA Watch live scores",
@@ -33,9 +33,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-15T17:38:11.176Z"
+        "updatedAt": "2026-07-15T18:45:56.218Z"
       },
-      "checkedAt": "2026-07-15T17:38:11.177Z"
+      "checkedAt": "2026-07-15T18:45:56.219Z"
     },
     {
       "name": "FIFA Watch schedule scores",
@@ -45,9 +45,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-15T17:38:11.250Z"
+        "updatedAt": "2026-07-15T18:45:56.292Z"
       },
-      "checkedAt": "2026-07-15T17:38:11.250Z"
+      "checkedAt": "2026-07-15T18:45:56.292Z"
     }
   ]
 }
