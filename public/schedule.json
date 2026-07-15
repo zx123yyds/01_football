@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-15T19:57:46.526Z",
+  "generatedAt": "2026-07-15T21:13:51.016Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-15T19:57:45.922Z",
+    "checkedAt": "2026-07-15T21:13:50.114Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T19:57:45.239Z"
+          "updatedAt": "2026-07-15T21:13:49.577Z"
         },
-        "checkedAt": "2026-07-15T19:57:45.240Z"
+        "checkedAt": "2026-07-15T21:13:49.578Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T19:57:45.783Z"
+          "updatedAt": "2026-07-15T21:13:49.833Z"
         },
-        "checkedAt": "2026-07-15T19:57:45.783Z"
+        "checkedAt": "2026-07-15T21:13:49.834Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T19:57:45.881Z"
+          "updatedAt": "2026-07-15T21:13:50.056Z"
         },
-        "checkedAt": "2026-07-15T19:57:45.881Z"
+        "checkedAt": "2026-07-15T21:13:50.057Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-15T19:57:45.921Z"
+          "updatedAt": "2026-07-15T21:13:50.113Z"
         },
-        "checkedAt": "2026-07-15T19:57:45.922Z"
+        "checkedAt": "2026-07-15T21:13:50.113Z"
       }
     ]
   },
@@ -4728,14 +4728,14 @@
       "homeCode": "ENG",
       "awayCode": "ARG",
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": 1,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -4755,6 +4755,69 @@
             "b": 0
           },
           "headline": "🟨  黄牌 英格兰 vs 阿根廷（42'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 51,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 英格兰 vs 阿根廷（51'）"
+        },
+        {
+          "type": "goal",
+          "minute": 55,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！英格兰 1-0 阿根廷（55'）"
+        },
+        {
+          "type": "goal",
+          "minute": 85,
+          "score": {
+            "a": 1,
+            "b": 1
+          },
+          "headline": "⚽  进球！英格兰 1-1 阿根廷（85'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 1,
+            "b": 2
+          },
+          "headline": "🟨  黄牌 英格兰 vs 阿根廷（90'）"
+        },
+        {
+          "type": "goal",
+          "minute": 90,
+          "score": {
+            "a": 1,
+            "b": 2
+          },
+          "headline": "⚽  进球！英格兰 1-2 阿根廷（90'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 2
+          },
+          "headline": "据 FIFA Watch：🏁 终场！英格兰 1-2 阿根廷"
+        },
+        {
+          "type": "halftime",
+          "minute": null,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "⏸️ 半场！英格兰 0-0 阿根廷"
         },
         {
           "type": "kickoff",

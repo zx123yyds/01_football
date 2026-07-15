@@ -6,12 +6,12 @@
       "argentina"
     ],
     "score": {
-      "a": 0,
-      "b": 0
+      "a": 1,
+      "b": 2
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 英格兰 vs 阿根廷（42'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！英格兰 1-2 阿根廷",
     "moments": [
       {
         "type": "yellowcard",
@@ -30,6 +30,69 @@
           "b": 0
         },
         "headline": "🟨  黄牌 英格兰 vs 阿根廷（42'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 51,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 英格兰 vs 阿根廷（51'）"
+      },
+      {
+        "type": "goal",
+        "minute": 55,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！英格兰 1-0 阿根廷（55'）"
+      },
+      {
+        "type": "goal",
+        "minute": 85,
+        "score": {
+          "a": 1,
+          "b": 1
+        },
+        "headline": "⚽  进球！英格兰 1-1 阿根廷（85'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "🟨  黄牌 英格兰 vs 阿根廷（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "⚽  进球！英格兰 1-2 阿根廷（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 2
+        },
+        "headline": "据 FIFA Watch：🏁 终场！英格兰 1-2 阿根廷"
+      },
+      {
+        "type": "halftime",
+        "minute": null,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "⏸️ 半场！英格兰 0-0 阿根廷"
       },
       {
         "type": "kickoff",
