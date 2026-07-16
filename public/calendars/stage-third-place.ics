@@ -7,10 +7,10 @@ X-WR-CALNAME:2026 世界杯 三四名决赛
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:m103-2026 世界杯 三四名决赛@world-cup-2026.local
-DTSTAMP:20260716T010623Z
+DTSTAMP:20260716T040111Z
 DTSTART:20260718T210000Z
 DTEND:20260718T230000Z
-SUMMARY:2026 世界杯 #103 法国 vs 第2场半决赛败者
+SUMMARY:2026 世界杯 #103 法国 vs 英格兰
 LOCATION:Miami Stadium，迈阿密
 DESCRIPTION:季军赛\\n北京时间：07/19周日 05:00\\n场馆：Miami 
  Stadium，迈阿密，美国\\n数据状态：verified
