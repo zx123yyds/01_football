@@ -42,6 +42,11 @@ if (!schedule.matches.some((match) => match.matchStatus?.key === "played" && Num
   fail("schedule.json does not include verified score data.");
 }
 
+const playedMatchCount = schedule.matches.filter((match) => match.matchStatus?.key === "played").length;
+if (schedule.completedMatches !== playedMatchCount) {
+  fail(`completedMatches mismatch: summary=${schedule.completedMatches}, matches=${playedMatchCount}`);
+}
+
 const staleUpcomingMatches = schedule.matches.filter((match) => {
   const start = new Date(match.dateTime);
   const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);

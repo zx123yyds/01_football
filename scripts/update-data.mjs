@@ -423,6 +423,7 @@ const main = async () => {
   const teamMeta = buildTeamMetaMap(referenceSchedule);
   const matches = mergeScoreData(rawMatches.map(enrichMatch), referenceSchedule, fifaWatchLive, fifaWatchScheduleHtml)
     .sort((a, b) => new Date(a.dateTime) - new Date(b.dateTime));
+  const completedMatches = matches.filter((match) => match.matchStatus.key === "played").length;
 
   const schedule = {
     tournament: seed.tournament,
@@ -440,7 +441,7 @@ const main = async () => {
     stageOrder,
     stageLabels,
     sources: seed.sources,
-    completedMatches: referenceSchedule.meta?.completed_count ?? matches.filter((match) => match.matchStatus.key === "played").length,
+    completedMatches,
     standings: normalizeCctvRankings(cctvRankings, teamMeta),
     scorers: normalizeCctvScorers(cctvScorers, teamMeta),
     matches
