@@ -4,6 +4,18 @@
   "success": true,
   "results": [
     {
+      "playerId": 338587,
+      "playerName": "姆巴佩",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
+      "teamName": "法国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+      "games": 8,
+      "goals": 10,
+      "assists": 4,
+      "minutesPlayed": 699,
+      "penaltyKickGoals": 1
+    },
+    {
       "playerId": 206545,
       "playerName": "梅西",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615171944511_320x320.png",
@@ -16,16 +28,16 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 338587,
-      "playerName": "姆巴佩",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614132848238_640x640.png",
-      "teamName": "法国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 7,
-      "goals": 8,
-      "assists": 3,
-      "minutesPlayed": 609,
-      "penaltyKickGoals": 1
+      "playerId": 459051,
+      "playerName": "贝林厄姆",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 8,
+      "goals": 7,
+      "assists": 1,
+      "minutesPlayed": 617,
+      "penaltyKickGoals": 0
     },
     {
       "playerId": 349922,
@@ -40,15 +52,15 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 459051,
-      "playerName": "贝林厄姆",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120239624_640x640.png",
-      "teamName": "英格兰",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
-      "games": 7,
+      "playerId": 234090,
+      "playerName": "登贝莱",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
+      "teamName": "法国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+      "games": 8,
       "goals": 6,
-      "assists": 1,
-      "minutesPlayed": 605,
+      "assists": 2,
+      "minutesPlayed": 597,
       "penaltyKickGoals": 0
     },
     {
@@ -62,18 +74,6 @@
       "assists": 1,
       "minutesPlayed": 654,
       "penaltyKickGoals": 2
-    },
-    {
-      "playerId": 234090,
-      "playerName": "登贝莱",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614133213273_640x640.png",
-      "teamName": "法国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 7,
-      "goals": 5,
-      "assists": 2,
-      "minutesPlayed": 552,
-      "penaltyKickGoals": 0
     },
     {
       "playerId": 245250,
@@ -122,6 +122,18 @@
       "assists": 1,
       "minutesPlayed": 441,
       "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 436334,
+      "playerName": "萨卡",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120258406_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 7,
+      "goals": 3,
+      "assists": 3,
+      "minutesPlayed": 361,
+      "penaltyKickGoals": 1
     },
     {
       "playerId": 241256,
@@ -193,6 +205,18 @@
       "goals": 3,
       "assists": 1,
       "minutesPlayed": 372,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 484592,
+      "playerName": "巴尔科拉",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614131343414_640x640.png",
+      "teamName": "法国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+      "games": 8,
+      "goals": 3,
+      "assists": 1,
+      "minutesPlayed": 387,
       "penaltyKickGoals": 0
     },
     {
@@ -445,18 +469,6 @@
       "goals": 2,
       "assists": 1,
       "minutesPlayed": 324,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 484592,
-      "playerName": "巴尔科拉",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614131343414_640x640.png",
-      "teamName": "法国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 7,
-      "goals": 2,
-      "assists": 1,
-      "minutesPlayed": 342,
       "penaltyKickGoals": 0
     },
     {
@@ -784,6 +796,18 @@
       "penaltyKickGoals": 0
     },
     {
+      "playerId": 363881,
+      "playerName": "赖斯",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120344007_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 7,
+      "goals": 1,
+      "assists": 2,
+      "minutesPlayed": 560,
+      "penaltyKickGoals": 0
+    },
+    {
       "playerId": 366359,
       "playerName": "哈基米",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610161010314_640x640.png",
@@ -853,6 +877,18 @@
       "goals": 1,
       "assists": 1,
       "minutesPlayed": 217,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 337719,
+      "playerName": "拉什福德",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616120406215_640x640.png",
+      "teamName": "英格兰",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114250470_200x200.png",
+      "games": 6,
+      "goals": 1,
+      "assists": 1,
+      "minutesPlayed": 223,
       "penaltyKickGoals": 0
     },
     {
@@ -940,18 +976,6 @@
       "penaltyKickGoals": 0
     },
     {
-      "playerId": 485781,
-      "playerName": "杜埃",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614131112543_640x640.png",
-      "teamName": "法国",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
-      "games": 7,
-      "goals": 1,
-      "assists": 1,
-      "minutesPlayed": 357,
-      "penaltyKickGoals": 0
-    },
-    {
       "playerId": 211123,
       "playerName": "佩里希奇",
       "photoUrl": "https://cbs-img.sports.cctv.com/player/20260616/20260616140457439_640x640.png",
@@ -997,6 +1021,18 @@
       "goals": 1,
       "assists": 1,
       "minutesPlayed": 390,
+      "penaltyKickGoals": 0
+    },
+    {
+      "playerId": 485781,
+      "playerName": "杜埃",
+      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260614/20260614131112543_640x640.png",
+      "teamName": "法国",
+      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114307354_200x200.png",
+      "games": 8,
+      "goals": 1,
+      "assists": 1,
+      "minutesPlayed": 402,
       "penaltyKickGoals": 0
     },
     {
@@ -1165,42 +1201,6 @@
       "goals": 1,
       "assists": 0,
       "minutesPlayed": 67,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 434137,
-      "playerName": "坎帕斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260615/20260615165836611_320x320.png",
-      "teamName": "哥伦比亚",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20181017/20181017155330340_90x90.png",
-      "games": 3,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 75,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 384383,
-      "playerName": "卡莱季奇",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610150310419_640x640.png",
-      "teamName": "奥地利",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20240523/20240523071935885_200x200.png",
-      "games": 3,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 76,
-      "penaltyKickGoals": 0
-    },
-    {
-      "playerId": 497108,
-      "playerName": "M·查韦斯",
-      "photoUrl": "https://cbs-img.sports.cctv.com/player/20260610/20260610151944634_320x320.png",
-      "teamName": "墨西哥",
-      "teamLogoUrl": "https://cbs-img.sports.cctv.com/team/20220816/20220816114356236_200x200.png",
-      "games": 1,
-      "goals": 1,
-      "assists": 0,
-      "minutesPlayed": 78,
       "penaltyKickGoals": 0
     }
   ]

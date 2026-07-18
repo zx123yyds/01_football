@@ -6,12 +6,12 @@
       "england"
     ],
     "score": {
-      "a": 3,
-      "b": 4
+      "a": 4,
+      "b": 6
     },
-    "status": "live",
-    "type": "goal",
-    "headline": "⚽  进球！法国 3-4 英格兰（66'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！法国 4-6 英格兰",
     "moments": [
       {
         "type": "goal",
@@ -75,6 +75,33 @@
           "b": 4
         },
         "headline": "⚽  进球！法国 3-4 英格兰（66'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 4,
+          "b": 6
+        },
+        "headline": "⚽  进球！法国 4-6 英格兰（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 90,
+        "score": {
+          "a": 4,
+          "b": 5
+        },
+        "headline": "⚽  进球！法国 4-5 英格兰（90'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 4,
+          "b": 6
+        },
+        "headline": "据 FIFA Watch：🏁 终场！法国 4-6 英格兰"
       },
       {
         "type": "halftime",
