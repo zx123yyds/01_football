@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "matchId": null,
+    "teamSlugs": [
+      "france",
+      "england"
+    ],
+    "score": {
+      "a": 0,
+      "b": 2
+    },
+    "status": "live",
+    "type": "goal",
+    "headline": "⚽  进球！法国 0-2 英格兰（18'）",
+    "moments": [
+      {
+        "type": "goal",
+        "minute": 3,
+        "score": {
+          "a": 0,
+          "b": 1
+        },
+        "headline": "⚽  进球！法国 0-1 英格兰（3'）"
+      },
+      {
+        "type": "goal",
+        "minute": 18,
+        "score": {
+          "a": 0,
+          "b": 2
+        },
+        "headline": "⚽  进球！法国 0-2 英格兰（18'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！法国 vs 英格兰"
+      }
+    ]
+  }
+]
