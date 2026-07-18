@@ -7,11 +7,11 @@
     ],
     "score": {
       "a": 0,
-      "b": 2
+      "b": 4
     },
     "status": "live",
     "type": "goal",
-    "headline": "⚽  进球！法国 0-2 英格兰（18'）",
+    "headline": "⚽  进球！法国 0-4 英格兰（45'）",
     "moments": [
       {
         "type": "goal",
@@ -30,6 +30,24 @@
           "b": 2
         },
         "headline": "⚽  进球！法国 0-2 英格兰（18'）"
+      },
+      {
+        "type": "goal",
+        "minute": 37,
+        "score": {
+          "a": 0,
+          "b": 3
+        },
+        "headline": "⚽  进球！法国 0-3 英格兰（37'）"
+      },
+      {
+        "type": "goal",
+        "minute": 45,
+        "score": {
+          "a": 0,
+          "b": 4
+        },
+        "headline": "⚽  进球！法国 0-4 英格兰（45'）"
       },
       {
         "type": "kickoff",

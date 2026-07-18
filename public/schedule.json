@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-18T21:33:50.505Z",
+  "generatedAt": "2026-07-18T22:00:45.985Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-18T21:33:49.665Z",
+    "checkedAt": "2026-07-18T22:00:45.307Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-18T21:33:48.704Z"
+          "updatedAt": "2026-07-18T22:00:44.583Z"
         },
-        "checkedAt": "2026-07-18T21:33:48.706Z"
+        "checkedAt": "2026-07-18T22:00:44.584Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-18T21:33:49.235Z"
+          "updatedAt": "2026-07-18T22:00:45.049Z"
         },
-        "checkedAt": "2026-07-18T21:33:49.237Z"
+        "checkedAt": "2026-07-18T22:00:45.050Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-18T21:33:49.601Z"
+          "updatedAt": "2026-07-18T22:00:45.248Z"
         },
-        "checkedAt": "2026-07-18T21:33:49.603Z"
+        "checkedAt": "2026-07-18T22:00:45.249Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-18T21:33:49.663Z"
+          "updatedAt": "2026-07-18T22:00:45.306Z"
         },
-        "checkedAt": "2026-07-18T21:33:49.665Z"
+        "checkedAt": "2026-07-18T22:00:45.307Z"
       }
     ]
   },
@@ -4693,7 +4693,7 @@
       "awayCode": "ENG",
       "score": {
         "home": 0,
-        "away": 2,
+        "away": 4,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4719,6 +4719,24 @@
             "b": 2
           },
           "headline": "⚽  进球！法国 0-2 英格兰（18'）"
+        },
+        {
+          "type": "goal",
+          "minute": 37,
+          "score": {
+            "a": 0,
+            "b": 3
+          },
+          "headline": "⚽  进球！法国 0-3 英格兰（37'）"
+        },
+        {
+          "type": "goal",
+          "minute": 45,
+          "score": {
+            "a": 0,
+            "b": 4
+          },
+          "headline": "⚽  进球！法国 0-4 英格兰（45'）"
         },
         {
           "type": "kickoff",
