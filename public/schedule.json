@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-19T09:22:31.066Z",
+  "generatedAt": "2026-07-19T10:00:52.560Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-19T09:22:30.458Z",
+    "checkedAt": "2026-07-19T10:00:51.357Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T09:22:29.653Z"
+          "updatedAt": "2026-07-19T10:00:50.406Z"
         },
-        "checkedAt": "2026-07-19T09:22:29.655Z"
+        "checkedAt": "2026-07-19T10:00:50.407Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T09:22:30.217Z"
+          "updatedAt": "2026-07-19T10:00:50.985Z"
         },
-        "checkedAt": "2026-07-19T09:22:30.218Z"
+        "checkedAt": "2026-07-19T10:00:50.985Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T09:22:30.421Z"
+          "updatedAt": "2026-07-19T10:00:51.258Z"
         },
-        "checkedAt": "2026-07-19T09:22:30.422Z"
+        "checkedAt": "2026-07-19T10:00:51.258Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,14 +54,14 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T09:22:30.456Z"
+          "updatedAt": "2026-07-19T10:00:51.357Z"
         },
-        "checkedAt": "2026-07-19T09:22:30.458Z"
+        "checkedAt": "2026-07-19T10:00:51.357Z"
       }
     ]
   },
   "liveScoreUpdates": 1,
-  "scheduleScoreUpdates": 102,
+  "scheduleScoreUpdates": 103,
   "scheduleTeamUpdates": 104,
   "stageOrder": [
     "group",
