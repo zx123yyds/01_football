@@ -2,6 +2,37 @@
   {
     "matchId": null,
     "teamSlugs": [
+      "spain",
+      "argentina"
+    ],
+    "score": {
+      "a": 0,
+      "b": 0
+    },
+    "status": "live",
+    "type": "yellowcard",
+    "headline": "🟨  黄牌 西班牙 vs 阿根廷（41'）",
+    "moments": [
+      {
+        "type": "yellowcard",
+        "minute": 41,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 西班牙 vs 阿根廷（41'）"
+      },
+      {
+        "type": "kickoff",
+        "minute": null,
+        "score": null,
+        "headline": "🟢 开球！西班牙 vs 阿根廷"
+      }
+    ]
+  },
+  {
+    "matchId": null,
+    "teamSlugs": [
       "france",
       "england"
     ],
