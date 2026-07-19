@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-19T21:05:36.383Z",
+  "generatedAt": "2026-07-19T22:00:48.847Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-19T21:05:35.454Z",
+    "checkedAt": "2026-07-19T22:00:48.364Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T21:05:34.633Z"
+          "updatedAt": "2026-07-19T22:00:47.558Z"
         },
-        "checkedAt": "2026-07-19T21:05:34.634Z"
+        "checkedAt": "2026-07-19T22:00:47.560Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T21:05:35.204Z"
+          "updatedAt": "2026-07-19T22:00:48.100Z"
         },
-        "checkedAt": "2026-07-19T21:05:35.205Z"
+        "checkedAt": "2026-07-19T22:00:48.102Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T21:05:35.404Z"
+          "updatedAt": "2026-07-19T22:00:48.314Z"
         },
-        "checkedAt": "2026-07-19T21:05:35.405Z"
+        "checkedAt": "2026-07-19T22:00:48.316Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T21:05:35.453Z"
+          "updatedAt": "2026-07-19T22:00:48.362Z"
         },
-        "checkedAt": "2026-07-19T21:05:35.454Z"
+        "checkedAt": "2026-07-19T22:00:48.363Z"
       }
     ]
   },
@@ -4832,7 +4832,7 @@
       "homeCode": "ESP",
       "awayCode": "ARG",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
@@ -4868,6 +4868,42 @@
             "b": 0
           },
           "headline": "🟨  黄牌 西班牙 vs 阿根廷（82'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 90,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 西班牙 vs 阿根廷（90'）"
+        },
+        {
+          "type": "redcard",
+          "minute": 90,
+          "score": {
+            "a": 0,
+            "b": 0
+          },
+          "headline": "🟥  红牌！西班牙 vs 阿根廷（90'）"
+        },
+        {
+          "type": "goal",
+          "minute": 106,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "⚽  进球！西班牙 1-0 阿根廷（106'）"
+        },
+        {
+          "type": "yellowcard",
+          "minute": 111,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）"
         },
         {
           "type": "halftime",

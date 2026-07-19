@@ -6,12 +6,12 @@
       "argentina"
     ],
     "score": {
-      "a": 0,
+      "a": 1,
       "b": 0
     },
     "status": "live",
     "type": "yellowcard",
-    "headline": "🟨  黄牌 西班牙 vs 阿根廷（82'）",
+    "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）",
     "moments": [
       {
         "type": "yellowcard",
@@ -39,6 +39,42 @@
           "b": 0
         },
         "headline": "🟨  黄牌 西班牙 vs 阿根廷（82'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 西班牙 vs 阿根廷（90'）"
+      },
+      {
+        "type": "redcard",
+        "minute": 90,
+        "score": {
+          "a": 0,
+          "b": 0
+        },
+        "headline": "🟥  红牌！西班牙 vs 阿根廷（90'）"
+      },
+      {
+        "type": "goal",
+        "minute": 106,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "⚽  进球！西班牙 1-0 阿根廷（106'）"
+      },
+      {
+        "type": "yellowcard",
+        "minute": 111,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）"
       },
       {
         "type": "halftime",
