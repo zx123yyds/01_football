@@ -9,9 +9,9 @@
       "a": 1,
       "b": 0
     },
-    "status": "live",
-    "type": "yellowcard",
-    "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）",
+    "status": "finished",
+    "type": "fulltime",
+    "headline": "据 FIFA Watch：🏁 终场！西班牙 1-0 阿根廷",
     "moments": [
       {
         "type": "yellowcard",
@@ -75,6 +75,15 @@
           "b": 0
         },
         "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）"
+      },
+      {
+        "type": "fulltime",
+        "minute": null,
+        "score": {
+          "a": 1,
+          "b": 0
+        },
+        "headline": "据 FIFA Watch：🏁 终场！西班牙 1-0 阿根廷"
       },
       {
         "type": "halftime",

@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-19T22:00:48.847Z",
+  "generatedAt": "2026-07-19T22:07:56.935Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-19T22:00:48.364Z",
+    "checkedAt": "2026-07-19T22:07:56.376Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T22:00:47.558Z"
+          "updatedAt": "2026-07-19T22:07:55.840Z"
         },
-        "checkedAt": "2026-07-19T22:00:47.560Z"
+        "checkedAt": "2026-07-19T22:07:55.842Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T22:00:48.100Z"
+          "updatedAt": "2026-07-19T22:07:56.152Z"
         },
-        "checkedAt": "2026-07-19T22:00:48.102Z"
+        "checkedAt": "2026-07-19T22:07:56.153Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T22:00:48.314Z"
+          "updatedAt": "2026-07-19T22:07:56.333Z"
         },
-        "checkedAt": "2026-07-19T22:00:48.316Z"
+        "checkedAt": "2026-07-19T22:07:56.333Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T22:00:48.362Z"
+          "updatedAt": "2026-07-19T22:07:56.375Z"
         },
-        "checkedAt": "2026-07-19T22:00:48.363Z"
+        "checkedAt": "2026-07-19T22:07:56.376Z"
       }
     ]
   },
@@ -108,7 +108,7 @@
       "notes": "射手榜官方媒体入口，接口数据来自 cbs-u.sports.cctv.com。"
     }
   ],
-  "completedMatches": 103,
+  "completedMatches": 104,
   "standings": [
     {
       "group": "A组",
@@ -4838,8 +4838,8 @@
         "awayPenalty": null
       },
       "matchStatus": {
-        "key": "live",
-        "zh": "进行中"
+        "key": "played",
+        "zh": "已结束"
       },
       "liveMoments": [
         {
@@ -4904,6 +4904,15 @@
             "b": 0
           },
           "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）"
+        },
+        {
+          "type": "fulltime",
+          "minute": null,
+          "score": {
+            "a": 1,
+            "b": 0
+          },
+          "headline": "据 FIFA Watch：🏁 终场！西班牙 1-0 阿根廷"
         },
         {
           "type": "halftime",
