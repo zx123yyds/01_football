@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-19T07:15:32.563Z",
+  "generatedAt": "2026-07-19T09:22:31.066Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-19T07:15:31.692Z",
+    "checkedAt": "2026-07-19T09:22:30.458Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T07:15:30.882Z"
+          "updatedAt": "2026-07-19T09:22:29.653Z"
         },
-        "checkedAt": "2026-07-19T07:15:30.883Z"
+        "checkedAt": "2026-07-19T09:22:29.655Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T07:15:31.339Z"
+          "updatedAt": "2026-07-19T09:22:30.217Z"
         },
-        "checkedAt": "2026-07-19T07:15:31.340Z"
+        "checkedAt": "2026-07-19T09:22:30.218Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T07:15:31.639Z"
+          "updatedAt": "2026-07-19T09:22:30.421Z"
         },
-        "checkedAt": "2026-07-19T07:15:31.640Z"
+        "checkedAt": "2026-07-19T09:22:30.422Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-19T07:15:31.692Z"
+          "updatedAt": "2026-07-19T09:22:30.456Z"
         },
-        "checkedAt": "2026-07-19T07:15:31.692Z"
+        "checkedAt": "2026-07-19T09:22:30.458Z"
       }
     ]
   },
@@ -4701,113 +4701,7 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 3,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！法国 0-1 英格兰（3'）"
-        },
-        {
-          "type": "goal",
-          "minute": 18,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！法国 0-2 英格兰（18'）"
-        },
-        {
-          "type": "goal",
-          "minute": 37,
-          "score": {
-            "a": 0,
-            "b": 3
-          },
-          "headline": "⚽  进球！法国 0-3 英格兰（37'）"
-        },
-        {
-          "type": "goal",
-          "minute": 45,
-          "score": {
-            "a": 0,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 0-4 英格兰（45'）"
-        },
-        {
-          "type": "goal",
-          "minute": 48,
-          "score": {
-            "a": 1,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 1-4 英格兰（48'）"
-        },
-        {
-          "type": "goal",
-          "minute": 54,
-          "score": {
-            "a": 2,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 2-4 英格兰（54'）"
-        },
-        {
-          "type": "goal",
-          "minute": 66,
-          "score": {
-            "a": 3,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 3-4 英格兰（66'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 4,
-            "b": 6
-          },
-          "headline": "⚽  进球！法国 4-6 英格兰（90'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 4,
-            "b": 5
-          },
-          "headline": "⚽  进球！法国 4-5 英格兰（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 4,
-            "b": 6
-          },
-          "headline": "据 FIFA Watch：🏁 终场！法国 4-6 英格兰"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 4
-          },
-          "headline": "⏸️ 半场！法国 0-4 英格兰"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！法国 vs 英格兰"
-        }
-      ],
+      "liveMoments": [],
       "scoreSource": "fifawatch-live"
     },
     {
