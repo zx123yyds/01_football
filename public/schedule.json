@@ -1,38 +1,38 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-21T07:20:33.768Z",
+  "generatedAt": "2026-07-21T10:00:51.031Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
-  "dataMode": "cached-source-fallback",
+  "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-21T07:20:32.879Z",
+    "checkedAt": "2026-07-21T10:00:50.385Z",
     "sources": [
       {
         "name": "CCTV standings",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T07:20:06.421Z"
+          "updatedAt": "2026-07-21T10:00:48.150Z"
         },
-        "checkedAt": "2026-07-21T07:20:22.079Z"
+        "checkedAt": "2026-07-21T10:00:48.151Z"
       },
       {
         "name": "CCTV scorers",
         "url": "https://cbs-u.sports.cctv.com/statistics/football/player/scorers?leagueId=3400&season=2026",
-        "ok": false,
-        "mode": "cached",
-        "message": "fetch failed; kept cached file",
+        "ok": true,
+        "mode": "live",
+        "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T07:20:06.422Z"
+          "updatedAt": "2026-07-21T10:00:50.094Z"
         },
-        "checkedAt": "2026-07-21T07:20:32.575Z"
+        "checkedAt": "2026-07-21T10:00:50.095Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T07:20:32.836Z"
+          "updatedAt": "2026-07-21T10:00:50.340Z"
         },
-        "checkedAt": "2026-07-21T07:20:32.837Z"
+        "checkedAt": "2026-07-21T10:00:50.341Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,9 +54,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T07:20:32.877Z"
+          "updatedAt": "2026-07-21T10:00:50.384Z"
         },
-        "checkedAt": "2026-07-21T07:20:32.879Z"
+        "checkedAt": "2026-07-21T10:00:50.385Z"
       }
     ]
   },
