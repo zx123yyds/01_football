@@ -1,29 +1,29 @@
 {
-  "checkedAt": "2026-07-21T04:37:47.874Z",
+  "checkedAt": "2026-07-21T07:20:32.879Z",
   "sources": [
     {
       "name": "CCTV standings",
       "url": "https://cbs-u.sports.cctv.com/statistics/football/team/rankings?leagueId=3400&season=2026",
-      "ok": true,
-      "mode": "live",
-      "message": "updated from remote source",
+      "ok": false,
+      "mode": "cached",
+      "message": "fetch failed; kept cached file",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-21T04:37:46.159Z"
+        "updatedAt": "2026-07-21T07:20:06.421Z"
       },
-      "checkedAt": "2026-07-21T04:37:46.161Z"
+      "checkedAt": "2026-07-21T07:20:22.079Z"
     },
     {
       "name": "CCTV scorers",
       "url": "https://cbs-u.sports.cctv.com/statistics/football/player/scorers?leagueId=3400&season=2026",
-      "ok": true,
-      "mode": "live",
-      "message": "updated from remote source",
+      "ok": false,
+      "mode": "cached",
+      "message": "fetch failed; kept cached file",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-21T04:37:47.639Z"
+        "updatedAt": "2026-07-21T07:20:06.422Z"
       },
-      "checkedAt": "2026-07-21T04:37:47.640Z"
+      "checkedAt": "2026-07-21T07:20:32.575Z"
     },
     {
       "name": "FIFA Watch live scores",
@@ -33,9 +33,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-21T04:37:47.834Z"
+        "updatedAt": "2026-07-21T07:20:32.836Z"
       },
-      "checkedAt": "2026-07-21T04:37:47.835Z"
+      "checkedAt": "2026-07-21T07:20:32.837Z"
     },
     {
       "name": "FIFA Watch schedule scores",
@@ -45,9 +45,9 @@
       "message": "updated from remote source",
       "cache": {
         "exists": true,
-        "updatedAt": "2026-07-21T04:37:47.873Z"
+        "updatedAt": "2026-07-21T07:20:32.877Z"
       },
-      "checkedAt": "2026-07-21T04:37:47.874Z"
+      "checkedAt": "2026-07-21T07:20:32.879Z"
     }
   ]
 }
