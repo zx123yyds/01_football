@@ -1,14 +1,14 @@
 {
   "tournament": "2026 FIFA World Cup",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-21T21:44:57.036Z",
+  "generatedAt": "2026-07-21T22:40:41.103Z",
   "lastVerified": "2026-06-20T10:18:00+08:00",
   "totalMatchesInTournament": 104,
   "includedMatches": 104,
   "dataCompleteness": "complete-104-match-schedule-with-some-venue-fields-pending",
   "dataMode": "live-sources",
   "sourceHealth": {
-    "checkedAt": "2026-07-21T21:44:56.441Z",
+    "checkedAt": "2026-07-21T22:40:40.627Z",
     "sources": [
       {
         "name": "CCTV standings",
@@ -18,9 +18,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T21:44:54.517Z"
+          "updatedAt": "2026-07-21T22:40:39.508Z"
         },
-        "checkedAt": "2026-07-21T21:44:54.518Z"
+        "checkedAt": "2026-07-21T22:40:39.509Z"
       },
       {
         "name": "CCTV scorers",
@@ -30,9 +30,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T21:44:56.237Z"
+          "updatedAt": "2026-07-21T22:40:40.464Z"
         },
-        "checkedAt": "2026-07-21T21:44:56.238Z"
+        "checkedAt": "2026-07-21T22:40:40.465Z"
       },
       {
         "name": "FIFA Watch live scores",
@@ -42,9 +42,9 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T21:44:56.399Z"
+          "updatedAt": "2026-07-21T22:40:40.586Z"
         },
-        "checkedAt": "2026-07-21T21:44:56.400Z"
+        "checkedAt": "2026-07-21T22:40:40.587Z"
       },
       {
         "name": "FIFA Watch schedule scores",
@@ -54,13 +54,13 @@
         "message": "updated from remote source",
         "cache": {
           "exists": true,
-          "updatedAt": "2026-07-21T21:44:56.440Z"
+          "updatedAt": "2026-07-21T22:40:40.626Z"
         },
-        "checkedAt": "2026-07-21T21:44:56.441Z"
+        "checkedAt": "2026-07-21T22:40:40.627Z"
       }
     ]
   },
-  "liveScoreUpdates": 2,
+  "liveScoreUpdates": 1,
   "scheduleScoreUpdates": 104,
   "scheduleTeamUpdates": 104,
   "stageOrder": [
@@ -4701,114 +4701,8 @@
         "key": "played",
         "zh": "已结束"
       },
-      "liveMoments": [
-        {
-          "type": "goal",
-          "minute": 3,
-          "score": {
-            "a": 0,
-            "b": 1
-          },
-          "headline": "⚽  进球！法国 0-1 英格兰（3'）"
-        },
-        {
-          "type": "goal",
-          "minute": 18,
-          "score": {
-            "a": 0,
-            "b": 2
-          },
-          "headline": "⚽  进球！法国 0-2 英格兰（18'）"
-        },
-        {
-          "type": "goal",
-          "minute": 37,
-          "score": {
-            "a": 0,
-            "b": 3
-          },
-          "headline": "⚽  进球！法国 0-3 英格兰（37'）"
-        },
-        {
-          "type": "goal",
-          "minute": 45,
-          "score": {
-            "a": 0,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 0-4 英格兰（45'）"
-        },
-        {
-          "type": "goal",
-          "minute": 48,
-          "score": {
-            "a": 1,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 1-4 英格兰（48'）"
-        },
-        {
-          "type": "goal",
-          "minute": 54,
-          "score": {
-            "a": 2,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 2-4 英格兰（54'）"
-        },
-        {
-          "type": "goal",
-          "minute": 66,
-          "score": {
-            "a": 3,
-            "b": 4
-          },
-          "headline": "⚽  进球！法国 3-4 英格兰（66'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 4,
-            "b": 6
-          },
-          "headline": "⚽  进球！法国 4-6 英格兰（90'）"
-        },
-        {
-          "type": "goal",
-          "minute": 90,
-          "score": {
-            "a": 4,
-            "b": 5
-          },
-          "headline": "⚽  进球！法国 4-5 英格兰（90'）"
-        },
-        {
-          "type": "fulltime",
-          "minute": null,
-          "score": {
-            "a": 4,
-            "b": 6
-          },
-          "headline": "据 FIFA Watch：🏁 终场！法国 4-6 英格兰"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 4
-          },
-          "headline": "⏸️ 半场！法国 0-4 英格兰"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！法国 vs 英格兰"
-        }
-      ],
-      "scoreSource": "fifawatch-live"
+      "liveMoments": [],
+      "scoreSource": "fifawatch-schedule"
     },
     {
       "id": "m104",
@@ -4843,69 +4737,6 @@
       },
       "liveMoments": [
         {
-          "type": "yellowcard",
-          "minute": 41,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 西班牙 vs 阿根廷（41'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 52,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 西班牙 vs 阿根廷（52'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 82,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 西班牙 vs 阿根廷（82'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 西班牙 vs 阿根廷（90'）"
-        },
-        {
-          "type": "redcard",
-          "minute": 90,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "🟥  红牌！西班牙 vs 阿根廷（90'）"
-        },
-        {
-          "type": "goal",
-          "minute": 106,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "⚽  进球！西班牙 1-0 阿根廷（106'）"
-        },
-        {
-          "type": "yellowcard",
-          "minute": 111,
-          "score": {
-            "a": 1,
-            "b": 0
-          },
-          "headline": "🟨  黄牌 西班牙 vs 阿根廷（111'）"
-        },
-        {
           "type": "fulltime",
           "minute": null,
           "score": {
@@ -4913,21 +4744,6 @@
             "b": 0
           },
           "headline": "据 FIFA Watch：🏁 终场！西班牙 1-0 阿根廷"
-        },
-        {
-          "type": "halftime",
-          "minute": null,
-          "score": {
-            "a": 0,
-            "b": 0
-          },
-          "headline": "⏸️ 半场！西班牙 0-0 阿根廷"
-        },
-        {
-          "type": "kickoff",
-          "minute": null,
-          "score": null,
-          "headline": "🟢 开球！西班牙 vs 阿根廷"
         }
       ],
       "scoreSource": "fifawatch-live"
