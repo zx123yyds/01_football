@@ -137,7 +137,7 @@ function renderSummary() {
   const schedule = state.schedule;
   const matches = schedule.matches;
   const now = new Date();
-  const nextMatch = matches.find((match) => new Date(match.dateTime) >= now) ?? matches[0];
+  const nextMatch = matches.find((match) => new Date(match.dateTime) >= now);
 
   $("#includedMatches").textContent = schedule.includedMatches;
   $("#totalMatches").textContent = schedule.totalMatchesInTournament;
@@ -145,6 +145,13 @@ function renderSummary() {
     timeZone: "Asia/Shanghai"
   });
   $("#completedMatches").textContent = schedule.completedMatches ?? 0;
+
+  if (!nextMatch) {
+    $("#nextTeams").textContent = "赛事已结束";
+    $("#nextTime").textContent = "暂无下一场比赛";
+    $("#nextVenue").textContent = "";
+    return;
+  }
 
   $("#nextTeams").innerHTML = `
     ${teamName(nextMatch.home, nextMatch.homeFlag, nextMatch.homeCode, "end")}

@@ -1,15 +1,12 @@
 import { createServer } from "node:http";
 import { createReadStream } from "node:fs";
 import { stat } from "node:fs/promises";
-import { spawn } from "node:child_process";
 import path from "node:path";
 
 const root = process.cwd();
 const port = Number(process.env.PORT || 5173);
 const host = "127.0.0.1";
 const localUrl = `http://${host}:${port}`;
-const refreshIntervalMs = Number(process.env.REFRESH_INTERVAL_MS || 5 * 60 * 1000);
-let refreshInFlight = false;
 
 const types = {
   ".html": "text/html; charset=utf-8",
@@ -64,41 +61,10 @@ const server = createServer(async (request, response) => {
   }
 });
 
-const runRefresh = (reason) => {
-  if (refreshInFlight) {
-    console.log(`Data refresh skipped (${reason}); previous refresh is still running.`);
-    return;
-  }
-
-  refreshInFlight = true;
-  const startedAt = new Date();
-  console.log(`Refreshing data (${reason}) at ${startedAt.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })}`);
-  const child = spawn("npm", ["run", "refresh"], {
-    cwd: root,
-    env: process.env,
-    stdio: "inherit"
-  });
-
-  child.on("close", (code) => {
-    refreshInFlight = false;
-    const durationSeconds = Math.round((Date.now() - startedAt.getTime()) / 1000);
-    if (code === 0) {
-      console.log(`Data refresh completed in ${durationSeconds}s.`);
-      if (reason === "startup") {
-        console.log(`Local preview is ready: ${localUrl}`);
-      }
-    } else {
-      console.error(`Data refresh failed with exit code ${code}.`);
-    }
-  });
-};
-
 server.listen(port, host, () => {
   console.log("");
   console.log("Local dev server started successfully.");
   console.log(`Open: ${localUrl}`);
-  console.log(`Auto-refreshing data every ${Math.round(refreshIntervalMs / 60000)} minutes.`);
+  console.log("Serving cached tournament data. External data refresh is disabled.");
   console.log("");
-  runRefresh("startup");
-  setInterval(() => runRefresh("interval"), refreshIntervalMs).unref();
 });

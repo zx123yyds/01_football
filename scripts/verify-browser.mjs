@@ -16,7 +16,9 @@ try {
     h1: document.querySelector("h1")?.textContent,
     cards: document.querySelectorAll(".match-card").length,
     count: document.querySelector("#matchCount")?.textContent,
-    next: document.querySelector("#nextTeams")?.textContent,
+    next: document.querySelector("#nextTeams")?.textContent.trim(),
+    nextTime: document.querySelector("#nextTime")?.textContent.trim(),
+    nextVenue: document.querySelector("#nextVenue")?.textContent.trim(),
     generated: document.querySelector("#generatedAt")?.textContent,
     overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
     icsHref: document.querySelector('a[href="/world-cup-2026.ics"]')?.getAttribute("href"),
@@ -95,7 +97,13 @@ try {
   if (!desktopInfo.quickLabels.includes("今日") || !desktopInfo.quickLabels.includes("明日") || !desktopInfo.quickLabels.includes("下一场")) failures.push("quick filters missing");
   if (desktopInfo.overflow) failures.push("desktop horizontal overflow");
   if (searchInfo.cards < 1 || !searchInfo.text.includes("阿根廷")) failures.push("search filter failed");
-  if (nextInfo.cards !== 1 || nextInfo.active !== "下一场") failures.push("next quick filter failed");
+  const tournamentEnded = desktopInfo.next === "赛事已结束";
+  if (tournamentEnded) {
+    if (desktopInfo.nextTime !== "暂无下一场比赛" || desktopInfo.nextVenue) failures.push("completed tournament summary is incorrect");
+    if (nextInfo.cards !== 0 || nextInfo.count !== "0 场" || nextInfo.active !== "下一场") failures.push("completed tournament next filter failed");
+  } else if (nextInfo.cards !== 1 || nextInfo.active !== "下一场") {
+    failures.push("next quick filter failed");
+  }
   if (finalInfo.cards !== 1) failures.push("final stage filter failed");
   if (icsInfo.status !== 200 || icsInfo.events !== 104 || !icsInfo.hasCalendar) failures.push("ICS endpoint failed");
   if (mobileInfo.cards !== 104 || mobileInfo.overflow) failures.push("mobile layout failed");

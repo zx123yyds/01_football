@@ -4,13 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test tests/*.test.mjs",
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/update-data.mjs && node scripts/validate-static.mjs && node scripts/build-static.mjs",
     "sync:reference": "node scripts/fetch-live-data.mjs && node scripts/sync-reference-ics.mjs data/reference-worldcup-2026.ics data/matches.tsv",
     "refresh": "npm run sync:reference && npm run build",
     "update:data": "node scripts/update-data.mjs",
     "verify:browser": "node scripts/verify-browser.mjs",
-    "check": "npm run build"
+    "check": "npm test && npm run build"
   },
   "devDependencies": {
     "playwright": "^1.61.0"

@@ -1,13 +1,15 @@
-# cron-job.org 定时触发配置
+# cron-job.org 定时触发配置（已停用）
+
+> 2026 世界杯已结束，仓库中的 GitHub Actions 更新 workflow 已归档为 `.github/workflows/update-schedule.yml.disabled`。请在 cron-job.org 控制台停用指向该 workflow 的任务，本文仅保留历史配置记录。
 
 本文记录如何用 cron-job.org 作为 GitHub Actions `workflow_dispatch` 的外部备用触发器。
 
 ## 平台入口
 
 - cron-job.org 控制台：https://console.cron-job.org/dashboard
-- GitHub Workflow 文件：`.github/workflows/update-schedule.yml`
+- 历史 GitHub Workflow 文件：`.github/workflows/update-schedule.yml.disabled`
 
-## 用途
+## 历史用途
 
 GitHub Actions 自带 `schedule` 在新仓库或低活跃仓库上可能延迟或不稳定。cron-job.org 可以按固定频率调用 GitHub API，主动触发 workflow。
 
